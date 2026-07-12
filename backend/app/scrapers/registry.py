@@ -260,8 +260,10 @@ COMPANIES: list[dict] = [
      }), "careers_url": "https://www.accenture.com/in-en/careers", "verified": True},
     {"name": "Capgemini", "slug": "capgemini", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://www.capgemini.com/careers/join-capgemini/?search=data+scientist"), "careers_url": "https://www.capgemini.com/careers/", "verified": False},
+    # /global/en/search-results was the wrong path - user-confirmed real URL is
+    # /global-en/jobs/ with a singular "keyword" param.
     {"name": "Cognizant", "slug": "cognizant", "platform": ATSPlatform.CUSTOM,
-     "identifier": _custom("https://careers.cognizant.com/global/en/search-results?keywords=data%20scientist"), "careers_url": "https://careers.cognizant.com", "verified": False},
+     "identifier": _custom("https://careers.cognizant.com/global-en/jobs/?keyword=Data+Scientist&location=&radius=100&lat=&lng=&cname=&ccode=&pagesize=10#results"), "careers_url": "https://careers.cognizant.com", "verified": False},
     # Infosys: title/location confirmed working (Angular Material cards). The card is
     # click-routed via the Angular app's JS router with no static href - apply_url falls
     # back to the search page.

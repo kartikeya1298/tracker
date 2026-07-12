@@ -107,7 +107,11 @@ CUSTOM_SITES: list[tuple[str, str]] = [
     # actually load results directly.
     ("jpmorgan-chase", "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs?keyword=Data+scientist&location=India&locationId=300000000289360&locationLevel=country&mode=location"),
     ("capgemini", "https://www.capgemini.com/careers/join-capgemini/?search=data+scientist"),
-    ("cognizant", "https://careers.cognizant.com/global/en/search-results?keywords=data%20scientist"),
+    # /global/en/search-results was the wrong path entirely - user-confirmed real URL
+    # is /global-en/jobs/ with a singular "keyword" param (not "keywords") and a
+    # #results fragment anchor. Mirroring the exact param structure the user supplied
+    # (location/cname/ccode left blank) rather than guessing a location filter format.
+    ("cognizant", "https://careers.cognizant.com/global-en/jobs/?keyword=Data+Scientist&location=&radius=100&lat=&lng=&cname=&ccode=&pagesize=10#results"),
     ("tcs", "https://ibegin.tcs.com/iBegin/jobs/search?searchText=data+scientist"),
     ("hcltech", "https://www.hcltech.com/careers/job-search?keywords=data+scientist"),
     ("wipro", "https://careers.wipro.com/careers-home/jobs?keywords=data+scientist"),
