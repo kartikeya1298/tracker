@@ -1,0 +1,22 @@
+{
+  "slug": "american-express",
+  "url": "https://careers.americanexpress.com/en/sites/CX_1/jobs?keyword=Data+Scientist&location=India&locationLevel=country&mode=location",
+  "initial": {
+    "keyword_candidates": [],
+    "structural_candidates": [],
+    "page_title": "Search Jobs - American Express Careers"
+  },
+  "after_search": {
+    "keyword_candidates": [],
+    "structural_candidates": [],
+    "page_title": "Search Jobs - American Express Careers"
+  },
+  "best_source": "initial",
+  "keyword_candidates": [],
+  "structural_candidates": [],
+  "page_title": "Search Jobs - American Express Careers",
+  "cookie_banner_dismissed": true,
+  "search_interacted": true,
+  "status": "no_candidates_found",
+  "screenshot": "american-express.png"
+}

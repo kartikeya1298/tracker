@@ -1,0 +1,241 @@
+{
+  "slug": "zs-associates",
+  "url": "https://jobs.zs.com/jobs",
+  "initial": {
+    "keyword_candidates": [
+      {
+        "selector": "span.job-result-label",
+        "count": 20,
+        "sample_html": [
+          "<span _ngcontent-kke-c125=\"\" translate=\"\" class=\"job-result-label\" itemprop=\"location\" aria-label=\"Location\"> Location </span>",
+          "<span _ngcontent-kke-c125=\"\" translate=\"\" class=\"job-result-label\" itemprop=\"tags4\" aria-label=\"JOB_DESCRIPTION.TAGS4_ARIA_LABEL\"> Category </span>"
+        ],
+        "sample_text": [
+          "Location",
+          "Category"
+        ]
+      },
+      {
+        "selector": "p.job-title",
+        "count": 10,
+        "sample_html": [
+          "<p _ngcontent-kke-c125=\"\" class=\"job-title\"><a _ngcontent-kke-c125=\"\" tabindex=\"0\" itemprop=\"url\" class=\"job-title-link\" href=\"/jobs/62125?lang=en-us\" id=\"link-job-0\"><span _ngcontent-kke-c125=\"\" itemprop=\"title\">Lead Engineer - Data</span></a></p>",
+          "<p _ngcontent-kke-c125=\"\" class=\"job-title\"><a _ngcontent-kke-c125=\"\" tabindex=\"0\" itemprop=\"url\" class=\"job-title-link\" href=\"/jobs/62047?lang=en-us\" id=\"link-job-1\"><span _ngcontent-kke-c125=\"\" itemprop=\"title\">Senior Salesforce Developer</span></a></p>"
+        ],
+        "sample_text": [
+          "Lead Engineer - Data",
+          "Senior Salesforce Developer"
+        ]
+      },
+      {
+        "selector": "a.job-title-link",
+        "count": 10,
+        "sample_html": [
+          "<a _ngcontent-kke-c125=\"\" tabindex=\"0\" itemprop=\"url\" class=\"job-title-link\" href=\"/jobs/62125?lang=en-us\" id=\"link-job-0\"><span _ngcontent-kke-c125=\"\" itemprop=\"title\">Lead Engineer - Data</span></a>",
+          "<a _ngcontent-kke-c125=\"\" tabindex=\"0\" itemprop=\"url\" class=\"job-title-link\" href=\"/jobs/62047?lang=en-us\" id=\"link-job-1\"><span _ngcontent-kke-c125=\"\" itemprop=\"title\">Senior Salesforce Developer</span></a>"
+        ],
+        "sample_text": [
+          "Lead Engineer - Data",
+          "Senior Salesforce Developer"
+        ]
+      },
+      {
+        "selector": "p.req-id.ng-star-inserted",
+        "count": 10,
+        "sample_html": [
+          "<p _ngcontent-kke-c125=\"\" translate=\"\" class=\"req-id ng-star-inserted\"> Req ID: <span _ngcontent-kke-c125=\"\">62125</span></p>",
+          "<p _ngcontent-kke-c125=\"\" translate=\"\" class=\"req-id ng-star-inserted\"> Req ID: <span _ngcontent-kke-c125=\"\">62047</span></p>"
+        ],
+        "sample_text": [
+          "Req ID: 62125",
+          "Req ID: 62047"
+        ]
+      },
+      {
+        "selector": "div.job-card-result-container.job-result__location.ng-star-inserted",
+        "count": 10,
+        "sample_html": [
+          "<div _ngcontent-kke-c125=\"\" class=\"job-card-result-container job-result__location ng-star-inserted\"><p _ngcontent-kke-c125=\"\" class=\"label-container\"><span _ngcontent-kke-c125=\"\" translate=\"\" class=\"job-result-label\" itemprop=\"location\" aria-label=\"Location\"> Location </span><span _ngcontent-kke-c125=\"\" class=\"label-value location\"> Toronto, Ontario\nCanada\n </span><span _ngcontent-kke-c125=\"\" itemprop=\"jobLocation\" class=\"location label-value ng-star-inserted\" id=\"link-location-0\"><!----></span><!----></p><!----></div>",
+          "<div _ngcontent-kke-c125=\"\" class=\"job-card-result-container job-result__location ng-star-inserted\"><p _ngcontent-kke-c125=\"\" class=\"label-container\"><span _ngcontent-kke-c125=\"\" translate=\"\" class=\"job-result-label\" itemprop=\"location\" aria-label=\"Location\"> Location </span><span _ngcontent-kke-c125=\"\" class=\"label-value location\"> Ciudad Autonoma de Buenos Aires, Buenos Aires\nArgentina\n </span><span _ngcontent-kke-c125=\"\" itemprop=\"jobLocation\" class=\"location label-value ng-star-inserted\" id=\"link-location-1\"><!----></span><!----></p><!----></div>"
+        ],
+        "sample_text": [
+          "Location\nToronto, Ontario\nCanada\n",
+          "Location\nCiudad Autonoma de Buenos Aires, Buenos Aires\nArgentina\n"
+        ]
+      },
+      {
+        "selector": "div.job-card-result-container.job-result__tags4.ng-star-inserted",
+        "count": 10,
+        "sample_html": [
+          "<div _ngcontent-kke-c125=\"\" class=\"job-card-result-container job-result__tags4 ng-star-inserted\"><p _ngcontent-kke-c125=\"\" class=\"label-container\"><span _ngcontent-kke-c125=\"\" translate=\"\" class=\"job-result-label\" itemprop=\"tags4\" aria-label=\"JOB_DESCRIPTION.TAGS4_ARIA_LABEL\"> Category </span><span _ngcontent-kke-c125=\"\" class=\"label-value tags4\"> Technology </span><!----></p><!----></div>",
+          "<div _ngcontent-kke-c125=\"\" class=\"job-card-result-container job-result__tags4 ng-star-inserted\"><p _ngcontent-kke-c125=\"\" class=\"label-container\"><span _ngcontent-kke-c125=\"\" translate=\"\" class=\"job-result-label\" itemprop=\"tags4\" aria-label=\"JOB_DESCRIPTION.TAGS4_ARIA_LABEL\"> Category </span><span _ngcontent-kke-c125=\"\" class=\"label-value tags4\"> Technology </span><!----></p><!----></div>"
+        ],
+        "sample_text": [
+          "Category\nTechnology",
+          "Category\nTechnology"
+        ]
+      }
+    ],
+    "structural_candidates": [],
+    "page_title": "ZS Associates, Inc. Careers"
+  },
+  "after_search": {
+    "keyword_candidates": [
+      {
+        "selector": "span.job-result-label",
+        "count": 19,
+        "sample_html": [
+          "<span _ngcontent-kke-c125=\"\" translate=\"\" class=\"job-result-label\" itemprop=\"location\" aria-label=\"Location\"> Location </span>",
+          "<span _ngcontent-kke-c125=\"\" translate=\"\" class=\"job-result-label\" itemprop=\"tags4\" aria-label=\"JOB_DESCRIPTION.TAGS4_ARIA_LABEL\"> Category </span>"
+        ],
+        "sample_text": [
+          "Location",
+          "Category"
+        ]
+      },
+      {
+        "selector": "p.job-title",
+        "count": 10,
+        "sample_html": [
+          "<p _ngcontent-kke-c125=\"\" class=\"job-title\"><a _ngcontent-kke-c125=\"\" tabindex=\"0\" itemprop=\"url\" class=\"job-title-link\" href=\"/jobs/29753?lang=en-us\" id=\"link-job-0\"><span _ngcontent-kke-c125=\"\" itemprop=\"title\">Advanced Data Science Manager</span></a></p>",
+          "<p _ngcontent-kke-c125=\"\" class=\"job-title\"><a _ngcontent-kke-c125=\"\" tabindex=\"0\" itemprop=\"url\" class=\"job-title-link\" href=\"/jobs/23895?lang=en-us\" id=\"link-job-1\"><span _ngcontent-kke-c125=\"\" itemprop=\"title\">Data Science Manager - Supply Chain &amp; Manufacturing</span></a></p>"
+        ],
+        "sample_text": [
+          "Advanced Data Science Manager",
+          "Data Science Manager - Supply Chain & Manufacturing"
+        ]
+      },
+      {
+        "selector": "a.job-title-link",
+        "count": 10,
+        "sample_html": [
+          "<a _ngcontent-kke-c125=\"\" tabindex=\"0\" itemprop=\"url\" class=\"job-title-link\" href=\"/jobs/29753?lang=en-us\" id=\"link-job-0\"><span _ngcontent-kke-c125=\"\" itemprop=\"title\">Advanced Data Science Manager</span></a>",
+          "<a _ngcontent-kke-c125=\"\" tabindex=\"0\" itemprop=\"url\" class=\"job-title-link\" href=\"/jobs/23895?lang=en-us\" id=\"link-job-1\"><span _ngcontent-kke-c125=\"\" itemprop=\"title\">Data Science Manager - Supply Chain &amp; Manufacturing</span></a>"
+        ],
+        "sample_text": [
+          "Advanced Data Science Manager",
+          "Data Science Manager - Supply Chain & Manufacturing"
+        ]
+      },
+      {
+        "selector": "p.req-id.ng-star-inserted",
+        "count": 10,
+        "sample_html": [
+          "<p _ngcontent-kke-c125=\"\" translate=\"\" class=\"req-id ng-star-inserted\"> Req ID: <span _ngcontent-kke-c125=\"\">29753</span></p>",
+          "<p _ngcontent-kke-c125=\"\" translate=\"\" class=\"req-id ng-star-inserted\"> Req ID: <span _ngcontent-kke-c125=\"\">23895</span></p>"
+        ],
+        "sample_text": [
+          "Req ID: 29753",
+          "Req ID: 23895"
+        ]
+      },
+      {
+        "selector": "div.job-card-result-container.job-result__location.ng-star-inserted",
+        "count": 10,
+        "sample_html": [
+          "<div _ngcontent-kke-c125=\"\" class=\"job-card-result-container job-result__location ng-star-inserted\"><p _ngcontent-kke-c125=\"\" class=\"label-container\"><span _ngcontent-kke-c125=\"\" translate=\"\" class=\"job-result-label\" itemprop=\"location\" aria-label=\"Location\"> Location </span><span _ngcontent-kke-c125=\"\" class=\"label-value location\"> Multiple </span><span _ngcontent-kke-c125=\"\" itemprop=\"jobLocation\" class=\"location label-value ng-star-inserted\" id=\"link-location-0\"><!----></span><!----></p><!----></div>",
+          "<div _ngcontent-kke-c125=\"\" class=\"job-card-result-container job-result__location ng-star-inserted\"><p _ngcontent-kke-c125=\"\" class=\"label-container\"><span _ngcontent-kke-c125=\"\" translate=\"\" class=\"job-result-label\" itemprop=\"location\" aria-label=\"Location\"> Location </span><span _ngcontent-kke-c125=\"\" class=\"label-value location\"> Multiple </span><span _ngcontent-kke-c125=\"\" itemprop=\"jobLocation\" class=\"location label-value ng-star-inserted\" id=\"link-location-1\"><!----></span><!----></p><!----></div>"
+        ],
+        "sample_text": [
+          "Location\nMultiple",
+          "Location\nMultiple"
+        ]
+      },
+      {
+        "selector": "div.job-preview",
+        "count": 10,
+        "sample_html": [
+          "<div _ngcontent-kke-c125=\"\" class=\"job-preview\"><div _ngcontent-kke-c125=\"\" class=\"inner-html-description\"></div></div>",
+          "<div _ngcontent-kke-c125=\"\" class=\"job-preview\"><div _ngcontent-kke-c125=\"\" class=\"inner-html-description\"></div></div>"
+        ],
+        "sample_text": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "structural_candidates": [],
+    "page_title": "ZS Associates, Inc. Careers"
+  },
+  "best_source": "initial",
+  "keyword_candidates": [
+    {
+      "selector": "span.job-result-label",
+      "count": 20,
+      "sample_html": [
+        "<span _ngcontent-kke-c125=\"\" translate=\"\" class=\"job-result-label\" itemprop=\"location\" aria-label=\"Location\"> Location </span>",
+        "<span _ngcontent-kke-c125=\"\" translate=\"\" class=\"job-result-label\" itemprop=\"tags4\" aria-label=\"JOB_DESCRIPTION.TAGS4_ARIA_LABEL\"> Category </span>"
+      ],
+      "sample_text": [
+        "Location",
+        "Category"
+      ]
+    },
+    {
+      "selector": "p.job-title",
+      "count": 10,
+      "sample_html": [
+        "<p _ngcontent-kke-c125=\"\" class=\"job-title\"><a _ngcontent-kke-c125=\"\" tabindex=\"0\" itemprop=\"url\" class=\"job-title-link\" href=\"/jobs/62125?lang=en-us\" id=\"link-job-0\"><span _ngcontent-kke-c125=\"\" itemprop=\"title\">Lead Engineer - Data</span></a></p>",
+        "<p _ngcontent-kke-c125=\"\" class=\"job-title\"><a _ngcontent-kke-c125=\"\" tabindex=\"0\" itemprop=\"url\" class=\"job-title-link\" href=\"/jobs/62047?lang=en-us\" id=\"link-job-1\"><span _ngcontent-kke-c125=\"\" itemprop=\"title\">Senior Salesforce Developer</span></a></p>"
+      ],
+      "sample_text": [
+        "Lead Engineer - Data",
+        "Senior Salesforce Developer"
+      ]
+    },
+    {
+      "selector": "a.job-title-link",
+      "count": 10,
+      "sample_html": [
+        "<a _ngcontent-kke-c125=\"\" tabindex=\"0\" itemprop=\"url\" class=\"job-title-link\" href=\"/jobs/62125?lang=en-us\" id=\"link-job-0\"><span _ngcontent-kke-c125=\"\" itemprop=\"title\">Lead Engineer - Data</span></a>",
+        "<a _ngcontent-kke-c125=\"\" tabindex=\"0\" itemprop=\"url\" class=\"job-title-link\" href=\"/jobs/62047?lang=en-us\" id=\"link-job-1\"><span _ngcontent-kke-c125=\"\" itemprop=\"title\">Senior Salesforce Developer</span></a>"
+      ],
+      "sample_text": [
+        "Lead Engineer - Data",
+        "Senior Salesforce Developer"
+      ]
+    },
+    {
+      "selector": "p.req-id.ng-star-inserted",
+      "count": 10,
+      "sample_html": [
+        "<p _ngcontent-kke-c125=\"\" translate=\"\" class=\"req-id ng-star-inserted\"> Req ID: <span _ngcontent-kke-c125=\"\">62125</span></p>",
+        "<p _ngcontent-kke-c125=\"\" translate=\"\" class=\"req-id ng-star-inserted\"> Req ID: <span _ngcontent-kke-c125=\"\">62047</span></p>"
+      ],
+      "sample_text": [
+        "Req ID: 62125",
+        "Req ID: 62047"
+      ]
+    },
+    {
+      "selector": "div.job-card-result-container.job-result__location.ng-star-inserted",
+      "count": 10,
+      "sample_html": [
+        "<div _ngcontent-kke-c125=\"\" class=\"job-card-result-container job-result__location ng-star-inserted\"><p _ngcontent-kke-c125=\"\" class=\"label-container\"><span _ngcontent-kke-c125=\"\" translate=\"\" class=\"job-result-label\" itemprop=\"location\" aria-label=\"Location\"> Location </span><span _ngcontent-kke-c125=\"\" class=\"label-value location\"> Toronto, Ontario\nCanada\n </span><span _ngcontent-kke-c125=\"\" itemprop=\"jobLocation\" class=\"location label-value ng-star-inserted\" id=\"link-location-0\"><!----></span><!----></p><!----></div>",
+        "<div _ngcontent-kke-c125=\"\" class=\"job-card-result-container job-result__location ng-star-inserted\"><p _ngcontent-kke-c125=\"\" class=\"label-container\"><span _ngcontent-kke-c125=\"\" translate=\"\" class=\"job-result-label\" itemprop=\"location\" aria-label=\"Location\"> Location </span><span _ngcontent-kke-c125=\"\" class=\"label-value location\"> Ciudad Autonoma de Buenos Aires, Buenos Aires\nArgentina\n </span><span _ngcontent-kke-c125=\"\" itemprop=\"jobLocation\" class=\"location label-value ng-star-inserted\" id=\"link-location-1\"><!----></span><!----></p><!----></div>"
+      ],
+      "sample_text": [
+        "Location\nToronto, Ontario\nCanada\n",
+        "Location\nCiudad Autonoma de Buenos Aires, Buenos Aires\nArgentina\n"
+      ]
+    },
+    {
+      "selector": "div.job-card-result-container.job-result__tags4.ng-star-inserted",
+      "count": 10,
+      "sample_html": [
+        "<div _ngcontent-kke-c125=\"\" class=\"job-card-result-container job-result__tags4 ng-star-inserted\"><p _ngcontent-kke-c125=\"\" class=\"label-container\"><span _ngcontent-kke-c125=\"\" translate=\"\" class=\"job-result-label\" itemprop=\"tags4\" aria-label=\"JOB_DESCRIPTION.TAGS4_ARIA_LABEL\"> Category </span><span _ngcontent-kke-c125=\"\" class=\"label-value tags4\"> Technology </span><!----></p><!----></div>",
+        "<div _ngcontent-kke-c125=\"\" class=\"job-card-result-container job-result__tags4 ng-star-inserted\"><p _ngcontent-kke-c125=\"\" class=\"label-container\"><span _ngcontent-kke-c125=\"\" translate=\"\" class=\"job-result-label\" itemprop=\"tags4\" aria-label=\"JOB_DESCRIPTION.TAGS4_ARIA_LABEL\"> Category </span><span _ngcontent-kke-c125=\"\" class=\"label-value tags4\"> Technology </span><!----></p><!----></div>"
+      ],
+      "sample_text": [
+        "Category\nTechnology",
+        "Category\nTechnology"
+      ]
+    }
+  ],
+  "structural_candidates": [],
+  "page_title": "ZS Associates, Inc. Careers",
+  "cookie_banner_dismissed": false,
+  "search_interacted": true,
+  "status": "ok",
+  "screenshot": "zs-associates.png"
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "target-india",
+  "url": "https://indiajobs.target.com/search-jobs?k=Data%20Scientist",
+  "initial": {
+    "keyword_candidates": [],
+    "structural_candidates": [
+      {
+        "selector": "li.footer-links__item",
+        "count": 5,
+        "sample_html": [
+          "<li class=\"footer-links__item\"><a href=\"https://corporate.target.com/\">Target in the U.S.</a></li>",
+          "<li class=\"footer-links__item\"><a href=\"https://india.target.com/compliance-with-laws\">Compliance with laws</a></li>"
+        ],
+        "sample_text": [
+          "Target in the U.S.",
+          "Compliance with laws"
+        ]
+      }
+    ],
+    "page_title": "Search our Job Opportunities at TARGET"
+  },
+  "after_search": {
+    "keyword_candidates": [],
+    "structural_candidates": [
+      {
+        "selector": "li.footer-links__item",
+        "count": 5,
+        "sample_html": [
+          "<li class=\"footer-links__item\"><a href=\"https://corporate.target.com/\">Target in the U.S.</a></li>",
+          "<li class=\"footer-links__item\"><a href=\"https://india.target.com/compliance-with-laws\">Compliance with laws</a></li>"
+        ],
+        "sample_text": [
+          "Target in the U.S.",
+          "Compliance with laws"
+        ]
+      }
+    ],
+    "page_title": "Search our Job Opportunities at TARGET"
+  },
+  "best_source": "initial",
+  "keyword_candidates": [],
+  "structural_candidates": [
+    {
+      "selector": "li.footer-links__item",
+      "count": 5,
+      "sample_html": [
+        "<li class=\"footer-links__item\"><a href=\"https://corporate.target.com/\">Target in the U.S.</a></li>",
+        "<li class=\"footer-links__item\"><a href=\"https://india.target.com/compliance-with-laws\">Compliance with laws</a></li>"
+      ],
+      "sample_text": [
+        "Target in the U.S.",
+        "Compliance with laws"
+      ]
+    }
+  ],
+  "page_title": "Search our Job Opportunities at TARGET",
+  "cookie_banner_dismissed": false,
+  "search_interacted": true,
+  "status": "ok",
+  "screenshot": "target-india.png"
+}

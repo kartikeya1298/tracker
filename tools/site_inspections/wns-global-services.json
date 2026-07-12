@@ -1,0 +1,238 @@
+{
+  "slug": "wns-global-services",
+  "url": "https://careers.smartrecruiters.com/WNSGlobalServices144/wns-india-career-page",
+  "initial": {
+    "keyword_candidates": [
+      {
+        "selector": "li.opening-job.job.column.wide-7of16.medium-1of2",
+        "count": 22,
+        "sample_html": [
+          "<li class=\"opening-job job column wide-7of16 medium-1of2\"><a href=\"https://jobs.smartrecruiters.com/WNSGlobalServices144/743999933528002-associate-senior-associate-operations?trid=bb2572dc-93af-47bd-9bb1-9f049abba39c\" aria-label=\"Associate/Senior Associate - Operations - REF17083U_\" class=\"link--block details js-job-ad-link\"><h4 class=\"details-title job-title link--block-target spl-text-h6\">Associate/Senior Associate - Operations</h4><p class=\"details-desc job-desc\"><span class=\"margin--right--s\">Full-time</span></p></a></li>",
+          "<li class=\"opening-job job column wide-7of16 medium-1of2\"><a href=\"https://jobs.smartrecruiters.com/WNSGlobalServices144/744000136736310-assistant-manager-rna?trid=bb2572dc-93af-47bd-9bb1-9f049abba39c\" aria-label=\"Assistant Manager - RNA - REF104734O_2026260717\" class=\"link--block details js-job-ad-link\"><h4 class=\"details-title job-title link--block-target spl-text-h6\">Assistant Manager - RNA</h4><p class=\"details-desc job-desc\"><span class=\"margin--right--s\">Full-time</span></p></a></li>"
+        ],
+        "sample_text": [
+          "Associate/Senior Associate - Operations\n\nFull-time",
+          "Assistant Manager - RNA\n\nFull-time"
+        ]
+      },
+      {
+        "selector": "a.link--block.details.js-job-ad-link",
+        "count": 22,
+        "sample_html": [
+          "<a href=\"https://jobs.smartrecruiters.com/WNSGlobalServices144/743999933528002-associate-senior-associate-operations?trid=bb2572dc-93af-47bd-9bb1-9f049abba39c\" aria-label=\"Associate/Senior Associate - Operations - REF17083U_\" class=\"link--block details js-job-ad-link\"><h4 class=\"details-title job-title link--block-target spl-text-h6\">Associate/Senior Associate - Operations</h4><p class=\"details-desc job-desc\"><span class=\"margin--right--s\">Full-time</span></p></a>",
+          "<a href=\"https://jobs.smartrecruiters.com/WNSGlobalServices144/744000136736310-assistant-manager-rna?trid=bb2572dc-93af-47bd-9bb1-9f049abba39c\" aria-label=\"Assistant Manager - RNA - REF104734O_2026260717\" class=\"link--block details js-job-ad-link\"><h4 class=\"details-title job-title link--block-target spl-text-h6\">Assistant Manager - RNA</h4><p class=\"details-desc job-desc\"><span class=\"margin--right--s\">Full-time</span></p></a>"
+        ],
+        "sample_text": [
+          "Associate/Senior Associate - Operations\n\nFull-time",
+          "Assistant Manager - RNA\n\nFull-time"
+        ]
+      },
+      {
+        "selector": "h4.details-title.job-title.link--block-target.spl-text-h6",
+        "count": 22,
+        "sample_html": [
+          "<h4 class=\"details-title job-title link--block-target spl-text-h6\">Associate/Senior Associate - Operations</h4>",
+          "<h4 class=\"details-title job-title link--block-target spl-text-h6\">Assistant Manager - RNA</h4>"
+        ],
+        "sample_text": [
+          "Associate/Senior Associate - Operations",
+          "Assistant Manager - RNA"
+        ]
+      },
+      {
+        "selector": "p.details-desc.job-desc",
+        "count": 22,
+        "sample_html": [
+          "<p class=\"details-desc job-desc\"><span class=\"margin--right--s\">Full-time</span></p>",
+          "<p class=\"details-desc job-desc\"><span class=\"margin--right--s\">Full-time</span></p>"
+        ],
+        "sample_text": [
+          "Full-time",
+          "Full-time"
+        ]
+      },
+      {
+        "selector": "ul.opening-jobs.grid--gutter.padding--none.js-group-list",
+        "count": 6,
+        "sample_html": [
+          "<ul class=\"opening-jobs grid--gutter padding--none js-group-list\"><li class=\"opening-job job column wide-7of16 medium-1of2\"><a href=\"https://jobs.smartrecruiters.com/WNSGlobalServices144/743999933528002-associate-senior-associate-operations?trid=bb2572dc-93af-47bd-9bb1-9f049abba39c\" aria-label=\"Associate/Senior Associate - Operations - REF17083U_\" class=\"link--block details js-job-ad-link\"><h4 class=\"details-title job-title link--block-target spl-text-h6\">Associate/Senior Associate - Operations</h4><p class=\"details-desc job-desc\"><span class=\"margin--right--s\">Full-time</span></p></a></li></ul>",
+          "<ul class=\"opening-jobs grid--gutter padding--none js-group-list\"><li class=\"opening-job job column wide-7of16 medium-1of2\"><a href=\"https://jobs.smartrecruiters.com/WNSGlobalServices144/744000136736310-assistant-manager-rna?trid=bb2572dc-93af-47bd-9bb1-9f049abba39c\" aria-label=\"Assistant Manager - RNA - REF104734O_2026260717\" class=\"link--block details js-job-ad-link\"><h4 class=\"details-title job-title link--block-target spl-text-h6\">Assistant Manager - RNA</h4><p class=\"details-desc job-desc\"><span class=\"margin--right--s\">Full-time</span></p></a></li><li class=\"opening-job job column wide-7of16 medium-1of2\"><a href=\"https://jobs.smartrecruiters.com/WNSGlobalServices144/744000136495679-associate-director-rna?trid=bb2572dc-93af-47bd-9bb1-9f049abba39c\" aria-label=\"Associate Director - RNA - REF102231C_2026253915\" class=\"link--block details js-job-ad-link\"><h4 class=\"details-title job-title link--block-target spl-text-h6\">Associate Director - RNA</h4><p class=\"details-desc job-desc\"><span class=\"margin--right--s\">Full-time</span><spl-tooltip content=\"Employees work in a hybrid mode\" position=\"top\" variant=\"dark\" positionstrategy=\"fixed\" pointervisibility=\"\" shouldflip=\"\" preferredflippositions=\"[&quot;top&quot;,&quot;bottom&quot;,&quot;left&quot;,&quot;right&quot;,&quot;top-start&quot;,&quot;top-end&quot;,&quot;bottom-start&quot;,&quot;bottom-end&quot;]\" showdelay=\"0\" trigger=\"hover\"><spl-icon src=\"M 22.78125 1.5q 0.51563 0 0.86719 0.35156T 24 2.71875v 18.5625q 0 0.51563-0.351"
+        ],
+        "sample_text": [
+          "Associate/Senior Associate - Operations\n\nFull-time",
+          "Assistant Manager - RNA\n\nFull-time\n\nAssociate Director - RNA\n\nFull-time\n\nGroup Manager - EAG\n\nFull-time\n\nSr. Analyst - Market Research (PMR Analyst) (R&A)\n\nFull-time"
+        ]
+      }
+    ],
+    "structural_candidates": [
+      {
+        "selector": "section.openings-section.opening.opening--grouped.js-group",
+        "count": 6,
+        "sample_html": [
+          "<section data-qty=\"1\" class=\"openings-section opening opening--grouped js-group\"><header class=\"opening-header\"><ul class=\"list--dotted title-list\"><li><h3 class=\"opening-title title display--inline-block text--default spl-text-h5\">Airoli, India</h3></li><li><span class=\"title\">1 job</span></li></ul></header><ul class=\"opening-jobs grid--gutter padding--none js-group-list\"><li class=\"opening-job job column wide-7of16 medium-1of2\"><a href=\"https://jobs.smartrecruiters.com/WNSGlobalServices144/743999933528002-associate-senior-associate-operations?trid=bb2572dc-93af-47bd-9bb1-9f049abba39c\" aria-label=\"Associate/Senior Associate - Operations - REF17083U_\" class=\"link--block details js-job-ad-link\"><h4 class=\"details-title job-title link--block-target spl-text-h6\">Associate/Senior Associate - Operations</h4><p class=\"details-desc job-desc\"><span class=\"margin--right--s\">Full-time</span></p></a></li></ul></section>",
+          "<section data-qty=\"4\" class=\"openings-section opening opening--grouped js-group\"><header class=\"opening-header\"><ul class=\"list--dotted title-list\"><li><h3 class=\"opening-title title display--inline-block text--default spl-text-h5\">Bangalore, India</h3></li><li><span class=\"title\">4 jobs</span></li></ul></header><ul class=\"opening-jobs grid--gutter padding--none js-group-list\"><li class=\"opening-job job column wide-7of16 medium-1of2\"><a href=\"https://jobs.smartrecruiters.com/WNSGlobalServices144/744000136736310-assistant-manager-rna?trid=bb2572dc-93af-47bd-9bb1-9f049abba39c\" aria-label=\"Assistant Manager - RNA - REF104734O_2026260717\" class=\"link--block details js-job-ad-link\"><h4 class=\"details-title job-title link--block-target spl-text-h6\">Assistant Manager - RNA</h4><p class=\"details-desc job-desc\"><span class=\"margin--right--s\">Full-time</span></p></a></li><li class=\"opening-job job column wide-7of16 medium-1of2\"><a href=\"https://jobs.smartrecruiters.com/WNSGlobalServices144/744000136495679-associate-director-rna?trid=bb2572dc-93af-47bd-9bb1-9f049abba39c\" aria-label=\"Associate Director - RNA - REF102231C_2026253915\" class=\"link--block details js-job-ad-link\"><h4 class=\"details-title job-title link--block-target spl-text-h6\">Associate Director - RNA</h4><p class=\"details-desc job-desc\"><span class=\"margin--right--s\">Full-time</span><spl-tooltip content=\"Employees work in a hybrid mode\" position=\"top\" variant=\"dark\" positionstrategy=\"fixed\" pointervisibility=\"\" shouldflip="
+        ],
+        "sample_text": [
+          "Airoli, India1 job\nAssociate/Senior Associate - Operations\n\nFull-time",
+          "Bangalore, India4 jobs\nAssistant Manager - RNA\n\nFull-time\n\nAssociate Director - RNA\n\nFull-time\n\nGroup Manager - EAG\n\nFull-time\n\nSr. Analyst - Market Research (PMR Analyst) (R&A)\n\nFull-time"
+        ]
+      },
+      {
+        "selector": "a.skipping-link.js-skipping.visibility--onFocus",
+        "count": 4,
+        "sample_html": [
+          "<a href=\"#st-siteContainer\" class=\"skipping-link js-skipping visibility--onFocus\">Skip header section</a>",
+          "<a href=\"#st-main\" class=\"skipping-link js-skipping visibility--onFocus\">Skip hero section</a>"
+        ],
+        "sample_text": [
+          "Skip header section",
+          "Skip hero section"
+        ]
+      },
+      {
+        "selector": "header.opening-header",
+        "count": 6,
+        "sample_html": [
+          "<header class=\"opening-header\"><ul class=\"list--dotted title-list\"><li><h3 class=\"opening-title title display--inline-block text--default spl-text-h5\">Airoli, India</h3></li><li><span class=\"title\">1 job</span></li></ul></header>",
+          "<header class=\"opening-header\"><ul class=\"list--dotted title-list\"><li><h3 class=\"opening-title title display--inline-block text--default spl-text-h5\">Bangalore, India</h3></li><li><span class=\"title\">4 jobs</span></li></ul></header>"
+        ],
+        "sample_text": [
+          "Airoli, India1 job",
+          "Bangalore, India4 jobs"
+        ]
+      },
+      {
+        "selector": "ul.list--dotted.title-list",
+        "count": 6,
+        "sample_html": [
+          "<ul class=\"list--dotted title-list\"><li><h3 class=\"opening-title title display--inline-block text--default spl-text-h5\">Airoli, India</h3></li><li><span class=\"title\">1 job</span></li></ul>",
+          "<ul class=\"list--dotted title-list\"><li><h3 class=\"opening-title title display--inline-block text--default spl-text-h5\">Bangalore, India</h3></li><li><span class=\"title\">4 jobs</span></li></ul>"
+        ],
+        "sample_text": [
+          "Airoli, India1 job",
+          "Bangalore, India4 jobs"
+        ]
+      }
+    ],
+    "page_title": "Careers at WNS Global Services"
+  },
+  "after_search": null,
+  "best_source": "initial",
+  "keyword_candidates": [
+    {
+      "selector": "li.opening-job.job.column.wide-7of16.medium-1of2",
+      "count": 22,
+      "sample_html": [
+        "<li class=\"opening-job job column wide-7of16 medium-1of2\"><a href=\"https://jobs.smartrecruiters.com/WNSGlobalServices144/743999933528002-associate-senior-associate-operations?trid=bb2572dc-93af-47bd-9bb1-9f049abba39c\" aria-label=\"Associate/Senior Associate - Operations - REF17083U_\" class=\"link--block details js-job-ad-link\"><h4 class=\"details-title job-title link--block-target spl-text-h6\">Associate/Senior Associate - Operations</h4><p class=\"details-desc job-desc\"><span class=\"margin--right--s\">Full-time</span></p></a></li>",
+        "<li class=\"opening-job job column wide-7of16 medium-1of2\"><a href=\"https://jobs.smartrecruiters.com/WNSGlobalServices144/744000136736310-assistant-manager-rna?trid=bb2572dc-93af-47bd-9bb1-9f049abba39c\" aria-label=\"Assistant Manager - RNA - REF104734O_2026260717\" class=\"link--block details js-job-ad-link\"><h4 class=\"details-title job-title link--block-target spl-text-h6\">Assistant Manager - RNA</h4><p class=\"details-desc job-desc\"><span class=\"margin--right--s\">Full-time</span></p></a></li>"
+      ],
+      "sample_text": [
+        "Associate/Senior Associate - Operations\n\nFull-time",
+        "Assistant Manager - RNA\n\nFull-time"
+      ]
+    },
+    {
+      "selector": "a.link--block.details.js-job-ad-link",
+      "count": 22,
+      "sample_html": [
+        "<a href=\"https://jobs.smartrecruiters.com/WNSGlobalServices144/743999933528002-associate-senior-associate-operations?trid=bb2572dc-93af-47bd-9bb1-9f049abba39c\" aria-label=\"Associate/Senior Associate - Operations - REF17083U_\" class=\"link--block details js-job-ad-link\"><h4 class=\"details-title job-title link--block-target spl-text-h6\">Associate/Senior Associate - Operations</h4><p class=\"details-desc job-desc\"><span class=\"margin--right--s\">Full-time</span></p></a>",
+        "<a href=\"https://jobs.smartrecruiters.com/WNSGlobalServices144/744000136736310-assistant-manager-rna?trid=bb2572dc-93af-47bd-9bb1-9f049abba39c\" aria-label=\"Assistant Manager - RNA - REF104734O_2026260717\" class=\"link--block details js-job-ad-link\"><h4 class=\"details-title job-title link--block-target spl-text-h6\">Assistant Manager - RNA</h4><p class=\"details-desc job-desc\"><span class=\"margin--right--s\">Full-time</span></p></a>"
+      ],
+      "sample_text": [
+        "Associate/Senior Associate - Operations\n\nFull-time",
+        "Assistant Manager - RNA\n\nFull-time"
+      ]
+    },
+    {
+      "selector": "h4.details-title.job-title.link--block-target.spl-text-h6",
+      "count": 22,
+      "sample_html": [
+        "<h4 class=\"details-title job-title link--block-target spl-text-h6\">Associate/Senior Associate - Operations</h4>",
+        "<h4 class=\"details-title job-title link--block-target spl-text-h6\">Assistant Manager - RNA</h4>"
+      ],
+      "sample_text": [
+        "Associate/Senior Associate - Operations",
+        "Assistant Manager - RNA"
+      ]
+    },
+    {
+      "selector": "p.details-desc.job-desc",
+      "count": 22,
+      "sample_html": [
+        "<p class=\"details-desc job-desc\"><span class=\"margin--right--s\">Full-time</span></p>",
+        "<p class=\"details-desc job-desc\"><span class=\"margin--right--s\">Full-time</span></p>"
+      ],
+      "sample_text": [
+        "Full-time",
+        "Full-time"
+      ]
+    },
+    {
+      "selector": "ul.opening-jobs.grid--gutter.padding--none.js-group-list",
+      "count": 6,
+      "sample_html": [
+        "<ul class=\"opening-jobs grid--gutter padding--none js-group-list\"><li class=\"opening-job job column wide-7of16 medium-1of2\"><a href=\"https://jobs.smartrecruiters.com/WNSGlobalServices144/743999933528002-associate-senior-associate-operations?trid=bb2572dc-93af-47bd-9bb1-9f049abba39c\" aria-label=\"Associate/Senior Associate - Operations - REF17083U_\" class=\"link--block details js-job-ad-link\"><h4 class=\"details-title job-title link--block-target spl-text-h6\">Associate/Senior Associate - Operations</h4><p class=\"details-desc job-desc\"><span class=\"margin--right--s\">Full-time</span></p></a></li></ul>",
+        "<ul class=\"opening-jobs grid--gutter padding--none js-group-list\"><li class=\"opening-job job column wide-7of16 medium-1of2\"><a href=\"https://jobs.smartrecruiters.com/WNSGlobalServices144/744000136736310-assistant-manager-rna?trid=bb2572dc-93af-47bd-9bb1-9f049abba39c\" aria-label=\"Assistant Manager - RNA - REF104734O_2026260717\" class=\"link--block details js-job-ad-link\"><h4 class=\"details-title job-title link--block-target spl-text-h6\">Assistant Manager - RNA</h4><p class=\"details-desc job-desc\"><span class=\"margin--right--s\">Full-time</span></p></a></li><li class=\"opening-job job column wide-7of16 medium-1of2\"><a href=\"https://jobs.smartrecruiters.com/WNSGlobalServices144/744000136495679-associate-director-rna?trid=bb2572dc-93af-47bd-9bb1-9f049abba39c\" aria-label=\"Associate Director - RNA - REF102231C_2026253915\" class=\"link--block details js-job-ad-link\"><h4 class=\"details-title job-title link--block-target spl-text-h6\">Associate Director - RNA</h4><p class=\"details-desc job-desc\"><span class=\"margin--right--s\">Full-time</span><spl-tooltip content=\"Employees work in a hybrid mode\" position=\"top\" variant=\"dark\" positionstrategy=\"fixed\" pointervisibility=\"\" shouldflip=\"\" preferredflippositions=\"[&quot;top&quot;,&quot;bottom&quot;,&quot;left&quot;,&quot;right&quot;,&quot;top-start&quot;,&quot;top-end&quot;,&quot;bottom-start&quot;,&quot;bottom-end&quot;]\" showdelay=\"0\" trigger=\"hover\"><spl-icon src=\"M 22.78125 1.5q 0.51563 0 0.86719 0.35156T 24 2.71875v 18.5625q 0 0.51563-0.351"
+      ],
+      "sample_text": [
+        "Associate/Senior Associate - Operations\n\nFull-time",
+        "Assistant Manager - RNA\n\nFull-time\n\nAssociate Director - RNA\n\nFull-time\n\nGroup Manager - EAG\n\nFull-time\n\nSr. Analyst - Market Research (PMR Analyst) (R&A)\n\nFull-time"
+      ]
+    }
+  ],
+  "structural_candidates": [
+    {
+      "selector": "section.openings-section.opening.opening--grouped.js-group",
+      "count": 6,
+      "sample_html": [
+        "<section data-qty=\"1\" class=\"openings-section opening opening--grouped js-group\"><header class=\"opening-header\"><ul class=\"list--dotted title-list\"><li><h3 class=\"opening-title title display--inline-block text--default spl-text-h5\">Airoli, India</h3></li><li><span class=\"title\">1 job</span></li></ul></header><ul class=\"opening-jobs grid--gutter padding--none js-group-list\"><li class=\"opening-job job column wide-7of16 medium-1of2\"><a href=\"https://jobs.smartrecruiters.com/WNSGlobalServices144/743999933528002-associate-senior-associate-operations?trid=bb2572dc-93af-47bd-9bb1-9f049abba39c\" aria-label=\"Associate/Senior Associate - Operations - REF17083U_\" class=\"link--block details js-job-ad-link\"><h4 class=\"details-title job-title link--block-target spl-text-h6\">Associate/Senior Associate - Operations</h4><p class=\"details-desc job-desc\"><span class=\"margin--right--s\">Full-time</span></p></a></li></ul></section>",
+        "<section data-qty=\"4\" class=\"openings-section opening opening--grouped js-group\"><header class=\"opening-header\"><ul class=\"list--dotted title-list\"><li><h3 class=\"opening-title title display--inline-block text--default spl-text-h5\">Bangalore, India</h3></li><li><span class=\"title\">4 jobs</span></li></ul></header><ul class=\"opening-jobs grid--gutter padding--none js-group-list\"><li class=\"opening-job job column wide-7of16 medium-1of2\"><a href=\"https://jobs.smartrecruiters.com/WNSGlobalServices144/744000136736310-assistant-manager-rna?trid=bb2572dc-93af-47bd-9bb1-9f049abba39c\" aria-label=\"Assistant Manager - RNA - REF104734O_2026260717\" class=\"link--block details js-job-ad-link\"><h4 class=\"details-title job-title link--block-target spl-text-h6\">Assistant Manager - RNA</h4><p class=\"details-desc job-desc\"><span class=\"margin--right--s\">Full-time</span></p></a></li><li class=\"opening-job job column wide-7of16 medium-1of2\"><a href=\"https://jobs.smartrecruiters.com/WNSGlobalServices144/744000136495679-associate-director-rna?trid=bb2572dc-93af-47bd-9bb1-9f049abba39c\" aria-label=\"Associate Director - RNA - REF102231C_2026253915\" class=\"link--block details js-job-ad-link\"><h4 class=\"details-title job-title link--block-target spl-text-h6\">Associate Director - RNA</h4><p class=\"details-desc job-desc\"><span class=\"margin--right--s\">Full-time</span><spl-tooltip content=\"Employees work in a hybrid mode\" position=\"top\" variant=\"dark\" positionstrategy=\"fixed\" pointervisibility=\"\" shouldflip="
+      ],
+      "sample_text": [
+        "Airoli, India1 job\nAssociate/Senior Associate - Operations\n\nFull-time",
+        "Bangalore, India4 jobs\nAssistant Manager - RNA\n\nFull-time\n\nAssociate Director - RNA\n\nFull-time\n\nGroup Manager - EAG\n\nFull-time\n\nSr. Analyst - Market Research (PMR Analyst) (R&A)\n\nFull-time"
+      ]
+    },
+    {
+      "selector": "a.skipping-link.js-skipping.visibility--onFocus",
+      "count": 4,
+      "sample_html": [
+        "<a href=\"#st-siteContainer\" class=\"skipping-link js-skipping visibility--onFocus\">Skip header section</a>",
+        "<a href=\"#st-main\" class=\"skipping-link js-skipping visibility--onFocus\">Skip hero section</a>"
+      ],
+      "sample_text": [
+        "Skip header section",
+        "Skip hero section"
+      ]
+    },
+    {
+      "selector": "header.opening-header",
+      "count": 6,
+      "sample_html": [
+        "<header class=\"opening-header\"><ul class=\"list--dotted title-list\"><li><h3 class=\"opening-title title display--inline-block text--default spl-text-h5\">Airoli, India</h3></li><li><span class=\"title\">1 job</span></li></ul></header>",
+        "<header class=\"opening-header\"><ul class=\"list--dotted title-list\"><li><h3 class=\"opening-title title display--inline-block text--default spl-text-h5\">Bangalore, India</h3></li><li><span class=\"title\">4 jobs</span></li></ul></header>"
+      ],
+      "sample_text": [
+        "Airoli, India1 job",
+        "Bangalore, India4 jobs"
+      ]
+    },
+    {
+      "selector": "ul.list--dotted.title-list",
+      "count": 6,
+      "sample_html": [
+        "<ul class=\"list--dotted title-list\"><li><h3 class=\"opening-title title display--inline-block text--default spl-text-h5\">Airoli, India</h3></li><li><span class=\"title\">1 job</span></li></ul>",
+        "<ul class=\"list--dotted title-list\"><li><h3 class=\"opening-title title display--inline-block text--default spl-text-h5\">Bangalore, India</h3></li><li><span class=\"title\">4 jobs</span></li></ul>"
+      ],
+      "sample_text": [
+        "Airoli, India1 job",
+        "Bangalore, India4 jobs"
+      ]
+    }
+  ],
+  "page_title": "Careers at WNS Global Services",
+  "cookie_banner_dismissed": false,
+  "search_interacted": false,
+  "status": "ok",
+  "screenshot": "wns-global-services.png"
+}

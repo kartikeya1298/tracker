@@ -1,0 +1,48 @@
+{
+  "slug": "exl-service",
+  "url": "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/jobs?keyword=Data+Scientist&location=India&locationId=300000000467203&locationLevel=country&mode=location",
+  "initial": {
+    "keyword_candidates": [],
+    "structural_candidates": [],
+    "page_title": "Search Jobs - EXL Talent Acquisition Team Careers"
+  },
+  "after_search": {
+    "keyword_candidates": [],
+    "structural_candidates": [
+      {
+        "selector": "li.search-box-compact__menu-item",
+        "count": 3,
+        "sample_html": [
+          "<li class=\"search-box-compact__menu-item\">\n            <button data-bind=\"\n                    click: handleModeSet.bind(this, MODES.RECRUITING_LOCATION),\n                    attr: {'aria-current': mode() === 'job-location' ? 'true' : 'false'},\n                    i18nAttr: {'aria-label' : { key: 'search.mode-menu.search-context-label', tokens: {'VALUE': i18n('search.mode-menu.job-location')}}},\n                    i18n: 'search.mode-menu.job-location'\" aria-current=\"false\" aria-label=\"Search by Job Location\">Job Location</button>\n        </li>",
+          "<li class=\"search-box-compact__menu-item\">\n            <button data-bind=\"\n                    click: handleModeSet.bind(this, MODES.GEO_LOCATION),\n                    attr: {'aria-current': mode() === 'geolocation' ? 'true' : 'false'},\n                    i18nAttr: {'aria-label' : { key: 'search.mode-menu.search-context-label', tokens: {'VALUE': i18n('search.mode-menu.geolocation')}}},\n                    i18n: 'search.mode-menu.geolocation'\" aria-current=\"false\" aria-label=\"Search by My Location\">My Location</button>\n        </li>"
+        ],
+        "sample_text": [
+          "JOB LOCATION",
+          "MY LOCATION"
+        ]
+      }
+    ],
+    "page_title": "Search Jobs - EXL Talent Acquisition Team Careers"
+  },
+  "best_source": "after_search",
+  "keyword_candidates": [],
+  "structural_candidates": [
+    {
+      "selector": "li.search-box-compact__menu-item",
+      "count": 3,
+      "sample_html": [
+        "<li class=\"search-box-compact__menu-item\">\n            <button data-bind=\"\n                    click: handleModeSet.bind(this, MODES.RECRUITING_LOCATION),\n                    attr: {'aria-current': mode() === 'job-location' ? 'true' : 'false'},\n                    i18nAttr: {'aria-label' : { key: 'search.mode-menu.search-context-label', tokens: {'VALUE': i18n('search.mode-menu.job-location')}}},\n                    i18n: 'search.mode-menu.job-location'\" aria-current=\"false\" aria-label=\"Search by Job Location\">Job Location</button>\n        </li>",
+        "<li class=\"search-box-compact__menu-item\">\n            <button data-bind=\"\n                    click: handleModeSet.bind(this, MODES.GEO_LOCATION),\n                    attr: {'aria-current': mode() === 'geolocation' ? 'true' : 'false'},\n                    i18nAttr: {'aria-label' : { key: 'search.mode-menu.search-context-label', tokens: {'VALUE': i18n('search.mode-menu.geolocation')}}},\n                    i18n: 'search.mode-menu.geolocation'\" aria-current=\"false\" aria-label=\"Search by My Location\">My Location</button>\n        </li>"
+      ],
+      "sample_text": [
+        "JOB LOCATION",
+        "MY LOCATION"
+      ]
+    }
+  ],
+  "page_title": "Search Jobs - EXL Talent Acquisition Team Careers",
+  "cookie_banner_dismissed": true,
+  "search_interacted": true,
+  "status": "ok",
+  "screenshot": "exl-service.png"
+}

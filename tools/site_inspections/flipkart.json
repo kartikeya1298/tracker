@@ -1,0 +1,118 @@
+{
+  "slug": "flipkart",
+  "url": "https://www.flipkartcareers.com/data-science",
+  "initial": {
+    "keyword_candidates": [
+      {
+        "selector": "a.blog-card-ds",
+        "count": 3,
+        "sample_html": [
+          "<a href=\"#\" class=\"blog-card-ds\">\n          <img src=\"assets/images/data-blog1.3688075b7bfcf08f.webp\" alt=\"AI &amp; ML addressing Indian problems\">\n          <div class=\"blog-card-ds-content\">\n            <p>With AI &amp; ML, Flipkart is addressing the uniquely Indian problem of problem addresses</p>\n          </div>\n        </a>",
+          "<a href=\"#\" class=\"blog-card-ds\">\n          <img src=\"assets/images/datablog2.6bb7395247b1cad5.webp\" alt=\"SlashN 2018\">\n          <div class=\"blog-card-ds-content\">\n            <p>What's in a Query? \u2013 SlashN 2018</p>\n          </div>\n        </a>"
+        ],
+        "sample_text": [
+          "With AI & ML, Flipkart is addressing the uniquely Indian problem of problem addresses",
+          "What's in a Query? \u2013 SlashN 2018"
+        ]
+      },
+      {
+        "selector": "div.blog-card-ds-content",
+        "count": 3,
+        "sample_html": [
+          "<div class=\"blog-card-ds-content\">\n            <p>With AI &amp; ML, Flipkart is addressing the uniquely Indian problem of problem addresses</p>\n          </div>",
+          "<div class=\"blog-card-ds-content\">\n            <p>What's in a Query? \u2013 SlashN 2018</p>\n          </div>"
+        ],
+        "sample_text": [
+          "With AI & ML, Flipkart is addressing the uniquely Indian problem of problem addresses",
+          "What's in a Query? \u2013 SlashN 2018"
+        ]
+      }
+    ],
+    "structural_candidates": [
+      {
+        "selector": "a.dropdown-item",
+        "count": 5,
+        "sample_html": [
+          "<a class=\"dropdown-item\" href=\"interviewing-at-flipkart\">Know Your Team</a>",
+          "<a class=\"dropdown-item\" href=\"engineering\">Engineering</a>"
+        ],
+        "sample_text": [
+          "Know Your Team",
+          "Engineering"
+        ]
+      },
+      {
+        "selector": "div.container",
+        "count": 4,
+        "sample_html": [
+          "<div class=\"container\">\n    <h2>Flipkart's Data Science Team</h2>\n    <p>Works on deciphering the richest possible data about Indian consumers, our vast product selection and proliferating seller-base to deliver holistic data-driven solutions across the Flipkart ecosystem. This team possesses the capability to design end-to-end solutions spanning across Supply Chain, Fintech, Consumer Experience, Search &amp; Discovery, Demand Shaping, Fraud Modeling, Self-Healing Systems, and more.</p>\n  </div>",
+          "<div class=\"container\">\n    <h2>Do you believe that data speaks louder than words?</h2>\n    <p>We hear you!</p>\n    <a href=\"https://flipkart.turbohire.co/careerpage/4d757ba0-3d57-448a-b82c-238ed87ac90f\" class=\"explore-openings-btn\">Explore Openings</a>\n  </div>"
+        ],
+        "sample_text": [
+          "Flipkart's Data Science Team\n\nWorks on deciphering the richest possible data about Indian consumers, our vast product selection and proliferating seller-base to deliver holistic data-driven solutions ",
+          "Do you believe that data speaks louder than words?\n\nWe hear you!\n\nEXPLORE OPENINGS"
+        ]
+      }
+    ],
+    "page_title": "Flipkart Careers - Data Science Team"
+  },
+  "after_search": null,
+  "best_source": "initial",
+  "keyword_candidates": [
+    {
+      "selector": "a.blog-card-ds",
+      "count": 3,
+      "sample_html": [
+        "<a href=\"#\" class=\"blog-card-ds\">\n          <img src=\"assets/images/data-blog1.3688075b7bfcf08f.webp\" alt=\"AI &amp; ML addressing Indian problems\">\n          <div class=\"blog-card-ds-content\">\n            <p>With AI &amp; ML, Flipkart is addressing the uniquely Indian problem of problem addresses</p>\n          </div>\n        </a>",
+        "<a href=\"#\" class=\"blog-card-ds\">\n          <img src=\"assets/images/datablog2.6bb7395247b1cad5.webp\" alt=\"SlashN 2018\">\n          <div class=\"blog-card-ds-content\">\n            <p>What's in a Query? \u2013 SlashN 2018</p>\n          </div>\n        </a>"
+      ],
+      "sample_text": [
+        "With AI & ML, Flipkart is addressing the uniquely Indian problem of problem addresses",
+        "What's in a Query? \u2013 SlashN 2018"
+      ]
+    },
+    {
+      "selector": "div.blog-card-ds-content",
+      "count": 3,
+      "sample_html": [
+        "<div class=\"blog-card-ds-content\">\n            <p>With AI &amp; ML, Flipkart is addressing the uniquely Indian problem of problem addresses</p>\n          </div>",
+        "<div class=\"blog-card-ds-content\">\n            <p>What's in a Query? \u2013 SlashN 2018</p>\n          </div>"
+      ],
+      "sample_text": [
+        "With AI & ML, Flipkart is addressing the uniquely Indian problem of problem addresses",
+        "What's in a Query? \u2013 SlashN 2018"
+      ]
+    }
+  ],
+  "structural_candidates": [
+    {
+      "selector": "a.dropdown-item",
+      "count": 5,
+      "sample_html": [
+        "<a class=\"dropdown-item\" href=\"interviewing-at-flipkart\">Know Your Team</a>",
+        "<a class=\"dropdown-item\" href=\"engineering\">Engineering</a>"
+      ],
+      "sample_text": [
+        "Know Your Team",
+        "Engineering"
+      ]
+    },
+    {
+      "selector": "div.container",
+      "count": 4,
+      "sample_html": [
+        "<div class=\"container\">\n    <h2>Flipkart's Data Science Team</h2>\n    <p>Works on deciphering the richest possible data about Indian consumers, our vast product selection and proliferating seller-base to deliver holistic data-driven solutions across the Flipkart ecosystem. This team possesses the capability to design end-to-end solutions spanning across Supply Chain, Fintech, Consumer Experience, Search &amp; Discovery, Demand Shaping, Fraud Modeling, Self-Healing Systems, and more.</p>\n  </div>",
+        "<div class=\"container\">\n    <h2>Do you believe that data speaks louder than words?</h2>\n    <p>We hear you!</p>\n    <a href=\"https://flipkart.turbohire.co/careerpage/4d757ba0-3d57-448a-b82c-238ed87ac90f\" class=\"explore-openings-btn\">Explore Openings</a>\n  </div>"
+      ],
+      "sample_text": [
+        "Flipkart's Data Science Team\n\nWorks on deciphering the richest possible data about Indian consumers, our vast product selection and proliferating seller-base to deliver holistic data-driven solutions ",
+        "Do you believe that data speaks louder than words?\n\nWe hear you!\n\nEXPLORE OPENINGS"
+      ]
+    }
+  ],
+  "page_title": "Flipkart Careers - Data Science Team",
+  "cookie_banner_dismissed": false,
+  "search_interacted": false,
+  "status": "ok",
+  "screenshot": "flipkart.png"
+}

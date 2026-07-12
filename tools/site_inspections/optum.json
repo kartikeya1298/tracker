@@ -1,0 +1,286 @@
+{
+  "slug": "optum",
+  "url": "https://www.optum.in/about/careers.html",
+  "initial": {
+    "keyword_candidates": [
+      {
+        "selector": "a.o5-quick-links__card.dmp-type__body-3",
+        "count": 4,
+        "sample_html": [
+          "<a class=\"o5-quick-links__card dmp-type__body-3\" href=\"https://www.unitedhealthgroup.com/careers/in/work/technology.html\" qa-handles=\"o5-quick-links__card\" target=\"_self\" lpos=\"main content : where will you make your impact in healthcare?\">\n          <img class=\"o5-quick-links__icon\" qa-handles=\"o5-quick-links__icon\" loading=\"lazy\" alt=\"\">\n          <span class=\"o5-quick-links__links dmp-type__body-3-bold\" qa-handles=\"o5-quick-links__links\">\n            Technology\n          </span>\n        </a>",
+          "<a class=\"o5-quick-links__card dmp-type__body-3\" href=\"https://www.unitedhealthgroup.com/careers/in/work/corporate.html\" qa-handles=\"o5-quick-links__card\" target=\"_self\" lpos=\"main content : where will you make your impact in healthcare?\">\n          <img class=\"o5-quick-links__icon\" qa-handles=\"o5-quick-links__icon\" loading=\"lazy\" alt=\"\">\n          <span class=\"o5-quick-links__links dmp-type__body-3-bold\" qa-handles=\"o5-quick-links__links\">\n            Corporate and business operations\n          </span>\n        </a>"
+        ],
+        "sample_text": [
+          "Technology",
+          "Corporate and business operations"
+        ]
+      }
+    ],
+    "structural_candidates": [
+      {
+        "selector": "a.o5-nav__sublink",
+        "count": 8,
+        "sample_html": [
+          "<a href=\"/global-employee-benefits.html\" class=\"o5-nav__sublink\" lpos=\"main content\">\n                            <span class=\"o5-nav__subtext\">Global employee benefits</span>\n                            <span class=\"o5-nav__description\"></span>\n                        </a>",
+          "<a href=\"/global-operations.html\" class=\"o5-nav__sublink\" lpos=\"main content\">\n                            <span class=\"o5-nav__subtext\">Global operations</span>\n                            <span class=\"o5-nav__description\"></span>\n                        </a>"
+        ],
+        "sample_text": [
+          "\n                            Global employee benefits\n                            \n                        ",
+          "\n                            Global operations\n                            \n                        "
+        ]
+      },
+      {
+        "selector": "li.o5-footer__item",
+        "count": 8,
+        "sample_html": [
+          "<li class=\"o5-footer__item\">\n                <a href=\"/global-employee-benefits.html\" class=\"o5-footer__link\" qa_handles=\"o5-footer__link\" lpos=\"footer:solutions\">\n                    <span class=\"o5-footer__text\">Global corporate health solutions</span>\n                </a>\n            </li>",
+          "<li class=\"o5-footer__item\">\n                <a href=\"/global-operations.html\" class=\"o5-footer__link\" qa_handles=\"o5-footer__link\" lpos=\"footer:solutions\">\n                    <span class=\"o5-footer__text\">Global operations</span>\n                </a>\n            </li>"
+        ],
+        "sample_text": [
+          "Global corporate health solutions",
+          "Global operations"
+        ]
+      },
+      {
+        "selector": "a.o5-footer__link",
+        "count": 8,
+        "sample_html": [
+          "<a href=\"/global-employee-benefits.html\" class=\"o5-footer__link\" qa_handles=\"o5-footer__link\" lpos=\"footer:solutions\">\n                    <span class=\"o5-footer__text\">Global corporate health solutions</span>\n                </a>",
+          "<a href=\"/global-operations.html\" class=\"o5-footer__link\" qa_handles=\"o5-footer__link\" lpos=\"footer:solutions\">\n                    <span class=\"o5-footer__text\">Global operations</span>\n                </a>"
+        ],
+        "sample_text": [
+          "Global corporate health solutions",
+          "Global operations"
+        ]
+      },
+      {
+        "selector": "div.dmp-row",
+        "count": 7,
+        "sample_html": [
+          "<div class=\"dmp-row\">\n                <div class=\"dmp-col-12 dmp-col-md-6\">\n\n\n<div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">\n    \n    <div class=\"o5-text dmp-margin__top-0 dmp-margin__bottom-0 aem-GridColumn aem-GridColumn--default--12\">\n\n\n\n\n<div promo-lpos=\"\" promo-name=\"\" qa_handles=\"O5-text-Component__text\"> \n<div class=\"text-component text-inner\"><h3><span class=\"o5-text__heading-4-opt\">Why choose a career with Optum India?</span></h3>\n<p><span class=\"o5-text__body-1\">If you thrive in a high-performance environment where our values shape the pursuit of our mission, this is truly a place where you will find opportunities focused on <strong>Caring. Connecting. Growing together.</strong></span></p>\n<p class=\"text-component__buttonSpace\"><a href=\"/about.html\" class=\"dmp-btn dmp-btn--md dmp-btn--1\" promo-lpos=\"\" promo-name=\"\" lpos=\"main content : why choose a career with optum india?\">Learn about Optum India</a></p>\n</div>\n</div>\n</div>\n\n    \n</div>\n</div>\n                <div class=\"dmp-col-12 dmp-col-md-6\">\n\n\n<div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">\n    \n    <div class=\"o5-video-player aem-GridColumn aem-GridColumn--default--12\">\n\n\n<div id=\"o5-video-player-optum_india_life_in_a_day_bhvhcLN7GY\" class=\"o5-video-player\" data-enable-caption=\"false\">\n    \n\n        <!-- JSON-LD Video Schema -->\n        \n            \n    \n       <script type=\"application/ld+json\">\n{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"VideoObject\",\n    \"name\": \"optum_in",
+          "<div class=\"dmp-row\">\n         <div class=\"dmp-col-12 column-control-full\">\n\n\n<div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">\n    \n    <div class=\"o5-text dmp-margin__top-0 dmp-margin__bottom-0 aem-GridColumn aem-GridColumn--default--12\">\n\n\n\n\n<div promo-lpos=\"\" promo-name=\"\" qa_handles=\"O5-text-Component__text\"> \n<div class=\"text-component text-inner\"><h2><span class=\"o5-text__heading-3\">Discover career growth opportunities with Optum India</span></h2>\n<p><span class=\"o5-text__body-1\">If you are looking to take your career to the next level while also positively impacting your community, consider Optum India. Come join the brightest minds in health care and help support our mission to make the healthcare system work better for everyone.&nbsp; &nbsp;</span></p>\n<p><a href=\"https://www.unitedhealthgroup.com/careers/in/work.html\" class=\"dmp-link-std--lg\" target=\"_self\" promo-lpos=\"\" promo-name=\"\" lpos=\"main content : discover career growth opportunities with optum india\">Search careers</a></p>\n</div>\n</div>\n</div>\n\n    \n</div>\n</div>\n     </div>"
+        ],
+        "sample_text": [
+          "Why choose a career with Optum India?\n\nIf you thrive in a high-performance environment where our values shape the pursuit of our mission, this is truly a place where you will find opportunities focuse",
+          "Discover career growth opportunities with Optum India\n\nIf you are looking to take your career to the next level while also positively impacting your community, consider Optum India. Come join the brig"
+        ]
+      },
+      {
+        "selector": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12",
+        "count": 5,
+        "sample_html": [
+          "<div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">\n    \n    <div class=\"container responsivegrid aem-GridColumn aem-GridColumn--default--12\">\n\n    \n    <div id=\"container-f21693f9df\" class=\"cmp-container\">\n        \n\n\n<div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">\n    \n    <div class=\"o5-detail-hero-banner aem-GridColumn aem-GridColumn--default--12\">\n<div id=\"o5-detail-hero-banner--816813697\" class=\"cmp-o5-detail-hero-banner\" data-optum-cmp=\"o5-detail-hero-banner\" qa_handles=\"O5-detail-hero-banner\">\n    \n    <!-- Preload critical resources -->\n\t<link rel=\"preload\" href=\"/content/dam/optum-in/resources/videos/optum_technology_development_program.jpg\" as=\"image\" fetchpriority=\"high\">\n        \n        \n        \n            <div class=\"main_container o5-detail-hero-banner__brand-secondary-3 box-fluid analytics_75handle\">\n                <div class=\"dmp-row o5-detail-hero-banner__rowClass\">\n                    <div class=\"dmp-col-12 dmp-col-xl-6  o5-detail-hero-banner__textAlignContainer\">\n                        <div class=\"o5-detail-hero-banner__secWidth\">\n                            <div class=\"o5-detail-hero-banner__content\">\n                                <div class=\"o5-detail-hero-banner__header\">\n                                    <p class=\"o5-detail-hero-banner__eyeBrow dmp-type__body-3-bold\">Caring. Connecting. Growing together.</p>\n                                    <h1 id=\"heading--816813697\" class=\"o5-detail-hero-banner__main-heading_1 dmp-type__d",
+          "<div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">\n    \n    <div class=\"o5-detail-hero-banner aem-GridColumn aem-GridColumn--default--12\">\n<div id=\"o5-detail-hero-banner--816813697\" class=\"cmp-o5-detail-hero-banner\" data-optum-cmp=\"o5-detail-hero-banner\" qa_handles=\"O5-detail-hero-banner\">\n    \n    <!-- Preload critical resources -->\n\t<link rel=\"preload\" href=\"/content/dam/optum-in/resources/videos/optum_technology_development_program.jpg\" as=\"image\" fetchpriority=\"high\">\n        \n        \n        \n            <div class=\"main_container o5-detail-hero-banner__brand-secondary-3 box-fluid analytics_75handle\">\n                <div class=\"dmp-row o5-detail-hero-banner__rowClass\">\n                    <div class=\"dmp-col-12 dmp-col-xl-6  o5-detail-hero-banner__textAlignContainer\">\n                        <div class=\"o5-detail-hero-banner__secWidth\">\n                            <div class=\"o5-detail-hero-banner__content\">\n                                <div class=\"o5-detail-hero-banner__header\">\n                                    <p class=\"o5-detail-hero-banner__eyeBrow dmp-type__body-3-bold\">Caring. Connecting. Growing together.</p>\n                                    <h1 id=\"heading--816813697\" class=\"o5-detail-hero-banner__main-heading_1 dmp-type__display-2\">Careers at Optum India</h1>\n                                    <div id=\"o5-detail-hero-banner_text--816813697\" class=\"o5-detail-hero-banner__bodyCopy dmp-type__body-1\"><p><span class=\"o5-text__body-1\">Explore curre"
+        ],
+        "sample_text": [
+          "Caring. Connecting. Growing together.\n\nCareers at Optum India\n\nExplore current job opportunities at Optum India, a global capability center of UnitedHealth Group, to discover how you can start caring,",
+          "Caring. Connecting. Growing together.\n\nCareers at Optum India\n\nExplore current job opportunities at Optum India, a global capability center of UnitedHealth Group, to discover how you can start caring,"
+        ]
+      },
+      {
+        "selector": "li.o5-legal__icons",
+        "count": 5,
+        "sample_html": [
+          "<li class=\"o5-legal__icons\">\n\t\t\t\t\t\t\t<a aria-labelledby=\"social-links linkedin\" class=\"o5-legal__circle\" href=\"https://www.linkedin.com/company/optumindia\" target=\"_self\" lpos=\"footer\">\n\t\t\t\t\t\t\t\t<span id=\"linkedin\" class=\"assistText\">\n\t\t\t\t\t\t\t\t\t&nbsp;on linkedin\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<img class=\"linkedin-img\" src=\"/content/dam/optum5/socialshareicons/Linkedin_5a.svg\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t</li>",
+          "<li class=\"o5-legal__icons\">\n\t\t\t\t\t\t\t<a aria-labelledby=\"social-links facebook\" class=\"o5-legal__circle\" href=\"https://www.facebook.com/myOptum/\" target=\"_self\" lpos=\"footer\">\n\t\t\t\t\t\t\t\t<span id=\"facebook\" class=\"assistText\">\n\t\t\t\t\t\t\t\t\t&nbsp;on facebook\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<img class=\"facebook-img\" src=\"/content/dam/optum5/socialshareicons/Facebook_5a.svg\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t</li>"
+        ],
+        "sample_text": [
+          "\u00a0on linkedin",
+          "\u00a0on facebook"
+        ]
+      },
+      {
+        "selector": "div.o5-50-50-content-block.dmp-margin__bottom-32.aem-GridColumn.aem-GridColumn--default--12",
+        "count": 4,
+        "sample_html": [
+          "<div class=\"o5-50-50-content-block dmp-margin__bottom-32 aem-GridColumn aem-GridColumn--default--12\">\n\n  <div id=\"o5-50-50-content-block-785aa983bd8c1cda49628d15\" class=\"o5-50-50-content-block\" qa_handles=\"cmp-o5-50-50-content-block\">\n    <div class=\"main_container brand-white dmp-container-fluid analytics_75handle\" qa_handles=\"main_container\">\n      <div class=\"dmp-row\">\n        <div class=\"o5-50-50-content-block__anchor\" qa_handles=\"o5-50-50-content-block__anchor\">\n          \n          \n          \n            <div class=\"o5-50-50-content-block__container-left o5-50-50-content-block__container \" qa_handles=\"o5-50-50-content-block__container\">\n              <div class=\"dmp-col-12 dmp-col-lg-12 dmp-col-xl-6\">\n                \n    \n    <!-- Use common video schema template - only when video variation exists -->\n    \n\n    \n        <div class=\"o5-50-50-content-block__image  brand-white o5-50-50-content-block__defaultSize o5-50-50-content-block__image-left \">\n            <img src=\"/content/dam/optum-in/images/man_smiling_office_product_management_and_development.jpg\" alt=\"\"> \n        </div>\n        \n        \n        \n    \n    \n    \n\n              </div>\n              <div class=\"dmp-col-12 dmp-col-lg-12 dmp-col-xl-6 o5-50-50-content-block__textAlignContainer\">\n                <div class=\"o5-50-50-content-block__content o5-50-50-content-block__content-right-image-left\" qa_handles=\"o5-50-50-content-block__content o5-50-50-content-block__content-right-image-left\">\n                  \n",
+          "<div class=\"o5-50-50-content-block dmp-margin__bottom-32 aem-GridColumn aem-GridColumn--default--12\">\n\n  <div id=\"o5-50-50-content-block-aca8c181d081bdcce366ed4a\" class=\"o5-50-50-content-block\" qa_handles=\"cmp-o5-50-50-content-block\">\n    <div class=\"main_container brand-white dmp-container-fluid analytics_75handle\" qa_handles=\"main_container\">\n      <div class=\"dmp-row\">\n        <div class=\"o5-50-50-content-block__anchor\" qa_handles=\"o5-50-50-content-block__anchor\">\n          \n          \n            <div class=\"o5-50-50-content-block__container-right o5-50-50-content-block__container\" qa_handles=\"o5-50-50-content-block__container\">\n              <div class=\"dmp-col-12 dmp-col-lg-12 dmp-col-xl-6 o5-50-50-content-block__textAlignContainer\">\n                <div class=\"o5-50-50-content-block__content o5-50-50-content-block__content-right o5-50-50-content-block__secWidth\" qa_handles=\"o5-50-50-content-block__content o5-50-50-content-block__content-right o5-50-50-content-block__secWidth\">\n                  \n                  \n                    \n    <div class=\"o5-50-50-content-block__header\">\n        \n        \n          <h2 class=\"o5-50-50-content-block__main-heading dmp-type__heading-2\" qa_handles=\"o5-50-50-content-block\">Corporate and business operations</h2>\n        \n        \n        \n        \n        <div class=\"o5-50-50-content-block__bodyCopy dmp-type__body-1\" qa_handles=\"bodyCopy\"><p><span class=\"o5-text__body-1\">When you join our corporate team, you become part of a comm"
+        ],
+        "sample_text": [
+          "Technology\n\nHelp us create innovative technology solutions that improve health outcomes while providing security for patients and their personal health information.\n\nSearch careers",
+          "Corporate and business operations\n\nWhen you join our corporate team, you become part of a community dedicated to using our skills to help others. Find your next opportunity with our global organizatio"
+        ]
+      },
+      {
+        "selector": "div.o5-50-50-content-block",
+        "count": 4,
+        "sample_html": [
+          "<div id=\"o5-50-50-content-block-785aa983bd8c1cda49628d15\" class=\"o5-50-50-content-block\" qa_handles=\"cmp-o5-50-50-content-block\">\n    <div class=\"main_container brand-white dmp-container-fluid analytics_75handle\" qa_handles=\"main_container\">\n      <div class=\"dmp-row\">\n        <div class=\"o5-50-50-content-block__anchor\" qa_handles=\"o5-50-50-content-block__anchor\">\n          \n          \n          \n            <div class=\"o5-50-50-content-block__container-left o5-50-50-content-block__container \" qa_handles=\"o5-50-50-content-block__container\">\n              <div class=\"dmp-col-12 dmp-col-lg-12 dmp-col-xl-6\">\n                \n    \n    <!-- Use common video schema template - only when video variation exists -->\n    \n\n    \n        <div class=\"o5-50-50-content-block__image  brand-white o5-50-50-content-block__defaultSize o5-50-50-content-block__image-left \">\n            <img src=\"/content/dam/optum-in/images/man_smiling_office_product_management_and_development.jpg\" alt=\"\"> \n        </div>\n        \n        \n        \n    \n    \n    \n\n              </div>\n              <div class=\"dmp-col-12 dmp-col-lg-12 dmp-col-xl-6 o5-50-50-content-block__textAlignContainer\">\n                <div class=\"o5-50-50-content-block__content o5-50-50-content-block__content-right-image-left\" qa_handles=\"o5-50-50-content-block__content o5-50-50-content-block__content-right-image-left\">\n                  \n                  \n                    \n    <div class=\"o5-50-50-content-block__header\">\n        \n       ",
+          "<div id=\"o5-50-50-content-block-aca8c181d081bdcce366ed4a\" class=\"o5-50-50-content-block\" qa_handles=\"cmp-o5-50-50-content-block\">\n    <div class=\"main_container brand-white dmp-container-fluid analytics_75handle\" qa_handles=\"main_container\">\n      <div class=\"dmp-row\">\n        <div class=\"o5-50-50-content-block__anchor\" qa_handles=\"o5-50-50-content-block__anchor\">\n          \n          \n            <div class=\"o5-50-50-content-block__container-right o5-50-50-content-block__container\" qa_handles=\"o5-50-50-content-block__container\">\n              <div class=\"dmp-col-12 dmp-col-lg-12 dmp-col-xl-6 o5-50-50-content-block__textAlignContainer\">\n                <div class=\"o5-50-50-content-block__content o5-50-50-content-block__content-right o5-50-50-content-block__secWidth\" qa_handles=\"o5-50-50-content-block__content o5-50-50-content-block__content-right o5-50-50-content-block__secWidth\">\n                  \n                  \n                    \n    <div class=\"o5-50-50-content-block__header\">\n        \n        \n          <h2 class=\"o5-50-50-content-block__main-heading dmp-type__heading-2\" qa_handles=\"o5-50-50-content-block\">Corporate and business operations</h2>\n        \n        \n        \n        \n        <div class=\"o5-50-50-content-block__bodyCopy dmp-type__body-1\" qa_handles=\"bodyCopy\"><p><span class=\"o5-text__body-1\">When you join our corporate team, you become part of a community dedicated to using our skills to help others. Find your next opportunity with our global organizati"
+        ],
+        "sample_text": [
+          "Technology\n\nHelp us create innovative technology solutions that improve health outcomes while providing security for patients and their personal health information.\n\nSearch careers",
+          "Corporate and business operations\n\nWhen you join our corporate team, you become part of a community dedicated to using our skills to help others. Find your next opportunity with our global organizatio"
+        ]
+      },
+      {
+        "selector": "div.main_container.brand-white.dmp-container-fluid.analytics_75handle",
+        "count": 4,
+        "sample_html": [
+          "<div class=\"main_container brand-white dmp-container-fluid analytics_75handle\" qa_handles=\"main_container\">\n      <div class=\"dmp-row\">\n        <div class=\"o5-50-50-content-block__anchor\" qa_handles=\"o5-50-50-content-block__anchor\">\n          \n          \n          \n            <div class=\"o5-50-50-content-block__container-left o5-50-50-content-block__container \" qa_handles=\"o5-50-50-content-block__container\">\n              <div class=\"dmp-col-12 dmp-col-lg-12 dmp-col-xl-6\">\n                \n    \n    <!-- Use common video schema template - only when video variation exists -->\n    \n\n    \n        <div class=\"o5-50-50-content-block__image  brand-white o5-50-50-content-block__defaultSize o5-50-50-content-block__image-left \">\n            <img src=\"/content/dam/optum-in/images/man_smiling_office_product_management_and_development.jpg\" alt=\"\"> \n        </div>\n        \n        \n        \n    \n    \n    \n\n              </div>\n              <div class=\"dmp-col-12 dmp-col-lg-12 dmp-col-xl-6 o5-50-50-content-block__textAlignContainer\">\n                <div class=\"o5-50-50-content-block__content o5-50-50-content-block__content-right-image-left\" qa_handles=\"o5-50-50-content-block__content o5-50-50-content-block__content-right-image-left\">\n                  \n                  \n                    \n    <div class=\"o5-50-50-content-block__header\">\n        \n        \n          <h2 class=\"o5-50-50-content-block__main-heading dmp-type__heading-2\" qa_handles=\"o5-50-50-content-block\">Technology</h2>\n ",
+          "<div class=\"main_container brand-white dmp-container-fluid analytics_75handle\" qa_handles=\"main_container\">\n      <div class=\"dmp-row\">\n        <div class=\"o5-50-50-content-block__anchor\" qa_handles=\"o5-50-50-content-block__anchor\">\n          \n          \n            <div class=\"o5-50-50-content-block__container-right o5-50-50-content-block__container\" qa_handles=\"o5-50-50-content-block__container\">\n              <div class=\"dmp-col-12 dmp-col-lg-12 dmp-col-xl-6 o5-50-50-content-block__textAlignContainer\">\n                <div class=\"o5-50-50-content-block__content o5-50-50-content-block__content-right o5-50-50-content-block__secWidth\" qa_handles=\"o5-50-50-content-block__content o5-50-50-content-block__content-right o5-50-50-content-block__secWidth\">\n                  \n                  \n                    \n    <div class=\"o5-50-50-content-block__header\">\n        \n        \n          <h2 class=\"o5-50-50-content-block__main-heading dmp-type__heading-2\" qa_handles=\"o5-50-50-content-block\">Corporate and business operations</h2>\n        \n        \n        \n        \n        <div class=\"o5-50-50-content-block__bodyCopy dmp-type__body-1\" qa_handles=\"bodyCopy\"><p><span class=\"o5-text__body-1\">When you join our corporate team, you become part of a community dedicated to using our skills to help others. Find your next opportunity with our global organization and start a rewarding career.</span></p>\n</div>\n      </div>\n\n                    \n                    <div class=\"o5-50-50-content"
+        ],
+        "sample_text": [
+          "Technology\n\nHelp us create innovative technology solutions that improve health outcomes while providing security for patients and their personal health information.\n\nSearch careers",
+          "Corporate and business operations\n\nWhen you join our corporate team, you become part of a community dedicated to using our skills to help others. Find your next opportunity with our global organizatio"
+        ]
+      },
+      {
+        "selector": "div.o5-50-50-content-block__anchor",
+        "count": 4,
+        "sample_html": [
+          "<div class=\"o5-50-50-content-block__anchor\" qa_handles=\"o5-50-50-content-block__anchor\">\n          \n          \n          \n            <div class=\"o5-50-50-content-block__container-left o5-50-50-content-block__container \" qa_handles=\"o5-50-50-content-block__container\">\n              <div class=\"dmp-col-12 dmp-col-lg-12 dmp-col-xl-6\">\n                \n    \n    <!-- Use common video schema template - only when video variation exists -->\n    \n\n    \n        <div class=\"o5-50-50-content-block__image  brand-white o5-50-50-content-block__defaultSize o5-50-50-content-block__image-left \">\n            <img src=\"/content/dam/optum-in/images/man_smiling_office_product_management_and_development.jpg\" alt=\"\"> \n        </div>\n        \n        \n        \n    \n    \n    \n\n              </div>\n              <div class=\"dmp-col-12 dmp-col-lg-12 dmp-col-xl-6 o5-50-50-content-block__textAlignContainer\">\n                <div class=\"o5-50-50-content-block__content o5-50-50-content-block__content-right-image-left\" qa_handles=\"o5-50-50-content-block__content o5-50-50-content-block__content-right-image-left\">\n                  \n                  \n                    \n    <div class=\"o5-50-50-content-block__header\">\n        \n        \n          <h2 class=\"o5-50-50-content-block__main-heading dmp-type__heading-2\" qa_handles=\"o5-50-50-content-block\">Technology</h2>\n        \n        \n        \n        \n        <div class=\"o5-50-50-content-block__bodyCopy dmp-type__body-1\" qa_handles=\"bodyCopy\"><p><span class=\"",
+          "<div class=\"o5-50-50-content-block__anchor\" qa_handles=\"o5-50-50-content-block__anchor\">\n          \n          \n            <div class=\"o5-50-50-content-block__container-right o5-50-50-content-block__container\" qa_handles=\"o5-50-50-content-block__container\">\n              <div class=\"dmp-col-12 dmp-col-lg-12 dmp-col-xl-6 o5-50-50-content-block__textAlignContainer\">\n                <div class=\"o5-50-50-content-block__content o5-50-50-content-block__content-right o5-50-50-content-block__secWidth\" qa_handles=\"o5-50-50-content-block__content o5-50-50-content-block__content-right o5-50-50-content-block__secWidth\">\n                  \n                  \n                    \n    <div class=\"o5-50-50-content-block__header\">\n        \n        \n          <h2 class=\"o5-50-50-content-block__main-heading dmp-type__heading-2\" qa_handles=\"o5-50-50-content-block\">Corporate and business operations</h2>\n        \n        \n        \n        \n        <div class=\"o5-50-50-content-block__bodyCopy dmp-type__body-1\" qa_handles=\"bodyCopy\"><p><span class=\"o5-text__body-1\">When you join our corporate team, you become part of a community dedicated to using our skills to help others. Find your next opportunity with our global organization and start a rewarding career.</span></p>\n</div>\n      </div>\n\n                    \n                    <div class=\"o5-50-50-content-block__buttonContainer\">\n                      \n  \n  \n  \n\n  \n\n  \n    <a class=\"o5-50-50-content-block__button js-button-click dmp-btn dmp-btn--"
+        ],
+        "sample_text": [
+          "Technology\n\nHelp us create innovative technology solutions that improve health outcomes while providing security for patients and their personal health information.\n\nSearch careers",
+          "Corporate and business operations\n\nWhen you join our corporate team, you become part of a community dedicated to using our skills to help others. Find your next opportunity with our global organizatio"
+        ]
+      }
+    ],
+    "page_title": "Careers | Optum India"
+  },
+  "after_search": null,
+  "best_source": "initial",
+  "keyword_candidates": [
+    {
+      "selector": "a.o5-quick-links__card.dmp-type__body-3",
+      "count": 4,
+      "sample_html": [
+        "<a class=\"o5-quick-links__card dmp-type__body-3\" href=\"https://www.unitedhealthgroup.com/careers/in/work/technology.html\" qa-handles=\"o5-quick-links__card\" target=\"_self\" lpos=\"main content : where will you make your impact in healthcare?\">\n          <img class=\"o5-quick-links__icon\" qa-handles=\"o5-quick-links__icon\" loading=\"lazy\" alt=\"\">\n          <span class=\"o5-quick-links__links dmp-type__body-3-bold\" qa-handles=\"o5-quick-links__links\">\n            Technology\n          </span>\n        </a>",
+        "<a class=\"o5-quick-links__card dmp-type__body-3\" href=\"https://www.unitedhealthgroup.com/careers/in/work/corporate.html\" qa-handles=\"o5-quick-links__card\" target=\"_self\" lpos=\"main content : where will you make your impact in healthcare?\">\n          <img class=\"o5-quick-links__icon\" qa-handles=\"o5-quick-links__icon\" loading=\"lazy\" alt=\"\">\n          <span class=\"o5-quick-links__links dmp-type__body-3-bold\" qa-handles=\"o5-quick-links__links\">\n            Corporate and business operations\n          </span>\n        </a>"
+      ],
+      "sample_text": [
+        "Technology",
+        "Corporate and business operations"
+      ]
+    }
+  ],
+  "structural_candidates": [
+    {
+      "selector": "a.o5-nav__sublink",
+      "count": 8,
+      "sample_html": [
+        "<a href=\"/global-employee-benefits.html\" class=\"o5-nav__sublink\" lpos=\"main content\">\n                            <span class=\"o5-nav__subtext\">Global employee benefits</span>\n                            <span class=\"o5-nav__description\"></span>\n                        </a>",
+        "<a href=\"/global-operations.html\" class=\"o5-nav__sublink\" lpos=\"main content\">\n                            <span class=\"o5-nav__subtext\">Global operations</span>\n                            <span class=\"o5-nav__description\"></span>\n                        </a>"
+      ],
+      "sample_text": [
+        "\n                            Global employee benefits\n                            \n                        ",
+        "\n                            Global operations\n                            \n                        "
+      ]
+    },
+    {
+      "selector": "li.o5-footer__item",
+      "count": 8,
+      "sample_html": [
+        "<li class=\"o5-footer__item\">\n                <a href=\"/global-employee-benefits.html\" class=\"o5-footer__link\" qa_handles=\"o5-footer__link\" lpos=\"footer:solutions\">\n                    <span class=\"o5-footer__text\">Global corporate health solutions</span>\n                </a>\n            </li>",
+        "<li class=\"o5-footer__item\">\n                <a href=\"/global-operations.html\" class=\"o5-footer__link\" qa_handles=\"o5-footer__link\" lpos=\"footer:solutions\">\n                    <span class=\"o5-footer__text\">Global operations</span>\n                </a>\n            </li>"
+      ],
+      "sample_text": [
+        "Global corporate health solutions",
+        "Global operations"
+      ]
+    },
+    {
+      "selector": "a.o5-footer__link",
+      "count": 8,
+      "sample_html": [
+        "<a href=\"/global-employee-benefits.html\" class=\"o5-footer__link\" qa_handles=\"o5-footer__link\" lpos=\"footer:solutions\">\n                    <span class=\"o5-footer__text\">Global corporate health solutions</span>\n                </a>",
+        "<a href=\"/global-operations.html\" class=\"o5-footer__link\" qa_handles=\"o5-footer__link\" lpos=\"footer:solutions\">\n                    <span class=\"o5-footer__text\">Global operations</span>\n                </a>"
+      ],
+      "sample_text": [
+        "Global corporate health solutions",
+        "Global operations"
+      ]
+    },
+    {
+      "selector": "div.dmp-row",
+      "count": 7,
+      "sample_html": [
+        "<div class=\"dmp-row\">\n                <div class=\"dmp-col-12 dmp-col-md-6\">\n\n\n<div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">\n    \n    <div class=\"o5-text dmp-margin__top-0 dmp-margin__bottom-0 aem-GridColumn aem-GridColumn--default--12\">\n\n\n\n\n<div promo-lpos=\"\" promo-name=\"\" qa_handles=\"O5-text-Component__text\"> \n<div class=\"text-component text-inner\"><h3><span class=\"o5-text__heading-4-opt\">Why choose a career with Optum India?</span></h3>\n<p><span class=\"o5-text__body-1\">If you thrive in a high-performance environment where our values shape the pursuit of our mission, this is truly a place where you will find opportunities focused on <strong>Caring. Connecting. Growing together.</strong></span></p>\n<p class=\"text-component__buttonSpace\"><a href=\"/about.html\" class=\"dmp-btn dmp-btn--md dmp-btn--1\" promo-lpos=\"\" promo-name=\"\" lpos=\"main content : why choose a career with optum india?\">Learn about Optum India</a></p>\n</div>\n</div>\n</div>\n\n    \n</div>\n</div>\n                <div class=\"dmp-col-12 dmp-col-md-6\">\n\n\n<div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">\n    \n    <div class=\"o5-video-player aem-GridColumn aem-GridColumn--default--12\">\n\n\n<div id=\"o5-video-player-optum_india_life_in_a_day_bhvhcLN7GY\" class=\"o5-video-player\" data-enable-caption=\"false\">\n    \n\n        <!-- JSON-LD Video Schema -->\n        \n            \n    \n       <script type=\"application/ld+json\">\n{\n    \"@context\": \"https://schema.org\",\n    \"@type\": \"VideoObject\",\n    \"name\": \"optum_in",
+        "<div class=\"dmp-row\">\n         <div class=\"dmp-col-12 column-control-full\">\n\n\n<div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">\n    \n    <div class=\"o5-text dmp-margin__top-0 dmp-margin__bottom-0 aem-GridColumn aem-GridColumn--default--12\">\n\n\n\n\n<div promo-lpos=\"\" promo-name=\"\" qa_handles=\"O5-text-Component__text\"> \n<div class=\"text-component text-inner\"><h2><span class=\"o5-text__heading-3\">Discover career growth opportunities with Optum India</span></h2>\n<p><span class=\"o5-text__body-1\">If you are looking to take your career to the next level while also positively impacting your community, consider Optum India. Come join the brightest minds in health care and help support our mission to make the healthcare system work better for everyone.&nbsp; &nbsp;</span></p>\n<p><a href=\"https://www.unitedhealthgroup.com/careers/in/work.html\" class=\"dmp-link-std--lg\" target=\"_self\" promo-lpos=\"\" promo-name=\"\" lpos=\"main content : discover career growth opportunities with optum india\">Search careers</a></p>\n</div>\n</div>\n</div>\n\n    \n</div>\n</div>\n     </div>"
+      ],
+      "sample_text": [
+        "Why choose a career with Optum India?\n\nIf you thrive in a high-performance environment where our values shape the pursuit of our mission, this is truly a place where you will find opportunities focuse",
+        "Discover career growth opportunities with Optum India\n\nIf you are looking to take your career to the next level while also positively impacting your community, consider Optum India. Come join the brig"
+      ]
+    },
+    {
+      "selector": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12",
+      "count": 5,
+      "sample_html": [
+        "<div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">\n    \n    <div class=\"container responsivegrid aem-GridColumn aem-GridColumn--default--12\">\n\n    \n    <div id=\"container-f21693f9df\" class=\"cmp-container\">\n        \n\n\n<div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">\n    \n    <div class=\"o5-detail-hero-banner aem-GridColumn aem-GridColumn--default--12\">\n<div id=\"o5-detail-hero-banner--816813697\" class=\"cmp-o5-detail-hero-banner\" data-optum-cmp=\"o5-detail-hero-banner\" qa_handles=\"O5-detail-hero-banner\">\n    \n    <!-- Preload critical resources -->\n\t<link rel=\"preload\" href=\"/content/dam/optum-in/resources/videos/optum_technology_development_program.jpg\" as=\"image\" fetchpriority=\"high\">\n        \n        \n        \n            <div class=\"main_container o5-detail-hero-banner__brand-secondary-3 box-fluid analytics_75handle\">\n                <div class=\"dmp-row o5-detail-hero-banner__rowClass\">\n                    <div class=\"dmp-col-12 dmp-col-xl-6  o5-detail-hero-banner__textAlignContainer\">\n                        <div class=\"o5-detail-hero-banner__secWidth\">\n                            <div class=\"o5-detail-hero-banner__content\">\n                                <div class=\"o5-detail-hero-banner__header\">\n                                    <p class=\"o5-detail-hero-banner__eyeBrow dmp-type__body-3-bold\">Caring. Connecting. Growing together.</p>\n                                    <h1 id=\"heading--816813697\" class=\"o5-detail-hero-banner__main-heading_1 dmp-type__d",
+        "<div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">\n    \n    <div class=\"o5-detail-hero-banner aem-GridColumn aem-GridColumn--default--12\">\n<div id=\"o5-detail-hero-banner--816813697\" class=\"cmp-o5-detail-hero-banner\" data-optum-cmp=\"o5-detail-hero-banner\" qa_handles=\"O5-detail-hero-banner\">\n    \n    <!-- Preload critical resources -->\n\t<link rel=\"preload\" href=\"/content/dam/optum-in/resources/videos/optum_technology_development_program.jpg\" as=\"image\" fetchpriority=\"high\">\n        \n        \n        \n            <div class=\"main_container o5-detail-hero-banner__brand-secondary-3 box-fluid analytics_75handle\">\n                <div class=\"dmp-row o5-detail-hero-banner__rowClass\">\n                    <div class=\"dmp-col-12 dmp-col-xl-6  o5-detail-hero-banner__textAlignContainer\">\n                        <div class=\"o5-detail-hero-banner__secWidth\">\n                            <div class=\"o5-detail-hero-banner__content\">\n                                <div class=\"o5-detail-hero-banner__header\">\n                                    <p class=\"o5-detail-hero-banner__eyeBrow dmp-type__body-3-bold\">Caring. Connecting. Growing together.</p>\n                                    <h1 id=\"heading--816813697\" class=\"o5-detail-hero-banner__main-heading_1 dmp-type__display-2\">Careers at Optum India</h1>\n                                    <div id=\"o5-detail-hero-banner_text--816813697\" class=\"o5-detail-hero-banner__bodyCopy dmp-type__body-1\"><p><span class=\"o5-text__body-1\">Explore curre"
+      ],
+      "sample_text": [
+        "Caring. Connecting. Growing together.\n\nCareers at Optum India\n\nExplore current job opportunities at Optum India, a global capability center of UnitedHealth Group, to discover how you can start caring,",
+        "Caring. Connecting. Growing together.\n\nCareers at Optum India\n\nExplore current job opportunities at Optum India, a global capability center of UnitedHealth Group, to discover how you can start caring,"
+      ]
+    },
+    {
+      "selector": "li.o5-legal__icons",
+      "count": 5,
+      "sample_html": [
+        "<li class=\"o5-legal__icons\">\n\t\t\t\t\t\t\t<a aria-labelledby=\"social-links linkedin\" class=\"o5-legal__circle\" href=\"https://www.linkedin.com/company/optumindia\" target=\"_self\" lpos=\"footer\">\n\t\t\t\t\t\t\t\t<span id=\"linkedin\" class=\"assistText\">\n\t\t\t\t\t\t\t\t\t&nbsp;on linkedin\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<img class=\"linkedin-img\" src=\"/content/dam/optum5/socialshareicons/Linkedin_5a.svg\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t</li>",
+        "<li class=\"o5-legal__icons\">\n\t\t\t\t\t\t\t<a aria-labelledby=\"social-links facebook\" class=\"o5-legal__circle\" href=\"https://www.facebook.com/myOptum/\" target=\"_self\" lpos=\"footer\">\n\t\t\t\t\t\t\t\t<span id=\"facebook\" class=\"assistText\">\n\t\t\t\t\t\t\t\t\t&nbsp;on facebook\n\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<img class=\"facebook-img\" src=\"/content/dam/optum5/socialshareicons/Facebook_5a.svg\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t</li>"
+      ],
+      "sample_text": [
+        "\u00a0on linkedin",
+        "\u00a0on facebook"
+      ]
+    },
+    {
+      "selector": "div.o5-50-50-content-block.dmp-margin__bottom-32.aem-GridColumn.aem-GridColumn--default--12",
+      "count": 4,
+      "sample_html": [
+        "<div class=\"o5-50-50-content-block dmp-margin__bottom-32 aem-GridColumn aem-GridColumn--default--12\">\n\n  <div id=\"o5-50-50-content-block-785aa983bd8c1cda49628d15\" class=\"o5-50-50-content-block\" qa_handles=\"cmp-o5-50-50-content-block\">\n    <div class=\"main_container brand-white dmp-container-fluid analytics_75handle\" qa_handles=\"main_container\">\n      <div class=\"dmp-row\">\n        <div class=\"o5-50-50-content-block__anchor\" qa_handles=\"o5-50-50-content-block__anchor\">\n          \n          \n          \n            <div class=\"o5-50-50-content-block__container-left o5-50-50-content-block__container \" qa_handles=\"o5-50-50-content-block__container\">\n              <div class=\"dmp-col-12 dmp-col-lg-12 dmp-col-xl-6\">\n                \n    \n    <!-- Use common video schema template - only when video variation exists -->\n    \n\n    \n        <div class=\"o5-50-50-content-block__image  brand-white o5-50-50-content-block__defaultSize o5-50-50-content-block__image-left \">\n            <img src=\"/content/dam/optum-in/images/man_smiling_office_product_management_and_development.jpg\" alt=\"\"> \n        </div>\n        \n        \n        \n    \n    \n    \n\n              </div>\n              <div class=\"dmp-col-12 dmp-col-lg-12 dmp-col-xl-6 o5-50-50-content-block__textAlignContainer\">\n                <div class=\"o5-50-50-content-block__content o5-50-50-content-block__content-right-image-left\" qa_handles=\"o5-50-50-content-block__content o5-50-50-content-block__content-right-image-left\">\n                  \n",
+        "<div class=\"o5-50-50-content-block dmp-margin__bottom-32 aem-GridColumn aem-GridColumn--default--12\">\n\n  <div id=\"o5-50-50-content-block-aca8c181d081bdcce366ed4a\" class=\"o5-50-50-content-block\" qa_handles=\"cmp-o5-50-50-content-block\">\n    <div class=\"main_container brand-white dmp-container-fluid analytics_75handle\" qa_handles=\"main_container\">\n      <div class=\"dmp-row\">\n        <div class=\"o5-50-50-content-block__anchor\" qa_handles=\"o5-50-50-content-block__anchor\">\n          \n          \n            <div class=\"o5-50-50-content-block__container-right o5-50-50-content-block__container\" qa_handles=\"o5-50-50-content-block__container\">\n              <div class=\"dmp-col-12 dmp-col-lg-12 dmp-col-xl-6 o5-50-50-content-block__textAlignContainer\">\n                <div class=\"o5-50-50-content-block__content o5-50-50-content-block__content-right o5-50-50-content-block__secWidth\" qa_handles=\"o5-50-50-content-block__content o5-50-50-content-block__content-right o5-50-50-content-block__secWidth\">\n                  \n                  \n                    \n    <div class=\"o5-50-50-content-block__header\">\n        \n        \n          <h2 class=\"o5-50-50-content-block__main-heading dmp-type__heading-2\" qa_handles=\"o5-50-50-content-block\">Corporate and business operations</h2>\n        \n        \n        \n        \n        <div class=\"o5-50-50-content-block__bodyCopy dmp-type__body-1\" qa_handles=\"bodyCopy\"><p><span class=\"o5-text__body-1\">When you join our corporate team, you become part of a comm"
+      ],
+      "sample_text": [
+        "Technology\n\nHelp us create innovative technology solutions that improve health outcomes while providing security for patients and their personal health information.\n\nSearch careers",
+        "Corporate and business operations\n\nWhen you join our corporate team, you become part of a community dedicated to using our skills to help others. Find your next opportunity with our global organizatio"
+      ]
+    },
+    {
+      "selector": "div.o5-50-50-content-block",
+      "count": 4,
+      "sample_html": [
+        "<div id=\"o5-50-50-content-block-785aa983bd8c1cda49628d15\" class=\"o5-50-50-content-block\" qa_handles=\"cmp-o5-50-50-content-block\">\n    <div class=\"main_container brand-white dmp-container-fluid analytics_75handle\" qa_handles=\"main_container\">\n      <div class=\"dmp-row\">\n        <div class=\"o5-50-50-content-block__anchor\" qa_handles=\"o5-50-50-content-block__anchor\">\n          \n          \n          \n            <div class=\"o5-50-50-content-block__container-left o5-50-50-content-block__container \" qa_handles=\"o5-50-50-content-block__container\">\n              <div class=\"dmp-col-12 dmp-col-lg-12 dmp-col-xl-6\">\n                \n    \n    <!-- Use common video schema template - only when video variation exists -->\n    \n\n    \n        <div class=\"o5-50-50-content-block__image  brand-white o5-50-50-content-block__defaultSize o5-50-50-content-block__image-left \">\n            <img src=\"/content/dam/optum-in/images/man_smiling_office_product_management_and_development.jpg\" alt=\"\"> \n        </div>\n        \n        \n        \n    \n    \n    \n\n              </div>\n              <div class=\"dmp-col-12 dmp-col-lg-12 dmp-col-xl-6 o5-50-50-content-block__textAlignContainer\">\n                <div class=\"o5-50-50-content-block__content o5-50-50-content-block__content-right-image-left\" qa_handles=\"o5-50-50-content-block__content o5-50-50-content-block__content-right-image-left\">\n                  \n                  \n                    \n    <div class=\"o5-50-50-content-block__header\">\n        \n       ",
+        "<div id=\"o5-50-50-content-block-aca8c181d081bdcce366ed4a\" class=\"o5-50-50-content-block\" qa_handles=\"cmp-o5-50-50-content-block\">\n    <div class=\"main_container brand-white dmp-container-fluid analytics_75handle\" qa_handles=\"main_container\">\n      <div class=\"dmp-row\">\n        <div class=\"o5-50-50-content-block__anchor\" qa_handles=\"o5-50-50-content-block__anchor\">\n          \n          \n            <div class=\"o5-50-50-content-block__container-right o5-50-50-content-block__container\" qa_handles=\"o5-50-50-content-block__container\">\n              <div class=\"dmp-col-12 dmp-col-lg-12 dmp-col-xl-6 o5-50-50-content-block__textAlignContainer\">\n                <div class=\"o5-50-50-content-block__content o5-50-50-content-block__content-right o5-50-50-content-block__secWidth\" qa_handles=\"o5-50-50-content-block__content o5-50-50-content-block__content-right o5-50-50-content-block__secWidth\">\n                  \n                  \n                    \n    <div class=\"o5-50-50-content-block__header\">\n        \n        \n          <h2 class=\"o5-50-50-content-block__main-heading dmp-type__heading-2\" qa_handles=\"o5-50-50-content-block\">Corporate and business operations</h2>\n        \n        \n        \n        \n        <div class=\"o5-50-50-content-block__bodyCopy dmp-type__body-1\" qa_handles=\"bodyCopy\"><p><span class=\"o5-text__body-1\">When you join our corporate team, you become part of a community dedicated to using our skills to help others. Find your next opportunity with our global organizati"
+      ],
+      "sample_text": [
+        "Technology\n\nHelp us create innovative technology solutions that improve health outcomes while providing security for patients and their personal health information.\n\nSearch careers",
+        "Corporate and business operations\n\nWhen you join our corporate team, you become part of a community dedicated to using our skills to help others. Find your next opportunity with our global organizatio"
+      ]
+    },
+    {
+      "selector": "div.main_container.brand-white.dmp-container-fluid.analytics_75handle",
+      "count": 4,
+      "sample_html": [
+        "<div class=\"main_container brand-white dmp-container-fluid analytics_75handle\" qa_handles=\"main_container\">\n      <div class=\"dmp-row\">\n        <div class=\"o5-50-50-content-block__anchor\" qa_handles=\"o5-50-50-content-block__anchor\">\n          \n          \n          \n            <div class=\"o5-50-50-content-block__container-left o5-50-50-content-block__container \" qa_handles=\"o5-50-50-content-block__container\">\n              <div class=\"dmp-col-12 dmp-col-lg-12 dmp-col-xl-6\">\n                \n    \n    <!-- Use common video schema template - only when video variation exists -->\n    \n\n    \n        <div class=\"o5-50-50-content-block__image  brand-white o5-50-50-content-block__defaultSize o5-50-50-content-block__image-left \">\n            <img src=\"/content/dam/optum-in/images/man_smiling_office_product_management_and_development.jpg\" alt=\"\"> \n        </div>\n        \n        \n        \n    \n    \n    \n\n              </div>\n              <div class=\"dmp-col-12 dmp-col-lg-12 dmp-col-xl-6 o5-50-50-content-block__textAlignContainer\">\n                <div class=\"o5-50-50-content-block__content o5-50-50-content-block__content-right-image-left\" qa_handles=\"o5-50-50-content-block__content o5-50-50-content-block__content-right-image-left\">\n                  \n                  \n                    \n    <div class=\"o5-50-50-content-block__header\">\n        \n        \n          <h2 class=\"o5-50-50-content-block__main-heading dmp-type__heading-2\" qa_handles=\"o5-50-50-content-block\">Technology</h2>\n ",
+        "<div class=\"main_container brand-white dmp-container-fluid analytics_75handle\" qa_handles=\"main_container\">\n      <div class=\"dmp-row\">\n        <div class=\"o5-50-50-content-block__anchor\" qa_handles=\"o5-50-50-content-block__anchor\">\n          \n          \n            <div class=\"o5-50-50-content-block__container-right o5-50-50-content-block__container\" qa_handles=\"o5-50-50-content-block__container\">\n              <div class=\"dmp-col-12 dmp-col-lg-12 dmp-col-xl-6 o5-50-50-content-block__textAlignContainer\">\n                <div class=\"o5-50-50-content-block__content o5-50-50-content-block__content-right o5-50-50-content-block__secWidth\" qa_handles=\"o5-50-50-content-block__content o5-50-50-content-block__content-right o5-50-50-content-block__secWidth\">\n                  \n                  \n                    \n    <div class=\"o5-50-50-content-block__header\">\n        \n        \n          <h2 class=\"o5-50-50-content-block__main-heading dmp-type__heading-2\" qa_handles=\"o5-50-50-content-block\">Corporate and business operations</h2>\n        \n        \n        \n        \n        <div class=\"o5-50-50-content-block__bodyCopy dmp-type__body-1\" qa_handles=\"bodyCopy\"><p><span class=\"o5-text__body-1\">When you join our corporate team, you become part of a community dedicated to using our skills to help others. Find your next opportunity with our global organization and start a rewarding career.</span></p>\n</div>\n      </div>\n\n                    \n                    <div class=\"o5-50-50-content"
+      ],
+      "sample_text": [
+        "Technology\n\nHelp us create innovative technology solutions that improve health outcomes while providing security for patients and their personal health information.\n\nSearch careers",
+        "Corporate and business operations\n\nWhen you join our corporate team, you become part of a community dedicated to using our skills to help others. Find your next opportunity with our global organizatio"
+      ]
+    },
+    {
+      "selector": "div.o5-50-50-content-block__anchor",
+      "count": 4,
+      "sample_html": [
+        "<div class=\"o5-50-50-content-block__anchor\" qa_handles=\"o5-50-50-content-block__anchor\">\n          \n          \n          \n            <div class=\"o5-50-50-content-block__container-left o5-50-50-content-block__container \" qa_handles=\"o5-50-50-content-block__container\">\n              <div class=\"dmp-col-12 dmp-col-lg-12 dmp-col-xl-6\">\n                \n    \n    <!-- Use common video schema template - only when video variation exists -->\n    \n\n    \n        <div class=\"o5-50-50-content-block__image  brand-white o5-50-50-content-block__defaultSize o5-50-50-content-block__image-left \">\n            <img src=\"/content/dam/optum-in/images/man_smiling_office_product_management_and_development.jpg\" alt=\"\"> \n        </div>\n        \n        \n        \n    \n    \n    \n\n              </div>\n              <div class=\"dmp-col-12 dmp-col-lg-12 dmp-col-xl-6 o5-50-50-content-block__textAlignContainer\">\n                <div class=\"o5-50-50-content-block__content o5-50-50-content-block__content-right-image-left\" qa_handles=\"o5-50-50-content-block__content o5-50-50-content-block__content-right-image-left\">\n                  \n                  \n                    \n    <div class=\"o5-50-50-content-block__header\">\n        \n        \n          <h2 class=\"o5-50-50-content-block__main-heading dmp-type__heading-2\" qa_handles=\"o5-50-50-content-block\">Technology</h2>\n        \n        \n        \n        \n        <div class=\"o5-50-50-content-block__bodyCopy dmp-type__body-1\" qa_handles=\"bodyCopy\"><p><span class=\"",
+        "<div class=\"o5-50-50-content-block__anchor\" qa_handles=\"o5-50-50-content-block__anchor\">\n          \n          \n            <div class=\"o5-50-50-content-block__container-right o5-50-50-content-block__container\" qa_handles=\"o5-50-50-content-block__container\">\n              <div class=\"dmp-col-12 dmp-col-lg-12 dmp-col-xl-6 o5-50-50-content-block__textAlignContainer\">\n                <div class=\"o5-50-50-content-block__content o5-50-50-content-block__content-right o5-50-50-content-block__secWidth\" qa_handles=\"o5-50-50-content-block__content o5-50-50-content-block__content-right o5-50-50-content-block__secWidth\">\n                  \n                  \n                    \n    <div class=\"o5-50-50-content-block__header\">\n        \n        \n          <h2 class=\"o5-50-50-content-block__main-heading dmp-type__heading-2\" qa_handles=\"o5-50-50-content-block\">Corporate and business operations</h2>\n        \n        \n        \n        \n        <div class=\"o5-50-50-content-block__bodyCopy dmp-type__body-1\" qa_handles=\"bodyCopy\"><p><span class=\"o5-text__body-1\">When you join our corporate team, you become part of a community dedicated to using our skills to help others. Find your next opportunity with our global organization and start a rewarding career.</span></p>\n</div>\n      </div>\n\n                    \n                    <div class=\"o5-50-50-content-block__buttonContainer\">\n                      \n  \n  \n  \n\n  \n\n  \n    <a class=\"o5-50-50-content-block__button js-button-click dmp-btn dmp-btn--"
+      ],
+      "sample_text": [
+        "Technology\n\nHelp us create innovative technology solutions that improve health outcomes while providing security for patients and their personal health information.\n\nSearch careers",
+        "Corporate and business operations\n\nWhen you join our corporate team, you become part of a community dedicated to using our skills to help others. Find your next opportunity with our global organizatio"
+      ]
+    }
+  ],
+  "page_title": "Careers | Optum India",
+  "cookie_banner_dismissed": false,
+  "search_interacted": false,
+  "status": "ok",
+  "screenshot": "optum.png"
+}

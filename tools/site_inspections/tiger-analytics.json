@@ -1,0 +1,18 @@
+{
+  "slug": "tiger-analytics",
+  "url": "https://tiger-analytics.sensehq.com/careers",
+  "initial": {
+    "keyword_candidates": [],
+    "structural_candidates": [],
+    "page_title": "Job openings at Tiger Analytics"
+  },
+  "after_search": null,
+  "best_source": "initial",
+  "keyword_candidates": [],
+  "structural_candidates": [],
+  "page_title": "Job openings at Tiger Analytics",
+  "cookie_banner_dismissed": false,
+  "search_interacted": false,
+  "status": "no_candidates_found",
+  "screenshot": "tiger-analytics.png"
+}

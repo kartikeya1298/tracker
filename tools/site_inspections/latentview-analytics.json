@@ -1,0 +1,260 @@
+{
+  "slug": "latentview-analytics",
+  "url": "https://www.latentview.com/career/",
+  "initial": {
+    "keyword_candidates": [],
+    "structural_candidates": [
+      {
+        "selector": "div.elementor-widget-container",
+        "count": 75,
+        "sample_html": [
+          "<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"e-n-accordion\" aria-label=\"Accordion. Open links with Enter or Space, close with Escape, and navigate with Arrow Keys\">\n\t\t\t\t\t\t<details id=\"e-n-accordion-item-1990\" class=\"e-n-accordion-item\" open=\"\">\n\t\t\t\t<summary class=\"e-n-accordion-item-title\" data-accordion-index=\"1\" tabindex=\"0\" aria-expanded=\"true\" aria-controls=\"e-n-accordion-item-1990\">\n\t\t\t\t\t<span class=\"e-n-accordion-item-title-header\"><div class=\"e-n-accordion-item-title-text\"> Services </div></span>\n\t\t\t\t\t\t\t<span class=\"e-n-accordion-item-title-icon\">\n\t\t\t<span class=\"e-opened\"><svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-angle-up\" viewBox=\"0 0 320 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z\"></path></svg></span>\n\t\t\t<span class=\"e-closed\"><svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-angle-down\" viewBox=\"0 0 320 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z\"></path></svg></span>\n\t\t</span>\n\n\t\t\t\t\t\t</summary>\n\t\t\t\t<div role=\"region\" aria-labelledby=\"e-n-accordion-item-1990\" class=\"elementor-element elementor-element-b67593d e-con-full e-flex e-con e-child\" data-id=\"b",
+          "<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<ul class=\"elementor-icon-list-items\">\n\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"/data-engineering/\" data-faitracker-click-bind=\"true\">\n\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">Data Engineering</span>\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>"
+        ],
+        "sample_text": [
+          "\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t Services \n\t\t\t\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tServices\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\tEnabling business leaders to become truly data-driven.\t\t\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\n",
+          "\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\tData Engineering\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t"
+        ]
+      },
+      {
+        "selector": "h5.elementor-heading-title.elementor-size-default",
+        "count": 26,
+        "sample_html": [
+          "<h5 class=\"elementor-heading-title elementor-size-default\"><a href=\"/b2b-dynamo/\" data-faitracker-click-bind=\"true\">B2B Dynamo\n</a></h5>",
+          "<h5 class=\"elementor-heading-title elementor-size-default\"><a href=\"/connectedview/%20\" data-faitracker-click-bind=\"true\">ConnectedView</a></h5>"
+        ],
+        "sample_text": [
+          "B2B Dynamo\n",
+          "ConnectedView"
+        ]
+      },
+      {
+        "selector": "li.elementor-icon-list-item",
+        "count": 24,
+        "sample_html": [
+          "<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"/data-engineering/\" data-faitracker-click-bind=\"true\">\n\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">Data Engineering</span>\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</li>",
+          "<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"/data-science-services/\" data-faitracker-click-bind=\"true\">\n\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">Data Science</span>\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</li>"
+        ],
+        "sample_text": [
+          "\n\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\tData Engineering\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t",
+          "\n\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\tData Science\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t"
+        ]
+      },
+      {
+        "selector": "div.e-con-inner",
+        "count": 20,
+        "sample_html": [
+          "<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-be99245 menu-ac elementor-widget elementor-widget-n-accordion\" data-id=\"be99245\" data-element_type=\"widget\" data-settings=\"{&quot;default_state&quot;:&quot;expanded&quot;,&quot;max_items_expended&quot;:&quot;one&quot;,&quot;n_accordion_animation_duration&quot;:{&quot;unit&quot;:&quot;ms&quot;,&quot;size&quot;:400,&quot;sizes&quot;:[]}}\" data-widget_type=\"nested-accordion.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"e-n-accordion\" aria-label=\"Accordion. Open links with Enter or Space, close with Escape, and navigate with Arrow Keys\">\n\t\t\t\t\t\t<details id=\"e-n-accordion-item-1990\" class=\"e-n-accordion-item\" open=\"\">\n\t\t\t\t<summary class=\"e-n-accordion-item-title\" data-accordion-index=\"1\" tabindex=\"0\" aria-expanded=\"true\" aria-controls=\"e-n-accordion-item-1990\">\n\t\t\t\t\t<span class=\"e-n-accordion-item-title-header\"><div class=\"e-n-accordion-item-title-text\"> Services </div></span>\n\t\t\t\t\t\t\t<span class=\"e-n-accordion-item-title-icon\">\n\t\t\t<span class=\"e-opened\"><svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-angle-up\" viewBox=\"0 0 320 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z\"></path></svg></span>\n\t\t\t<span class=\"e-closed\"><svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-angle-down\" ",
+          "<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-861b221 e-con-full e-flex e-con e-child\" data-id=\"861b221\" data-element_type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-e481a5a elementor-widget elementor-widget-heading\" data-id=\"e481a5a\" data-element_type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h4 class=\"elementor-heading-title elementor-size-default\">Industries</h4>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-e88f6b1 elementor-widget elementor-widget-text-editor\" data-id=\"e88f6b1\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p>Tailored expertise to <br>transform any sector.</p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-acb3754 e-con-full servicestab e-flex e-con e-child\" data-id=\"acb3754\" data-element_type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-2679aac elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-id=\"2679aac\" data-element_type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h5 class=\"elementor-heading-title elementor-size-default\"><a href=\"https://www.latentview.com/technology/\" data-faitracker-click-bind=\"true\">Technology</a></h5>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-c7133e9 elemen"
+        ],
+        "sample_text": [
+          "\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t Services \n\t\t\t\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tServices\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\tEnabling business leaders to become truly data-driven.\t\t\t\t\t\t\t\t\n\t\t\t",
+          "\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tIndustries\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\tTailored expertise to transform any sector.\t\t\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tTechnology\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tCPG\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t"
+        ]
+      },
+      {
+        "selector": "ul.elementor-icon-list-items",
+        "count": 18,
+        "sample_html": [
+          "<ul class=\"elementor-icon-list-items\">\n\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"/data-engineering/\" data-faitracker-click-bind=\"true\">\n\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">Data Engineering</span>\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t</ul>",
+          "<ul class=\"elementor-icon-list-items\">\n\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"/data-science-services/\" data-faitracker-click-bind=\"true\">\n\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">Data Science</span>\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t</ul>"
+        ],
+        "sample_text": [
+          "\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\tData Engineering\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t",
+          "\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\tData Science\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t"
+        ]
+      },
+      {
+        "selector": "h6.elementor-heading-title.elementor-size-default",
+        "count": 16,
+        "sample_html": [
+          "<h6 class=\"elementor-heading-title elementor-size-default\"><a href=\"/technology/\" data-faitracker-click-bind=\"true\">Technology</a></h6>",
+          "<h6 class=\"elementor-heading-title elementor-size-default\"><a href=\"/financial-services/\" data-faitracker-click-bind=\"true\">Financial Services</a></h6>"
+        ],
+        "sample_text": [
+          "Technology",
+          "Financial Services"
+        ]
+      },
+      {
+        "selector": "div.elementor-image-box-wrapper",
+        "count": 10,
+        "sample_html": [
+          "<div class=\"elementor-image-box-wrapper\"><div class=\"elementor-image-box-content\"><h3 class=\"elementor-image-box-title\">Become a Data-Driven Leader</h3><p class=\"elementor-image-box-description\">Equip yourself with cutting-edge analytics skills and shape the future of organizations.</p></div></div>",
+          "<div class=\"elementor-image-box-wrapper\"><div class=\"elementor-image-box-content\"><h3 class=\"elementor-image-box-title\">Thrive in a Culture of Innovation</h3><p class=\"elementor-image-box-description\">Unleash your creativity and push boundaries, knowing failure fuels progress.</p></div></div>"
+        ],
+        "sample_text": [
+          "Become a Data-Driven Leader\n\nEquip yourself with cutting-edge analytics skills and shape the future of organizations.",
+          "Thrive in a Culture of Innovation\n\nUnleash your creativity and push boundaries, knowing failure fuels progress."
+        ]
+      },
+      {
+        "selector": "div.elementor-image-box-content",
+        "count": 10,
+        "sample_html": [
+          "<div class=\"elementor-image-box-content\"><h3 class=\"elementor-image-box-title\">Become a Data-Driven Leader</h3><p class=\"elementor-image-box-description\">Equip yourself with cutting-edge analytics skills and shape the future of organizations.</p></div>",
+          "<div class=\"elementor-image-box-content\"><h3 class=\"elementor-image-box-title\">Thrive in a Culture of Innovation</h3><p class=\"elementor-image-box-description\">Unleash your creativity and push boundaries, knowing failure fuels progress.</p></div>"
+        ],
+        "sample_text": [
+          "Become a Data-Driven Leader\n\nEquip yourself with cutting-edge analytics skills and shape the future of organizations.",
+          "Thrive in a Culture of Innovation\n\nUnleash your creativity and push boundaries, knowing failure fuels progress."
+        ]
+      },
+      {
+        "selector": "li.e-n-menu-item",
+        "count": 8,
+        "sample_html": [
+          "<li class=\"e-n-menu-item\">\n\t\t\t\t<div id=\"e-n-menu-title-1241\" class=\"e-n-menu-title e-anchor\">\n\t\t\t\t\t<a class=\"e-n-menu-title-container e-focus e-link\" href=\"#\" aria-current=\"page\" data-focus-index=\"1\" data-faitracker-click-bind=\"true\">\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"e-n-menu-title-text\">\n\t\t\t\t\t\t\tExpertise\t\t\t\t\t\t</span>\n\t\t\t\t\t</a>\t\t\t\t\t\t\t\t\t\t\t<button id=\"e-n-menu-dropdown-icon-1241\" class=\"e-n-menu-dropdown-icon e-focus\" data-tab-index=\"1\" aria-haspopup=\"true\" aria-expanded=\"false\" aria-controls=\"e-n-menu-content-1241\" data-focus-index=\"2\" data-faitracker-form-bind=\"true\" data-faitracker-click-bind=\"true\">\n\t\t\t\t\t\t\t<span class=\"e-n-menu-dropdown-icon-opened\">\n\t\t\t\t\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-angle-up\" viewBox=\"0 0 320 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z\"></path></svg>\t\t\t\t\t\t\t\t<span class=\"elementor-screen-only\">Close Expertise</span>\n\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t<span class=\"e-n-menu-dropdown-icon-closed\">\n\t\t\t\t\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-angle-down\" viewBox=\"0 0 320 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z\"></path></svg>\t\t\t\t\t\t\t\t<span class=\"elemento",
+          "<li class=\"e-n-menu-item\">\n\t\t\t\t<div id=\"e-n-menu-title-1242\" class=\"e-n-menu-title e-anchor\">\n\t\t\t\t\t<a class=\"e-n-menu-title-container e-focus e-link\" href=\"#\" aria-current=\"page\" data-focus-index=\"3\" data-faitracker-click-bind=\"true\">\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"e-n-menu-title-text\">\n\t\t\t\t\t\t\tIndustries\t\t\t\t\t\t</span>\n\t\t\t\t\t</a>\t\t\t\t\t\t\t\t\t\t\t<button id=\"e-n-menu-dropdown-icon-1242\" class=\"e-n-menu-dropdown-icon e-focus\" data-tab-index=\"2\" aria-haspopup=\"true\" aria-expanded=\"false\" aria-controls=\"e-n-menu-content-1242\" data-focus-index=\"4\" data-faitracker-form-bind=\"true\" data-faitracker-click-bind=\"true\">\n\t\t\t\t\t\t\t<span class=\"e-n-menu-dropdown-icon-opened\">\n\t\t\t\t\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-angle-up\" viewBox=\"0 0 320 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z\"></path></svg>\t\t\t\t\t\t\t\t<span class=\"elementor-screen-only\">Close Industries</span>\n\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t<span class=\"e-n-menu-dropdown-icon-closed\">\n\t\t\t\t\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-angle-down\" viewBox=\"0 0 320 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z\"></path></svg>\t\t\t\t\t\t\t\t<span class=\"elemen"
+        ],
+        "sample_text": [
+          "Expertise\nOpen Expertise",
+          "Industries\nOpen Industries"
+        ]
+      },
+      {
+        "selector": "div.e-n-menu-content",
+        "count": 8,
+        "sample_html": [
+          "<div class=\"e-n-menu-content\">\n\t\t\t\t\t\t<div id=\"e-n-menu-content-1241\" data-tab-index=\"1\" aria-labelledby=\"e-n-menu-dropdown-icon-1241\" class=\"elementor-element elementor-element-e02bc2b e-flex e-con-boxed e-con e-child\" data-id=\"e02bc2b\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-be99245 menu-ac elementor-widget elementor-widget-n-accordion\" data-id=\"be99245\" data-element_type=\"widget\" data-settings=\"{&quot;default_state&quot;:&quot;expanded&quot;,&quot;max_items_expended&quot;:&quot;one&quot;,&quot;n_accordion_animation_duration&quot;:{&quot;unit&quot;:&quot;ms&quot;,&quot;size&quot;:400,&quot;sizes&quot;:[]}}\" data-widget_type=\"nested-accordion.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"e-n-accordion\" aria-label=\"Accordion. Open links with Enter or Space, close with Escape, and navigate with Arrow Keys\">\n\t\t\t\t\t\t<details id=\"e-n-accordion-item-1990\" class=\"e-n-accordion-item\" open=\"\">\n\t\t\t\t<summary class=\"e-n-accordion-item-title\" data-accordion-index=\"1\" tabindex=\"0\" aria-expanded=\"true\" aria-controls=\"e-n-accordion-item-1990\">\n\t\t\t\t\t<span class=\"e-n-accordion-item-title-header\"><div class=\"e-n-accordion-item-title-text\"> Services </div></span>\n\t\t\t\t\t\t\t<span class=\"e-n-accordion-item-title-icon\">\n\t\t\t<span class=\"e-opened\"><svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-angle-up\" viewBox=\"0 0 320 512\" xm",
+          "<div class=\"e-n-menu-content\">\n\t\t\t\t\t\t<div id=\"e-n-menu-content-1242\" data-tab-index=\"2\" aria-labelledby=\"e-n-menu-dropdown-icon-1242\" class=\"elementor-element elementor-element-b58c32f e-flex e-con-boxed e-con e-child\" data-id=\"b58c32f\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-861b221 e-con-full e-flex e-con e-child\" data-id=\"861b221\" data-element_type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-e481a5a elementor-widget elementor-widget-heading\" data-id=\"e481a5a\" data-element_type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h4 class=\"elementor-heading-title elementor-size-default\">Industries</h4>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-e88f6b1 elementor-widget elementor-widget-text-editor\" data-id=\"e88f6b1\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p>Tailored expertise to <br>transform any sector.</p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-acb3754 e-con-full servicestab e-flex e-con e-child\" data-id=\"acb3754\" data-element_type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-2679aac elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-id=\"2679aac\" data-element_type"
+        ],
+        "sample_text": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "page_title": "Careers | LatentView Analytics"
+  },
+  "after_search": null,
+  "best_source": "initial",
+  "keyword_candidates": [],
+  "structural_candidates": [
+    {
+      "selector": "div.elementor-widget-container",
+      "count": 75,
+      "sample_html": [
+        "<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"e-n-accordion\" aria-label=\"Accordion. Open links with Enter or Space, close with Escape, and navigate with Arrow Keys\">\n\t\t\t\t\t\t<details id=\"e-n-accordion-item-1990\" class=\"e-n-accordion-item\" open=\"\">\n\t\t\t\t<summary class=\"e-n-accordion-item-title\" data-accordion-index=\"1\" tabindex=\"0\" aria-expanded=\"true\" aria-controls=\"e-n-accordion-item-1990\">\n\t\t\t\t\t<span class=\"e-n-accordion-item-title-header\"><div class=\"e-n-accordion-item-title-text\"> Services </div></span>\n\t\t\t\t\t\t\t<span class=\"e-n-accordion-item-title-icon\">\n\t\t\t<span class=\"e-opened\"><svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-angle-up\" viewBox=\"0 0 320 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z\"></path></svg></span>\n\t\t\t<span class=\"e-closed\"><svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-angle-down\" viewBox=\"0 0 320 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z\"></path></svg></span>\n\t\t</span>\n\n\t\t\t\t\t\t</summary>\n\t\t\t\t<div role=\"region\" aria-labelledby=\"e-n-accordion-item-1990\" class=\"elementor-element elementor-element-b67593d e-con-full e-flex e-con e-child\" data-id=\"b",
+        "<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<ul class=\"elementor-icon-list-items\">\n\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"/data-engineering/\" data-faitracker-click-bind=\"true\">\n\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">Data Engineering</span>\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>"
+      ],
+      "sample_text": [
+        "\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t Services \n\t\t\t\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tServices\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\tEnabling business leaders to become truly data-driven.\t\t\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\n",
+        "\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\tData Engineering\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t"
+      ]
+    },
+    {
+      "selector": "h5.elementor-heading-title.elementor-size-default",
+      "count": 26,
+      "sample_html": [
+        "<h5 class=\"elementor-heading-title elementor-size-default\"><a href=\"/b2b-dynamo/\" data-faitracker-click-bind=\"true\">B2B Dynamo\n</a></h5>",
+        "<h5 class=\"elementor-heading-title elementor-size-default\"><a href=\"/connectedview/%20\" data-faitracker-click-bind=\"true\">ConnectedView</a></h5>"
+      ],
+      "sample_text": [
+        "B2B Dynamo\n",
+        "ConnectedView"
+      ]
+    },
+    {
+      "selector": "li.elementor-icon-list-item",
+      "count": 24,
+      "sample_html": [
+        "<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"/data-engineering/\" data-faitracker-click-bind=\"true\">\n\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">Data Engineering</span>\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</li>",
+        "<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"/data-science-services/\" data-faitracker-click-bind=\"true\">\n\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">Data Science</span>\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</li>"
+      ],
+      "sample_text": [
+        "\n\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\tData Engineering\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t",
+        "\n\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\tData Science\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t"
+      ]
+    },
+    {
+      "selector": "div.e-con-inner",
+      "count": 20,
+      "sample_html": [
+        "<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-be99245 menu-ac elementor-widget elementor-widget-n-accordion\" data-id=\"be99245\" data-element_type=\"widget\" data-settings=\"{&quot;default_state&quot;:&quot;expanded&quot;,&quot;max_items_expended&quot;:&quot;one&quot;,&quot;n_accordion_animation_duration&quot;:{&quot;unit&quot;:&quot;ms&quot;,&quot;size&quot;:400,&quot;sizes&quot;:[]}}\" data-widget_type=\"nested-accordion.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"e-n-accordion\" aria-label=\"Accordion. Open links with Enter or Space, close with Escape, and navigate with Arrow Keys\">\n\t\t\t\t\t\t<details id=\"e-n-accordion-item-1990\" class=\"e-n-accordion-item\" open=\"\">\n\t\t\t\t<summary class=\"e-n-accordion-item-title\" data-accordion-index=\"1\" tabindex=\"0\" aria-expanded=\"true\" aria-controls=\"e-n-accordion-item-1990\">\n\t\t\t\t\t<span class=\"e-n-accordion-item-title-header\"><div class=\"e-n-accordion-item-title-text\"> Services </div></span>\n\t\t\t\t\t\t\t<span class=\"e-n-accordion-item-title-icon\">\n\t\t\t<span class=\"e-opened\"><svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-angle-up\" viewBox=\"0 0 320 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z\"></path></svg></span>\n\t\t\t<span class=\"e-closed\"><svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-angle-down\" ",
+        "<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-861b221 e-con-full e-flex e-con e-child\" data-id=\"861b221\" data-element_type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-e481a5a elementor-widget elementor-widget-heading\" data-id=\"e481a5a\" data-element_type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h4 class=\"elementor-heading-title elementor-size-default\">Industries</h4>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-e88f6b1 elementor-widget elementor-widget-text-editor\" data-id=\"e88f6b1\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p>Tailored expertise to <br>transform any sector.</p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-acb3754 e-con-full servicestab e-flex e-con e-child\" data-id=\"acb3754\" data-element_type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-2679aac elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-id=\"2679aac\" data-element_type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h5 class=\"elementor-heading-title elementor-size-default\"><a href=\"https://www.latentview.com/technology/\" data-faitracker-click-bind=\"true\">Technology</a></h5>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-c7133e9 elemen"
+      ],
+      "sample_text": [
+        "\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t Services \n\t\t\t\t\t\t\t\n\t\t\t\n\t\t\t\n\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tServices\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\tEnabling business leaders to become truly data-driven.\t\t\t\t\t\t\t\t\n\t\t\t",
+        "\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tIndustries\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t\t\tTailored expertise to transform any sector.\t\t\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tTechnology\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\tCPG\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t"
+      ]
+    },
+    {
+      "selector": "ul.elementor-icon-list-items",
+      "count": 18,
+      "sample_html": [
+        "<ul class=\"elementor-icon-list-items\">\n\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"/data-engineering/\" data-faitracker-click-bind=\"true\">\n\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">Data Engineering</span>\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t</ul>",
+        "<ul class=\"elementor-icon-list-items\">\n\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"/data-science-services/\" data-faitracker-click-bind=\"true\">\n\n\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">Data Science</span>\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t</ul>"
+      ],
+      "sample_text": [
+        "\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\tData Engineering\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t",
+        "\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t\t\t\t\tData Science\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t"
+      ]
+    },
+    {
+      "selector": "h6.elementor-heading-title.elementor-size-default",
+      "count": 16,
+      "sample_html": [
+        "<h6 class=\"elementor-heading-title elementor-size-default\"><a href=\"/technology/\" data-faitracker-click-bind=\"true\">Technology</a></h6>",
+        "<h6 class=\"elementor-heading-title elementor-size-default\"><a href=\"/financial-services/\" data-faitracker-click-bind=\"true\">Financial Services</a></h6>"
+      ],
+      "sample_text": [
+        "Technology",
+        "Financial Services"
+      ]
+    },
+    {
+      "selector": "div.elementor-image-box-wrapper",
+      "count": 10,
+      "sample_html": [
+        "<div class=\"elementor-image-box-wrapper\"><div class=\"elementor-image-box-content\"><h3 class=\"elementor-image-box-title\">Become a Data-Driven Leader</h3><p class=\"elementor-image-box-description\">Equip yourself with cutting-edge analytics skills and shape the future of organizations.</p></div></div>",
+        "<div class=\"elementor-image-box-wrapper\"><div class=\"elementor-image-box-content\"><h3 class=\"elementor-image-box-title\">Thrive in a Culture of Innovation</h3><p class=\"elementor-image-box-description\">Unleash your creativity and push boundaries, knowing failure fuels progress.</p></div></div>"
+      ],
+      "sample_text": [
+        "Become a Data-Driven Leader\n\nEquip yourself with cutting-edge analytics skills and shape the future of organizations.",
+        "Thrive in a Culture of Innovation\n\nUnleash your creativity and push boundaries, knowing failure fuels progress."
+      ]
+    },
+    {
+      "selector": "div.elementor-image-box-content",
+      "count": 10,
+      "sample_html": [
+        "<div class=\"elementor-image-box-content\"><h3 class=\"elementor-image-box-title\">Become a Data-Driven Leader</h3><p class=\"elementor-image-box-description\">Equip yourself with cutting-edge analytics skills and shape the future of organizations.</p></div>",
+        "<div class=\"elementor-image-box-content\"><h3 class=\"elementor-image-box-title\">Thrive in a Culture of Innovation</h3><p class=\"elementor-image-box-description\">Unleash your creativity and push boundaries, knowing failure fuels progress.</p></div>"
+      ],
+      "sample_text": [
+        "Become a Data-Driven Leader\n\nEquip yourself with cutting-edge analytics skills and shape the future of organizations.",
+        "Thrive in a Culture of Innovation\n\nUnleash your creativity and push boundaries, knowing failure fuels progress."
+      ]
+    },
+    {
+      "selector": "li.e-n-menu-item",
+      "count": 8,
+      "sample_html": [
+        "<li class=\"e-n-menu-item\">\n\t\t\t\t<div id=\"e-n-menu-title-1241\" class=\"e-n-menu-title e-anchor\">\n\t\t\t\t\t<a class=\"e-n-menu-title-container e-focus e-link\" href=\"#\" aria-current=\"page\" data-focus-index=\"1\" data-faitracker-click-bind=\"true\">\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"e-n-menu-title-text\">\n\t\t\t\t\t\t\tExpertise\t\t\t\t\t\t</span>\n\t\t\t\t\t</a>\t\t\t\t\t\t\t\t\t\t\t<button id=\"e-n-menu-dropdown-icon-1241\" class=\"e-n-menu-dropdown-icon e-focus\" data-tab-index=\"1\" aria-haspopup=\"true\" aria-expanded=\"false\" aria-controls=\"e-n-menu-content-1241\" data-focus-index=\"2\" data-faitracker-form-bind=\"true\" data-faitracker-click-bind=\"true\">\n\t\t\t\t\t\t\t<span class=\"e-n-menu-dropdown-icon-opened\">\n\t\t\t\t\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-angle-up\" viewBox=\"0 0 320 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z\"></path></svg>\t\t\t\t\t\t\t\t<span class=\"elementor-screen-only\">Close Expertise</span>\n\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t<span class=\"e-n-menu-dropdown-icon-closed\">\n\t\t\t\t\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-angle-down\" viewBox=\"0 0 320 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z\"></path></svg>\t\t\t\t\t\t\t\t<span class=\"elemento",
+        "<li class=\"e-n-menu-item\">\n\t\t\t\t<div id=\"e-n-menu-title-1242\" class=\"e-n-menu-title e-anchor\">\n\t\t\t\t\t<a class=\"e-n-menu-title-container e-focus e-link\" href=\"#\" aria-current=\"page\" data-focus-index=\"3\" data-faitracker-click-bind=\"true\">\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"e-n-menu-title-text\">\n\t\t\t\t\t\t\tIndustries\t\t\t\t\t\t</span>\n\t\t\t\t\t</a>\t\t\t\t\t\t\t\t\t\t\t<button id=\"e-n-menu-dropdown-icon-1242\" class=\"e-n-menu-dropdown-icon e-focus\" data-tab-index=\"2\" aria-haspopup=\"true\" aria-expanded=\"false\" aria-controls=\"e-n-menu-content-1242\" data-focus-index=\"4\" data-faitracker-form-bind=\"true\" data-faitracker-click-bind=\"true\">\n\t\t\t\t\t\t\t<span class=\"e-n-menu-dropdown-icon-opened\">\n\t\t\t\t\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-angle-up\" viewBox=\"0 0 320 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z\"></path></svg>\t\t\t\t\t\t\t\t<span class=\"elementor-screen-only\">Close Industries</span>\n\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t<span class=\"e-n-menu-dropdown-icon-closed\">\n\t\t\t\t\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-angle-down\" viewBox=\"0 0 320 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z\"></path></svg>\t\t\t\t\t\t\t\t<span class=\"elemen"
+      ],
+      "sample_text": [
+        "Expertise\nOpen Expertise",
+        "Industries\nOpen Industries"
+      ]
+    },
+    {
+      "selector": "div.e-n-menu-content",
+      "count": 8,
+      "sample_html": [
+        "<div class=\"e-n-menu-content\">\n\t\t\t\t\t\t<div id=\"e-n-menu-content-1241\" data-tab-index=\"1\" aria-labelledby=\"e-n-menu-dropdown-icon-1241\" class=\"elementor-element elementor-element-e02bc2b e-flex e-con-boxed e-con e-child\" data-id=\"e02bc2b\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-be99245 menu-ac elementor-widget elementor-widget-n-accordion\" data-id=\"be99245\" data-element_type=\"widget\" data-settings=\"{&quot;default_state&quot;:&quot;expanded&quot;,&quot;max_items_expended&quot;:&quot;one&quot;,&quot;n_accordion_animation_duration&quot;:{&quot;unit&quot;:&quot;ms&quot;,&quot;size&quot;:400,&quot;sizes&quot;:[]}}\" data-widget_type=\"nested-accordion.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"e-n-accordion\" aria-label=\"Accordion. Open links with Enter or Space, close with Escape, and navigate with Arrow Keys\">\n\t\t\t\t\t\t<details id=\"e-n-accordion-item-1990\" class=\"e-n-accordion-item\" open=\"\">\n\t\t\t\t<summary class=\"e-n-accordion-item-title\" data-accordion-index=\"1\" tabindex=\"0\" aria-expanded=\"true\" aria-controls=\"e-n-accordion-item-1990\">\n\t\t\t\t\t<span class=\"e-n-accordion-item-title-header\"><div class=\"e-n-accordion-item-title-text\"> Services </div></span>\n\t\t\t\t\t\t\t<span class=\"e-n-accordion-item-title-icon\">\n\t\t\t<span class=\"e-opened\"><svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-angle-up\" viewBox=\"0 0 320 512\" xm",
+        "<div class=\"e-n-menu-content\">\n\t\t\t\t\t\t<div id=\"e-n-menu-content-1242\" data-tab-index=\"2\" aria-labelledby=\"e-n-menu-dropdown-icon-1242\" class=\"elementor-element elementor-element-b58c32f e-flex e-con-boxed e-con e-child\" data-id=\"b58c32f\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-861b221 e-con-full e-flex e-con e-child\" data-id=\"861b221\" data-element_type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-e481a5a elementor-widget elementor-widget-heading\" data-id=\"e481a5a\" data-element_type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h4 class=\"elementor-heading-title elementor-size-default\">Industries</h4>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-e88f6b1 elementor-widget elementor-widget-text-editor\" data-id=\"e88f6b1\" data-element_type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p>Tailored expertise to <br>transform any sector.</p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-acb3754 e-con-full servicestab e-flex e-con e-child\" data-id=\"acb3754\" data-element_type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-2679aac elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-id=\"2679aac\" data-element_type"
+      ],
+      "sample_text": [
+        "",
+        ""
+      ]
+    }
+  ],
+  "page_title": "Careers | LatentView Analytics",
+  "cookie_banner_dismissed": true,
+  "search_interacted": false,
+  "status": "ok",
+  "screenshot": "latentview-analytics.png"
+}
