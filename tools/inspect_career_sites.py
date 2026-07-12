@@ -187,16 +187,34 @@ DETECT_JS = r"""
   }
 
   // Pass 2 (fallback for hashed/CSS-in-JS classnames): repeated element containing a
-  // title-length anchor link.
+  // title-length anchor link. Some sites (Google's careers site among them) use a
+  // clickable div/button with role="button" as the card's primary target instead of
+  // a real <a>, so those count too.
   const byAnchor = {};
   for (const el of all) {
     if (!el.className || typeof el.className !== 'string' || !el.className.trim()) continue;
-    const anchor = el.tagName.toLowerCase() === 'a' ? el : el.querySelector('a');
+    const tag = el.tagName.toLowerCase();
+    const isClickable = tag === 'a' || tag === 'button' || el.getAttribute('role') === 'button';
+    const anchor = isClickable ? el : el.querySelector('a, [role="button"], button');
     if (!anchor) continue;
     const text = (anchor.innerText || '').trim();
     if (text.length < 10 || text.length > 120) continue;
     const key = selectorFor(el);
     (byAnchor[key] = byAnchor[key] || []).push(el);
+  }
+
+  // Pass 3 (fallback): repeated element containing a heading (h1-h6) with
+  // title-length text - catches cards whose primary click target isn't a link or
+  // button at all (e.g. the whole card has a JS click handler on a plain div).
+  const byHeading = {};
+  for (const el of all) {
+    if (!el.className || typeof el.className !== 'string' || !el.className.trim()) continue;
+    const heading = el.querySelector('h1, h2, h3, h4, h5, h6');
+    if (!heading) continue;
+    const text = (heading.innerText || '').trim();
+    if (text.length < 5 || text.length > 100) continue;
+    const key = selectorFor(el);
+    (byHeading[key] = byHeading[key] || []).push(el);
   }
 
   function topCandidates(groups) {
@@ -215,10 +233,12 @@ DETECT_JS = r"""
   const keywordCandidates = topCandidates(byKeyword);
   const seen = new Set(keywordCandidates.map(c => c.selector));
   const anchorCandidates = topCandidates(byAnchor).filter(c => !seen.has(c.selector));
+  anchorCandidates.forEach(c => seen.add(c.selector));
+  const headingCandidates = topCandidates(byHeading).filter(c => !seen.has(c.selector));
 
   return {
     keyword_candidates: keywordCandidates,
-    structural_candidates: anchorCandidates,
+    structural_candidates: [...anchorCandidates, ...headingCandidates],
     page_title: document.title,
   };
 }
