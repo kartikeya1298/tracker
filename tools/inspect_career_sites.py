@@ -96,7 +96,10 @@ CUSTOM_SITES: list[tuple[str, str]] = [
     ("cisco", "https://careers.cisco.com/global/en/search-results?keywords=Data+Scientist&location=India&locationLevel=country&mode=location"),
     ("intel", "https://jobs.intel.com/en/search-jobs?k=data%20scientist"),
     ("uber", "https://www.uber.com/us/en/careers/list/?query=data%20scientist"),
-    ("linkedin", "https://careers.linkedin.com/jobs/search?keywords=data%20scientist"),
+    # careers.linkedin.com/jobs/search resolves to a dead backend path (plain 404 from
+    # the Apache Sling content server) - the real LinkedIn jobs search lives on the
+    # main linkedin.com/jobs surface.
+    ("linkedin", "https://www.linkedin.com/jobs/data-scientist-jobs?location=India"),
     ("servicenow", "https://careers.servicenow.com/jobs/?search=data+scientist"),
     # careers.jpmorgan.com just redirected to a marketing homepage with no visible
     # search box in the DOM - this is the real underlying Oracle Fusion Cloud
@@ -230,13 +233,15 @@ DETECT_JS = r"""
     (byAnchor[key] = byAnchor[key] || []).push(el);
   }
 
-  // Pass 3 (fallback): repeated element containing a heading (h1-h6) with
-  // title-length text - catches cards whose primary click target isn't a link or
-  // button at all (e.g. the whole card has a JS click handler on a plain div).
+  // Pass 3 (fallback): repeated element containing a heading (h1-h6, or a
+  // role="heading" div - Google's Material-style job cards use the latter,
+  // not real semantic heading tags) with title-length text - catches cards
+  // whose primary click target isn't a link or button at all (e.g. the whole
+  // card has a JS click handler on a plain div).
   const byHeading = {};
   for (const el of all) {
     if (!el.className || typeof el.className !== 'string' || !el.className.trim()) continue;
-    const heading = el.querySelector('h1, h2, h3, h4, h5, h6');
+    const heading = el.querySelector('h1, h2, h3, h4, h5, h6, [role="heading"]');
     if (!heading) continue;
     const text = (heading.innerText || '').trim();
     if (text.length < 5 || text.length > 100) continue;
@@ -383,6 +388,35 @@ def try_search_interaction(page: Page) -> bool:
     return True
 
 
+SPINNER_CHECK_JS = """
+() => {
+  const selectors = ['[class*="spinner" i]', '[class*="loading" i]', '[class*="loader" i]', '[aria-busy="true"]'];
+  for (const sel of selectors) {
+    const el = document.querySelector(sel);
+    if (el && el.offsetParent !== null) return true;
+  }
+  return false;
+}
+"""
+
+
+def wait_for_spinner_to_clear(page: Page, max_extra_wait_ms: int = 20000, poll_interval_ms: int = 2000) -> None:
+    """Some SPAs (Oracle Fusion Cloud Recruiting in particular - JPMorgan Chase got
+    stuck on a bare loading spinner through the standard wait, twice) keep showing a
+    spinner well after the networkidle event fires. Poll for a visible spinner-like
+    element and give it real extra time to clear before giving up on it."""
+    elapsed = 0
+    while elapsed < max_extra_wait_ms:
+        try:
+            spinning = page.evaluate(SPINNER_CHECK_JS)
+        except PlaywrightError:
+            return
+        if not spinning:
+            return
+        page.wait_for_timeout(poll_interval_ms)
+        elapsed += poll_interval_ms
+
+
 def _count(analysis: dict | None) -> int:
     if not analysis:
         return 0
@@ -419,6 +453,7 @@ def inspect_site_once(browser, slug: str, url: str, timeout_ms: int) -> dict:
         except PlaywrightError:
             pass
         page.wait_for_timeout(2000)
+        wait_for_spinner_to_clear(page)
 
         dismissed = dismiss_cookie_banner(page)
         if dismissed:
@@ -436,6 +471,7 @@ def inspect_site_once(browser, slug: str, url: str, timeout_ms: int) -> dict:
         after_search = None
         after_search_n = 0
         if interacted:
+            wait_for_spinner_to_clear(page)
             after_search = run_detection_safe(page)
             after_search_n = _count(after_search)
             print(f"   -> after search: {after_search_n} candidates")
