@@ -366,8 +366,14 @@ COMPANIES: list[dict] = [
     # (fractal.wd1.myworkdayjobs.com/en-US/Careers/job/...).
     {"name": "Fractal Analytics", "slug": "fractal-analytics", "platform": ATSPlatform.WORKDAY,
      "identifier": "fractal|wd1|Careers", "careers_url": "https://fractal.wd1.myworkdayjobs.com/en-US/Careers", "verified": True},
+    # Real job data confirmed (title "p.job-title" / "a.job-title-link" and location
+    # value "span.label-value.location" both found via inspection), but the shared
+    # item wrapper containing both wasn't identified - title and location appeared as
+    # same-count (10) sibling elements, not one obviously-common parent. Needs a
+    # closer look at the live page's DOM tree to find the real item_selector before
+    # this can be marked verified.
     {"name": "ZS Associates", "slug": "zs-associates", "platform": ATSPlatform.CUSTOM,
-     "identifier": _custom("https://jobs.zs.com/jobs"), "careers_url": "https://jobs.zs.com/jobs", "verified": False},
+     "identifier": _custom("https://jobs.zs.com/jobs", item_sel=".job-result, .job-card"), "careers_url": "https://jobs.zs.com/jobs", "verified": False},
     # Runs on the SenseHQ ATS platform.
     {"name": "Tiger Analytics", "slug": "tiger-analytics", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://tiger-analytics.sensehq.com/careers"), "careers_url": "https://tiger-analytics.sensehq.com/careers", "verified": False},
@@ -395,12 +401,23 @@ COMPANIES: list[dict] = [
          "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/jobs"
          "?keyword=Data+Scientist&location=India&locationId=300000000467203&locationLevel=country&mode=location"
      ), "careers_url": "https://www.exlservice.com/careers", "verified": False},
-    # Runs on SmartRecruiters, which (like Greenhouse/Lever) has a public postings
-    # JSON API - api.smartrecruiters.com/v1/companies/{company}/postings - worth a
-    # dedicated adapter (see app/scrapers/greenhouse.py for the pattern to follow)
-    # rather than the generic Playwright scraper, as a future enhancement.
+    # Confirmed real title/link data ("li.opening-job" / "h4.details-title" /
+    # "a.link--block.details.js-job-ad-link"), but this page groups jobs under a
+    # location heading rather than repeating the location inside each job's own
+    # element (confirmed via "section.openings-section.opening--grouped" wrapping
+    # multiple "li.opening-job" per location) - GenericPlaywrightScraper can only
+    # extract fields from within each item's own subtree, not an ancestor heading, so
+    # location would come back empty here. Runs on SmartRecruiters, which (like
+    # Greenhouse/Lever) has a public postings JSON API -
+    # api.smartrecruiters.com/v1/companies/{company}/postings - that returns location
+    # as a real structured field and is the proper fix; worth a dedicated adapter
+    # (see app/scrapers/greenhouse.py for the pattern to follow) rather than solving
+    # this via the generic HTML scraper.
     {"name": "WNS Global Services", "slug": "wns-global-services", "platform": ATSPlatform.CUSTOM,
-     "identifier": _custom("https://careers.smartrecruiters.com/WNSGlobalServices144/wns-india-career-page"),
+     "identifier": _custom(
+         "https://careers.smartrecruiters.com/WNSGlobalServices144/wns-india-career-page",
+         item_sel="li.opening-job",
+     ),
      "careers_url": "https://careers.smartrecruiters.com/WNSGlobalServices144/wns-india-career-page", "verified": False},
 ]
 
