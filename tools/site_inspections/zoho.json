@@ -1,19 +1,159 @@
 {
   "slug": "zoho",
-  "url": "https://www.zoho.com/careers/openpositions.html",
+  "url": "https://www.zoho.com/careers/",
   "initial": {
-    "keyword_candidates": [],
-    "structural_candidates": [],
-    "page_title": "",
-    "_eval_error": "Page.evaluate: TypeError: Cannot read properties of undefined (reading 'call')\n    at k.botDetected (eval at <anonymous> (https://cdn-in.pagesense.io/js/7nbagtjv/a63a3daff87f4d33b6cffbe7a949ff5f.js:5:52956), <anonymous>:3:71505)\n    at h8 (eval at <anonymous> (https://cdn-in.pagesense.io/js/7nbagtjv/a63a3daff87f4d33b6cffbe7a949ff5f.js:5:52956), <anonymous>:3:67620)\n    at hJ.<computed>.<computed> [as querySelectorAll] (eval at <anonymous> (https://cdn-in.pagesense.io/js/7nbagtjv/a63a3daff87f4d33b6cffbe7a949ff5f.js:5:52956), <anonymous>:3:67791)\n    at eval (eval at evaluate (:234:30), <anonymous>:9:35)\n    at UtilityScript.evaluate (<anonymous>:241:19)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+    "keyword_candidates": [
+      {
+        "selector": "div.cw-filter-joblist",
+        "count": 4,
+        "sample_html": [
+          "<div class=\"cw-filter-joblist\" click=\"career-website-job-layout3 => clickJob(this)\"> <div class=\"cw-filter-joblist-left\"> <h3> <a style=\"color:#6875E2\" class=\"cw-3-title cw-bw\" href=\"https://us-careers.zohorecruit.in/jobs/Careers/195077000007958134/Enterprise-Solutions-Engineer---Data-BI-Platform?source=CareerSite\">Enterprise Solutions Engineer - Data &amp; BI Platform</a>  </h3> <p class=\"filter-subhead cw-bw\" style=\"color:#50566d\">  Austin, Texas, United States   </p>  <p class=\"cw-bw\" style=\"color:#50566d\">Location: Austin, TX (in-person at 979 Springdale Road, Suite 123, Austin, TX 78702) Type: Full-Time, In-Office About the Role As an Enterprise Pre-Sa...</p>  </div> <div class=\"cw-filter-joblist-right\"> <span class=\"search-date-type\">  <span style=\"color:#50566d\" class=\"cw-full-time\">Full time</span>   <span class=\"search-date-opened\" style=\"color:#50566d\">06/01/2026</span>  </span> </div> </div>",
+          "<div class=\"cw-filter-joblist\" click=\"career-website-job-layout3 => clickJob(this)\"> <div class=\"cw-filter-joblist-left\"> <h3> <a style=\"color:#6875E2\" class=\"cw-3-title cw-bw\" href=\"https://us-careers.zohorecruit.in/jobs/Careers/195077000009132240/SMB-Account-Executive?source=CareerSite\">SMB Account Executive</a>  </h3> <p class=\"filter-subhead cw-bw\" style=\"color:#50566d\">  New Braunfels, Texas, United States   </p>  <p class=\"cw-bw\" style=\"color:#50566d\">About Zoho: Zoho develops cloud-based business software for a wide array of industries and departmental needs. Over the past 25 years, our portfolio h...</p>  </div> <div class=\"cw-filter-joblist-right\"> <span class=\"search-date-type\">  <span style=\"color:#50566d\" class=\"cw-full-time\">Full time</span>   <span class=\"search-date-opened\" style=\"color:#50566d\">04/27/2026</span>  </span> </div> </div>"
+        ],
+        "sample_text": [
+          "Enterprise Solutions Engineer - Data & BI Platform\n\nAustin, Texas, United States\n\nLocation: Austin, TX (in-person at 979 Springdale Road, Suite 123, Austin, TX 78702) Type: Full-Time, In-Office About ",
+          "SMB Account Executive\n\nNew Braunfels, Texas, United States\n\nAbout Zoho: Zoho develops cloud-based business software for a wide array of industries and departmental needs. Over the past 25 years, our p"
+        ]
+      },
+      {
+        "selector": "div.cw-filter-joblist-left",
+        "count": 4,
+        "sample_html": [
+          "<div class=\"cw-filter-joblist-left\"> <h3> <a style=\"color:#6875E2\" class=\"cw-3-title cw-bw\" href=\"https://us-careers.zohorecruit.in/jobs/Careers/195077000007958134/Enterprise-Solutions-Engineer---Data-BI-Platform?source=CareerSite\">Enterprise Solutions Engineer - Data &amp; BI Platform</a>  </h3> <p class=\"filter-subhead cw-bw\" style=\"color:#50566d\">  Austin, Texas, United States   </p>  <p class=\"cw-bw\" style=\"color:#50566d\">Location: Austin, TX (in-person at 979 Springdale Road, Suite 123, Austin, TX 78702) Type: Full-Time, In-Office About the Role As an Enterprise Pre-Sa...</p>  </div>",
+          "<div class=\"cw-filter-joblist-left\"> <h3> <a style=\"color:#6875E2\" class=\"cw-3-title cw-bw\" href=\"https://us-careers.zohorecruit.in/jobs/Careers/195077000009132240/SMB-Account-Executive?source=CareerSite\">SMB Account Executive</a>  </h3> <p class=\"filter-subhead cw-bw\" style=\"color:#50566d\">  New Braunfels, Texas, United States   </p>  <p class=\"cw-bw\" style=\"color:#50566d\">About Zoho: Zoho develops cloud-based business software for a wide array of industries and departmental needs. Over the past 25 years, our portfolio h...</p>  </div>"
+        ],
+        "sample_text": [
+          "Enterprise Solutions Engineer - Data & BI Platform\n\nAustin, Texas, United States\n\nLocation: Austin, TX (in-person at 979 Springdale Road, Suite 123, Austin, TX 78702) Type: Full-Time, In-Office About ",
+          "SMB Account Executive\n\nNew Braunfels, Texas, United States\n\nAbout Zoho: Zoho develops cloud-based business software for a wide array of industries and departmental needs. Over the past 25 years, our p"
+        ]
+      },
+      {
+        "selector": "div.cw-filter-joblist-right",
+        "count": 4,
+        "sample_html": [
+          "<div class=\"cw-filter-joblist-right\"> <span class=\"search-date-type\">  <span style=\"color:#50566d\" class=\"cw-full-time\">Full time</span>   <span class=\"search-date-opened\" style=\"color:#50566d\">06/01/2026</span>  </span> </div>",
+          "<div class=\"cw-filter-joblist-right\"> <span class=\"search-date-type\">  <span style=\"color:#50566d\" class=\"cw-full-time\">Full time</span>   <span class=\"search-date-opened\" style=\"color:#50566d\">04/27/2026</span>  </span> </div>"
+        ],
+        "sample_text": [
+          "Full time\n06/01/2026",
+          "Full time\n04/27/2026"
+        ]
+      },
+      {
+        "selector": "a.cw-joblist-btn",
+        "count": 3,
+        "sample_html": [
+          "<a href=\"https://recruit.zoho.in/recruit/zoho_us/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"cw-joblist-btn\" style=\"color:#6875E2\"> <span>Visit website</span> </a>",
+          "<a href=\"https://www.zoho.com/perspectives/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"cw-joblist-btn\" style=\"color:#6875E2\"> <span>Perspectives</span> </a>"
+        ],
+        "sample_text": [
+          "Visit website",
+          "Perspectives"
+        ]
+      }
+    ],
+    "structural_candidates": [
+      {
+        "selector": "a.cw-3-title.cw-bw",
+        "count": 4,
+        "sample_html": [
+          "<a style=\"color:#6875E2\" class=\"cw-3-title cw-bw\" href=\"https://us-careers.zohorecruit.in/jobs/Careers/195077000007958134/Enterprise-Solutions-Engineer---Data-BI-Platform?source=CareerSite\">Enterprise Solutions Engineer - Data &amp; BI Platform</a>",
+          "<a style=\"color:#6875E2\" class=\"cw-3-title cw-bw\" href=\"https://us-careers.zohorecruit.in/jobs/Careers/195077000009132240/SMB-Account-Executive?source=CareerSite\">SMB Account Executive</a>"
+        ],
+        "sample_text": [
+          "Enterprise Solutions Engineer - Data & BI Platform",
+          "SMB Account Executive"
+        ]
+      }
+    ],
+    "page_title": "US Careers at Zoho Corporation"
   },
-  "after_search": null,
+  "after_search": {
+    "keyword_candidates": [
+      {
+        "selector": "a.cw-joblist-btn",
+        "count": 3,
+        "sample_html": [
+          "<a href=\"https://recruit.zoho.in/recruit/zoho_us/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"cw-joblist-btn\" style=\"color:#6875E2\"> <span>Visit website</span> </a>",
+          "<a href=\"https://www.zoho.com/perspectives/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"cw-joblist-btn\" style=\"color:#6875E2\"> <span>Perspectives</span> </a>"
+        ],
+        "sample_text": [
+          "Visit website",
+          "Perspectives"
+        ]
+      }
+    ],
+    "structural_candidates": [],
+    "page_title": "US Careers at Zoho Corporation"
+  },
   "best_source": "initial",
-  "keyword_candidates": [],
-  "structural_candidates": [],
-  "page_title": "",
+  "keyword_candidates": [
+    {
+      "selector": "div.cw-filter-joblist",
+      "count": 4,
+      "sample_html": [
+        "<div class=\"cw-filter-joblist\" click=\"career-website-job-layout3 => clickJob(this)\"> <div class=\"cw-filter-joblist-left\"> <h3> <a style=\"color:#6875E2\" class=\"cw-3-title cw-bw\" href=\"https://us-careers.zohorecruit.in/jobs/Careers/195077000007958134/Enterprise-Solutions-Engineer---Data-BI-Platform?source=CareerSite\">Enterprise Solutions Engineer - Data &amp; BI Platform</a>  </h3> <p class=\"filter-subhead cw-bw\" style=\"color:#50566d\">  Austin, Texas, United States   </p>  <p class=\"cw-bw\" style=\"color:#50566d\">Location: Austin, TX (in-person at 979 Springdale Road, Suite 123, Austin, TX 78702) Type: Full-Time, In-Office About the Role As an Enterprise Pre-Sa...</p>  </div> <div class=\"cw-filter-joblist-right\"> <span class=\"search-date-type\">  <span style=\"color:#50566d\" class=\"cw-full-time\">Full time</span>   <span class=\"search-date-opened\" style=\"color:#50566d\">06/01/2026</span>  </span> </div> </div>",
+        "<div class=\"cw-filter-joblist\" click=\"career-website-job-layout3 => clickJob(this)\"> <div class=\"cw-filter-joblist-left\"> <h3> <a style=\"color:#6875E2\" class=\"cw-3-title cw-bw\" href=\"https://us-careers.zohorecruit.in/jobs/Careers/195077000009132240/SMB-Account-Executive?source=CareerSite\">SMB Account Executive</a>  </h3> <p class=\"filter-subhead cw-bw\" style=\"color:#50566d\">  New Braunfels, Texas, United States   </p>  <p class=\"cw-bw\" style=\"color:#50566d\">About Zoho: Zoho develops cloud-based business software for a wide array of industries and departmental needs. Over the past 25 years, our portfolio h...</p>  </div> <div class=\"cw-filter-joblist-right\"> <span class=\"search-date-type\">  <span style=\"color:#50566d\" class=\"cw-full-time\">Full time</span>   <span class=\"search-date-opened\" style=\"color:#50566d\">04/27/2026</span>  </span> </div> </div>"
+      ],
+      "sample_text": [
+        "Enterprise Solutions Engineer - Data & BI Platform\n\nAustin, Texas, United States\n\nLocation: Austin, TX (in-person at 979 Springdale Road, Suite 123, Austin, TX 78702) Type: Full-Time, In-Office About ",
+        "SMB Account Executive\n\nNew Braunfels, Texas, United States\n\nAbout Zoho: Zoho develops cloud-based business software for a wide array of industries and departmental needs. Over the past 25 years, our p"
+      ]
+    },
+    {
+      "selector": "div.cw-filter-joblist-left",
+      "count": 4,
+      "sample_html": [
+        "<div class=\"cw-filter-joblist-left\"> <h3> <a style=\"color:#6875E2\" class=\"cw-3-title cw-bw\" href=\"https://us-careers.zohorecruit.in/jobs/Careers/195077000007958134/Enterprise-Solutions-Engineer---Data-BI-Platform?source=CareerSite\">Enterprise Solutions Engineer - Data &amp; BI Platform</a>  </h3> <p class=\"filter-subhead cw-bw\" style=\"color:#50566d\">  Austin, Texas, United States   </p>  <p class=\"cw-bw\" style=\"color:#50566d\">Location: Austin, TX (in-person at 979 Springdale Road, Suite 123, Austin, TX 78702) Type: Full-Time, In-Office About the Role As an Enterprise Pre-Sa...</p>  </div>",
+        "<div class=\"cw-filter-joblist-left\"> <h3> <a style=\"color:#6875E2\" class=\"cw-3-title cw-bw\" href=\"https://us-careers.zohorecruit.in/jobs/Careers/195077000009132240/SMB-Account-Executive?source=CareerSite\">SMB Account Executive</a>  </h3> <p class=\"filter-subhead cw-bw\" style=\"color:#50566d\">  New Braunfels, Texas, United States   </p>  <p class=\"cw-bw\" style=\"color:#50566d\">About Zoho: Zoho develops cloud-based business software for a wide array of industries and departmental needs. Over the past 25 years, our portfolio h...</p>  </div>"
+      ],
+      "sample_text": [
+        "Enterprise Solutions Engineer - Data & BI Platform\n\nAustin, Texas, United States\n\nLocation: Austin, TX (in-person at 979 Springdale Road, Suite 123, Austin, TX 78702) Type: Full-Time, In-Office About ",
+        "SMB Account Executive\n\nNew Braunfels, Texas, United States\n\nAbout Zoho: Zoho develops cloud-based business software for a wide array of industries and departmental needs. Over the past 25 years, our p"
+      ]
+    },
+    {
+      "selector": "div.cw-filter-joblist-right",
+      "count": 4,
+      "sample_html": [
+        "<div class=\"cw-filter-joblist-right\"> <span class=\"search-date-type\">  <span style=\"color:#50566d\" class=\"cw-full-time\">Full time</span>   <span class=\"search-date-opened\" style=\"color:#50566d\">06/01/2026</span>  </span> </div>",
+        "<div class=\"cw-filter-joblist-right\"> <span class=\"search-date-type\">  <span style=\"color:#50566d\" class=\"cw-full-time\">Full time</span>   <span class=\"search-date-opened\" style=\"color:#50566d\">04/27/2026</span>  </span> </div>"
+      ],
+      "sample_text": [
+        "Full time\n06/01/2026",
+        "Full time\n04/27/2026"
+      ]
+    },
+    {
+      "selector": "a.cw-joblist-btn",
+      "count": 3,
+      "sample_html": [
+        "<a href=\"https://recruit.zoho.in/recruit/zoho_us/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"cw-joblist-btn\" style=\"color:#6875E2\"> <span>Visit website</span> </a>",
+        "<a href=\"https://www.zoho.com/perspectives/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"cw-joblist-btn\" style=\"color:#6875E2\"> <span>Perspectives</span> </a>"
+      ],
+      "sample_text": [
+        "Visit website",
+        "Perspectives"
+      ]
+    }
+  ],
+  "structural_candidates": [
+    {
+      "selector": "a.cw-3-title.cw-bw",
+      "count": 4,
+      "sample_html": [
+        "<a style=\"color:#6875E2\" class=\"cw-3-title cw-bw\" href=\"https://us-careers.zohorecruit.in/jobs/Careers/195077000007958134/Enterprise-Solutions-Engineer---Data-BI-Platform?source=CareerSite\">Enterprise Solutions Engineer - Data &amp; BI Platform</a>",
+        "<a style=\"color:#6875E2\" class=\"cw-3-title cw-bw\" href=\"https://us-careers.zohorecruit.in/jobs/Careers/195077000009132240/SMB-Account-Executive?source=CareerSite\">SMB Account Executive</a>"
+      ],
+      "sample_text": [
+        "Enterprise Solutions Engineer - Data & BI Platform",
+        "SMB Account Executive"
+      ]
+    }
+  ],
+  "page_title": "US Careers at Zoho Corporation",
   "cookie_banner_dismissed": false,
-  "search_interacted": false,
-  "status": "no_candidates_found",
+  "search_interacted": true,
+  "status": "ok",
   "screenshot": "zoho.png"
 }

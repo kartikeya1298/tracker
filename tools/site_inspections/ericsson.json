@@ -1,22 +1,142 @@
 {
   "slug": "ericsson",
-  "url": "https://career2.successfactors.eu/careers?company=Ericsson",
+  "url": "https://jobs.ericsson.com/careers?query=data+scientist",
   "initial": {
-    "keyword_candidates": [],
-    "structural_candidates": [],
-    "page_title": "Career Opportunities"
+    "keyword_candidates": [
+      {
+        "selector": "div.cardContainer-GcY1a.jobCardsContainer-UtWGt",
+        "count": 10,
+        "sample_html": [
+          "<div class=\"cardContainer-GcY1a jobCardsContainer-UtWGt\" data-test-id=\"job-listing\"><a class=\"r-link card-F1ebU  similarJobsCard-1CGdx\" title=\"\" id=\"job-card-563121774720814\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"View job: Technical Lead/Senior Engineer in Embedded Software  - 5G User Plane Control/Scheduler\" href=\"/careers/job/563121774720814\" style=\"height: 100%; border: var(--card-border);\"><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_vertical__ZyU6e stack-module_gap-s__snYAO\"><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_horizontal__m-79-\" style=\"justify-content: space-between;\"><div class=\"title-1aNJK\">Technical Lead/Senior Engineer in Embedded Software  - 5G User Plane Control/Scheduler</div></div><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_vertical__ZyU6e stack-module_gap-xs__ypD4w\"><div class=\"stack-module_stack__LqslD fieldsContainer-3Jtts stack-module_full-width__cNMyu stack-module_horizontal__m-79- stack-module_gap-xxs__Uv8xU\"><span class=\"icon-module_icon-wrapper__f-syW\"><svg viewBox=\"0 0 24 24\" role=\"presentation\" style=\"width: 20px; height: 20px;\"><path d=\"M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z\" style=\"fill: currentcolor;\"></path></svg></span>",
+          "<div class=\"cardContainer-GcY1a jobCardsContainer-UtWGt\" data-test-id=\"job-listing\"><a class=\"r-link card-F1ebU  similarJobsCard-1CGdx\" title=\"\" id=\"job-card-563121772960635\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"View job: Automation AI ML for Open RAN CoOp\" href=\"/careers/job/563121772960635\" style=\"height: 100%; border: var(--card-border);\"><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_vertical__ZyU6e stack-module_gap-s__snYAO\"><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_horizontal__m-79-\" style=\"justify-content: space-between;\"><div class=\"title-1aNJK\">Automation AI ML for Open RAN CoOp</div></div><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_vertical__ZyU6e stack-module_gap-xs__ypD4w\"><div class=\"stack-module_stack__LqslD fieldsContainer-3Jtts stack-module_full-width__cNMyu stack-module_horizontal__m-79- stack-module_gap-xxs__Uv8xU\"><span class=\"icon-module_icon-wrapper__f-syW\"><svg viewBox=\"0 0 24 24\" role=\"presentation\" style=\"width: 20px; height: 20px;\"><path d=\"M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z\" style=\"fill: currentcolor;\"></path></svg></span><div class=\"fieldValue-3kEar\">Ottawa,Ontario,Canada</div></div><div class=\"stack-module_stack__LqslD fie"
+        ],
+        "sample_text": [
+          "Technical Lead/Senior Engineer in Embedded Software - 5G User Plane Control/Scheduler\nKrak\u00f3w,Krak\u00f3w,Poland\nProduct Development\nPosted 2 months ago",
+          "Automation AI ML for Open RAN CoOp\nOttawa,Ontario,Canada\nProduct Development\nPosted 5 days ago"
+        ]
+      },
+      {
+        "selector": "a.r-link.card-F1ebU.similarJobsCard-1CGdx",
+        "count": 10,
+        "sample_html": [
+          "<a class=\"r-link card-F1ebU  similarJobsCard-1CGdx\" title=\"\" id=\"job-card-563121774720814\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"View job: Technical Lead/Senior Engineer in Embedded Software  - 5G User Plane Control/Scheduler\" href=\"/careers/job/563121774720814\" style=\"height: 100%; border: var(--card-border);\"><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_vertical__ZyU6e stack-module_gap-s__snYAO\"><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_horizontal__m-79-\" style=\"justify-content: space-between;\"><div class=\"title-1aNJK\">Technical Lead/Senior Engineer in Embedded Software  - 5G User Plane Control/Scheduler</div></div><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_vertical__ZyU6e stack-module_gap-xs__ypD4w\"><div class=\"stack-module_stack__LqslD fieldsContainer-3Jtts stack-module_full-width__cNMyu stack-module_horizontal__m-79- stack-module_gap-xxs__Uv8xU\"><span class=\"icon-module_icon-wrapper__f-syW\"><svg viewBox=\"0 0 24 24\" role=\"presentation\" style=\"width: 20px; height: 20px;\"><path d=\"M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z\" style=\"fill: currentcolor;\"></path></svg></span><div class=\"fieldValue-3kEar\">Krak\u00f3w,Krak\u00f3w,Poland</div></div><div class=\"stack-modu",
+          "<a class=\"r-link card-F1ebU  similarJobsCard-1CGdx\" title=\"\" id=\"job-card-563121772960635\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"View job: Automation AI ML for Open RAN CoOp\" href=\"/careers/job/563121772960635\" style=\"height: 100%; border: var(--card-border);\"><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_vertical__ZyU6e stack-module_gap-s__snYAO\"><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_horizontal__m-79-\" style=\"justify-content: space-between;\"><div class=\"title-1aNJK\">Automation AI ML for Open RAN CoOp</div></div><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_vertical__ZyU6e stack-module_gap-xs__ypD4w\"><div class=\"stack-module_stack__LqslD fieldsContainer-3Jtts stack-module_full-width__cNMyu stack-module_horizontal__m-79- stack-module_gap-xxs__Uv8xU\"><span class=\"icon-module_icon-wrapper__f-syW\"><svg viewBox=\"0 0 24 24\" role=\"presentation\" style=\"width: 20px; height: 20px;\"><path d=\"M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z\" style=\"fill: currentcolor;\"></path></svg></span><div class=\"fieldValue-3kEar\">Ottawa,Ontario,Canada</div></div><div class=\"stack-module_stack__LqslD fieldsContainer-3Jtts stack-module_full-width__cNMyu stack-module_horizontal__m-79- sta"
+        ],
+        "sample_text": [
+          "Technical Lead/Senior Engineer in Embedded Software - 5G User Plane Control/Scheduler\nKrak\u00f3w,Krak\u00f3w,Poland\nProduct Development\nPosted 2 months ago",
+          "Automation AI ML for Open RAN CoOp\nOttawa,Ontario,Canada\nProduct Development\nPosted 5 days ago"
+        ]
+      }
+    ],
+    "structural_candidates": [
+      {
+        "selector": "li.carousel-scroll-menu-item",
+        "count": 8,
+        "sample_html": [
+          "<li class=\"carousel-scroll-menu-item\" data-key=\"563121772960635\" data-index=\"1\" style=\"margin-left: 0px; margin-right: 4px;\"><div class=\"cardContainer-GcY1a jobCardsContainer-UtWGt\" data-test-id=\"job-listing\"><a class=\"r-link card-F1ebU  similarJobsCard-1CGdx\" title=\"\" id=\"job-card-563121772960635\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"View job: Automation AI ML for Open RAN CoOp\" href=\"/careers/job/563121772960635\" style=\"height: 100%; border: var(--card-border);\"><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_vertical__ZyU6e stack-module_gap-s__snYAO\"><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_horizontal__m-79-\" style=\"justify-content: space-between;\"><div class=\"title-1aNJK\">Automation AI ML for Open RAN CoOp</div></div><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_vertical__ZyU6e stack-module_gap-xs__ypD4w\"><div class=\"stack-module_stack__LqslD fieldsContainer-3Jtts stack-module_full-width__cNMyu stack-module_horizontal__m-79- stack-module_gap-xxs__Uv8xU\"><span class=\"icon-module_icon-wrapper__f-syW\"><svg viewBox=\"0 0 24 24\" role=\"presentation\" style=\"width: 20px; height: 20px;\"><path d=\"M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z\" style=\"fill: currentcolor;\"",
+          "<li class=\"carousel-scroll-menu-item\" data-key=\"563121776295445\" data-index=\"2\" style=\"margin-left: 0px; margin-right: 4px;\"><div class=\"cardContainer-GcY1a jobCardsContainer-UtWGt\" data-test-id=\"job-listing\"><a class=\"r-link card-F1ebU  similarJobsCard-1CGdx\" title=\"\" id=\"job-card-563121776295445\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"View job: IT Product Architect\" href=\"/careers/job/563121776295445\" style=\"height: 100%; border: var(--card-border);\"><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_vertical__ZyU6e stack-module_gap-s__snYAO\"><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_horizontal__m-79-\" style=\"justify-content: space-between;\"><div class=\"title-1aNJK\">IT Product Architect</div></div><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_vertical__ZyU6e stack-module_gap-xs__ypD4w\"><div class=\"stack-module_stack__LqslD fieldsContainer-3Jtts stack-module_full-width__cNMyu stack-module_horizontal__m-79- stack-module_gap-xxs__Uv8xU\"><span class=\"icon-module_icon-wrapper__f-syW\"><svg viewBox=\"0 0 24 24\" role=\"presentation\" style=\"width: 20px; height: 20px;\"><path d=\"M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z\" style=\"fill: currentcolor;\"></path></svg></span><div cl"
+        ],
+        "sample_text": [
+          "Automation AI ML for Open RAN CoOp\nOttawa,Ontario,Canada\nProduct Development\nPosted 5 days ago",
+          "IT Product Architect\nNoida,Uttar Pradesh,India + 2 more\nIT\nPosted 13 days ago"
+        ]
+      },
+      {
+        "selector": "span.cmpboxbtnspan",
+        "count": 4,
+        "sample_html": [
+          "<span id=\"cmpwelcomebtnyes\" class=\"cmpboxbtnspan\"><a class=\"cmpboxbtn cmpboxbtnyes cmptxt_btn_yes\" role=\"button\" tabindex=\"0\" href=\"#\" draggable=\"false\"><span id=\"cmpbntyestxt\">Accept all</span></a></span>",
+          "<span id=\"cmpwelcomebtnno\" class=\"cmpboxbtnspan\"><a class=\"cmpboxbtn cmpboxbtnno cmptxt_btn_no\" role=\"button\" tabindex=\"0\" href=\"#\" draggable=\"false\"><span id=\"cmpbntnotxt\">Accept necessary only</span></a></span>"
+        ],
+        "sample_text": [
+          "Accept all",
+          "Accept necessary only"
+        ]
+      },
+      {
+        "selector": "nav.footerMenu.col-xs-6.col-sm-4.col-md-3.col-lg-2",
+        "count": 3,
+        "sample_html": [
+          "<nav class=\"footerMenu col-xs-6 col-sm-4 col-md-3 col-lg-2\">\n                    <h2 class=\"footerMenuTitle\"></h2>\n                    <ul>\n                        <li class=\"\"><a href=\"https://www.ericsson.com/en/ai\" title=\"AI and Automation\" target=\"_blank\" aria-description=\"Opens in a new tab.\">AI and Automation</a></li>\n                        <li class=\"\"><a href=\"https://www.ericsson.com/en/security\" title=\"Security\" target=\"_blank\" aria-description=\"Opens in a new tab.\">Security</a></li>\n                        <li class=\"\"><a href=\"https://www.redbeemedia.com/\" title=\"Red Bee Media\" target=\"_blank\" aria-description=\"Opens in a new tab.\">Red Bee Media</a></li>\n                        <li class=\"\"><a href=\"https://www.emodoinc.com/\" title=\"Emodo\" target=\"_blank\" aria-description=\"Opens in a new tab.\">Emodo</a></li>\n                    </ul>\n                </nav>",
+          "<nav class=\"footerMenu col-xs-6 col-sm-4 col-md-3 col-lg-2\">\n                    <h2 class=\"footerMenuTitle\"></h2>\n                    <ul>\n                        <li class=\"\"><a href=\"https://www.ericsson.com/en/blog\" title=\"The Ericsson Blog\" target=\"_blank\" aria-description=\"Opens in a new tab.\">The Ericsson Blog</a></li>\n                        <li class=\"\"><a href=\"https://www.ericsson.com/en/newsroom\" title=\"Newsroom\" target=\"_blank\" aria-description=\"Opens in a new tab.\">Newsroom</a></li>\n                        <li class=\"\"><a href=\"https://www.ericsson.com/en/events\" title=\"Events\" target=\"_blank\" aria-description=\"Opens in a new tab.\">Events</a></li>\n                        <li class=\"\"><a href=\"https://www.ericsson.com/en/about-us/sustainability-and-corporate-responsibility\" title=\"Sustainability &amp; CR\" target=\"_blank\" aria-description=\"Opens in a new tab.\">Sustainability &amp; CR</a></li>\n                        <li class=\"\"><a href=\"https://www.ericsson.com/en/about-us/sustainability-and-corporate-responsibility/responsible-business/anti-corruption\" title=\"Anti-corruption\" target=\"_blank\" aria-description=\"Opens in a new tab.\">Anti-corruption</a></li>\n                    </ul>\n                </nav>"
+        ],
+        "sample_text": [
+          "AI and Automation\nSecurity\nRed Bee Media\nEmodo",
+          "The Ericsson Blog\nNewsroom\nEvents\nSustainability & CR\nAnti-corruption"
+        ]
+      }
+    ],
+    "page_title": "Careers at Ericsson | Ericsson"
   },
-  "after_search": {
-    "keyword_candidates": [],
-    "structural_candidates": [],
-    "page_title": "Sign in to your account"
-  },
+  "after_search": null,
   "best_source": "initial",
-  "keyword_candidates": [],
-  "structural_candidates": [],
-  "page_title": "Career Opportunities",
+  "keyword_candidates": [
+    {
+      "selector": "div.cardContainer-GcY1a.jobCardsContainer-UtWGt",
+      "count": 10,
+      "sample_html": [
+        "<div class=\"cardContainer-GcY1a jobCardsContainer-UtWGt\" data-test-id=\"job-listing\"><a class=\"r-link card-F1ebU  similarJobsCard-1CGdx\" title=\"\" id=\"job-card-563121774720814\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"View job: Technical Lead/Senior Engineer in Embedded Software  - 5G User Plane Control/Scheduler\" href=\"/careers/job/563121774720814\" style=\"height: 100%; border: var(--card-border);\"><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_vertical__ZyU6e stack-module_gap-s__snYAO\"><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_horizontal__m-79-\" style=\"justify-content: space-between;\"><div class=\"title-1aNJK\">Technical Lead/Senior Engineer in Embedded Software  - 5G User Plane Control/Scheduler</div></div><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_vertical__ZyU6e stack-module_gap-xs__ypD4w\"><div class=\"stack-module_stack__LqslD fieldsContainer-3Jtts stack-module_full-width__cNMyu stack-module_horizontal__m-79- stack-module_gap-xxs__Uv8xU\"><span class=\"icon-module_icon-wrapper__f-syW\"><svg viewBox=\"0 0 24 24\" role=\"presentation\" style=\"width: 20px; height: 20px;\"><path d=\"M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z\" style=\"fill: currentcolor;\"></path></svg></span>",
+        "<div class=\"cardContainer-GcY1a jobCardsContainer-UtWGt\" data-test-id=\"job-listing\"><a class=\"r-link card-F1ebU  similarJobsCard-1CGdx\" title=\"\" id=\"job-card-563121772960635\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"View job: Automation AI ML for Open RAN CoOp\" href=\"/careers/job/563121772960635\" style=\"height: 100%; border: var(--card-border);\"><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_vertical__ZyU6e stack-module_gap-s__snYAO\"><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_horizontal__m-79-\" style=\"justify-content: space-between;\"><div class=\"title-1aNJK\">Automation AI ML for Open RAN CoOp</div></div><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_vertical__ZyU6e stack-module_gap-xs__ypD4w\"><div class=\"stack-module_stack__LqslD fieldsContainer-3Jtts stack-module_full-width__cNMyu stack-module_horizontal__m-79- stack-module_gap-xxs__Uv8xU\"><span class=\"icon-module_icon-wrapper__f-syW\"><svg viewBox=\"0 0 24 24\" role=\"presentation\" style=\"width: 20px; height: 20px;\"><path d=\"M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z\" style=\"fill: currentcolor;\"></path></svg></span><div class=\"fieldValue-3kEar\">Ottawa,Ontario,Canada</div></div><div class=\"stack-module_stack__LqslD fie"
+      ],
+      "sample_text": [
+        "Technical Lead/Senior Engineer in Embedded Software - 5G User Plane Control/Scheduler\nKrak\u00f3w,Krak\u00f3w,Poland\nProduct Development\nPosted 2 months ago",
+        "Automation AI ML for Open RAN CoOp\nOttawa,Ontario,Canada\nProduct Development\nPosted 5 days ago"
+      ]
+    },
+    {
+      "selector": "a.r-link.card-F1ebU.similarJobsCard-1CGdx",
+      "count": 10,
+      "sample_html": [
+        "<a class=\"r-link card-F1ebU  similarJobsCard-1CGdx\" title=\"\" id=\"job-card-563121774720814\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"View job: Technical Lead/Senior Engineer in Embedded Software  - 5G User Plane Control/Scheduler\" href=\"/careers/job/563121774720814\" style=\"height: 100%; border: var(--card-border);\"><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_vertical__ZyU6e stack-module_gap-s__snYAO\"><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_horizontal__m-79-\" style=\"justify-content: space-between;\"><div class=\"title-1aNJK\">Technical Lead/Senior Engineer in Embedded Software  - 5G User Plane Control/Scheduler</div></div><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_vertical__ZyU6e stack-module_gap-xs__ypD4w\"><div class=\"stack-module_stack__LqslD fieldsContainer-3Jtts stack-module_full-width__cNMyu stack-module_horizontal__m-79- stack-module_gap-xxs__Uv8xU\"><span class=\"icon-module_icon-wrapper__f-syW\"><svg viewBox=\"0 0 24 24\" role=\"presentation\" style=\"width: 20px; height: 20px;\"><path d=\"M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z\" style=\"fill: currentcolor;\"></path></svg></span><div class=\"fieldValue-3kEar\">Krak\u00f3w,Krak\u00f3w,Poland</div></div><div class=\"stack-modu",
+        "<a class=\"r-link card-F1ebU  similarJobsCard-1CGdx\" title=\"\" id=\"job-card-563121772960635\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"View job: Automation AI ML for Open RAN CoOp\" href=\"/careers/job/563121772960635\" style=\"height: 100%; border: var(--card-border);\"><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_vertical__ZyU6e stack-module_gap-s__snYAO\"><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_horizontal__m-79-\" style=\"justify-content: space-between;\"><div class=\"title-1aNJK\">Automation AI ML for Open RAN CoOp</div></div><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_vertical__ZyU6e stack-module_gap-xs__ypD4w\"><div class=\"stack-module_stack__LqslD fieldsContainer-3Jtts stack-module_full-width__cNMyu stack-module_horizontal__m-79- stack-module_gap-xxs__Uv8xU\"><span class=\"icon-module_icon-wrapper__f-syW\"><svg viewBox=\"0 0 24 24\" role=\"presentation\" style=\"width: 20px; height: 20px;\"><path d=\"M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z\" style=\"fill: currentcolor;\"></path></svg></span><div class=\"fieldValue-3kEar\">Ottawa,Ontario,Canada</div></div><div class=\"stack-module_stack__LqslD fieldsContainer-3Jtts stack-module_full-width__cNMyu stack-module_horizontal__m-79- sta"
+      ],
+      "sample_text": [
+        "Technical Lead/Senior Engineer in Embedded Software - 5G User Plane Control/Scheduler\nKrak\u00f3w,Krak\u00f3w,Poland\nProduct Development\nPosted 2 months ago",
+        "Automation AI ML for Open RAN CoOp\nOttawa,Ontario,Canada\nProduct Development\nPosted 5 days ago"
+      ]
+    }
+  ],
+  "structural_candidates": [
+    {
+      "selector": "li.carousel-scroll-menu-item",
+      "count": 8,
+      "sample_html": [
+        "<li class=\"carousel-scroll-menu-item\" data-key=\"563121772960635\" data-index=\"1\" style=\"margin-left: 0px; margin-right: 4px;\"><div class=\"cardContainer-GcY1a jobCardsContainer-UtWGt\" data-test-id=\"job-listing\"><a class=\"r-link card-F1ebU  similarJobsCard-1CGdx\" title=\"\" id=\"job-card-563121772960635\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"View job: Automation AI ML for Open RAN CoOp\" href=\"/careers/job/563121772960635\" style=\"height: 100%; border: var(--card-border);\"><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_vertical__ZyU6e stack-module_gap-s__snYAO\"><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_horizontal__m-79-\" style=\"justify-content: space-between;\"><div class=\"title-1aNJK\">Automation AI ML for Open RAN CoOp</div></div><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_vertical__ZyU6e stack-module_gap-xs__ypD4w\"><div class=\"stack-module_stack__LqslD fieldsContainer-3Jtts stack-module_full-width__cNMyu stack-module_horizontal__m-79- stack-module_gap-xxs__Uv8xU\"><span class=\"icon-module_icon-wrapper__f-syW\"><svg viewBox=\"0 0 24 24\" role=\"presentation\" style=\"width: 20px; height: 20px;\"><path d=\"M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z\" style=\"fill: currentcolor;\"",
+        "<li class=\"carousel-scroll-menu-item\" data-key=\"563121776295445\" data-index=\"2\" style=\"margin-left: 0px; margin-right: 4px;\"><div class=\"cardContainer-GcY1a jobCardsContainer-UtWGt\" data-test-id=\"job-listing\"><a class=\"r-link card-F1ebU  similarJobsCard-1CGdx\" title=\"\" id=\"job-card-563121776295445\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"View job: IT Product Architect\" href=\"/careers/job/563121776295445\" style=\"height: 100%; border: var(--card-border);\"><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_vertical__ZyU6e stack-module_gap-s__snYAO\"><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_horizontal__m-79-\" style=\"justify-content: space-between;\"><div class=\"title-1aNJK\">IT Product Architect</div></div><div class=\"stack-module_stack__LqslD stack-module_full-width__cNMyu stack-module_vertical__ZyU6e stack-module_gap-xs__ypD4w\"><div class=\"stack-module_stack__LqslD fieldsContainer-3Jtts stack-module_full-width__cNMyu stack-module_horizontal__m-79- stack-module_gap-xxs__Uv8xU\"><span class=\"icon-module_icon-wrapper__f-syW\"><svg viewBox=\"0 0 24 24\" role=\"presentation\" style=\"width: 20px; height: 20px;\"><path d=\"M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z\" style=\"fill: currentcolor;\"></path></svg></span><div cl"
+      ],
+      "sample_text": [
+        "Automation AI ML for Open RAN CoOp\nOttawa,Ontario,Canada\nProduct Development\nPosted 5 days ago",
+        "IT Product Architect\nNoida,Uttar Pradesh,India + 2 more\nIT\nPosted 13 days ago"
+      ]
+    },
+    {
+      "selector": "span.cmpboxbtnspan",
+      "count": 4,
+      "sample_html": [
+        "<span id=\"cmpwelcomebtnyes\" class=\"cmpboxbtnspan\"><a class=\"cmpboxbtn cmpboxbtnyes cmptxt_btn_yes\" role=\"button\" tabindex=\"0\" href=\"#\" draggable=\"false\"><span id=\"cmpbntyestxt\">Accept all</span></a></span>",
+        "<span id=\"cmpwelcomebtnno\" class=\"cmpboxbtnspan\"><a class=\"cmpboxbtn cmpboxbtnno cmptxt_btn_no\" role=\"button\" tabindex=\"0\" href=\"#\" draggable=\"false\"><span id=\"cmpbntnotxt\">Accept necessary only</span></a></span>"
+      ],
+      "sample_text": [
+        "Accept all",
+        "Accept necessary only"
+      ]
+    },
+    {
+      "selector": "nav.footerMenu.col-xs-6.col-sm-4.col-md-3.col-lg-2",
+      "count": 3,
+      "sample_html": [
+        "<nav class=\"footerMenu col-xs-6 col-sm-4 col-md-3 col-lg-2\">\n                    <h2 class=\"footerMenuTitle\"></h2>\n                    <ul>\n                        <li class=\"\"><a href=\"https://www.ericsson.com/en/ai\" title=\"AI and Automation\" target=\"_blank\" aria-description=\"Opens in a new tab.\">AI and Automation</a></li>\n                        <li class=\"\"><a href=\"https://www.ericsson.com/en/security\" title=\"Security\" target=\"_blank\" aria-description=\"Opens in a new tab.\">Security</a></li>\n                        <li class=\"\"><a href=\"https://www.redbeemedia.com/\" title=\"Red Bee Media\" target=\"_blank\" aria-description=\"Opens in a new tab.\">Red Bee Media</a></li>\n                        <li class=\"\"><a href=\"https://www.emodoinc.com/\" title=\"Emodo\" target=\"_blank\" aria-description=\"Opens in a new tab.\">Emodo</a></li>\n                    </ul>\n                </nav>",
+        "<nav class=\"footerMenu col-xs-6 col-sm-4 col-md-3 col-lg-2\">\n                    <h2 class=\"footerMenuTitle\"></h2>\n                    <ul>\n                        <li class=\"\"><a href=\"https://www.ericsson.com/en/blog\" title=\"The Ericsson Blog\" target=\"_blank\" aria-description=\"Opens in a new tab.\">The Ericsson Blog</a></li>\n                        <li class=\"\"><a href=\"https://www.ericsson.com/en/newsroom\" title=\"Newsroom\" target=\"_blank\" aria-description=\"Opens in a new tab.\">Newsroom</a></li>\n                        <li class=\"\"><a href=\"https://www.ericsson.com/en/events\" title=\"Events\" target=\"_blank\" aria-description=\"Opens in a new tab.\">Events</a></li>\n                        <li class=\"\"><a href=\"https://www.ericsson.com/en/about-us/sustainability-and-corporate-responsibility\" title=\"Sustainability &amp; CR\" target=\"_blank\" aria-description=\"Opens in a new tab.\">Sustainability &amp; CR</a></li>\n                        <li class=\"\"><a href=\"https://www.ericsson.com/en/about-us/sustainability-and-corporate-responsibility/responsible-business/anti-corruption\" title=\"Anti-corruption\" target=\"_blank\" aria-description=\"Opens in a new tab.\">Anti-corruption</a></li>\n                    </ul>\n                </nav>"
+      ],
+      "sample_text": [
+        "AI and Automation\nSecurity\nRed Bee Media\nEmodo",
+        "The Ericsson Blog\nNewsroom\nEvents\nSustainability & CR\nAnti-corruption"
+      ]
+    }
+  ],
+  "page_title": "Careers at Ericsson | Ericsson",
   "cookie_banner_dismissed": false,
-  "search_interacted": true,
-  "status": "no_candidates_found",
+  "search_interacted": false,
+  "status": "ok",
   "screenshot": "ericsson.png"
 }
