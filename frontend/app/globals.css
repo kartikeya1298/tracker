@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-plane text-ink-primary dark:bg-plane-dark dark:text-ink-primary-dark;
+    font-variant-numeric: proportional-nums;
+  }
+}
+
+@layer utilities {
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+  .card {
+    @apply bg-surface dark:bg-surface-dark border border-line-hairline dark:border-line-hairline-dark rounded-lg;
+  }
+}

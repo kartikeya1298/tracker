@@ -1,0 +1,21 @@
+Copy this file to data/resume.txt and replace with your real resume text.
+The AI resume-matching feature reads data/resume.txt (plain text) to score each
+new job posting against your background and skills.
+
+--- Example structure ---
+NAME: Jane Doe
+EDUCATION: B.Tech Computer Science, XYZ University, 2026
+
+SKILLS: Python, SQL, Pandas, NumPy, Scikit-learn, Power BI, Tableau, Excel,
+Machine Learning fundamentals, Statistics
+
+EXPERIENCE:
+- Data Analyst Intern, Acme Corp (6 months) — built dashboards in Power BI,
+  wrote SQL queries against a 10M-row sales warehouse, automated weekly
+  reporting with Python/Pandas.
+
+PROJECTS:
+- Customer churn prediction model (scikit-learn, ~85% accuracy)
+- COVID data visualization dashboard (Tableau)
+
+CERTIFICATIONS: Google Data Analytics Certificate
