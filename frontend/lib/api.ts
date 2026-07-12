@@ -8,7 +8,12 @@ import type {
   Stats,
 } from "./types";
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+// NEXT_PUBLIC_API_URL is baked in at build time (standard Next.js behavior) and,
+// when set, makes the browser call the backend directly - used by docker-compose
+// and local dev. When unset, requests go out as same-origin relative paths and are
+// proxied server-side by the rewrite in next.config.mjs (BACKEND_INTERNAL_URL,
+// read at runtime) - used on hosts where a build-time backend URL isn't available.
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || "";
 
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
   const res = await fetch(`${API_BASE}${path}`, {
