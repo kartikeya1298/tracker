@@ -1,0 +1,64 @@
+name: Inspect Career Sites
+
+# Manual, on-demand tool — NOT part of the production scraping pipeline (that runs
+# inside the app's own scheduler). This exists purely to discover the real CSS
+# selectors for the career sites in registry.py that don't have a public ATS API,
+# by running tools/inspect_career_sites.py on a GitHub-hosted runner (which has normal
+# internet access, unlike some sandboxed dev environments). Results are committed back
+# to the branch that triggered the run.
+
+on:
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Comma-separated company slugs to inspect (blank = all)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install -r tools/requirements.txt
+          playwright install --with-deps chromium
+
+      - name: Run inspection
+        working-directory: tools
+        run: |
+          if [ -n "${{ inputs.only }}" ]; then
+            python inspect_career_sites.py --headless --only "${{ inputs.only }}"
+          else
+            python inspect_career_sites.py --headless
+          fi
+
+      - name: Commit results back to branch
+        run: |
+          git config user.name "career-site-inspector-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -f tools/site_inspections/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Automated career site inspection results [skip ci]"
+            git push
+          fi
+
+      - name: Upload results as artifact too
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-inspections
+          path: tools/site_inspections/
+          retention-days: 14
