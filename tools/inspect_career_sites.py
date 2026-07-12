@@ -10,17 +10,26 @@ have. It does two things:
    kept here in case a future company needs the same treatment.)
 
 2. For every other unverified/`custom`-platform company in the registry, it loads the
-   career site in a real (headed, to reduce bot-detection false negatives) Chromium and:
+   career site in a real (headed, to reduce bot-detection false negatives) Chromium,
+   with a realistic desktop user-agent and `navigator.webdriver` masked (a common
+   bot-detection signal), and:
    a. Tries to dismiss a cookie-consent banner (OneTrust and similar are extremely
       common and can visually cover/block the results grid even though the DOM behind
       it is fine — but some sites also gate rendering on consent).
    b. Runs the DOM detection heuristic once immediately (covers sites where the search
       query in the URL already works).
-   c. If that finds nothing, looks for a search input on the page, types "data
-      scientist" into it, submits, waits for the page to settle, and re-runs detection.
-      This is the main upgrade over the first pass of this tool — a lot of "no
-      candidates found" results turned out to be sites that never actually executed
-      the URL-encoded search query without a real keystroke+submit interaction.
+   c. ALWAYS also looks for a search input on the page (regardless of whether step (b)
+      found something) — types "data scientist" into it, submits, waits for the page
+      to settle, and re-runs detection. Earlier versions of this tool only tried the
+      search interaction when the initial scan found *zero* candidates, but nav-menu
+      links, footer links, and testimonial cards can easily clear the ">=3 repeated
+      elements" bar without being real job listings — so "found something initially"
+      turned out not to be a reliable signal to skip the search step. Both the
+      initial and after-search candidate sets are kept in the output; whichever has
+      more candidates is promoted to the top-level fields, but check `initial` vs
+      `after_search` yourself if the promoted one still looks wrong.
+   d. On a hard navigation/network error, retries once after a short delay before
+      giving up (some failures are transient WAF/rate-limit blips, not permanent).
 
    Detection itself groups DOM nodes by tag+class, first by job/career/listing-related
    class-name keywords, then (if that finds nothing — common on sites using hashed
@@ -29,9 +38,9 @@ have. It does two things:
    of the first two — that snippet is what actually tells us the real
    title/location/link selectors to put in registry.py.
 
-Output: one JSON file per company in ./site_inspections/<slug>.json (now includes a
-`stage` field: "initial" or "after_search", so you know which path found it), a
-screenshot per company, and a summary.json across all of them.
+Output: one JSON file per company in ./site_inspections/<slug>.json (includes
+`initial`, `after_search`, and `best_source` fields so you can see which stage won),
+a screenshot per company, and a summary.json across all of them.
 
 Usage:
     pip install playwright httpx
@@ -55,6 +64,10 @@ from playwright.sync_api import sync_playwright
 
 OUTPUT_DIR = Path(__file__).parent / "site_inspections"
 SEARCH_TEXT = "data scientist"
+REALISTIC_UA = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+)
 
 # The 28 rows still `verified=False` in backend/app/scrapers/registry.py as of this
 # tool's last update (2026-07-12, after the first inspection pass resolved 12 more
@@ -278,9 +291,34 @@ def try_search_interaction(page: Page) -> bool:
     return True
 
 
-def inspect_site(browser, slug: str, url: str, timeout_ms: int) -> dict:
-    print(f"== {slug} -> {url}")
-    page = browser.new_page(viewport={"width": 1440, "height": 1000})
+def _count(analysis: dict | None) -> int:
+    if not analysis:
+        return 0
+    return len(analysis.get("keyword_candidates", [])) + len(analysis.get("structural_candidates", []))
+
+
+def run_detection_safe(page: Page) -> dict:
+    """page.evaluate can throw if a navigation happens mid-call (e.g. a search
+    submit that does a full page load rather than an XHR) - retry once after
+    letting the new page settle instead of losing the whole site to one race."""
+    try:
+        return page.evaluate(DETECT_JS)
+    except PlaywrightError:
+        try:
+            page.wait_for_load_state("domcontentloaded", timeout=10000)
+            page.wait_for_timeout(1000)
+            return page.evaluate(DETECT_JS)
+        except PlaywrightError as exc:
+            return {"keyword_candidates": [], "structural_candidates": [], "page_title": "", "_eval_error": str(exc)}
+
+
+def inspect_site_once(browser, slug: str, url: str, timeout_ms: int) -> dict:
+    page = browser.new_page(
+        viewport={"width": 1440, "height": 1000},
+        user_agent=REALISTIC_UA,
+    )
+    # A common, cheap bot-detection signal is navigator.webdriver === true; strip it.
+    page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
     record: dict = {"slug": slug, "url": url}
     try:
         page.goto(url, timeout=timeout_ms, wait_until="domcontentloaded")
@@ -294,39 +332,63 @@ def inspect_site(browser, slug: str, url: str, timeout_ms: int) -> dict:
         if dismissed:
             print("   -> dismissed a cookie banner")
 
-        analysis = page.evaluate(DETECT_JS)
-        n_candidates = len(analysis.get("keyword_candidates", [])) + len(analysis.get("structural_candidates", []))
-        stage = "initial"
+        initial = run_detection_safe(page)
+        initial_n = _count(initial)
+        print(f"   -> initial: {initial_n} candidates")
 
-        if n_candidates == 0:
-            print("   -> no candidates on initial load, trying search interaction...")
-            interacted = try_search_interaction(page)
-            if interacted:
-                analysis = page.evaluate(DETECT_JS)
-                n_candidates = len(analysis.get("keyword_candidates", [])) + len(analysis.get("structural_candidates", []))
-                stage = "after_search"
-                print(f"   -> after search: {n_candidates} candidates" if n_candidates else "   -> still nothing after search")
-            else:
-                print("   -> no search box found on page")
+        # Always attempt the search interaction now, regardless of whether the
+        # initial scan found *something* - a handful of nav-menu/footer links
+        # can easily clear the ">=3 elements" bar without being real job cards,
+        # so "found something" is not the same as "found the right thing."
+        interacted = try_search_interaction(page)
+        after_search = None
+        after_search_n = 0
+        if interacted:
+            after_search = run_detection_safe(page)
+            after_search_n = _count(after_search)
+            print(f"   -> after search: {after_search_n} candidates")
+        else:
+            print("   -> no search box found on page")
 
-        record.update(analysis)
-        record["stage"] = stage
+        use_after_search = after_search is not None and after_search_n > initial_n
+        best = after_search if use_after_search else initial
+        n_candidates = after_search_n if use_after_search else initial_n
+
+        record["initial"] = initial
+        record["after_search"] = after_search
+        record["best_source"] = "after_search" if use_after_search else "initial"
+        record["keyword_candidates"] = best.get("keyword_candidates", [])
+        record["structural_candidates"] = best.get("structural_candidates", [])
+        record["page_title"] = best.get("page_title", "")
         record["cookie_banner_dismissed"] = dismissed
+        record["search_interacted"] = interacted
         record["status"] = "ok" if n_candidates > 0 else "no_candidates_found"
 
         screenshot_path = OUTPUT_DIR / f"{slug}.png"
         page.screenshot(path=str(screenshot_path), full_page=False)
         record["screenshot"] = screenshot_path.name
 
-        print(f"   -> {n_candidates} candidate patterns found (stage={stage})")
+        print(f"   -> best: {n_candidates} candidates (source={record['best_source']})")
         if n_candidates == 0:
-            print("   -> WARNING: nothing matched even after search interaction. May need login, may be canvas/iframe-rendered, or uses a non-standard search UI.")
+            print("   -> WARNING: nothing matched. May need login, may be canvas/iframe-rendered, or uses a non-standard search UI.")
     except PlaywrightError as exc:
         record["status"] = "blocked_or_error"
         record["error"] = str(exc)
         print(f"   -> FAILED: {exc}")
     finally:
         page.close()
+    return record
+
+
+def inspect_site(browser, slug: str, url: str, timeout_ms: int, retries: int = 1) -> dict:
+    print(f"== {slug} -> {url}")
+    record = inspect_site_once(browser, slug, url, timeout_ms)
+    attempt = 1
+    while record.get("status") == "blocked_or_error" and attempt <= retries:
+        print(f"   -> retrying after error (attempt {attempt + 1}/{retries + 1})...")
+        time.sleep(4)
+        record = inspect_site_once(browser, slug, url, timeout_ms)
+        attempt += 1
     return record
 
 
@@ -355,7 +417,10 @@ def main():
         (OUTPUT_DIR / "qualcomm.json").write_text(json.dumps(summary["qualcomm"], indent=2))
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=args.headless)
+        browser = p.chromium.launch(
+            headless=args.headless,
+            args=["--disable-blink-features=AutomationControlled"],
+        )
         try:
             for i, (slug, url) in enumerate(sites):
                 record = inspect_site(browser, slug, url, args.timeout)
