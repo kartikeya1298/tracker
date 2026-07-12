@@ -88,7 +88,12 @@ CUSTOM_SITES: list[tuple[str, str]] = [
     # search that the live URL is .../jobs/results/?q=... (with slash), which likely
     # matters for the client-side router picking up the query param at all.
     ("google", "https://www.google.com/about/careers/applications/jobs/results/?q=Data+Scientist&hl=en-GB"),
-    ("cisco", "https://jobs.cisco.com/jobs/SearchJobs/data%2520scientist"),
+    # jobs.cisco.com is a legacy/parallel portal that only ever showed marketing nav
+    # content in inspection. careers.cisco.com (user-confirmed via a real job posting
+    # URL, careers.cisco.com/global/en/job/2014648/Data-Science-Analyst) matches the
+    # same Oracle Fusion Cloud Recruiting URL shape as JPMorgan Chase/Nokia/Oracle
+    # (/global/en/search-results, /global/en/job/{id}/{slug}) - likely the same platform.
+    ("cisco", "https://careers.cisco.com/global/en/search-results?keywords=Data+Scientist&location=India&locationLevel=country&mode=location"),
     ("ibm", "https://www.ibm.com/careers/search?field_keyword_18[0]=Data%20and%20AI"),
     ("intel", "https://jobs.intel.com/en/search-jobs?k=data%20scientist"),
     ("apple", "https://jobs.apple.com/en-us/search?search=data%20scientist"),

@@ -145,8 +145,12 @@ COMPANIES: list[dict] = [
      "identifier": _custom("https://www.google.com/about/careers/applications/jobs/results/?q=Data+Scientist&hl=en-GB"), "careers_url": "https://careers.google.com", "verified": False},
     {"name": "NVIDIA", "slug": "nvidia", "platform": ATSPlatform.WORKDAY,
      "identifier": "nvidia|wd5|NVIDIAExternalCareerSite", "careers_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite", "verified": True},
-    {"name": "Cisco", "slug": "cisco", "platform": ATSPlatform.CUSTOM,
-     "identifier": _custom("https://jobs.cisco.com/jobs/SearchJobs/data%2520scientist"), "careers_url": "https://jobs.cisco.com", "verified": False},
+    # jobs.cisco.com was the wrong domain (legacy portal, no real listings found).
+    # careers.cisco.com is the real one - user-confirmed via a live job posting URL -
+    # and matches the same Oracle Fusion Cloud Recruiting URL shape as JPMorgan
+    # Chase/Nokia/Oracle.
+    {"name": "Cisco", "slug": "cisco", "platform": ATSPlatform.ORACLE_CAREERS,
+     "identifier": _custom("https://careers.cisco.com/global/en/search-results?keywords=Data+Scientist&location=India&locationLevel=country&mode=location"), "careers_url": "https://careers.cisco.com", "verified": False},
     # IBM: the category-filter URL alone doesn't render results on load - confirmed the
     # search box needs a real keystroke+submit. Uses IBM's Carbon Design System card grid.
     {"name": "IBM", "slug": "ibm", "platform": ATSPlatform.CUSTOM,
