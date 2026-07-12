@@ -195,8 +195,19 @@ COMPANIES: list[dict] = [
      }), "careers_url": "https://jobs.apple.com", "verified": True},
     {"name": "Uber", "slug": "uber", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://www.uber.com/us/en/careers/list/?query=data%20scientist"), "careers_url": "https://www.uber.com/us/en/careers/", "verified": False},
+    # careers.linkedin.com/jobs/search is a dead Apache Sling path (plain 404) - the
+    # real public job-search surface is linkedin.com/jobs. Confirmed via live
+    # inspection (2026-07-12): 60/60 matched title/location/link across every card,
+    # no search-interaction needed since ?location= already filters server-side.
     {"name": "LinkedIn", "slug": "linkedin", "platform": ATSPlatform.CUSTOM,
-     "identifier": _custom("https://careers.linkedin.com/jobs/search?keywords=data%20scientist"), "careers_url": "https://careers.linkedin.com", "verified": False},
+     "identifier": json.dumps({
+         "url": "https://www.linkedin.com/jobs/data-scientist-jobs?location=India",
+         "item_selector": "div.job-search-card",
+         "title_selector": "h3.base-search-card__title",
+         "location_selector": "span.job-search-card__location",
+         "link_selector": "a.base-card__full-link",
+         "link_attr": "href",
+     }), "careers_url": "https://www.linkedin.com/jobs/data-scientist-jobs", "verified": True},
     {"name": "PayPal", "slug": "paypal", "platform": ATSPlatform.WORKDAY,
      "identifier": "paypal|wd1|jobs", "careers_url": "https://paypal.wd1.myworkdayjobs.com/jobs", "verified": True},
     {"name": "ServiceNow", "slug": "servicenow", "platform": ATSPlatform.CUSTOM,

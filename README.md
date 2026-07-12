@@ -79,32 +79,48 @@ Swiggy, Target India, American Express, Optum, EXL Service, WNS Global Services)
 that are often more fresher-friendly for DS specifically than several companies on
 the original list. Two tiers:
 
-- **Verified (30 rows, work immediately):** API-backed rows (Greenhouse, Lever,
+- **Verified (31 rows, work immediately):** API-backed rows (Greenhouse, Lever,
   Workday's CxS API — Databricks, Airbnb, 11 Workday companies including the new
   Fractal Analytics, confirmed via live job-posting URLs/the real API) plus
   CSS-selector rows with real selectors extracted from live rendered HTML via
   `tools/inspect_career_sites.py` (SAP, Siemens, Amazon, Microsoft, IBM, Apple,
   Snowflake, Goldman Sachs, Deloitte, Accenture, Infosys, LTIMindtree, EY, PwC,
-  Ericsson, Zoho, HCLTech). Several needed more than a selector fix — their query
-  strings don't actually trigger a search on page load, only a real keystroke+submit
-  against the search box, so `GenericPlaywrightScraper`
+  Ericsson, Zoho, HCLTech, LinkedIn). Several needed more than a selector fix —
+  their query strings don't actually trigger a search on page load, only a real
+  keystroke+submit against the search box, so `GenericPlaywrightScraper`
   (`app/scrapers/generic.py`) supports an optional `search_input_selector`/
-  `search_submit_selector`/`search_text` config for that. CSS-selector rows are
-  inherently more fragile than API-backed ones since a site redesign can silently
-  break a selector, so still worth a periodic spot-check.
-- **Best-effort (needs bespoke work, ~33 rows):** several inspection passes (see
+  `search_submit_selector`/`search_text` config for that. LinkedIn needed a
+  different fix: its careers.linkedin.com/jobs/search URL is a dead Apache Sling
+  404, and the real public job-search surface (linkedin.com/jobs) confirmed 60/60
+  matched title/location/link across every card on the first pass, no search
+  interaction needed. CSS-selector rows are inherently more fragile than
+  API-backed ones since a site redesign can silently break a selector, so still
+  worth a periodic spot-check.
+- **Best-effort (needs bespoke work, ~32 rows):** several inspection passes (see
   `tools/inspect_career_sites.py`'s git history for what each one found and fixed)
   got the count this far, including catching real bugs in my own guessed URLs along
   the way (wrong domains for Cisco/Cognizant/HCLTech/Zoho/Ericsson, a missing
-  trailing slash for Google) once real ones were confirmed. What's left mostly
-  didn't yield to a generic "type into a search box" heuristic — dropdown/
-  autocomplete filter UIs instead of free text (confirmed for Bosch: a
-  country-then-location autocomplete), multi-step flows, or persistent
-  bot-detection/network failures (TCS). Several (Nokia, Oracle, JPMorgan Chase,
-  Cisco, American Express, EXL Service) run Oracle Fusion Cloud Recruiting, whose
-  two-field "Find"/"Near Location" search bar has a known interaction bug (Enter
-  advances focus to the wrong field) — a deep-link URL with location params baked
-  in bypasses it for some tenants but not all; still being worked through.
+  trailing slash for Google, a dead path for LinkedIn) once real ones were
+  confirmed. What's left mostly didn't yield to a generic "type into a search box"
+  heuristic — dropdown/autocomplete filter UIs instead of free text (confirmed for
+  Bosch: a country-then-location autocomplete), multi-step flows, persistent
+  bot-detection (ServiceNow: a genuine Cloudflare "verify you are human" wall, not
+  fixable by retrying), or network failures (TCS). Several (Nokia, Oracle,
+  JPMorgan Chase, Cisco, American Express, EXL Service) run Oracle Fusion Cloud
+  Recruiting, whose two-field "Find"/"Near Location" search bar has a known
+  interaction bug (Enter advances focus to the wrong field); a deep-link URL with
+  location params baked in still isn't reliably surfacing real listings even with
+  an added spinner-wait, so this platform needs a different interaction strategy
+  next, not more retries of the same one. Google's real job cards were located
+  (`li.lLd3Je`, confirmed via live inspection) but have no plain `<a href>` — the
+  whole card is a JS `jsaction` click handler, which `GenericPlaywrightScraper`'s
+  item-scoped `link_selector` extraction can't read; needs either a URL
+  constructed from the card's `jsdata` job ID or a click-and-capture-navigation
+  approach. Flipkart, Swiggy, Target India, and Intel's `careers_url`s render only
+  marketing/nav content in the DOM scan — their real listings likely load via a
+  separate API call the static/rendered-DOM scan doesn't see, so these need
+  network-request inspection (watching XHR/fetch calls), not another selector
+  guess.
 
   Each entry has the correct `careers_url` and a *template* config for
   `GenericPlaywrightScraper`. Being honest about this bucket: it needs either
@@ -229,7 +245,7 @@ once the backend is running.
 
 ## Known limitations / next steps
 
-- 30 of 63 companies are scrape-verified out of the box as of this writing; see
+- 31 of 63 companies are scrape-verified out of the box as of this writing; see
   "Company registry" above to activate the rest — this is expected onboarding work,
   not a bug.
 - No auth on the dashboard/API — it's designed for single-user personal use behind
