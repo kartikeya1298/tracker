@@ -279,8 +279,10 @@ COMPANIES: list[dict] = [
     # TCS runs its own custom candidate platform ("iBegin"), not Oracle Taleo.
     {"name": "TCS", "slug": "tcs", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://ibegin.tcs.com/iBegin/jobs/search?searchText=data+scientist"), "careers_url": "https://ibegin.tcs.com", "verified": False},
+    # www.hcltech.com was the wrong domain (explains the earlier HTTP2 protocol
+    # error) - user-confirmed real domain is careers.hcltech.com.
     {"name": "HCLTech", "slug": "hcltech", "platform": ATSPlatform.CUSTOM,
-     "identifier": _custom("https://www.hcltech.com/careers/job-search?keywords=data+scientist"), "careers_url": "https://www.hcltech.com/careers", "verified": False},
+     "identifier": _custom("https://careers.hcltech.com/search/?q=Data+Scientist&locationsearch=&searchResultView=LIST&pageNumber=0&facetFilters=%7B%7D&sortBy=&markerViewed=&carouselIndex="), "careers_url": "https://careers.hcltech.com", "verified": False},
     {"name": "Wipro", "slug": "wipro", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://careers.wipro.com/careers-home/jobs?keywords=data+scientist"), "careers_url": "https://careers.wipro.com", "verified": False},
     {"name": "Tech Mahindra", "slug": "tech-mahindra", "platform": ATSPlatform.CUSTOM,

@@ -113,7 +113,10 @@ CUSTOM_SITES: list[tuple[str, str]] = [
     # (location/cname/ccode left blank) rather than guessing a location filter format.
     ("cognizant", "https://careers.cognizant.com/global-en/jobs/?keyword=Data+Scientist&location=&radius=100&lat=&lng=&cname=&ccode=&pagesize=10#results"),
     ("tcs", "https://ibegin.tcs.com/iBegin/jobs/search?searchText=data+scientist"),
-    ("hcltech", "https://www.hcltech.com/careers/job-search?keywords=data+scientist"),
+    # www.hcltech.com/careers/job-search was the wrong domain entirely (explains the
+    # HTTP2 protocol error from earlier rounds) - user-confirmed real domain is the
+    # dedicated careers.hcltech.com subdomain with a "q" param, not "keywords".
+    ("hcltech", "https://careers.hcltech.com/search/?q=Data+Scientist&locationsearch=&searchResultView=LIST&pageNumber=0&facetFilters=%7B%7D&sortBy=&markerViewed=&carouselIndex="),
     ("wipro", "https://careers.wipro.com/careers-home/jobs?keywords=data+scientist"),
     ("tech-mahindra", "https://careers.techmahindra.com/find-a-job?keywords=data+scientist"),
     ("kpmg", "https://kpmg.com/us/en/careers/search-openings.html?q=data+scientist"),
