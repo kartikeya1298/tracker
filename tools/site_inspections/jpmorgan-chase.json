@@ -150,6 +150,8 @@
     }
   ],
   "page_title": "Careers | JPMorganChase",
+  "stage": "initial",
+  "cookie_banner_dismissed": false,
   "status": "ok",
   "screenshot": "jpmorgan-chase.png"
 }

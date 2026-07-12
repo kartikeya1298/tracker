@@ -77,6 +77,8 @@
     }
   ],
   "page_title": "error | Samsung India",
+  "stage": "initial",
+  "cookie_banner_dismissed": false,
   "status": "ok",
   "screenshot": "samsung-rd.png"
 }

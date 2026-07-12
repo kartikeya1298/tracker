@@ -3,7 +3,9 @@
   "url": "https://career2.successfactors.eu/careers?company=Ericsson",
   "keyword_candidates": [],
   "structural_candidates": [],
-  "page_title": "Career Opportunities",
+  "page_title": "Sign in to your account",
+  "stage": "after_search",
+  "cookie_banner_dismissed": false,
   "status": "no_candidates_found",
   "screenshot": "ericsson.png"
 }

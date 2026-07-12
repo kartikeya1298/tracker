@@ -4,6 +4,8 @@
   "keyword_candidates": [],
   "structural_candidates": [],
   "page_title": "Jobs",
+  "stage": "after_search",
+  "cookie_banner_dismissed": true,
   "status": "no_candidates_found",
   "screenshot": "uber.png"
 }

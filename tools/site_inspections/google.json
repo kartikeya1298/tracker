@@ -77,6 +77,8 @@
     }
   ],
   "page_title": "Search Jobs \u2014 Google Careers",
+  "stage": "initial",
+  "cookie_banner_dismissed": false,
   "status": "ok",
   "screenshot": "google.png"
 }

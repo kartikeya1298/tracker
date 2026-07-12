@@ -17,6 +17,8 @@
     }
   ],
   "page_title": "Search Jobs - Oracle Careers",
+  "stage": "initial",
+  "cookie_banner_dismissed": false,
   "status": "ok",
   "screenshot": "oracle.png"
 }

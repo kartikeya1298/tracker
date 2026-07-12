@@ -150,6 +150,8 @@
     }
   ],
   "page_title": "Search Jobs - Jobs - Careers at Apple",
+  "stage": "initial",
+  "cookie_banner_dismissed": false,
   "status": "ok",
   "screenshot": "apple.png"
 }

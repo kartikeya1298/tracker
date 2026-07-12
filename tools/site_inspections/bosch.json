@@ -90,6 +90,8 @@
     }
   ],
   "page_title": "Careers at Bosch",
+  "stage": "initial",
+  "cookie_banner_dismissed": false,
   "status": "ok",
   "screenshot": "bosch.png"
 }

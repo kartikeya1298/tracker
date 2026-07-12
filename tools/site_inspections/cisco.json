@@ -138,6 +138,8 @@
     }
   ],
   "page_title": "Careers at Cisco",
+  "stage": "initial",
+  "cookie_banner_dismissed": false,
   "status": "ok",
   "screenshot": "cisco.png"
 }
