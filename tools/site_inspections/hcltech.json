@@ -1,6 +1,568 @@
 {
   "slug": "hcltech",
-  "url": "https://www.hcltech.com/careers/job-search?keywords=data+scientist",
-  "status": "blocked_or_error",
-  "error": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.hcltech.com/careers/job-search?keywords=data+scientist\nCall log:\n  - navigating to \"https://www.hcltech.com/careers/job-search?keywords=data+scientist\", waiting until \"domcontentloaded\"\n"
+  "url": "https://careers.hcltech.com/search/?q=Data+Scientist&locationsearch=&searchResultView=LIST&pageNumber=0&facetFilters=%7B%7D&sortBy=&markerViewed=&carouselIndex=",
+  "initial": {
+    "keyword_candidates": [
+      {
+        "selector": "div.JobsList_jobCardFooterDesktop__hP+-D",
+        "count": 30,
+        "sample_html": [
+          "<div data-help-id=\"jobCardFooterRow_0\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">91733</span></div>",
+          "<div data-help-id=\"jobCardFooterRow_0\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">Malaysia</span></div>"
+        ],
+        "sample_text": [
+          "91733",
+          "Malaysia"
+        ]
+      },
+      {
+        "selector": "span.JobsList_jobCardFooterLabel__Hcalb",
+        "count": 30,
+        "sample_html": [
+          "<span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span>",
+          "<span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span>"
+        ],
+        "sample_text": [
+          "",
+          ""
+        ]
+      },
+      {
+        "selector": "span.JobsList_jobCardFooterValue__Lc--j",
+        "count": 30,
+        "sample_html": [
+          "<span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">91733</span>",
+          "<span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">Malaysia</span>"
+        ],
+        "sample_text": [
+          "91733",
+          "Malaysia"
+        ]
+      },
+      {
+        "selector": "li.JobsList_jobCard__8wE-Z",
+        "count": 10,
+        "sample_html": [
+          "<li data-testid=\"jobCard\" class=\"JobsList_jobCard__8wE-Z\"><div class=\"_flexBox_11fgm_1 _flexBoxDirectionRow_11fgm_66 _justifyContentStart_11fgm_11 _alignItemsStart_11fgm_33 _flexWrapNoWrap_11fgm_74\" data-help-id=\"jobCardFlexBox\"><a href=\"/job/AI-Data-Scientist/91733-en_US\" class=\"jobCardTitle JobsList_jobCardTitle__pRNjw\" aria-label=\"AI Data Scientist, job posting 1 of 4083\" data-testid=\"jobCardTitle_0\">AI Data Scientist</a></div><div data-testid=\"jobCardFooter\" class=\"JobsList_jobCardFooterContainer__tIkK1 \"><div data-help-id=\"jobCardFooterRow_0\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">91733</span></div><div data-help-id=\"jobCardFooterRow_0\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">Malaysia</span></div><div data-help-id=\"jobCardFooterRow_0\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">Kuala Lumpur</span></div></div></li>",
+          "<li data-testid=\"jobCard\" class=\"JobsList_jobCard__8wE-Z\"><div class=\"_flexBox_11fgm_1 _flexBoxDirectionRow_11fgm_66 _justifyContentStart_11fgm_11 _alignItemsStart_11fgm_33 _flexWrapNoWrap_11fgm_74\" data-help-id=\"jobCardFlexBox\"><a href=\"/job/Data-Scientist-ML%2C-Python/104940-en_US\" class=\"jobCardTitle JobsList_jobCardTitle__pRNjw\" aria-label=\"Data Scientist - ML, Python, job posting 2 of 4083\" data-testid=\"jobCardTitle_1\">Data Scientist - ML, Python</a></div><div data-testid=\"jobCardFooter\" class=\"JobsList_jobCardFooterContainer__tIkK1 \"><div data-help-id=\"jobCardFooterRow_1\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_1\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_1\" class=\"JobsList_jobCardFooterValue__Lc--j\">104940</span></div><div data-help-id=\"jobCardFooterRow_1\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_1\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_1\" class=\"JobsList_jobCardFooterValue__Lc--j\">India</span></div><div data-help-id=\"jobCardFooterRow_1\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_1\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_1\" class=\"JobsList_jobCardFooterValue__Lc--j\">Chennai</span></div></div></li>"
+        ],
+        "sample_text": [
+          "AI Data Scientist\n91733\nMalaysia\nKuala Lumpur",
+          "Data Scientist - ML, Python\n104940\nIndia\nChennai"
+        ]
+      },
+      {
+        "selector": "a.jobCardTitle.JobsList_jobCardTitle__pRNjw",
+        "count": 10,
+        "sample_html": [
+          "<a href=\"/job/AI-Data-Scientist/91733-en_US\" class=\"jobCardTitle JobsList_jobCardTitle__pRNjw\" aria-label=\"AI Data Scientist, job posting 1 of 4083\" data-testid=\"jobCardTitle_0\">AI Data Scientist</a>",
+          "<a href=\"/job/Data-Scientist-ML%2C-Python/104940-en_US\" class=\"jobCardTitle JobsList_jobCardTitle__pRNjw\" aria-label=\"Data Scientist - ML, Python, job posting 2 of 4083\" data-testid=\"jobCardTitle_1\">Data Scientist - ML, Python</a>"
+        ],
+        "sample_text": [
+          "AI Data Scientist",
+          "Data Scientist - ML, Python"
+        ]
+      },
+      {
+        "selector": "div.JobsList_jobCardFooterContainer__tIkK1",
+        "count": 10,
+        "sample_html": [
+          "<div data-testid=\"jobCardFooter\" class=\"JobsList_jobCardFooterContainer__tIkK1 \"><div data-help-id=\"jobCardFooterRow_0\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">91733</span></div><div data-help-id=\"jobCardFooterRow_0\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">Malaysia</span></div><div data-help-id=\"jobCardFooterRow_0\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">Kuala Lumpur</span></div></div>",
+          "<div data-testid=\"jobCardFooter\" class=\"JobsList_jobCardFooterContainer__tIkK1 \"><div data-help-id=\"jobCardFooterRow_1\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_1\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_1\" class=\"JobsList_jobCardFooterValue__Lc--j\">104940</span></div><div data-help-id=\"jobCardFooterRow_1\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_1\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_1\" class=\"JobsList_jobCardFooterValue__Lc--j\">India</span></div><div data-help-id=\"jobCardFooterRow_1\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_1\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_1\" class=\"JobsList_jobCardFooterValue__Lc--j\">Chennai</span></div></div>"
+        ],
+        "sample_text": [
+          "91733\nMalaysia\nKuala Lumpur",
+          "104940\nIndia\nChennai"
+        ]
+      }
+    ],
+    "structural_candidates": [
+      {
+        "selector": "li.linkcolor1d2db517925e4e3f55f919a8953fea84.linkhovercolorc63bfd23.customheaderlinkhovercolorc63bfd23",
+        "count": 14,
+        "sample_html": [
+          "<li role=\"none\" class=\"linkcolor1d2db517925e4e3f55f919a8953fea84 linkhovercolorc63bfd23 customheaderlinkhovercolorc63bfd23\">\n                        <a role=\"menuitem\" href=\"https://careers.hcltech.com/search/?q=Data+Scientist&amp;locationsearch=&amp;searchResultView=LIST&amp;pageNumber=0&amp;facetFilters=%7B%7D&amp;sortBy=&amp;markerViewed=&amp;carouselIndex=&amp;locale=de_DE\" lang=\"de-DE\">Deutsch (Deutschland)</a>\n                    </li>",
+          "<li role=\"none\" class=\"linkcolor1d2db517925e4e3f55f919a8953fea84 linkhovercolorc63bfd23 customheaderlinkhovercolorc63bfd23\">\n                        <a role=\"menuitem\" href=\"https://careers.hcltech.com/search/?q=Data+Scientist&amp;locationsearch=&amp;searchResultView=LIST&amp;pageNumber=0&amp;facetFilters=%7B%7D&amp;sortBy=&amp;markerViewed=&amp;carouselIndex=&amp;locale=en_US\" lang=\"en-US\">English (United States)</a>\n                    </li>"
+        ],
+        "sample_text": [
+          "\n                        Deutsch (Deutschland)\n                    ",
+          "\n                        English (United States)\n                    "
+        ]
+      },
+      {
+        "selector": "div._flexBox_11fgm_1._flexBoxDirectionRow_11fgm_66._justifyContentStart_11fgm_11._alignItemsStart_11fgm_33._flexWrapNoWrap_11fgm_74",
+        "count": 10,
+        "sample_html": [
+          "<div class=\"_flexBox_11fgm_1 _flexBoxDirectionRow_11fgm_66 _justifyContentStart_11fgm_11 _alignItemsStart_11fgm_33 _flexWrapNoWrap_11fgm_74\" data-help-id=\"jobCardFlexBox\"><a href=\"/job/AI-Data-Scientist/91733-en_US\" class=\"jobCardTitle JobsList_jobCardTitle__pRNjw\" aria-label=\"AI Data Scientist, job posting 1 of 4083\" data-testid=\"jobCardTitle_0\">AI Data Scientist</a></div>",
+          "<div class=\"_flexBox_11fgm_1 _flexBoxDirectionRow_11fgm_66 _justifyContentStart_11fgm_11 _alignItemsStart_11fgm_33 _flexWrapNoWrap_11fgm_74\" data-help-id=\"jobCardFlexBox\"><a href=\"/job/Data-Scientist-ML%2C-Python/104940-en_US\" class=\"jobCardTitle JobsList_jobCardTitle__pRNjw\" aria-label=\"Data Scientist - ML, Python, job posting 2 of 4083\" data-testid=\"jobCardTitle_1\">Data Scientist - ML, Python</a></div>"
+        ],
+        "sample_text": [
+          "AI Data Scientist",
+          "Data Scientist - ML, Python"
+        ]
+      },
+      {
+        "selector": "li.linkcolorb6a533a1.linkhovercolor76a1865d.customheaderlinkhovercolor76a1865d",
+        "count": 7,
+        "sample_html": [
+          "<li role=\"none\" class=\"linkcolorb6a533a1 linkhovercolor76a1865d customheaderlinkhovercolor76a1865d\">\n                        <a role=\"menuitem\" href=\"https://careers.hcltech.com/search/?q=Data+Scientist&amp;locationsearch=&amp;searchResultView=LIST&amp;pageNumber=0&amp;facetFilters=%7B%7D&amp;sortBy=&amp;markerViewed=&amp;carouselIndex=&amp;locale=de_DE\" lang=\"de-DE\">Deutsch (Deutschland)</a>\n                    </li>",
+          "<li role=\"none\" class=\"linkcolorb6a533a1 linkhovercolor76a1865d customheaderlinkhovercolor76a1865d\">\n                        <a role=\"menuitem\" href=\"https://careers.hcltech.com/search/?q=Data+Scientist&amp;locationsearch=&amp;searchResultView=LIST&amp;pageNumber=0&amp;facetFilters=%7B%7D&amp;sortBy=&amp;markerViewed=&amp;carouselIndex=&amp;locale=en_US\" lang=\"en-US\">English (United States)</a>\n                    </li>"
+        ],
+        "sample_text": [
+          "\n                        Deutsch (Deutschland)\n                    ",
+          "\n                        English (United States)\n                    "
+        ]
+      },
+      {
+        "selector": "li.social-icons",
+        "count": 6,
+        "sample_html": [
+          "<li class=\"social-icons\">\n                                        <a href=\"https://www.facebook.com/HCLTechOfficial\" class=\"social-icon btn-facebook\" target=\"_blank\" aria-label=\"Visit our Facebook page\" aria-describedby=\"socialIconAriaDescribed\" title=\"facebook\">\n                                        <span class=\"sr-only\" id=\"socialIconAriaDescribed\">Opens in a new tab.</span>\n                                            <svg width=\"48px\" height=\"48px\" viewBox=\"0 0 24 24\">\n                                                <path fill=\"#ffffff\" id=\"facebook1\" d=\"M12 2.03998C6.5 2.03998 2 6.52998 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.84998C10.44 7.33998 11.93 5.95998 14.22 5.95998C15.31 5.95998 16.45 6.14998 16.45 6.14998V8.61998H15.19C13.95 8.61998 13.56 9.38998 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96C15.9164 21.5878 18.0622 20.3855 19.6099 18.57C21.1576 16.7546 22.0054 14.4456 22 12.06C22 6.52998 17.5 2.03998 12 2.03998Z\"></path>\n                                            </svg>\n                                    </a>\n                                </li>",
+          "<li class=\"social-icons\">\n                                        <a href=\"https://twitter.com/hcltech\" class=\"social-icon btn-twitter\" target=\"_blank\" aria-label=\"Follow us on X\" aria-describedby=\"socialIconAriaDescribed\" title=\"X\">\n                                        <span class=\"sr-only\" id=\"socialIconAriaDescribed\">Opens in a new tab.</span>\n                                            <svg width=\"35px\" height=\"35px\" viewBox=\"0 0 1200 1227\">\n                                                <path fill=\"#ffffff\" id=\"SVGPath\" d=\"M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z\"></path>\n                                            </svg>\n                                    </a>\n                                </li>"
+        ],
+        "sample_text": [
+          "Opens in a new tab.",
+          "Opens in a new tab."
+        ]
+      },
+      {
+        "selector": "div.ot-accordion-layout.ot-cat-item.ot-vs-config",
+        "count": 6,
+        "sample_html": [
+          "<div class=\"ot-accordion-layout ot-cat-item ot-vs-config\" data-optanongroupid=\"C0003\"><button aria-expanded=\"false\" ot-accordion=\"true\" aria-controls=\"ot-desc-id-C0003\" aria-labelledby=\"ot-header-id-C0003\" value=\"\"></button><!-- Accordion header --><div class=\"ot-acc-hdr\"><div class=\"ot-plus-minus\"><span></span><span></span></div><h4 class=\"ot-cat-header\" id=\"ot-header-id-C0003\">Functional Cookies</h4><div class=\"ot-tgl\"><input type=\"checkbox\" name=\"ot-group-id-C0003\" id=\"ot-group-id-C0003\" role=\"switch\" class=\"category-switch-handler\" data-optanongroupid=\"C0003\" checked=\"\" aria-labelledby=\"ot-header-id-C0003\"> <label class=\"ot-switch\" for=\"ot-group-id-C0003\"><span class=\"ot-switch-nob\"></span> <span class=\"ot-label-txt\">Functional Cookies</span></label> <span class=\"ot-label-status\">Active</span></div></div><!-- accordion detail --><div class=\"ot-acc-grpcntr ot-acc-txt\"><p class=\"ot-acc-grpdesc ot-category-desc\" id=\"ot-desc-id-C0003\">These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.</p></div></div>",
+          "<div class=\"ot-accordion-layout ot-cat-item ot-vs-config\" data-optanongroupid=\"C0005\"><button aria-expanded=\"false\" ot-accordion=\"true\" aria-controls=\"ot-desc-id-C0005\" aria-labelledby=\"ot-header-id-C0005\" value=\"\"></button><!-- Accordion header --><div class=\"ot-acc-hdr\"><div class=\"ot-plus-minus\"><span></span><span></span></div><h4 class=\"ot-cat-header\" id=\"ot-header-id-C0005\">Social Media Cookies</h4><div class=\"ot-tgl\"><input type=\"checkbox\" name=\"ot-group-id-C0005\" id=\"ot-group-id-C0005\" role=\"switch\" class=\"category-switch-handler\" data-optanongroupid=\"C0005\" checked=\"\" aria-labelledby=\"ot-header-id-C0005\"> <label class=\"ot-switch\" for=\"ot-group-id-C0005\"><span class=\"ot-switch-nob\"></span> <span class=\"ot-label-txt\">Social Media Cookies</span></label> <span class=\"ot-label-status\">Active</span></div></div><!-- accordion detail --><div class=\"ot-acc-grpcntr ot-acc-txt\"><p class=\"ot-acc-grpdesc ot-category-desc\" id=\"ot-desc-id-C0005\">These cookies are set by a range of social media services that we have added to the site to enable you to share our content with your friends and networks. They are capable of tracking your browser across other sites and building up a profile of your interests. This may impact the content and messages you see on other websites you visit. If you do not allow these cookies you may not be able to use or see these sharing tools.</p></div></div>"
+        ],
+        "sample_text": [
+          "Functional Cookies  Functional Cookies ActiveThese cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we",
+          "Social Media Cookies  Social Media Cookies ActiveThese cookies are set by a range of social media services that we have added to the site to enable you to share our content with your friends and netwo"
+        ]
+      },
+      {
+        "selector": "div.ot-acc-hdr",
+        "count": 5,
+        "sample_html": [
+          "<div class=\"ot-acc-hdr\"><div class=\"ot-plus-minus\"><span></span><span></span></div><h4 class=\"ot-cat-header\" id=\"ot-header-id-C0003\">Functional Cookies</h4><div class=\"ot-tgl\"><input type=\"checkbox\" name=\"ot-group-id-C0003\" id=\"ot-group-id-C0003\" role=\"switch\" class=\"category-switch-handler\" data-optanongroupid=\"C0003\" checked=\"\" aria-labelledby=\"ot-header-id-C0003\"> <label class=\"ot-switch\" for=\"ot-group-id-C0003\"><span class=\"ot-switch-nob\"></span> <span class=\"ot-label-txt\">Functional Cookies</span></label> <span class=\"ot-label-status\">Active</span></div></div>",
+          "<div class=\"ot-acc-hdr\"><div class=\"ot-plus-minus\"><span></span><span></span></div><h4 class=\"ot-cat-header\" id=\"ot-header-id-C0005\">Social Media Cookies</h4><div class=\"ot-tgl\"><input type=\"checkbox\" name=\"ot-group-id-C0005\" id=\"ot-group-id-C0005\" role=\"switch\" class=\"category-switch-handler\" data-optanongroupid=\"C0005\" checked=\"\" aria-labelledby=\"ot-header-id-C0005\"> <label class=\"ot-switch\" for=\"ot-group-id-C0005\"><span class=\"ot-switch-nob\"></span> <span class=\"ot-label-txt\">Social Media Cookies</span></label> <span class=\"ot-label-status\">Active</span></div></div>"
+        ],
+        "sample_text": [
+          "Functional Cookies  Functional Cookies Active",
+          "Social Media Cookies  Social Media Cookies Active"
+        ]
+      },
+      {
+        "selector": "div.row.display-table",
+        "count": 3,
+        "sample_html": [
+          "<div class=\"row display-table\">\n                                    <div class=\"col-sm-10 display-table-cell\">\n                                        <div class=\"title-section\">\n                                            <h3 class=\"title\" id=\"reqtitle\">Required Cookies</h3>\n                                            <div id=\"reqdescription\">\n                                                    <p>These cookies are required to use this website and can't be turned off.</p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <div class=\"col-sm-2 display-table-cell\">\n                                        <div class=\"toggle-group cookietoggle\">\n                                            <input type=\"checkbox\" role=\"switch\" class=\"cookiecheckbox\" name=\"req-cookies-switch-1\" id=\"req-cookies-switch-1\" checked=\"\" onclick=\"return false;\" disabled=\"disabled\">\n                                            \n                                            <label for=\"req-cookies-switch-1\"><span class=\"sr-only\">Required Cookies</span></label>\n                                            <div class=\"onoffswitch\" aria-hidden=\"true\">\n                                                <div class=\"onoffswitch-label\">\n                                                    <div class=\"onoffswitch-inner\"></div>\n                                                    <div class=\"onoffswit",
+          "<div class=\"row display-table\">\n                                        <div class=\"col-sm-10 display-table-cell\">\n                                            <div class=\"title-section\">\n                                                <h3 class=\"title\" id=\"funtitle\">Functional Cookies</h3>\n                                                <div id=\"fundescription\">\n                                                        <p>These cookies provide a better customer experience on this site, such as by remembering your login details, optimizing video performance, or providing us with information about how our site is used. You may freely choose to accept or decline these cookies at any time. Note that certain functionalities that these third-parties make available may be impacted if you do not accept these cookies.</p>\n                                                </div>\n                                            </div>\n                                        </div>\n                                        <div class=\"col-sm-2 display-table-cell\">\n                                            <div class=\"toggle-group cookietoggle\">\n                                                <input type=\"checkbox\" role=\"switch\" class=\"cookiecheckbox\" name=\"fun-cookies-switch-1\" id=\"fun-cookies-switch-1\" onchange=\"changeFunSwitches()\" checked=\"\" tabindex=\"0\">\n                                                <label for=\"fun-cookies-switch-1\"><span class=\"sr-only\">Consent to all Functional Cookies</s"
+        ],
+        "sample_text": [
+          "\n                                    \n                                        \n                                            Required Cookies\n                                            \n               ",
+          "\n                                        \n                                            \n                                                Functional Cookies\n                                              "
+        ]
+      },
+      {
+        "selector": "div.col-sm-10.display-table-cell",
+        "count": 3,
+        "sample_html": [
+          "<div class=\"col-sm-10 display-table-cell\">\n                                        <div class=\"title-section\">\n                                            <h3 class=\"title\" id=\"reqtitle\">Required Cookies</h3>\n                                            <div id=\"reqdescription\">\n                                                    <p>These cookies are required to use this website and can't be turned off.</p>\n                                            </div>\n                                        </div>\n                                    </div>",
+          "<div class=\"col-sm-10 display-table-cell\">\n                                            <div class=\"title-section\">\n                                                <h3 class=\"title\" id=\"funtitle\">Functional Cookies</h3>\n                                                <div id=\"fundescription\">\n                                                        <p>These cookies provide a better customer experience on this site, such as by remembering your login details, optimizing video performance, or providing us with information about how our site is used. You may freely choose to accept or decline these cookies at any time. Note that certain functionalities that these third-parties make available may be impacted if you do not accept these cookies.</p>\n                                                </div>\n                                            </div>\n                                        </div>"
+        ],
+        "sample_text": [
+          "\n                                        \n                                            Required Cookies\n                                            \n                                                    ",
+          "\n                                            \n                                                Functional Cookies\n                                                \n                                      "
+        ]
+      },
+      {
+        "selector": "div.title-section",
+        "count": 3,
+        "sample_html": [
+          "<div class=\"title-section\">\n                                            <h3 class=\"title\" id=\"reqtitle\">Required Cookies</h3>\n                                            <div id=\"reqdescription\">\n                                                    <p>These cookies are required to use this website and can't be turned off.</p>\n                                            </div>\n                                        </div>",
+          "<div class=\"title-section\">\n                                                <h3 class=\"title\" id=\"funtitle\">Functional Cookies</h3>\n                                                <div id=\"fundescription\">\n                                                        <p>These cookies provide a better customer experience on this site, such as by remembering your login details, optimizing video performance, or providing us with information about how our site is used. You may freely choose to accept or decline these cookies at any time. Note that certain functionalities that these third-parties make available may be impacted if you do not accept these cookies.</p>\n                                                </div>\n                                            </div>"
+        ],
+        "sample_text": [
+          "\n                                            Required Cookies\n                                            \n                                                    These cookies are required to use this we",
+          "\n                                                Functional Cookies\n                                                \n                                                        These cookies provide a bet"
+        ]
+      }
+    ],
+    "page_title": "Data Scientist - HCLTech Jobs"
+  },
+  "after_search": {
+    "keyword_candidates": [
+      {
+        "selector": "div.JobsList_jobCardFooterDesktop__hP+-D",
+        "count": 30,
+        "sample_html": [
+          "<div data-help-id=\"jobCardFooterRow_0\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">91733</span></div>",
+          "<div data-help-id=\"jobCardFooterRow_0\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">Malaysia</span></div>"
+        ],
+        "sample_text": [
+          "91733",
+          "Malaysia"
+        ]
+      },
+      {
+        "selector": "span.JobsList_jobCardFooterLabel__Hcalb",
+        "count": 30,
+        "sample_html": [
+          "<span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span>",
+          "<span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span>"
+        ],
+        "sample_text": [
+          "",
+          ""
+        ]
+      },
+      {
+        "selector": "span.JobsList_jobCardFooterValue__Lc--j",
+        "count": 30,
+        "sample_html": [
+          "<span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">91733</span>",
+          "<span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">Malaysia</span>"
+        ],
+        "sample_text": [
+          "91733",
+          "Malaysia"
+        ]
+      },
+      {
+        "selector": "li.JobsList_jobCard__8wE-Z",
+        "count": 10,
+        "sample_html": [
+          "<li data-testid=\"jobCard\" class=\"JobsList_jobCard__8wE-Z\"><div class=\"_flexBox_11fgm_1 _flexBoxDirectionRow_11fgm_66 _justifyContentStart_11fgm_11 _alignItemsStart_11fgm_33 _flexWrapNoWrap_11fgm_74\" data-help-id=\"jobCardFlexBox\"><a href=\"/job/AI-Data-Scientist/91733-en_US\" class=\"jobCardTitle JobsList_jobCardTitle__pRNjw\" aria-label=\"AI Data Scientist, job posting 1 of 4083\" data-testid=\"jobCardTitle_0\">AI Data Scientist</a></div><div data-testid=\"jobCardFooter\" class=\"JobsList_jobCardFooterContainer__tIkK1 \"><div data-help-id=\"jobCardFooterRow_0\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">91733</span></div><div data-help-id=\"jobCardFooterRow_0\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">Malaysia</span></div><div data-help-id=\"jobCardFooterRow_0\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">Kuala Lumpur</span></div></div></li>",
+          "<li data-testid=\"jobCard\" class=\"JobsList_jobCard__8wE-Z\"><div class=\"_flexBox_11fgm_1 _flexBoxDirectionRow_11fgm_66 _justifyContentStart_11fgm_11 _alignItemsStart_11fgm_33 _flexWrapNoWrap_11fgm_74\" data-help-id=\"jobCardFlexBox\"><a href=\"/job/Data-Scientist-ML%2C-Python/104940-en_US\" class=\"jobCardTitle JobsList_jobCardTitle__pRNjw\" aria-label=\"Data Scientist - ML, Python, job posting 2 of 4083\" data-testid=\"jobCardTitle_1\">Data Scientist - ML, Python</a></div><div data-testid=\"jobCardFooter\" class=\"JobsList_jobCardFooterContainer__tIkK1 \"><div data-help-id=\"jobCardFooterRow_1\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_1\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_1\" class=\"JobsList_jobCardFooterValue__Lc--j\">104940</span></div><div data-help-id=\"jobCardFooterRow_1\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_1\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_1\" class=\"JobsList_jobCardFooterValue__Lc--j\">India</span></div><div data-help-id=\"jobCardFooterRow_1\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_1\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_1\" class=\"JobsList_jobCardFooterValue__Lc--j\">Chennai</span></div></div></li>"
+        ],
+        "sample_text": [
+          "AI Data Scientist\n91733\nMalaysia\nKuala Lumpur",
+          "Data Scientist - ML, Python\n104940\nIndia\nChennai"
+        ]
+      },
+      {
+        "selector": "a.jobCardTitle.JobsList_jobCardTitle__pRNjw",
+        "count": 10,
+        "sample_html": [
+          "<a href=\"/job/AI-Data-Scientist/91733-en_US\" class=\"jobCardTitle JobsList_jobCardTitle__pRNjw\" aria-label=\"AI Data Scientist, job posting 1 of 4083\" data-testid=\"jobCardTitle_0\">AI Data Scientist</a>",
+          "<a href=\"/job/Data-Scientist-ML%2C-Python/104940-en_US\" class=\"jobCardTitle JobsList_jobCardTitle__pRNjw\" aria-label=\"Data Scientist - ML, Python, job posting 2 of 4083\" data-testid=\"jobCardTitle_1\">Data Scientist - ML, Python</a>"
+        ],
+        "sample_text": [
+          "AI Data Scientist",
+          "Data Scientist - ML, Python"
+        ]
+      },
+      {
+        "selector": "div.JobsList_jobCardFooterContainer__tIkK1",
+        "count": 10,
+        "sample_html": [
+          "<div data-testid=\"jobCardFooter\" class=\"JobsList_jobCardFooterContainer__tIkK1 \"><div data-help-id=\"jobCardFooterRow_0\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">91733</span></div><div data-help-id=\"jobCardFooterRow_0\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">Malaysia</span></div><div data-help-id=\"jobCardFooterRow_0\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">Kuala Lumpur</span></div></div>",
+          "<div data-testid=\"jobCardFooter\" class=\"JobsList_jobCardFooterContainer__tIkK1 \"><div data-help-id=\"jobCardFooterRow_1\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_1\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_1\" class=\"JobsList_jobCardFooterValue__Lc--j\">104940</span></div><div data-help-id=\"jobCardFooterRow_1\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_1\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_1\" class=\"JobsList_jobCardFooterValue__Lc--j\">India</span></div><div data-help-id=\"jobCardFooterRow_1\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_1\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_1\" class=\"JobsList_jobCardFooterValue__Lc--j\">Chennai</span></div></div>"
+        ],
+        "sample_text": [
+          "91733\nMalaysia\nKuala Lumpur",
+          "104940\nIndia\nChennai"
+        ]
+      }
+    ],
+    "structural_candidates": [
+      {
+        "selector": "li.linkcolor1d2db517925e4e3f55f919a8953fea84.linkhovercolorc63bfd23.customheaderlinkhovercolorc63bfd23",
+        "count": 14,
+        "sample_html": [
+          "<li role=\"none\" class=\"linkcolor1d2db517925e4e3f55f919a8953fea84 linkhovercolorc63bfd23 customheaderlinkhovercolorc63bfd23\">\n                        <a role=\"menuitem\" href=\"https://careers.hcltech.com/search/?q=Data+Scientist&amp;locationsearch=&amp;searchResultView=LIST&amp;pageNumber=0&amp;facetFilters=%7B%7D&amp;sortBy=&amp;markerViewed=&amp;carouselIndex=&amp;locale=de_DE\" lang=\"de-DE\">Deutsch (Deutschland)</a>\n                    </li>",
+          "<li role=\"none\" class=\"linkcolor1d2db517925e4e3f55f919a8953fea84 linkhovercolorc63bfd23 customheaderlinkhovercolorc63bfd23\">\n                        <a role=\"menuitem\" href=\"https://careers.hcltech.com/search/?q=Data+Scientist&amp;locationsearch=&amp;searchResultView=LIST&amp;pageNumber=0&amp;facetFilters=%7B%7D&amp;sortBy=&amp;markerViewed=&amp;carouselIndex=&amp;locale=en_US\" lang=\"en-US\">English (United States)</a>\n                    </li>"
+        ],
+        "sample_text": [
+          "\n                        Deutsch (Deutschland)\n                    ",
+          "\n                        English (United States)\n                    "
+        ]
+      },
+      {
+        "selector": "div._flexBox_11fgm_1._flexBoxDirectionRow_11fgm_66._justifyContentStart_11fgm_11._alignItemsStart_11fgm_33._flexWrapNoWrap_11fgm_74",
+        "count": 10,
+        "sample_html": [
+          "<div class=\"_flexBox_11fgm_1 _flexBoxDirectionRow_11fgm_66 _justifyContentStart_11fgm_11 _alignItemsStart_11fgm_33 _flexWrapNoWrap_11fgm_74\" data-help-id=\"jobCardFlexBox\"><a href=\"/job/AI-Data-Scientist/91733-en_US\" class=\"jobCardTitle JobsList_jobCardTitle__pRNjw\" aria-label=\"AI Data Scientist, job posting 1 of 4083\" data-testid=\"jobCardTitle_0\">AI Data Scientist</a></div>",
+          "<div class=\"_flexBox_11fgm_1 _flexBoxDirectionRow_11fgm_66 _justifyContentStart_11fgm_11 _alignItemsStart_11fgm_33 _flexWrapNoWrap_11fgm_74\" data-help-id=\"jobCardFlexBox\"><a href=\"/job/Data-Scientist-ML%2C-Python/104940-en_US\" class=\"jobCardTitle JobsList_jobCardTitle__pRNjw\" aria-label=\"Data Scientist - ML, Python, job posting 2 of 4083\" data-testid=\"jobCardTitle_1\">Data Scientist - ML, Python</a></div>"
+        ],
+        "sample_text": [
+          "AI Data Scientist",
+          "Data Scientist - ML, Python"
+        ]
+      },
+      {
+        "selector": "li.linkcolorb6a533a1.linkhovercolor76a1865d.customheaderlinkhovercolor76a1865d",
+        "count": 7,
+        "sample_html": [
+          "<li role=\"none\" class=\"linkcolorb6a533a1 linkhovercolor76a1865d customheaderlinkhovercolor76a1865d\">\n                        <a role=\"menuitem\" href=\"https://careers.hcltech.com/search/?q=Data+Scientist&amp;locationsearch=&amp;searchResultView=LIST&amp;pageNumber=0&amp;facetFilters=%7B%7D&amp;sortBy=&amp;markerViewed=&amp;carouselIndex=&amp;locale=de_DE\" lang=\"de-DE\">Deutsch (Deutschland)</a>\n                    </li>",
+          "<li role=\"none\" class=\"linkcolorb6a533a1 linkhovercolor76a1865d customheaderlinkhovercolor76a1865d\">\n                        <a role=\"menuitem\" href=\"https://careers.hcltech.com/search/?q=Data+Scientist&amp;locationsearch=&amp;searchResultView=LIST&amp;pageNumber=0&amp;facetFilters=%7B%7D&amp;sortBy=&amp;markerViewed=&amp;carouselIndex=&amp;locale=en_US\" lang=\"en-US\">English (United States)</a>\n                    </li>"
+        ],
+        "sample_text": [
+          "\n                        Deutsch (Deutschland)\n                    ",
+          "\n                        English (United States)\n                    "
+        ]
+      },
+      {
+        "selector": "li.social-icons",
+        "count": 6,
+        "sample_html": [
+          "<li class=\"social-icons\">\n                                        <a href=\"https://www.facebook.com/HCLTechOfficial\" class=\"social-icon btn-facebook\" target=\"_blank\" aria-label=\"Visit our Facebook page\" aria-describedby=\"socialIconAriaDescribed\" title=\"facebook\">\n                                        <span class=\"sr-only\" id=\"socialIconAriaDescribed\">Opens in a new tab.</span>\n                                            <svg width=\"48px\" height=\"48px\" viewBox=\"0 0 24 24\">\n                                                <path fill=\"#ffffff\" id=\"facebook1\" d=\"M12 2.03998C6.5 2.03998 2 6.52998 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.84998C10.44 7.33998 11.93 5.95998 14.22 5.95998C15.31 5.95998 16.45 6.14998 16.45 6.14998V8.61998H15.19C13.95 8.61998 13.56 9.38998 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96C15.9164 21.5878 18.0622 20.3855 19.6099 18.57C21.1576 16.7546 22.0054 14.4456 22 12.06C22 6.52998 17.5 2.03998 12 2.03998Z\"></path>\n                                            </svg>\n                                    </a>\n                                </li>",
+          "<li class=\"social-icons\">\n                                        <a href=\"https://twitter.com/hcltech\" class=\"social-icon btn-twitter\" target=\"_blank\" aria-label=\"Follow us on X\" aria-describedby=\"socialIconAriaDescribed\" title=\"X\">\n                                        <span class=\"sr-only\" id=\"socialIconAriaDescribed\">Opens in a new tab.</span>\n                                            <svg width=\"35px\" height=\"35px\" viewBox=\"0 0 1200 1227\">\n                                                <path fill=\"#ffffff\" id=\"SVGPath\" d=\"M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z\"></path>\n                                            </svg>\n                                    </a>\n                                </li>"
+        ],
+        "sample_text": [
+          "Opens in a new tab.",
+          "Opens in a new tab."
+        ]
+      },
+      {
+        "selector": "div.ot-accordion-layout.ot-cat-item.ot-vs-config",
+        "count": 6,
+        "sample_html": [
+          "<div class=\"ot-accordion-layout ot-cat-item ot-vs-config\" data-optanongroupid=\"C0003\"><button aria-expanded=\"false\" ot-accordion=\"true\" aria-controls=\"ot-desc-id-C0003\" aria-labelledby=\"ot-header-id-C0003\" value=\"\"></button><!-- Accordion header --><div class=\"ot-acc-hdr\"><div class=\"ot-plus-minus\"><span></span><span></span></div><h4 class=\"ot-cat-header\" id=\"ot-header-id-C0003\">Functional Cookies</h4><div class=\"ot-tgl\"><input type=\"checkbox\" name=\"ot-group-id-C0003\" id=\"ot-group-id-C0003\" role=\"switch\" class=\"category-switch-handler\" data-optanongroupid=\"C0003\" checked=\"\" aria-labelledby=\"ot-header-id-C0003\"> <label class=\"ot-switch\" for=\"ot-group-id-C0003\"><span class=\"ot-switch-nob\"></span> <span class=\"ot-label-txt\">Functional Cookies</span></label> <span class=\"ot-label-status\">Active</span></div></div><!-- accordion detail --><div class=\"ot-acc-grpcntr ot-acc-txt\"><p class=\"ot-acc-grpdesc ot-category-desc\" id=\"ot-desc-id-C0003\">These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.</p></div></div>",
+          "<div class=\"ot-accordion-layout ot-cat-item ot-vs-config\" data-optanongroupid=\"C0005\"><button aria-expanded=\"false\" ot-accordion=\"true\" aria-controls=\"ot-desc-id-C0005\" aria-labelledby=\"ot-header-id-C0005\" value=\"\"></button><!-- Accordion header --><div class=\"ot-acc-hdr\"><div class=\"ot-plus-minus\"><span></span><span></span></div><h4 class=\"ot-cat-header\" id=\"ot-header-id-C0005\">Social Media Cookies</h4><div class=\"ot-tgl\"><input type=\"checkbox\" name=\"ot-group-id-C0005\" id=\"ot-group-id-C0005\" role=\"switch\" class=\"category-switch-handler\" data-optanongroupid=\"C0005\" checked=\"\" aria-labelledby=\"ot-header-id-C0005\"> <label class=\"ot-switch\" for=\"ot-group-id-C0005\"><span class=\"ot-switch-nob\"></span> <span class=\"ot-label-txt\">Social Media Cookies</span></label> <span class=\"ot-label-status\">Active</span></div></div><!-- accordion detail --><div class=\"ot-acc-grpcntr ot-acc-txt\"><p class=\"ot-acc-grpdesc ot-category-desc\" id=\"ot-desc-id-C0005\">These cookies are set by a range of social media services that we have added to the site to enable you to share our content with your friends and networks. They are capable of tracking your browser across other sites and building up a profile of your interests. This may impact the content and messages you see on other websites you visit. If you do not allow these cookies you may not be able to use or see these sharing tools.</p></div></div>"
+        ],
+        "sample_text": [
+          "Functional Cookies  Functional Cookies ActiveThese cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we",
+          "Social Media Cookies  Social Media Cookies ActiveThese cookies are set by a range of social media services that we have added to the site to enable you to share our content with your friends and netwo"
+        ]
+      },
+      {
+        "selector": "div.ot-acc-hdr",
+        "count": 5,
+        "sample_html": [
+          "<div class=\"ot-acc-hdr\"><div class=\"ot-plus-minus\"><span></span><span></span></div><h4 class=\"ot-cat-header\" id=\"ot-header-id-C0003\">Functional Cookies</h4><div class=\"ot-tgl\"><input type=\"checkbox\" name=\"ot-group-id-C0003\" id=\"ot-group-id-C0003\" role=\"switch\" class=\"category-switch-handler\" data-optanongroupid=\"C0003\" checked=\"\" aria-labelledby=\"ot-header-id-C0003\"> <label class=\"ot-switch\" for=\"ot-group-id-C0003\"><span class=\"ot-switch-nob\"></span> <span class=\"ot-label-txt\">Functional Cookies</span></label> <span class=\"ot-label-status\">Active</span></div></div>",
+          "<div class=\"ot-acc-hdr\"><div class=\"ot-plus-minus\"><span></span><span></span></div><h4 class=\"ot-cat-header\" id=\"ot-header-id-C0005\">Social Media Cookies</h4><div class=\"ot-tgl\"><input type=\"checkbox\" name=\"ot-group-id-C0005\" id=\"ot-group-id-C0005\" role=\"switch\" class=\"category-switch-handler\" data-optanongroupid=\"C0005\" checked=\"\" aria-labelledby=\"ot-header-id-C0005\"> <label class=\"ot-switch\" for=\"ot-group-id-C0005\"><span class=\"ot-switch-nob\"></span> <span class=\"ot-label-txt\">Social Media Cookies</span></label> <span class=\"ot-label-status\">Active</span></div></div>"
+        ],
+        "sample_text": [
+          "Functional Cookies  Functional Cookies Active",
+          "Social Media Cookies  Social Media Cookies Active"
+        ]
+      },
+      {
+        "selector": "div.row.display-table",
+        "count": 3,
+        "sample_html": [
+          "<div class=\"row display-table\">\n                                    <div class=\"col-sm-10 display-table-cell\">\n                                        <div class=\"title-section\">\n                                            <h3 class=\"title\" id=\"reqtitle\">Required Cookies</h3>\n                                            <div id=\"reqdescription\">\n                                                    <p>These cookies are required to use this website and can't be turned off.</p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <div class=\"col-sm-2 display-table-cell\">\n                                        <div class=\"toggle-group cookietoggle\">\n                                            <input type=\"checkbox\" role=\"switch\" class=\"cookiecheckbox\" name=\"req-cookies-switch-1\" id=\"req-cookies-switch-1\" checked=\"\" onclick=\"return false;\" disabled=\"disabled\">\n                                            \n                                            <label for=\"req-cookies-switch-1\"><span class=\"sr-only\">Required Cookies</span></label>\n                                            <div class=\"onoffswitch\" aria-hidden=\"true\">\n                                                <div class=\"onoffswitch-label\">\n                                                    <div class=\"onoffswitch-inner\"></div>\n                                                    <div class=\"onoffswit",
+          "<div class=\"row display-table\">\n                                        <div class=\"col-sm-10 display-table-cell\">\n                                            <div class=\"title-section\">\n                                                <h3 class=\"title\" id=\"funtitle\">Functional Cookies</h3>\n                                                <div id=\"fundescription\">\n                                                        <p>These cookies provide a better customer experience on this site, such as by remembering your login details, optimizing video performance, or providing us with information about how our site is used. You may freely choose to accept or decline these cookies at any time. Note that certain functionalities that these third-parties make available may be impacted if you do not accept these cookies.</p>\n                                                </div>\n                                            </div>\n                                        </div>\n                                        <div class=\"col-sm-2 display-table-cell\">\n                                            <div class=\"toggle-group cookietoggle\">\n                                                <input type=\"checkbox\" role=\"switch\" class=\"cookiecheckbox\" name=\"fun-cookies-switch-1\" id=\"fun-cookies-switch-1\" onchange=\"changeFunSwitches()\" checked=\"\" tabindex=\"0\">\n                                                <label for=\"fun-cookies-switch-1\"><span class=\"sr-only\">Consent to all Functional Cookies</s"
+        ],
+        "sample_text": [
+          "\n                                    \n                                        \n                                            Required Cookies\n                                            \n               ",
+          "\n                                        \n                                            \n                                                Functional Cookies\n                                              "
+        ]
+      },
+      {
+        "selector": "div.col-sm-10.display-table-cell",
+        "count": 3,
+        "sample_html": [
+          "<div class=\"col-sm-10 display-table-cell\">\n                                        <div class=\"title-section\">\n                                            <h3 class=\"title\" id=\"reqtitle\">Required Cookies</h3>\n                                            <div id=\"reqdescription\">\n                                                    <p>These cookies are required to use this website and can't be turned off.</p>\n                                            </div>\n                                        </div>\n                                    </div>",
+          "<div class=\"col-sm-10 display-table-cell\">\n                                            <div class=\"title-section\">\n                                                <h3 class=\"title\" id=\"funtitle\">Functional Cookies</h3>\n                                                <div id=\"fundescription\">\n                                                        <p>These cookies provide a better customer experience on this site, such as by remembering your login details, optimizing video performance, or providing us with information about how our site is used. You may freely choose to accept or decline these cookies at any time. Note that certain functionalities that these third-parties make available may be impacted if you do not accept these cookies.</p>\n                                                </div>\n                                            </div>\n                                        </div>"
+        ],
+        "sample_text": [
+          "\n                                        \n                                            Required Cookies\n                                            \n                                                    ",
+          "\n                                            \n                                                Functional Cookies\n                                                \n                                      "
+        ]
+      },
+      {
+        "selector": "div.title-section",
+        "count": 3,
+        "sample_html": [
+          "<div class=\"title-section\">\n                                            <h3 class=\"title\" id=\"reqtitle\">Required Cookies</h3>\n                                            <div id=\"reqdescription\">\n                                                    <p>These cookies are required to use this website and can't be turned off.</p>\n                                            </div>\n                                        </div>",
+          "<div class=\"title-section\">\n                                                <h3 class=\"title\" id=\"funtitle\">Functional Cookies</h3>\n                                                <div id=\"fundescription\">\n                                                        <p>These cookies provide a better customer experience on this site, such as by remembering your login details, optimizing video performance, or providing us with information about how our site is used. You may freely choose to accept or decline these cookies at any time. Note that certain functionalities that these third-parties make available may be impacted if you do not accept these cookies.</p>\n                                                </div>\n                                            </div>"
+        ],
+        "sample_text": [
+          "\n                                            Required Cookies\n                                            \n                                                    These cookies are required to use this we",
+          "\n                                                Functional Cookies\n                                                \n                                                        These cookies provide a bet"
+        ]
+      }
+    ],
+    "page_title": "Data Scientist - HCLTech Jobs"
+  },
+  "best_source": "initial",
+  "keyword_candidates": [
+    {
+      "selector": "div.JobsList_jobCardFooterDesktop__hP+-D",
+      "count": 30,
+      "sample_html": [
+        "<div data-help-id=\"jobCardFooterRow_0\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">91733</span></div>",
+        "<div data-help-id=\"jobCardFooterRow_0\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">Malaysia</span></div>"
+      ],
+      "sample_text": [
+        "91733",
+        "Malaysia"
+      ]
+    },
+    {
+      "selector": "span.JobsList_jobCardFooterLabel__Hcalb",
+      "count": 30,
+      "sample_html": [
+        "<span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span>",
+        "<span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span>"
+      ],
+      "sample_text": [
+        "",
+        ""
+      ]
+    },
+    {
+      "selector": "span.JobsList_jobCardFooterValue__Lc--j",
+      "count": 30,
+      "sample_html": [
+        "<span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">91733</span>",
+        "<span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">Malaysia</span>"
+      ],
+      "sample_text": [
+        "91733",
+        "Malaysia"
+      ]
+    },
+    {
+      "selector": "li.JobsList_jobCard__8wE-Z",
+      "count": 10,
+      "sample_html": [
+        "<li data-testid=\"jobCard\" class=\"JobsList_jobCard__8wE-Z\"><div class=\"_flexBox_11fgm_1 _flexBoxDirectionRow_11fgm_66 _justifyContentStart_11fgm_11 _alignItemsStart_11fgm_33 _flexWrapNoWrap_11fgm_74\" data-help-id=\"jobCardFlexBox\"><a href=\"/job/AI-Data-Scientist/91733-en_US\" class=\"jobCardTitle JobsList_jobCardTitle__pRNjw\" aria-label=\"AI Data Scientist, job posting 1 of 4083\" data-testid=\"jobCardTitle_0\">AI Data Scientist</a></div><div data-testid=\"jobCardFooter\" class=\"JobsList_jobCardFooterContainer__tIkK1 \"><div data-help-id=\"jobCardFooterRow_0\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">91733</span></div><div data-help-id=\"jobCardFooterRow_0\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">Malaysia</span></div><div data-help-id=\"jobCardFooterRow_0\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">Kuala Lumpur</span></div></div></li>",
+        "<li data-testid=\"jobCard\" class=\"JobsList_jobCard__8wE-Z\"><div class=\"_flexBox_11fgm_1 _flexBoxDirectionRow_11fgm_66 _justifyContentStart_11fgm_11 _alignItemsStart_11fgm_33 _flexWrapNoWrap_11fgm_74\" data-help-id=\"jobCardFlexBox\"><a href=\"/job/Data-Scientist-ML%2C-Python/104940-en_US\" class=\"jobCardTitle JobsList_jobCardTitle__pRNjw\" aria-label=\"Data Scientist - ML, Python, job posting 2 of 4083\" data-testid=\"jobCardTitle_1\">Data Scientist - ML, Python</a></div><div data-testid=\"jobCardFooter\" class=\"JobsList_jobCardFooterContainer__tIkK1 \"><div data-help-id=\"jobCardFooterRow_1\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_1\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_1\" class=\"JobsList_jobCardFooterValue__Lc--j\">104940</span></div><div data-help-id=\"jobCardFooterRow_1\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_1\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_1\" class=\"JobsList_jobCardFooterValue__Lc--j\">India</span></div><div data-help-id=\"jobCardFooterRow_1\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_1\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_1\" class=\"JobsList_jobCardFooterValue__Lc--j\">Chennai</span></div></div></li>"
+      ],
+      "sample_text": [
+        "AI Data Scientist\n91733\nMalaysia\nKuala Lumpur",
+        "Data Scientist - ML, Python\n104940\nIndia\nChennai"
+      ]
+    },
+    {
+      "selector": "a.jobCardTitle.JobsList_jobCardTitle__pRNjw",
+      "count": 10,
+      "sample_html": [
+        "<a href=\"/job/AI-Data-Scientist/91733-en_US\" class=\"jobCardTitle JobsList_jobCardTitle__pRNjw\" aria-label=\"AI Data Scientist, job posting 1 of 4083\" data-testid=\"jobCardTitle_0\">AI Data Scientist</a>",
+        "<a href=\"/job/Data-Scientist-ML%2C-Python/104940-en_US\" class=\"jobCardTitle JobsList_jobCardTitle__pRNjw\" aria-label=\"Data Scientist - ML, Python, job posting 2 of 4083\" data-testid=\"jobCardTitle_1\">Data Scientist - ML, Python</a>"
+      ],
+      "sample_text": [
+        "AI Data Scientist",
+        "Data Scientist - ML, Python"
+      ]
+    },
+    {
+      "selector": "div.JobsList_jobCardFooterContainer__tIkK1",
+      "count": 10,
+      "sample_html": [
+        "<div data-testid=\"jobCardFooter\" class=\"JobsList_jobCardFooterContainer__tIkK1 \"><div data-help-id=\"jobCardFooterRow_0\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">91733</span></div><div data-help-id=\"jobCardFooterRow_0\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">Malaysia</span></div><div data-help-id=\"jobCardFooterRow_0\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_0\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_0\" class=\"JobsList_jobCardFooterValue__Lc--j\">Kuala Lumpur</span></div></div>",
+        "<div data-testid=\"jobCardFooter\" class=\"JobsList_jobCardFooterContainer__tIkK1 \"><div data-help-id=\"jobCardFooterRow_1\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_1\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_1\" class=\"JobsList_jobCardFooterValue__Lc--j\">104940</span></div><div data-help-id=\"jobCardFooterRow_1\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_1\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_1\" class=\"JobsList_jobCardFooterValue__Lc--j\">India</span></div><div data-help-id=\"jobCardFooterRow_1\" class=\"JobsList_jobCardFooterDesktop__hP+-D\"><span data-help-id=\"jobCardFooterLabel_1\" class=\"JobsList_jobCardFooterLabel__Hcalb\" data-haslabel=\"false\"></span><span data-help-id=\"jobCardFooterValue_1\" class=\"JobsList_jobCardFooterValue__Lc--j\">Chennai</span></div></div>"
+      ],
+      "sample_text": [
+        "91733\nMalaysia\nKuala Lumpur",
+        "104940\nIndia\nChennai"
+      ]
+    }
+  ],
+  "structural_candidates": [
+    {
+      "selector": "li.linkcolor1d2db517925e4e3f55f919a8953fea84.linkhovercolorc63bfd23.customheaderlinkhovercolorc63bfd23",
+      "count": 14,
+      "sample_html": [
+        "<li role=\"none\" class=\"linkcolor1d2db517925e4e3f55f919a8953fea84 linkhovercolorc63bfd23 customheaderlinkhovercolorc63bfd23\">\n                        <a role=\"menuitem\" href=\"https://careers.hcltech.com/search/?q=Data+Scientist&amp;locationsearch=&amp;searchResultView=LIST&amp;pageNumber=0&amp;facetFilters=%7B%7D&amp;sortBy=&amp;markerViewed=&amp;carouselIndex=&amp;locale=de_DE\" lang=\"de-DE\">Deutsch (Deutschland)</a>\n                    </li>",
+        "<li role=\"none\" class=\"linkcolor1d2db517925e4e3f55f919a8953fea84 linkhovercolorc63bfd23 customheaderlinkhovercolorc63bfd23\">\n                        <a role=\"menuitem\" href=\"https://careers.hcltech.com/search/?q=Data+Scientist&amp;locationsearch=&amp;searchResultView=LIST&amp;pageNumber=0&amp;facetFilters=%7B%7D&amp;sortBy=&amp;markerViewed=&amp;carouselIndex=&amp;locale=en_US\" lang=\"en-US\">English (United States)</a>\n                    </li>"
+      ],
+      "sample_text": [
+        "\n                        Deutsch (Deutschland)\n                    ",
+        "\n                        English (United States)\n                    "
+      ]
+    },
+    {
+      "selector": "div._flexBox_11fgm_1._flexBoxDirectionRow_11fgm_66._justifyContentStart_11fgm_11._alignItemsStart_11fgm_33._flexWrapNoWrap_11fgm_74",
+      "count": 10,
+      "sample_html": [
+        "<div class=\"_flexBox_11fgm_1 _flexBoxDirectionRow_11fgm_66 _justifyContentStart_11fgm_11 _alignItemsStart_11fgm_33 _flexWrapNoWrap_11fgm_74\" data-help-id=\"jobCardFlexBox\"><a href=\"/job/AI-Data-Scientist/91733-en_US\" class=\"jobCardTitle JobsList_jobCardTitle__pRNjw\" aria-label=\"AI Data Scientist, job posting 1 of 4083\" data-testid=\"jobCardTitle_0\">AI Data Scientist</a></div>",
+        "<div class=\"_flexBox_11fgm_1 _flexBoxDirectionRow_11fgm_66 _justifyContentStart_11fgm_11 _alignItemsStart_11fgm_33 _flexWrapNoWrap_11fgm_74\" data-help-id=\"jobCardFlexBox\"><a href=\"/job/Data-Scientist-ML%2C-Python/104940-en_US\" class=\"jobCardTitle JobsList_jobCardTitle__pRNjw\" aria-label=\"Data Scientist - ML, Python, job posting 2 of 4083\" data-testid=\"jobCardTitle_1\">Data Scientist - ML, Python</a></div>"
+      ],
+      "sample_text": [
+        "AI Data Scientist",
+        "Data Scientist - ML, Python"
+      ]
+    },
+    {
+      "selector": "li.linkcolorb6a533a1.linkhovercolor76a1865d.customheaderlinkhovercolor76a1865d",
+      "count": 7,
+      "sample_html": [
+        "<li role=\"none\" class=\"linkcolorb6a533a1 linkhovercolor76a1865d customheaderlinkhovercolor76a1865d\">\n                        <a role=\"menuitem\" href=\"https://careers.hcltech.com/search/?q=Data+Scientist&amp;locationsearch=&amp;searchResultView=LIST&amp;pageNumber=0&amp;facetFilters=%7B%7D&amp;sortBy=&amp;markerViewed=&amp;carouselIndex=&amp;locale=de_DE\" lang=\"de-DE\">Deutsch (Deutschland)</a>\n                    </li>",
+        "<li role=\"none\" class=\"linkcolorb6a533a1 linkhovercolor76a1865d customheaderlinkhovercolor76a1865d\">\n                        <a role=\"menuitem\" href=\"https://careers.hcltech.com/search/?q=Data+Scientist&amp;locationsearch=&amp;searchResultView=LIST&amp;pageNumber=0&amp;facetFilters=%7B%7D&amp;sortBy=&amp;markerViewed=&amp;carouselIndex=&amp;locale=en_US\" lang=\"en-US\">English (United States)</a>\n                    </li>"
+      ],
+      "sample_text": [
+        "\n                        Deutsch (Deutschland)\n                    ",
+        "\n                        English (United States)\n                    "
+      ]
+    },
+    {
+      "selector": "li.social-icons",
+      "count": 6,
+      "sample_html": [
+        "<li class=\"social-icons\">\n                                        <a href=\"https://www.facebook.com/HCLTechOfficial\" class=\"social-icon btn-facebook\" target=\"_blank\" aria-label=\"Visit our Facebook page\" aria-describedby=\"socialIconAriaDescribed\" title=\"facebook\">\n                                        <span class=\"sr-only\" id=\"socialIconAriaDescribed\">Opens in a new tab.</span>\n                                            <svg width=\"48px\" height=\"48px\" viewBox=\"0 0 24 24\">\n                                                <path fill=\"#ffffff\" id=\"facebook1\" d=\"M12 2.03998C6.5 2.03998 2 6.52998 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.84998C10.44 7.33998 11.93 5.95998 14.22 5.95998C15.31 5.95998 16.45 6.14998 16.45 6.14998V8.61998H15.19C13.95 8.61998 13.56 9.38998 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96C15.9164 21.5878 18.0622 20.3855 19.6099 18.57C21.1576 16.7546 22.0054 14.4456 22 12.06C22 6.52998 17.5 2.03998 12 2.03998Z\"></path>\n                                            </svg>\n                                    </a>\n                                </li>",
+        "<li class=\"social-icons\">\n                                        <a href=\"https://twitter.com/hcltech\" class=\"social-icon btn-twitter\" target=\"_blank\" aria-label=\"Follow us on X\" aria-describedby=\"socialIconAriaDescribed\" title=\"X\">\n                                        <span class=\"sr-only\" id=\"socialIconAriaDescribed\">Opens in a new tab.</span>\n                                            <svg width=\"35px\" height=\"35px\" viewBox=\"0 0 1200 1227\">\n                                                <path fill=\"#ffffff\" id=\"SVGPath\" d=\"M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z\"></path>\n                                            </svg>\n                                    </a>\n                                </li>"
+      ],
+      "sample_text": [
+        "Opens in a new tab.",
+        "Opens in a new tab."
+      ]
+    },
+    {
+      "selector": "div.ot-accordion-layout.ot-cat-item.ot-vs-config",
+      "count": 6,
+      "sample_html": [
+        "<div class=\"ot-accordion-layout ot-cat-item ot-vs-config\" data-optanongroupid=\"C0003\"><button aria-expanded=\"false\" ot-accordion=\"true\" aria-controls=\"ot-desc-id-C0003\" aria-labelledby=\"ot-header-id-C0003\" value=\"\"></button><!-- Accordion header --><div class=\"ot-acc-hdr\"><div class=\"ot-plus-minus\"><span></span><span></span></div><h4 class=\"ot-cat-header\" id=\"ot-header-id-C0003\">Functional Cookies</h4><div class=\"ot-tgl\"><input type=\"checkbox\" name=\"ot-group-id-C0003\" id=\"ot-group-id-C0003\" role=\"switch\" class=\"category-switch-handler\" data-optanongroupid=\"C0003\" checked=\"\" aria-labelledby=\"ot-header-id-C0003\"> <label class=\"ot-switch\" for=\"ot-group-id-C0003\"><span class=\"ot-switch-nob\"></span> <span class=\"ot-label-txt\">Functional Cookies</span></label> <span class=\"ot-label-status\">Active</span></div></div><!-- accordion detail --><div class=\"ot-acc-grpcntr ot-acc-txt\"><p class=\"ot-acc-grpdesc ot-category-desc\" id=\"ot-desc-id-C0003\">These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.</p></div></div>",
+        "<div class=\"ot-accordion-layout ot-cat-item ot-vs-config\" data-optanongroupid=\"C0005\"><button aria-expanded=\"false\" ot-accordion=\"true\" aria-controls=\"ot-desc-id-C0005\" aria-labelledby=\"ot-header-id-C0005\" value=\"\"></button><!-- Accordion header --><div class=\"ot-acc-hdr\"><div class=\"ot-plus-minus\"><span></span><span></span></div><h4 class=\"ot-cat-header\" id=\"ot-header-id-C0005\">Social Media Cookies</h4><div class=\"ot-tgl\"><input type=\"checkbox\" name=\"ot-group-id-C0005\" id=\"ot-group-id-C0005\" role=\"switch\" class=\"category-switch-handler\" data-optanongroupid=\"C0005\" checked=\"\" aria-labelledby=\"ot-header-id-C0005\"> <label class=\"ot-switch\" for=\"ot-group-id-C0005\"><span class=\"ot-switch-nob\"></span> <span class=\"ot-label-txt\">Social Media Cookies</span></label> <span class=\"ot-label-status\">Active</span></div></div><!-- accordion detail --><div class=\"ot-acc-grpcntr ot-acc-txt\"><p class=\"ot-acc-grpdesc ot-category-desc\" id=\"ot-desc-id-C0005\">These cookies are set by a range of social media services that we have added to the site to enable you to share our content with your friends and networks. They are capable of tracking your browser across other sites and building up a profile of your interests. This may impact the content and messages you see on other websites you visit. If you do not allow these cookies you may not be able to use or see these sharing tools.</p></div></div>"
+      ],
+      "sample_text": [
+        "Functional Cookies  Functional Cookies ActiveThese cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we",
+        "Social Media Cookies  Social Media Cookies ActiveThese cookies are set by a range of social media services that we have added to the site to enable you to share our content with your friends and netwo"
+      ]
+    },
+    {
+      "selector": "div.ot-acc-hdr",
+      "count": 5,
+      "sample_html": [
+        "<div class=\"ot-acc-hdr\"><div class=\"ot-plus-minus\"><span></span><span></span></div><h4 class=\"ot-cat-header\" id=\"ot-header-id-C0003\">Functional Cookies</h4><div class=\"ot-tgl\"><input type=\"checkbox\" name=\"ot-group-id-C0003\" id=\"ot-group-id-C0003\" role=\"switch\" class=\"category-switch-handler\" data-optanongroupid=\"C0003\" checked=\"\" aria-labelledby=\"ot-header-id-C0003\"> <label class=\"ot-switch\" for=\"ot-group-id-C0003\"><span class=\"ot-switch-nob\"></span> <span class=\"ot-label-txt\">Functional Cookies</span></label> <span class=\"ot-label-status\">Active</span></div></div>",
+        "<div class=\"ot-acc-hdr\"><div class=\"ot-plus-minus\"><span></span><span></span></div><h4 class=\"ot-cat-header\" id=\"ot-header-id-C0005\">Social Media Cookies</h4><div class=\"ot-tgl\"><input type=\"checkbox\" name=\"ot-group-id-C0005\" id=\"ot-group-id-C0005\" role=\"switch\" class=\"category-switch-handler\" data-optanongroupid=\"C0005\" checked=\"\" aria-labelledby=\"ot-header-id-C0005\"> <label class=\"ot-switch\" for=\"ot-group-id-C0005\"><span class=\"ot-switch-nob\"></span> <span class=\"ot-label-txt\">Social Media Cookies</span></label> <span class=\"ot-label-status\">Active</span></div></div>"
+      ],
+      "sample_text": [
+        "Functional Cookies  Functional Cookies Active",
+        "Social Media Cookies  Social Media Cookies Active"
+      ]
+    },
+    {
+      "selector": "div.row.display-table",
+      "count": 3,
+      "sample_html": [
+        "<div class=\"row display-table\">\n                                    <div class=\"col-sm-10 display-table-cell\">\n                                        <div class=\"title-section\">\n                                            <h3 class=\"title\" id=\"reqtitle\">Required Cookies</h3>\n                                            <div id=\"reqdescription\">\n                                                    <p>These cookies are required to use this website and can't be turned off.</p>\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <div class=\"col-sm-2 display-table-cell\">\n                                        <div class=\"toggle-group cookietoggle\">\n                                            <input type=\"checkbox\" role=\"switch\" class=\"cookiecheckbox\" name=\"req-cookies-switch-1\" id=\"req-cookies-switch-1\" checked=\"\" onclick=\"return false;\" disabled=\"disabled\">\n                                            \n                                            <label for=\"req-cookies-switch-1\"><span class=\"sr-only\">Required Cookies</span></label>\n                                            <div class=\"onoffswitch\" aria-hidden=\"true\">\n                                                <div class=\"onoffswitch-label\">\n                                                    <div class=\"onoffswitch-inner\"></div>\n                                                    <div class=\"onoffswit",
+        "<div class=\"row display-table\">\n                                        <div class=\"col-sm-10 display-table-cell\">\n                                            <div class=\"title-section\">\n                                                <h3 class=\"title\" id=\"funtitle\">Functional Cookies</h3>\n                                                <div id=\"fundescription\">\n                                                        <p>These cookies provide a better customer experience on this site, such as by remembering your login details, optimizing video performance, or providing us with information about how our site is used. You may freely choose to accept or decline these cookies at any time. Note that certain functionalities that these third-parties make available may be impacted if you do not accept these cookies.</p>\n                                                </div>\n                                            </div>\n                                        </div>\n                                        <div class=\"col-sm-2 display-table-cell\">\n                                            <div class=\"toggle-group cookietoggle\">\n                                                <input type=\"checkbox\" role=\"switch\" class=\"cookiecheckbox\" name=\"fun-cookies-switch-1\" id=\"fun-cookies-switch-1\" onchange=\"changeFunSwitches()\" checked=\"\" tabindex=\"0\">\n                                                <label for=\"fun-cookies-switch-1\"><span class=\"sr-only\">Consent to all Functional Cookies</s"
+      ],
+      "sample_text": [
+        "\n                                    \n                                        \n                                            Required Cookies\n                                            \n               ",
+        "\n                                        \n                                            \n                                                Functional Cookies\n                                              "
+      ]
+    },
+    {
+      "selector": "div.col-sm-10.display-table-cell",
+      "count": 3,
+      "sample_html": [
+        "<div class=\"col-sm-10 display-table-cell\">\n                                        <div class=\"title-section\">\n                                            <h3 class=\"title\" id=\"reqtitle\">Required Cookies</h3>\n                                            <div id=\"reqdescription\">\n                                                    <p>These cookies are required to use this website and can't be turned off.</p>\n                                            </div>\n                                        </div>\n                                    </div>",
+        "<div class=\"col-sm-10 display-table-cell\">\n                                            <div class=\"title-section\">\n                                                <h3 class=\"title\" id=\"funtitle\">Functional Cookies</h3>\n                                                <div id=\"fundescription\">\n                                                        <p>These cookies provide a better customer experience on this site, such as by remembering your login details, optimizing video performance, or providing us with information about how our site is used. You may freely choose to accept or decline these cookies at any time. Note that certain functionalities that these third-parties make available may be impacted if you do not accept these cookies.</p>\n                                                </div>\n                                            </div>\n                                        </div>"
+      ],
+      "sample_text": [
+        "\n                                        \n                                            Required Cookies\n                                            \n                                                    ",
+        "\n                                            \n                                                Functional Cookies\n                                                \n                                      "
+      ]
+    },
+    {
+      "selector": "div.title-section",
+      "count": 3,
+      "sample_html": [
+        "<div class=\"title-section\">\n                                            <h3 class=\"title\" id=\"reqtitle\">Required Cookies</h3>\n                                            <div id=\"reqdescription\">\n                                                    <p>These cookies are required to use this website and can't be turned off.</p>\n                                            </div>\n                                        </div>",
+        "<div class=\"title-section\">\n                                                <h3 class=\"title\" id=\"funtitle\">Functional Cookies</h3>\n                                                <div id=\"fundescription\">\n                                                        <p>These cookies provide a better customer experience on this site, such as by remembering your login details, optimizing video performance, or providing us with information about how our site is used. You may freely choose to accept or decline these cookies at any time. Note that certain functionalities that these third-parties make available may be impacted if you do not accept these cookies.</p>\n                                                </div>\n                                            </div>"
+      ],
+      "sample_text": [
+        "\n                                            Required Cookies\n                                            \n                                                    These cookies are required to use this we",
+        "\n                                                Functional Cookies\n                                                \n                                                        These cookies provide a bet"
+      ]
+    }
+  ],
+  "page_title": "Data Scientist - HCLTech Jobs",
+  "cookie_banner_dismissed": true,
+  "search_interacted": true,
+  "status": "ok",
+  "screenshot": "hcltech.png"
 }

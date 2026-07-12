@@ -1,3 +1,9 @@
 {
-  "google": "ok"
+  "nokia": "ok",
+  "oracle": "ok",
+  "google": "ok",
+  "cisco": "ok",
+  "jpmorgan-chase": "no_candidates_found",
+  "cognizant": "no_candidates_found",
+  "hcltech": "ok"
 }
