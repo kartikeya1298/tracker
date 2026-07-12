@@ -68,29 +68,34 @@ cd backend && pytest
 
 ## Company registry — what's verified vs. what needs setup
 
-`backend/app/scrapers/registry.py` seeds all 50 companies with a platform + identifier.
-Two tiers:
+`backend/app/scrapers/registry.py` seeds 51 rows (50 companies; Adobe has a second
+early-careers Workday site) with a platform + identifier. Two tiers:
 
-- **Verified (works immediately):** companies confirmed to run a public Greenhouse or
-  Lever job board (currently Databricks on Greenhouse). These call the ATS's
-  documented public JSON API directly — no scraping, no auth.
-- **Best-effort (needs a short setup step):** the remaining ~49 companies. Large
-  enterprises overwhelmingly run custom-branded career sites, and their exact page
-  structure changes over time and can't be guessed reliably. Each entry has the
-  correct `careers_url` and a *template* config for `GenericPlaywrightScraper`
-  (`app/scrapers/generic.py`). To activate one:
+- **Verified (11 rows, work immediately):** Databricks and Airbnb on Greenhouse's
+  public JSON API, plus 9 Workday rows (Walmart Global Tech, Visa, Mastercard,
+  Philips, NVIDIA, Salesforce, Adobe + Adobe Early Careers, PayPal) with
+  `tenant|dc|site` confirmed against live job-posting URLs via web search. Qualcomm
+  is Workday too but its dc subdomain was ambiguous in search results (`wd12` vs
+  `wd5`) — try `wd5` if `wd12` comes back empty. These call the ATS's documented
+  public/CxS API directly — no scraping, no auth. Worth a periodic spot-check since
+  Workday dc subdomains do occasionally migrate.
+- **Best-effort (needs a short setup step):** the remaining ~39 rows — mostly large
+  enterprises on custom-branded career sites, plus a few on SAP SuccessFactors /
+  Oracle Recruiting Cloud. Their exact page structure can't be guessed reliably
+  without inspecting the live, rendered page — and that step can't be automated from
+  this environment (its network policy returns 403 on direct fetches to these
+  domains, even though search works). Each entry has the correct `careers_url` and a
+  *template* config for `GenericPlaywrightScraper` (`app/scrapers/generic.py`). To
+  activate one:
   1. Open the company's `careers_url` in a browser, search for a target role (e.g.
      "data scientist"), and inspect the listing markup (dev tools → Elements).
   2. Update that company's `identifier` JSON in `registry.py` with the real
      `item_selector` / `title_selector` / `location_selector` / `link_selector`.
-  3. A few entries are marked `ATSPlatform.WORKDAY` with a guessed `tenant|dc|site` —
-     verify the real subdomain (visit the company's careers page and check the
-     `*.myworkdayjobs.com` URL) and correct it.
 
 This mirrors how a real deployment is bootstrapped: platform + URL is known on day
 one, selectors get filled in per-target during onboarding, and adapters degrade
 gracefully (a misconfigured company just contributes 0 jobs that cycle, logged as an
-error in `ScrapeRun.errors` — it never crashes the run for the other 49 companies).
+error in `ScrapeRun.errors` — it never crashes the run for the other companies).
 
 **Before enabling scraping against any site, check its Terms of Service and
 `robots.txt`.** Several companies (Workday, SuccessFactors, Oracle Recruiting Cloud)

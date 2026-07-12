@@ -1,16 +1,18 @@
-"""Seed registry of the 50 tracked companies.
+"""Seed registry of the 50 tracked companies (51 rows — Adobe has a second early-careers
+Workday site; see below).
 
-`verified=True` entries use a documented public JSON API (Greenhouse, Lever) and work
-out of the box. Everything else is a best-effort starting point: large enterprises
-overwhelmingly run custom-branded career sites (often layered on Workday,
-SAP SuccessFactors, or Oracle Taleo under the hood, but with bespoke frontends), and
-their exact DOM structure changes over time and can't be reliably guessed without
-inspecting the live page. For `verified=False` rows, `identifier` is a template
-GenericPlaywrightScraper config — before that company will actually produce results,
-open `careers_url`, inspect the listing markup, and fill in real CSS selectors
-(see app/scrapers/generic.py for the config schema). This mirrors how a real
-production deployment is bootstrapped: platform + URL is known immediately,
-selectors are filled in per-target during onboarding.
+`verified=True` entries use a documented public JSON API (Greenhouse, Lever, or Workday's
+CxS API) with a tenant/dc/site confirmed against real, currently-live job-posting URLs
+(via web search on 2026-07-12) — these work out of the box, though Workday dc subdomains
+do occasionally migrate so it's worth a periodic spot-check. Everything else is a
+best-effort starting point: large enterprises overwhelmingly run custom-branded career
+sites (often layered on SAP SuccessFactors or Oracle Recruiting Cloud under the hood,
+but with bespoke frontends), and their exact DOM structure can't be reliably guessed
+without inspecting the live page — this sandbox's network policy blocks raw HTML fetches
+against these domains, so that step has to happen in a real browser. For `verified=False`
+rows, `identifier` is a template GenericPlaywrightScraper config — before that company
+will actually produce results, open `careers_url`, inspect the listing markup, and fill
+in real CSS selectors (see app/scrapers/generic.py for the config schema).
 """
 import json
 
@@ -36,31 +38,40 @@ COMPANIES: list[dict] = [
     {"name": "Databricks", "slug": "databricks", "platform": ATSPlatform.GREENHOUSE,
      "identifier": "databricks", "careers_url": "https://boards.greenhouse.io/databricks", "verified": True},
 
-    # --- Verified: public Lever API (well-known long-standing Lever tenants) ---
-    {"name": "Airbnb", "slug": "airbnb", "platform": ATSPlatform.LEVER,
-     "identifier": "airbnb", "careers_url": "https://careers.airbnb.com", "verified": False},
+    # --- Verified: public Greenhouse API (confirmed live postings at boards.greenhouse.io/airbnb;
+    #     Airbnb is NOT on Lever despite the platform name suggesting otherwise historically) ---
+    {"name": "Airbnb", "slug": "airbnb", "platform": ATSPlatform.GREENHOUSE,
+     "identifier": "airbnb", "careers_url": "https://boards.greenhouse.io/airbnb", "verified": True},
 
-    # --- Best-effort Workday tenants (common for large enterprises); VERIFY tenant/dc/site ---
+    # --- Workday: tenant/dc/site confirmed via live job-posting URLs (web search, 2026-07-12).
+    #     Still worth spot-checking periodically since Workday dc subdomains do migrate. ---
     {"name": "Walmart Global Tech", "slug": "walmart", "platform": ATSPlatform.WORKDAY,
-     "identifier": "walmart|walmart|WalmartExternal", "careers_url": "https://careers.walmart.com", "verified": False},
+     "identifier": "walmart|wd5|WalmartExternal", "careers_url": "https://walmart.wd5.myworkdayjobs.com/WalmartExternal", "verified": True},
     {"name": "Visa", "slug": "visa", "platform": ATSPlatform.WORKDAY,
-     "identifier": "visa|visa|Visa_Careers", "careers_url": "https://careers.visa.com", "verified": False},
+     "identifier": "visa|wd5|Visa", "careers_url": "https://visa.wd5.myworkdayjobs.com/Visa", "verified": True},
     {"name": "Mastercard", "slug": "mastercard", "platform": ATSPlatform.WORKDAY,
-     "identifier": "mastercard|mastercard|CorporateCareers", "careers_url": "https://careers.mastercard.com", "verified": False},
-    {"name": "Nokia", "slug": "nokia", "platform": ATSPlatform.WORKDAY,
-     "identifier": "nokia|nokia|Careers", "careers_url": "https://www.nokia.com/careers/", "verified": False},
+     "identifier": "mastercard|wd1|CorporateCareers", "careers_url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers", "verified": True},
     {"name": "Philips", "slug": "philips", "platform": ATSPlatform.WORKDAY,
-     "identifier": "philips|philips|External_Careers", "careers_url": "https://www.careers.philips.com", "verified": False},
+     "identifier": "philips|wd3|jobs-and-careers", "careers_url": "https://philips.wd3.myworkdayjobs.com/en-US/jobs-and-careers", "verified": True},
+
+    # --- Nokia: NOT Workday. Runs on Oracle Fusion Cloud Recruiting (candidate experience UI
+    #     at fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com, fronted by jobs.nokia.com). Still needs
+    #     real selectors (see Oracle Careers note below), but the platform/URL are now correct. ---
+    {"name": "Nokia", "slug": "nokia", "platform": ATSPlatform.ORACLE_CAREERS,
+     "identifier": _custom("https://jobs.nokia.com/en/sites/CX_1/jobs"), "careers_url": "https://jobs.nokia.com/en/sites/CX_1/jobs", "verified": False},
 
     # --- SAP SuccessFactors (SAP dogfoods its own product; many enterprises use it too) ---
     {"name": "SAP", "slug": "sap", "platform": ATSPlatform.SAP_CAREERS,
      "identifier": _custom("https://jobs.sap.com/search/"), "careers_url": "https://jobs.sap.com", "verified": False},
-    {"name": "Siemens", "slug": "siemens", "platform": ATSPlatform.SUCCESSFACTORS,
-     "identifier": _custom("https://jobs.siemens.com/careers"), "careers_url": "https://jobs.siemens.com", "verified": False},
+    {"name": "Siemens", "slug": "siemens", "platform": ATSPlatform.CUSTOM,
+     "identifier": _custom("https://jobs.siemens.com/en_US/externaljobs/SearchJobs"), "careers_url": "https://jobs.siemens.com/en_US/externaljobs/Home", "verified": False},
     {"name": "Bosch", "slug": "bosch", "platform": ATSPlatform.SUCCESSFACTORS,
-     "identifier": _custom("https://www.bosch.com/careers/jobs/"), "careers_url": "https://www.bosch.com/careers/", "verified": False},
+     "identifier": _custom("https://jobs.bosch.com/en/"), "careers_url": "https://jobs.bosch.com/en/", "verified": False},
+    # Ericsson: confirmed on SuccessFactors; pointed directly at the real SuccessFactors
+    # instance (career2.successfactors.eu) rather than the jobs.ericsson.com wrapper, since the
+    # instance URL is more likely to have a stable, inspectable listing DOM.
     {"name": "Ericsson", "slug": "ericsson", "platform": ATSPlatform.SUCCESSFACTORS,
-     "identifier": _custom("https://jobs.ericsson.com/careers"), "careers_url": "https://www.ericsson.com/en/careers", "verified": False},
+     "identifier": _custom("https://career2.successfactors.eu/careers?company=Ericsson"), "careers_url": "https://jobs.ericsson.com/careers", "verified": False},
 
     # --- Oracle Careers (Oracle Recruiting Cloud, ORC) ---
     {"name": "Oracle", "slug": "oracle", "platform": ATSPlatform.ORACLE_CAREERS,
@@ -74,19 +85,26 @@ COMPANIES: list[dict] = [
     {"name": "Google", "slug": "google", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://www.google.com/about/careers/applications/jobs/results?q=data%20scientist"), "careers_url": "https://careers.google.com", "verified": False},
     {"name": "NVIDIA", "slug": "nvidia", "platform": ATSPlatform.WORKDAY,
-     "identifier": "nvidia|nvidia|NVIDIAExternalCareerSite", "careers_url": "https://www.nvidia.com/en-us/about-nvidia/careers/", "verified": False},
+     "identifier": "nvidia|wd5|NVIDIAExternalCareerSite", "careers_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite", "verified": True},
     {"name": "Cisco", "slug": "cisco", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://jobs.cisco.com/jobs/SearchJobs/data%2520scientist"), "careers_url": "https://jobs.cisco.com", "verified": False},
     {"name": "IBM", "slug": "ibm", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://www.ibm.com/careers/search?field_keyword_18[0]=Data%20and%20AI"), "careers_url": "https://www.ibm.com/careers", "verified": False},
     {"name": "Salesforce", "slug": "salesforce", "platform": ATSPlatform.WORKDAY,
-     "identifier": "salesforce|salesforce|External_Career_Site", "careers_url": "https://careers.salesforce.com", "verified": False},
+     "identifier": "salesforce|wd12|External_Career_Site", "careers_url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site", "verified": True},
     {"name": "Adobe", "slug": "adobe", "platform": ATSPlatform.WORKDAY,
-     "identifier": "adobe|adobe|external_experienced", "careers_url": "https://careers.adobe.com", "verified": False},
+     "identifier": "adobe|wd5|external_experienced", "careers_url": "https://adobe.wd5.myworkdayjobs.com/external_experienced", "verified": True},
+    # Adobe also runs a separate Workday site for university/new-grad hiring, which is
+    # arguably more relevant to a fresher tracker than the experienced-hire site above.
+    {"name": "Adobe Early Careers", "slug": "adobe-early-careers", "platform": ATSPlatform.WORKDAY,
+     "identifier": "adobe|wd5|external_university", "careers_url": "https://adobe.wd5.myworkdayjobs.com/external_university", "verified": True},
     {"name": "Intel", "slug": "intel", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://jobs.intel.com/en/search-jobs?k=data%20scientist"), "careers_url": "https://jobs.intel.com", "verified": False},
+    # Qualcomm: search results showed job postings on both qualcomm.wd12 and qualcomm.wd5 —
+    # wd12 had the more recent/specific postings, so that's the primary guess. If this comes
+    # back empty, try dc=wd5 with the same site name.
     {"name": "Qualcomm", "slug": "qualcomm", "platform": ATSPlatform.WORKDAY,
-     "identifier": "qualcomm|qualcomm|External", "careers_url": "https://www.qualcomm.com/company/careers", "verified": False},
+     "identifier": "qualcomm|wd12|External", "careers_url": "https://qualcomm.wd12.myworkdayjobs.com/External", "verified": False},
     {"name": "Apple", "slug": "apple", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://jobs.apple.com/en-us/search?search=data%20scientist"), "careers_url": "https://jobs.apple.com", "verified": False},
     {"name": "Uber", "slug": "uber", "platform": ATSPlatform.CUSTOM,
@@ -94,7 +112,7 @@ COMPANIES: list[dict] = [
     {"name": "LinkedIn", "slug": "linkedin", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://careers.linkedin.com/jobs/search?keywords=data%20scientist"), "careers_url": "https://careers.linkedin.com", "verified": False},
     {"name": "PayPal", "slug": "paypal", "platform": ATSPlatform.WORKDAY,
-     "identifier": "paypal|paypal|JobSearch", "careers_url": "https://careers.pypl.com", "verified": False},
+     "identifier": "paypal|wd1|jobs", "careers_url": "https://paypal.wd1.myworkdayjobs.com/jobs", "verified": True},
     {"name": "ServiceNow", "slug": "servicenow", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://careers.servicenow.com/jobs/?search=data+scientist"), "careers_url": "https://careers.servicenow.com", "verified": False},
     {"name": "Snowflake", "slug": "snowflake", "platform": ATSPlatform.CUSTOM,
@@ -117,7 +135,8 @@ COMPANIES: list[dict] = [
      "identifier": _custom("https://careers.cognizant.com/global/en/search-results?keywords=data%20scientist"), "careers_url": "https://careers.cognizant.com", "verified": False},
     {"name": "Infosys", "slug": "infosys", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://career.infosys.com/jobs?searchText=data%20scientist"), "careers_url": "https://career.infosys.com", "verified": False},
-    {"name": "TCS", "slug": "tcs", "platform": ATSPlatform.ORACLE_CAREERS,
+    # TCS runs its own custom candidate platform ("iBegin"), not Oracle Taleo.
+    {"name": "TCS", "slug": "tcs", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://ibegin.tcs.com/iBegin/jobs/search?searchText=data+scientist"), "careers_url": "https://ibegin.tcs.com", "verified": False},
     {"name": "HCLTech", "slug": "hcltech", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://www.hcltech.com/careers/job-search?keywords=data+scientist"), "careers_url": "https://www.hcltech.com/careers", "verified": False},
