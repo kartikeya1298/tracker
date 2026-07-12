@@ -6,27 +6,37 @@ have. It does two things:
 
 1. Qualcomm's dc subdomain is ambiguous (wd12 vs wd5) — this hits Workday's real CxS
    JSON API directly for both candidates and reports which one actually returns jobs.
-   No browser needed, no guessing.
+   No browser needed, no guessing. (Already resolved as of this tool's last run —
+   kept here in case a future company needs the same treatment.)
 
 2. For every other unverified/`custom`-platform company in the registry, it loads the
-   career site in a real (headed, to reduce bot-detection false negatives) Chromium,
-   and runs a heuristic in-page scan for repeated "job card" elements — grouping DOM
-   nodes by tag+class, first by job/career/listing-related class-name keywords, then
-   (if that finds nothing — common on sites using hashed CSS-in-JS classnames) by
-   "repeated element containing a title-length anchor link." For each candidate it
-   captures the selector, how many matched, and an HTML snippet of the first two — that
-   snippet is what actually tells us the real title/location/link selectors to put in
-   registry.py, which a full-page HTML dump would bury in noise.
+   career site in a real (headed, to reduce bot-detection false negatives) Chromium and:
+   a. Tries to dismiss a cookie-consent banner (OneTrust and similar are extremely
+      common and can visually cover/block the results grid even though the DOM behind
+      it is fine — but some sites also gate rendering on consent).
+   b. Runs the DOM detection heuristic once immediately (covers sites where the search
+      query in the URL already works).
+   c. If that finds nothing, looks for a search input on the page, types "data
+      scientist" into it, submits, waits for the page to settle, and re-runs detection.
+      This is the main upgrade over the first pass of this tool — a lot of "no
+      candidates found" results turned out to be sites that never actually executed
+      the URL-encoded search query without a real keystroke+submit interaction.
 
-Output: one JSON file per company in ./site_inspections/<slug>.json, a screenshot per
-company for visual cross-check, and a summary.json across all of them. Send the
-site_inspections/ folder (or just paste individual JSON files) back and the registry
-config gets written directly from the candidates you point at.
+   Detection itself groups DOM nodes by tag+class, first by job/career/listing-related
+   class-name keywords, then (if that finds nothing — common on sites using hashed
+   CSS-in-JS classnames) by "repeated element containing a title-length anchor link."
+   For each candidate it captures the selector, how many matched, and an HTML snippet
+   of the first two — that snippet is what actually tells us the real
+   title/location/link selectors to put in registry.py.
+
+Output: one JSON file per company in ./site_inspections/<slug>.json (now includes a
+`stage` field: "initial" or "after_search", so you know which path found it), a
+screenshot per company, and a summary.json across all of them.
 
 Usage:
     pip install playwright httpx
     playwright install chromium
-    python inspect_career_sites.py                 # all companies
+    python inspect_career_sites.py                 # all remaining companies
     python inspect_career_sites.py --only zoho,ibm  # just these
     python inspect_career_sites.py --headless       # default is headed
 """
@@ -40,24 +50,20 @@ from pathlib import Path
 
 import httpx
 from playwright.sync_api import Error as PlaywrightError
+from playwright.sync_api import Page
 from playwright.sync_api import sync_playwright
 
 OUTPUT_DIR = Path(__file__).parent / "site_inspections"
+SEARCH_TEXT = "data scientist"
 
-# Kept in sync with the `verified=False` / platform=CUSTOM|SUCCESSFACTORS|ORACLE_CAREERS|
-# SAP_CAREERS rows in backend/app/scrapers/registry.py as of this tool's authoring.
-# If you've since edited registry.py, update this list to match — it's intentionally
-# standalone (no dependency on the backend's Python environment) so it runs with just
-# playwright+httpx installed.
+# The 28 rows still `verified=False` in backend/app/scrapers/registry.py as of this
+# tool's last update (2026-07-12, after the first inspection pass resolved 12 more
+# companies). If you've since edited registry.py, update this list to match.
 CUSTOM_SITES: list[tuple[str, str]] = [
     ("nokia", "https://jobs.nokia.com/en/sites/CX_1/jobs"),
-    ("sap", "https://jobs.sap.com/search/"),
-    ("siemens", "https://jobs.siemens.com/en_US/externaljobs/SearchJobs"),
     ("bosch", "https://jobs.bosch.com/en/"),
     ("ericsson", "https://career2.successfactors.eu/careers?company=Ericsson"),
     ("oracle", "https://careers.oracle.com/en/sites/jobsearch/jobs"),
-    ("amazon", "https://www.amazon.jobs/en/search?base_query=data+scientist"),
-    ("microsoft", "https://jobs.careers.microsoft.com/global/en/search?q=data%20scientist"),
     ("google", "https://www.google.com/about/careers/applications/jobs/results?q=data%20scientist"),
     ("cisco", "https://jobs.cisco.com/jobs/SearchJobs/data%2520scientist"),
     ("ibm", "https://www.ibm.com/careers/search?field_keyword_18[0]=Data%20and%20AI"),
@@ -68,19 +74,12 @@ CUSTOM_SITES: list[tuple[str, str]] = [
     ("servicenow", "https://careers.servicenow.com/jobs/?search=data+scientist"),
     ("snowflake", "https://careers.snowflake.com/us/en/search-results?keywords=data%20scientist"),
     ("jpmorgan-chase", "https://careers.jpmorgan.com/us/en/search-results?keywords=data%20scientist"),
-    ("goldman-sachs", "https://higher.gs.com/roles?query=data%20scientist"),
-    ("deloitte", "https://apply.deloitte.com/careers/SearchJobs/data-scientist"),
-    ("accenture", "https://www.accenture.com/in-en/careers/jobsearch?jk=data%20scientist"),
     ("capgemini", "https://www.capgemini.com/careers/join-capgemini/?search=data+scientist"),
     ("cognizant", "https://careers.cognizant.com/global/en/search-results?keywords=data%20scientist"),
-    ("infosys", "https://career.infosys.com/jobs?searchText=data%20scientist"),
     ("tcs", "https://ibegin.tcs.com/iBegin/jobs/search?searchText=data+scientist"),
     ("hcltech", "https://www.hcltech.com/careers/job-search?keywords=data+scientist"),
     ("wipro", "https://careers.wipro.com/careers-home/jobs?keywords=data+scientist"),
     ("tech-mahindra", "https://careers.techmahindra.com/find-a-job?keywords=data+scientist"),
-    ("ltimindtree", "https://careers.ltimindtree.com/search?searchText=data+scientist"),
-    ("ey", "https://careers.ey.com/ey/search/?q=data+scientist"),
-    ("pwc", "https://jobs.us.pwc.com/search-jobs/data%20scientist"),
     ("kpmg", "https://kpmg.com/us/en/careers/search-openings.html?q=data+scientist"),
     ("genpact", "https://genpact.taleo.net/careersection/genpact_ext/jobsearch.ftl?searchText=data+scientist"),
     ("dxc-technology", "https://jobs.dxc.com/global/en/search-results?keywords=data%20scientist"),
@@ -91,11 +90,51 @@ CUSTOM_SITES: list[tuple[str, str]] = [
     ("samsung-rd", "https://www.samsung.com/in/careers/job-search/"),
 ]
 
-# Workday's real public CxS API. Qualcomm's dc segment was ambiguous from search results
-# (wd12 vs wd5) — hit both directly and see which actually returns postings.
 QUALCOMM_CANDIDATES = [
     ("qualcomm", "wd12", "External"),
     ("qualcomm", "wd5", "External"),
+]
+
+COOKIE_BANNER_SELECTORS = [
+    "#onetrust-accept-btn-handler",  # OneTrust - extremely common
+    "button#onetrust-accept-btn-handler",
+    "#truste-consent-button",
+    "button[aria-label='Accept all cookies']",
+    "button[aria-label='Accept All Cookies']",
+    "button[aria-label='Accept Cookies']",
+    "button[title='Accept all cookies']",
+    "[id*='accept' i][id*='cookie' i]",
+    "[class*='accept' i][class*='cookie' i]",
+    "button:has-text('Accept All')",
+    "button:has-text('Accept all')",
+    "button:has-text('Accept Cookies')",
+    "button:has-text('I Accept')",
+    "button:has-text('I Agree')",
+    "button:has-text('Allow all')",
+    "button:has-text('Allow All')",
+    "button:has-text('Got it')",
+]
+
+SEARCH_INPUT_SELECTORS = [
+    "input[type='search']",
+    "input[placeholder*='search' i]",
+    "input[placeholder*='keyword' i]",
+    "input[placeholder*='job title' i]",
+    "input[aria-label*='search' i]",
+    "input[aria-label*='keyword' i]",
+    "input[name*='keyword' i]",
+    "input[name='q']",
+    "input#keyword",
+    "input.search-input",
+    "input[data-testid*='search' i]",
+]
+
+SEARCH_SUBMIT_SELECTORS = [
+    "button[type='submit']",
+    "button[aria-label*='search' i]",
+    "button.search-button",
+    "button:has-text('Search')",
+    "button:has-text('Find Jobs')",
 ]
 
 DETECT_JS = r"""
@@ -165,7 +204,7 @@ def verify_qualcomm() -> dict:
         url = f"https://{tenant}.{dc}.myworkdayjobs.com/wday/cxs/{tenant}/{site}/jobs"
         try:
             resp = httpx.post(
-                url, json={"appliedFacets": {}, "limit": 5, "offset": 0, "searchText": "data scientist"},
+                url, json={"appliedFacets": {}, "limit": 5, "offset": 0, "searchText": SEARCH_TEXT},
                 timeout=20,
             )
             ok = resp.status_code == 200 and "jobPostings" in resp.text
@@ -178,6 +217,67 @@ def verify_qualcomm() -> dict:
     return result
 
 
+def dismiss_cookie_banner(page: Page) -> bool:
+    for sel in COOKIE_BANNER_SELECTORS:
+        try:
+            el = page.query_selector(sel)
+            if el and el.is_visible():
+                el.click(timeout=2000)
+                page.wait_for_timeout(500)
+                return True
+        except PlaywrightError:
+            continue
+    return False
+
+
+def try_search_interaction(page: Page) -> bool:
+    """Find a search box, type the target query, submit, and wait for the page to
+    settle. Returns True if an input was found and interacted with (not whether it
+    produced results — caller re-runs detection to check that)."""
+    search_input = None
+    for sel in SEARCH_INPUT_SELECTORS:
+        try:
+            el = page.query_selector(sel)
+            if el and el.is_visible():
+                search_input = el
+                break
+        except PlaywrightError:
+            continue
+
+    if search_input is None:
+        return False
+
+    try:
+        search_input.click(timeout=2000)
+        search_input.fill("")
+        search_input.type(SEARCH_TEXT, delay=30)
+    except PlaywrightError:
+        return False
+
+    submitted = False
+    for sel in SEARCH_SUBMIT_SELECTORS:
+        try:
+            btn = page.query_selector(sel)
+            if btn and btn.is_visible():
+                btn.click(timeout=2000)
+                submitted = True
+                break
+        except PlaywrightError:
+            continue
+    if not submitted:
+        try:
+            search_input.press("Enter")
+        except PlaywrightError:
+            pass
+
+    try:
+        page.wait_for_load_state("networkidle", timeout=15000)
+    except PlaywrightError:
+        pass
+    page.wait_for_timeout(2500)
+    return True
+
+
 def inspect_site(browser, slug: str, url: str, timeout_ms: int) -> dict:
     print(f"== {slug} -> {url}")
     page = browser.new_page(viewport={"width": 1440, "height": 1000})
@@ -187,22 +287,40 @@ def inspect_site(browser, slug: str, url: str, timeout_ms: int) -> dict:
         try:
             page.wait_for_load_state("networkidle", timeout=15000)
         except PlaywrightError:
-            pass  # some sites never go idle (polling widgets); proceed anyway
-        page.wait_for_timeout(2000)  # let client-side rendering settle
+            pass
+        page.wait_for_timeout(2000)
+
+        dismissed = dismiss_cookie_banner(page)
+        if dismissed:
+            print("   -> dismissed a cookie banner")
 
         analysis = page.evaluate(DETECT_JS)
+        n_candidates = len(analysis.get("keyword_candidates", [])) + len(analysis.get("structural_candidates", []))
+        stage = "initial"
+
+        if n_candidates == 0:
+            print("   -> no candidates on initial load, trying search interaction...")
+            interacted = try_search_interaction(page)
+            if interacted:
+                analysis = page.evaluate(DETECT_JS)
+                n_candidates = len(analysis.get("keyword_candidates", [])) + len(analysis.get("structural_candidates", []))
+                stage = "after_search"
+                print(f"   -> after search: {n_candidates} candidates" if n_candidates else "   -> still nothing after search")
+            else:
+                print("   -> no search box found on page")
+
         record.update(analysis)
-        record["status"] = "ok"
+        record["stage"] = stage
+        record["cookie_banner_dismissed"] = dismissed
+        record["status"] = "ok" if n_candidates > 0 else "no_candidates_found"
 
         screenshot_path = OUTPUT_DIR / f"{slug}.png"
         page.screenshot(path=str(screenshot_path), full_page=False)
         record["screenshot"] = screenshot_path.name
 
-        n_candidates = len(analysis.get("keyword_candidates", [])) + len(analysis.get("structural_candidates", []))
-        print(f"   -> {n_candidates} candidate patterns found")
+        print(f"   -> {n_candidates} candidate patterns found (stage={stage})")
         if n_candidates == 0:
-            record["status"] = "no_candidates_found"
-            print("   -> WARNING: nothing matched. Site may need login, may be entirely canvas/iframe-rendered, or search box needs interaction.")
+            print("   -> WARNING: nothing matched even after search interaction. May need login, may be canvas/iframe-rendered, or uses a non-standard search UI.")
     except PlaywrightError as exc:
         record["status"] = "blocked_or_error"
         record["error"] = str(exc)
@@ -232,7 +350,7 @@ def main():
 
     summary = {}
 
-    if not args.only or "qualcomm" in (args.only or "").split(","):
+    if args.only and "qualcomm" in args.only.split(","):
         summary["qualcomm"] = verify_qualcomm()
         (OUTPUT_DIR / "qualcomm.json").write_text(json.dumps(summary["qualcomm"], indent=2))
 
