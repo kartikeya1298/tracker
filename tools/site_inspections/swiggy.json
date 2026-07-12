@@ -8,8 +8,8 @@
         "selector": "li.nav-item",
         "count": 8,
         "sample_html": [
-          "<li _ngcontent-nhb-c18=\"\" class=\"nav-item\" ng-reflect-ng-class=\"[object Object]\"><a _ngcontent-nhb-c18=\"\" routerlink=\"/careers\" class=\"nav-link\" ng-reflect-router-link=\"/careers\" href=\"#/careers\">Opportunities</a></li>",
-          "<li _ngcontent-nhb-c18=\"\" class=\"nav-item\" ng-reflect-ng-class=\"[object Object]\"><a _ngcontent-nhb-c18=\"\" routerlink=\"/programmes\" class=\"nav-link\" ng-reflect-router-link=\"/programmes\" href=\"#/programmes\">Programmes</a></li>"
+          "<li _ngcontent-mqc-c18=\"\" class=\"nav-item\" ng-reflect-ng-class=\"[object Object]\"><a _ngcontent-mqc-c18=\"\" routerlink=\"/careers\" class=\"nav-link\" ng-reflect-router-link=\"/careers\" href=\"#/careers\">Opportunities</a></li>",
+          "<li _ngcontent-mqc-c18=\"\" class=\"nav-item\" ng-reflect-ng-class=\"[object Object]\"><a _ngcontent-mqc-c18=\"\" routerlink=\"/programmes\" class=\"nav-link\" ng-reflect-router-link=\"/programmes\" href=\"#/programmes\">Programmes</a></li>"
         ],
         "sample_text": [
           "Opportunities",
@@ -20,8 +20,8 @@
         "selector": "a.nav-link",
         "count": 8,
         "sample_html": [
-          "<a _ngcontent-nhb-c18=\"\" routerlink=\"/careers\" class=\"nav-link\" ng-reflect-router-link=\"/careers\" href=\"#/careers\">Opportunities</a>",
-          "<a _ngcontent-nhb-c18=\"\" routerlink=\"/programmes\" class=\"nav-link\" ng-reflect-router-link=\"/programmes\" href=\"#/programmes\">Programmes</a>"
+          "<a _ngcontent-mqc-c18=\"\" routerlink=\"/careers\" class=\"nav-link\" ng-reflect-router-link=\"/careers\" href=\"#/careers\">Opportunities</a>",
+          "<a _ngcontent-mqc-c18=\"\" routerlink=\"/programmes\" class=\"nav-link\" ng-reflect-router-link=\"/programmes\" href=\"#/programmes\">Programmes</a>"
         ],
         "sample_text": [
           "Opportunities",
@@ -32,8 +32,8 @@
         "selector": "div.col-xs-12.col-md-4.col-lg-4",
         "count": 9,
         "sample_html": [
-          "<div _ngcontent-nhb-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-nhb-c59=\"\" class=\"heading\"><h3 _ngcontent-nhb-c59=\"\" class=\"heading_4\">Key Account Manager II</h3><h1 _ngcontent-nhb-c59=\"\" class=\"heading_5\">Mumbai</h1></div></div>",
-          "<div _ngcontent-nhb-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-nhb-c59=\"\" class=\"heading\"><h3 _ngcontent-nhb-c59=\"\" class=\"heading_4\">Senior Executive - Customer Delight</h3><h1 _ngcontent-nhb-c59=\"\" class=\"heading_5\">Bangalore</h1></div></div>"
+          "<div _ngcontent-mqc-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-mqc-c59=\"\" class=\"heading\"><h3 _ngcontent-mqc-c59=\"\" class=\"heading_4\">Key Account Manager II</h3><h1 _ngcontent-mqc-c59=\"\" class=\"heading_5\">Mumbai</h1></div></div>",
+          "<div _ngcontent-mqc-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-mqc-c59=\"\" class=\"heading\"><h3 _ngcontent-mqc-c59=\"\" class=\"heading_4\">Senior Executive - Customer Delight</h3><h1 _ngcontent-mqc-c59=\"\" class=\"heading_5\">Bangalore</h1></div></div>"
         ],
         "sample_text": [
           "Key Account Manager II\nMumbai",
@@ -44,8 +44,8 @@
         "selector": "div.heading",
         "count": 9,
         "sample_html": [
-          "<div _ngcontent-nhb-c59=\"\" class=\"heading\"><h3 _ngcontent-nhb-c59=\"\" class=\"heading_4\">Key Account Manager II</h3><h1 _ngcontent-nhb-c59=\"\" class=\"heading_5\">Mumbai</h1></div>",
-          "<div _ngcontent-nhb-c59=\"\" class=\"heading\"><h3 _ngcontent-nhb-c59=\"\" class=\"heading_4\">Senior Executive - Customer Delight</h3><h1 _ngcontent-nhb-c59=\"\" class=\"heading_5\">Bangalore</h1></div>"
+          "<div _ngcontent-mqc-c59=\"\" class=\"heading\"><h3 _ngcontent-mqc-c59=\"\" class=\"heading_4\">Key Account Manager II</h3><h1 _ngcontent-mqc-c59=\"\" class=\"heading_5\">Mumbai</h1></div>",
+          "<div _ngcontent-mqc-c59=\"\" class=\"heading\"><h3 _ngcontent-mqc-c59=\"\" class=\"heading_4\">Senior Executive - Customer Delight</h3><h1 _ngcontent-mqc-c59=\"\" class=\"heading_5\">Bangalore</h1></div>"
         ],
         "sample_text": [
           "Key Account Manager II\nMumbai",
@@ -56,8 +56,8 @@
         "selector": "div.col-sm-12.col-lg-4",
         "count": 6,
         "sample_html": [
-          "<div _ngcontent-nhb-c60=\"\" class=\"col-sm-12 col-lg-4\"><div _ngcontent-nhb-c60=\"\" class=\"img_with_text\"><div _ngcontent-nhb-c60=\"\" class=\"icon_svg\"><img _ngcontent-nhb-c60=\"\" src=\"./assets/img/icons/ic_1.png\" width=\"150px\" height=\"150px\"></div><div _ngcontent-nhb-c60=\"\" class=\"discription\"><h4 _ngcontent-nhb-c60=\"\">TECHNOLOGY</h4><a _ngcontent-nhb-c60=\"\" routerlink=\"/careers\" class=\"btn\" ng-reflect-router-link=\"/careers\" ng-reflect-query-params=\"[object Object]\" href=\"#/careers?career_page_category=Technology\">Explore</a></div></div></div>",
-          "<div _ngcontent-nhb-c60=\"\" class=\"col-sm-12 col-lg-4\"><div _ngcontent-nhb-c60=\"\" class=\"img_with_text\"><div _ngcontent-nhb-c60=\"\" class=\"icon_svg\"><img _ngcontent-nhb-c60=\"\" src=\"./assets/img/icons/ic_2.png\" width=\"150px\" height=\"150px\"></div><div _ngcontent-nhb-c60=\"\" class=\"discription\"><h4 _ngcontent-nhb-c60=\"\">BUSINESS</h4><a _ngcontent-nhb-c60=\"\" routerlink=\"/careers\" class=\"btn\" ng-reflect-router-link=\"/careers\" ng-reflect-query-params=\"[object Object]\" href=\"#/careers?career_page_category=Business\">Explore</a></div></div></div>"
+          "<div _ngcontent-mqc-c60=\"\" class=\"col-sm-12 col-lg-4\"><div _ngcontent-mqc-c60=\"\" class=\"img_with_text\"><div _ngcontent-mqc-c60=\"\" class=\"icon_svg\"><img _ngcontent-mqc-c60=\"\" src=\"./assets/img/icons/ic_1.png\" width=\"150px\" height=\"150px\"></div><div _ngcontent-mqc-c60=\"\" class=\"discription\"><h4 _ngcontent-mqc-c60=\"\">TECHNOLOGY</h4><a _ngcontent-mqc-c60=\"\" routerlink=\"/careers\" class=\"btn\" ng-reflect-router-link=\"/careers\" ng-reflect-query-params=\"[object Object]\" href=\"#/careers?career_page_category=Technology\">Explore</a></div></div></div>",
+          "<div _ngcontent-mqc-c60=\"\" class=\"col-sm-12 col-lg-4\"><div _ngcontent-mqc-c60=\"\" class=\"img_with_text\"><div _ngcontent-mqc-c60=\"\" class=\"icon_svg\"><img _ngcontent-mqc-c60=\"\" src=\"./assets/img/icons/ic_2.png\" width=\"150px\" height=\"150px\"></div><div _ngcontent-mqc-c60=\"\" class=\"discription\"><h4 _ngcontent-mqc-c60=\"\">BUSINESS</h4><a _ngcontent-mqc-c60=\"\" routerlink=\"/careers\" class=\"btn\" ng-reflect-router-link=\"/careers\" ng-reflect-query-params=\"[object Object]\" href=\"#/careers?career_page_category=Business\">Explore</a></div></div></div>"
         ],
         "sample_text": [
           "TECHNOLOGY\nExplore",
@@ -68,8 +68,8 @@
         "selector": "div.img_with_text",
         "count": 6,
         "sample_html": [
-          "<div _ngcontent-nhb-c60=\"\" class=\"img_with_text\"><div _ngcontent-nhb-c60=\"\" class=\"icon_svg\"><img _ngcontent-nhb-c60=\"\" src=\"./assets/img/icons/ic_1.png\" width=\"150px\" height=\"150px\"></div><div _ngcontent-nhb-c60=\"\" class=\"discription\"><h4 _ngcontent-nhb-c60=\"\">TECHNOLOGY</h4><a _ngcontent-nhb-c60=\"\" routerlink=\"/careers\" class=\"btn\" ng-reflect-router-link=\"/careers\" ng-reflect-query-params=\"[object Object]\" href=\"#/careers?career_page_category=Technology\">Explore</a></div></div>",
-          "<div _ngcontent-nhb-c60=\"\" class=\"img_with_text\"><div _ngcontent-nhb-c60=\"\" class=\"icon_svg\"><img _ngcontent-nhb-c60=\"\" src=\"./assets/img/icons/ic_2.png\" width=\"150px\" height=\"150px\"></div><div _ngcontent-nhb-c60=\"\" class=\"discription\"><h4 _ngcontent-nhb-c60=\"\">BUSINESS</h4><a _ngcontent-nhb-c60=\"\" routerlink=\"/careers\" class=\"btn\" ng-reflect-router-link=\"/careers\" ng-reflect-query-params=\"[object Object]\" href=\"#/careers?career_page_category=Business\">Explore</a></div></div>"
+          "<div _ngcontent-mqc-c60=\"\" class=\"img_with_text\"><div _ngcontent-mqc-c60=\"\" class=\"icon_svg\"><img _ngcontent-mqc-c60=\"\" src=\"./assets/img/icons/ic_1.png\" width=\"150px\" height=\"150px\"></div><div _ngcontent-mqc-c60=\"\" class=\"discription\"><h4 _ngcontent-mqc-c60=\"\">TECHNOLOGY</h4><a _ngcontent-mqc-c60=\"\" routerlink=\"/careers\" class=\"btn\" ng-reflect-router-link=\"/careers\" ng-reflect-query-params=\"[object Object]\" href=\"#/careers?career_page_category=Technology\">Explore</a></div></div>",
+          "<div _ngcontent-mqc-c60=\"\" class=\"img_with_text\"><div _ngcontent-mqc-c60=\"\" class=\"icon_svg\"><img _ngcontent-mqc-c60=\"\" src=\"./assets/img/icons/ic_2.png\" width=\"150px\" height=\"150px\"></div><div _ngcontent-mqc-c60=\"\" class=\"discription\"><h4 _ngcontent-mqc-c60=\"\">BUSINESS</h4><a _ngcontent-mqc-c60=\"\" routerlink=\"/careers\" class=\"btn\" ng-reflect-router-link=\"/careers\" ng-reflect-query-params=\"[object Object]\" href=\"#/careers?career_page_category=Business\">Explore</a></div></div>"
         ],
         "sample_text": [
           "TECHNOLOGY\nExplore",
@@ -80,8 +80,8 @@
         "selector": "div.discription",
         "count": 6,
         "sample_html": [
-          "<div _ngcontent-nhb-c60=\"\" class=\"discription\"><h4 _ngcontent-nhb-c60=\"\">TECHNOLOGY</h4><a _ngcontent-nhb-c60=\"\" routerlink=\"/careers\" class=\"btn\" ng-reflect-router-link=\"/careers\" ng-reflect-query-params=\"[object Object]\" href=\"#/careers?career_page_category=Technology\">Explore</a></div>",
-          "<div _ngcontent-nhb-c60=\"\" class=\"discription\"><h4 _ngcontent-nhb-c60=\"\">BUSINESS</h4><a _ngcontent-nhb-c60=\"\" routerlink=\"/careers\" class=\"btn\" ng-reflect-router-link=\"/careers\" ng-reflect-query-params=\"[object Object]\" href=\"#/careers?career_page_category=Business\">Explore</a></div>"
+          "<div _ngcontent-mqc-c60=\"\" class=\"discription\"><h4 _ngcontent-mqc-c60=\"\">TECHNOLOGY</h4><a _ngcontent-mqc-c60=\"\" routerlink=\"/careers\" class=\"btn\" ng-reflect-router-link=\"/careers\" ng-reflect-query-params=\"[object Object]\" href=\"#/careers?career_page_category=Technology\">Explore</a></div>",
+          "<div _ngcontent-mqc-c60=\"\" class=\"discription\"><h4 _ngcontent-mqc-c60=\"\">BUSINESS</h4><a _ngcontent-mqc-c60=\"\" routerlink=\"/careers\" class=\"btn\" ng-reflect-router-link=\"/careers\" ng-reflect-query-params=\"[object Object]\" href=\"#/careers?career_page_category=Business\">Explore</a></div>"
         ],
         "sample_text": [
           "TECHNOLOGY\nExplore",
@@ -92,8 +92,8 @@
         "selector": "div.row",
         "count": 3,
         "sample_html": [
-          "<div _ngcontent-nhb-c59=\"\" class=\"row\"><div _ngcontent-nhb-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-nhb-c59=\"\" class=\"heading\"><h3 _ngcontent-nhb-c59=\"\" class=\"heading_4\">Key Account Manager II</h3><h1 _ngcontent-nhb-c59=\"\" class=\"heading_5\">Mumbai</h1></div></div><div _ngcontent-nhb-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-nhb-c59=\"\" class=\"heading\"><h3 _ngcontent-nhb-c59=\"\" class=\"heading_4\">Senior Executive - Customer Delight</h3><h1 _ngcontent-nhb-c59=\"\" class=\"heading_5\">Bangalore</h1></div></div><div _ngcontent-nhb-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-nhb-c59=\"\" class=\"heading\"><h3 _ngcontent-nhb-c59=\"\" class=\"heading_4\">Senior Executive - ORM</h3><h1 _ngcontent-nhb-c59=\"\" class=\"heading_5\">Bangalore</h1></div></div><div _ngcontent-nhb-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-nhb-c59=\"\" class=\"heading\"><h3 _ngcontent-nhb-c59=\"\" class=\"heading_4\">Sales Manager I</h3><h1 _ngcontent-nhb-c59=\"\" class=\"heading_5\">Bangalore</h1></div></div><div _ngcontent-nhb-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-nhb-c59=\"\" class=\"heading\"><h3 _ngcontent-nhb-c59=\"\" class=\"heading_4\">Software Dev Engineer II (iOS)</h3><h1 _ngcontent-nhb-c59=\"\" class=\"heading_5\">Sumadhura Capitol Towers</h1></div></div><div _ngcontent-nhb-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-nhb-c59=\"\" class=\"heading\"><h3 _ngcontent-nhb-c59=\"\" class=\"heading_4\">Sales Manager I</h3><h1 _ngcontent-nhb-c59=\"\" clas",
-          "<div _ngcontent-nhb-c60=\"\" class=\"row\"><div _ngcontent-nhb-c60=\"\" class=\"col-xs-12 col col-lg-6 mx-auto\"><h1 _ngcontent-nhb-c60=\"\">#LetsTalkDeepTech |<br _ngcontent-nhb-c60=\"\"> Webinar Series</h1><h5 _ngcontent-nhb-c60=\"\">Missed the latest edition of Gigabytes - Swiggy's tech webinar series? Want to know what's geeking inside Swiggy's hyperlocal tech world? </h5></div></div>"
+          "<div _ngcontent-mqc-c59=\"\" class=\"row\"><div _ngcontent-mqc-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-mqc-c59=\"\" class=\"heading\"><h3 _ngcontent-mqc-c59=\"\" class=\"heading_4\">Key Account Manager II</h3><h1 _ngcontent-mqc-c59=\"\" class=\"heading_5\">Mumbai</h1></div></div><div _ngcontent-mqc-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-mqc-c59=\"\" class=\"heading\"><h3 _ngcontent-mqc-c59=\"\" class=\"heading_4\">Senior Executive - Customer Delight</h3><h1 _ngcontent-mqc-c59=\"\" class=\"heading_5\">Bangalore</h1></div></div><div _ngcontent-mqc-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-mqc-c59=\"\" class=\"heading\"><h3 _ngcontent-mqc-c59=\"\" class=\"heading_4\">Senior Executive - ORM</h3><h1 _ngcontent-mqc-c59=\"\" class=\"heading_5\">Bangalore</h1></div></div><div _ngcontent-mqc-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-mqc-c59=\"\" class=\"heading\"><h3 _ngcontent-mqc-c59=\"\" class=\"heading_4\">Sales Manager I</h3><h1 _ngcontent-mqc-c59=\"\" class=\"heading_5\">Bangalore</h1></div></div><div _ngcontent-mqc-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-mqc-c59=\"\" class=\"heading\"><h3 _ngcontent-mqc-c59=\"\" class=\"heading_4\">Software Dev Engineer II (iOS)</h3><h1 _ngcontent-mqc-c59=\"\" class=\"heading_5\">Sumadhura Capitol Towers</h1></div></div><div _ngcontent-mqc-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-mqc-c59=\"\" class=\"heading\"><h3 _ngcontent-mqc-c59=\"\" class=\"heading_4\">Sales Manager I</h3><h1 _ngcontent-mqc-c59=\"\" clas",
+          "<div _ngcontent-mqc-c60=\"\" class=\"row\"><div _ngcontent-mqc-c60=\"\" class=\"col-xs-12 col col-lg-6 mx-auto\"><h1 _ngcontent-mqc-c60=\"\">#LetsTalkDeepTech |<br _ngcontent-mqc-c60=\"\"> Webinar Series</h1><h5 _ngcontent-mqc-c60=\"\">Missed the latest edition of Gigabytes - Swiggy's tech webinar series? Want to know what's geeking inside Swiggy's hyperlocal tech world? </h5></div></div>"
         ],
         "sample_text": [
           "Key Account Manager II\nMumbai\nSenior Executive - Customer Delight\nBangalore\nSenior Executive - ORM\nBangalore\nSales Manager I\nBangalore\nSoftware Dev Engineer II (iOS)\nSumadhura Capitol Towers\nSales Man",
@@ -111,8 +111,8 @@
       "selector": "li.nav-item",
       "count": 8,
       "sample_html": [
-        "<li _ngcontent-nhb-c18=\"\" class=\"nav-item\" ng-reflect-ng-class=\"[object Object]\"><a _ngcontent-nhb-c18=\"\" routerlink=\"/careers\" class=\"nav-link\" ng-reflect-router-link=\"/careers\" href=\"#/careers\">Opportunities</a></li>",
-        "<li _ngcontent-nhb-c18=\"\" class=\"nav-item\" ng-reflect-ng-class=\"[object Object]\"><a _ngcontent-nhb-c18=\"\" routerlink=\"/programmes\" class=\"nav-link\" ng-reflect-router-link=\"/programmes\" href=\"#/programmes\">Programmes</a></li>"
+        "<li _ngcontent-mqc-c18=\"\" class=\"nav-item\" ng-reflect-ng-class=\"[object Object]\"><a _ngcontent-mqc-c18=\"\" routerlink=\"/careers\" class=\"nav-link\" ng-reflect-router-link=\"/careers\" href=\"#/careers\">Opportunities</a></li>",
+        "<li _ngcontent-mqc-c18=\"\" class=\"nav-item\" ng-reflect-ng-class=\"[object Object]\"><a _ngcontent-mqc-c18=\"\" routerlink=\"/programmes\" class=\"nav-link\" ng-reflect-router-link=\"/programmes\" href=\"#/programmes\">Programmes</a></li>"
       ],
       "sample_text": [
         "Opportunities",
@@ -123,8 +123,8 @@
       "selector": "a.nav-link",
       "count": 8,
       "sample_html": [
-        "<a _ngcontent-nhb-c18=\"\" routerlink=\"/careers\" class=\"nav-link\" ng-reflect-router-link=\"/careers\" href=\"#/careers\">Opportunities</a>",
-        "<a _ngcontent-nhb-c18=\"\" routerlink=\"/programmes\" class=\"nav-link\" ng-reflect-router-link=\"/programmes\" href=\"#/programmes\">Programmes</a>"
+        "<a _ngcontent-mqc-c18=\"\" routerlink=\"/careers\" class=\"nav-link\" ng-reflect-router-link=\"/careers\" href=\"#/careers\">Opportunities</a>",
+        "<a _ngcontent-mqc-c18=\"\" routerlink=\"/programmes\" class=\"nav-link\" ng-reflect-router-link=\"/programmes\" href=\"#/programmes\">Programmes</a>"
       ],
       "sample_text": [
         "Opportunities",
@@ -135,8 +135,8 @@
       "selector": "div.col-xs-12.col-md-4.col-lg-4",
       "count": 9,
       "sample_html": [
-        "<div _ngcontent-nhb-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-nhb-c59=\"\" class=\"heading\"><h3 _ngcontent-nhb-c59=\"\" class=\"heading_4\">Key Account Manager II</h3><h1 _ngcontent-nhb-c59=\"\" class=\"heading_5\">Mumbai</h1></div></div>",
-        "<div _ngcontent-nhb-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-nhb-c59=\"\" class=\"heading\"><h3 _ngcontent-nhb-c59=\"\" class=\"heading_4\">Senior Executive - Customer Delight</h3><h1 _ngcontent-nhb-c59=\"\" class=\"heading_5\">Bangalore</h1></div></div>"
+        "<div _ngcontent-mqc-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-mqc-c59=\"\" class=\"heading\"><h3 _ngcontent-mqc-c59=\"\" class=\"heading_4\">Key Account Manager II</h3><h1 _ngcontent-mqc-c59=\"\" class=\"heading_5\">Mumbai</h1></div></div>",
+        "<div _ngcontent-mqc-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-mqc-c59=\"\" class=\"heading\"><h3 _ngcontent-mqc-c59=\"\" class=\"heading_4\">Senior Executive - Customer Delight</h3><h1 _ngcontent-mqc-c59=\"\" class=\"heading_5\">Bangalore</h1></div></div>"
       ],
       "sample_text": [
         "Key Account Manager II\nMumbai",
@@ -147,8 +147,8 @@
       "selector": "div.heading",
       "count": 9,
       "sample_html": [
-        "<div _ngcontent-nhb-c59=\"\" class=\"heading\"><h3 _ngcontent-nhb-c59=\"\" class=\"heading_4\">Key Account Manager II</h3><h1 _ngcontent-nhb-c59=\"\" class=\"heading_5\">Mumbai</h1></div>",
-        "<div _ngcontent-nhb-c59=\"\" class=\"heading\"><h3 _ngcontent-nhb-c59=\"\" class=\"heading_4\">Senior Executive - Customer Delight</h3><h1 _ngcontent-nhb-c59=\"\" class=\"heading_5\">Bangalore</h1></div>"
+        "<div _ngcontent-mqc-c59=\"\" class=\"heading\"><h3 _ngcontent-mqc-c59=\"\" class=\"heading_4\">Key Account Manager II</h3><h1 _ngcontent-mqc-c59=\"\" class=\"heading_5\">Mumbai</h1></div>",
+        "<div _ngcontent-mqc-c59=\"\" class=\"heading\"><h3 _ngcontent-mqc-c59=\"\" class=\"heading_4\">Senior Executive - Customer Delight</h3><h1 _ngcontent-mqc-c59=\"\" class=\"heading_5\">Bangalore</h1></div>"
       ],
       "sample_text": [
         "Key Account Manager II\nMumbai",
@@ -159,8 +159,8 @@
       "selector": "div.col-sm-12.col-lg-4",
       "count": 6,
       "sample_html": [
-        "<div _ngcontent-nhb-c60=\"\" class=\"col-sm-12 col-lg-4\"><div _ngcontent-nhb-c60=\"\" class=\"img_with_text\"><div _ngcontent-nhb-c60=\"\" class=\"icon_svg\"><img _ngcontent-nhb-c60=\"\" src=\"./assets/img/icons/ic_1.png\" width=\"150px\" height=\"150px\"></div><div _ngcontent-nhb-c60=\"\" class=\"discription\"><h4 _ngcontent-nhb-c60=\"\">TECHNOLOGY</h4><a _ngcontent-nhb-c60=\"\" routerlink=\"/careers\" class=\"btn\" ng-reflect-router-link=\"/careers\" ng-reflect-query-params=\"[object Object]\" href=\"#/careers?career_page_category=Technology\">Explore</a></div></div></div>",
-        "<div _ngcontent-nhb-c60=\"\" class=\"col-sm-12 col-lg-4\"><div _ngcontent-nhb-c60=\"\" class=\"img_with_text\"><div _ngcontent-nhb-c60=\"\" class=\"icon_svg\"><img _ngcontent-nhb-c60=\"\" src=\"./assets/img/icons/ic_2.png\" width=\"150px\" height=\"150px\"></div><div _ngcontent-nhb-c60=\"\" class=\"discription\"><h4 _ngcontent-nhb-c60=\"\">BUSINESS</h4><a _ngcontent-nhb-c60=\"\" routerlink=\"/careers\" class=\"btn\" ng-reflect-router-link=\"/careers\" ng-reflect-query-params=\"[object Object]\" href=\"#/careers?career_page_category=Business\">Explore</a></div></div></div>"
+        "<div _ngcontent-mqc-c60=\"\" class=\"col-sm-12 col-lg-4\"><div _ngcontent-mqc-c60=\"\" class=\"img_with_text\"><div _ngcontent-mqc-c60=\"\" class=\"icon_svg\"><img _ngcontent-mqc-c60=\"\" src=\"./assets/img/icons/ic_1.png\" width=\"150px\" height=\"150px\"></div><div _ngcontent-mqc-c60=\"\" class=\"discription\"><h4 _ngcontent-mqc-c60=\"\">TECHNOLOGY</h4><a _ngcontent-mqc-c60=\"\" routerlink=\"/careers\" class=\"btn\" ng-reflect-router-link=\"/careers\" ng-reflect-query-params=\"[object Object]\" href=\"#/careers?career_page_category=Technology\">Explore</a></div></div></div>",
+        "<div _ngcontent-mqc-c60=\"\" class=\"col-sm-12 col-lg-4\"><div _ngcontent-mqc-c60=\"\" class=\"img_with_text\"><div _ngcontent-mqc-c60=\"\" class=\"icon_svg\"><img _ngcontent-mqc-c60=\"\" src=\"./assets/img/icons/ic_2.png\" width=\"150px\" height=\"150px\"></div><div _ngcontent-mqc-c60=\"\" class=\"discription\"><h4 _ngcontent-mqc-c60=\"\">BUSINESS</h4><a _ngcontent-mqc-c60=\"\" routerlink=\"/careers\" class=\"btn\" ng-reflect-router-link=\"/careers\" ng-reflect-query-params=\"[object Object]\" href=\"#/careers?career_page_category=Business\">Explore</a></div></div></div>"
       ],
       "sample_text": [
         "TECHNOLOGY\nExplore",
@@ -171,8 +171,8 @@
       "selector": "div.img_with_text",
       "count": 6,
       "sample_html": [
-        "<div _ngcontent-nhb-c60=\"\" class=\"img_with_text\"><div _ngcontent-nhb-c60=\"\" class=\"icon_svg\"><img _ngcontent-nhb-c60=\"\" src=\"./assets/img/icons/ic_1.png\" width=\"150px\" height=\"150px\"></div><div _ngcontent-nhb-c60=\"\" class=\"discription\"><h4 _ngcontent-nhb-c60=\"\">TECHNOLOGY</h4><a _ngcontent-nhb-c60=\"\" routerlink=\"/careers\" class=\"btn\" ng-reflect-router-link=\"/careers\" ng-reflect-query-params=\"[object Object]\" href=\"#/careers?career_page_category=Technology\">Explore</a></div></div>",
-        "<div _ngcontent-nhb-c60=\"\" class=\"img_with_text\"><div _ngcontent-nhb-c60=\"\" class=\"icon_svg\"><img _ngcontent-nhb-c60=\"\" src=\"./assets/img/icons/ic_2.png\" width=\"150px\" height=\"150px\"></div><div _ngcontent-nhb-c60=\"\" class=\"discription\"><h4 _ngcontent-nhb-c60=\"\">BUSINESS</h4><a _ngcontent-nhb-c60=\"\" routerlink=\"/careers\" class=\"btn\" ng-reflect-router-link=\"/careers\" ng-reflect-query-params=\"[object Object]\" href=\"#/careers?career_page_category=Business\">Explore</a></div></div>"
+        "<div _ngcontent-mqc-c60=\"\" class=\"img_with_text\"><div _ngcontent-mqc-c60=\"\" class=\"icon_svg\"><img _ngcontent-mqc-c60=\"\" src=\"./assets/img/icons/ic_1.png\" width=\"150px\" height=\"150px\"></div><div _ngcontent-mqc-c60=\"\" class=\"discription\"><h4 _ngcontent-mqc-c60=\"\">TECHNOLOGY</h4><a _ngcontent-mqc-c60=\"\" routerlink=\"/careers\" class=\"btn\" ng-reflect-router-link=\"/careers\" ng-reflect-query-params=\"[object Object]\" href=\"#/careers?career_page_category=Technology\">Explore</a></div></div>",
+        "<div _ngcontent-mqc-c60=\"\" class=\"img_with_text\"><div _ngcontent-mqc-c60=\"\" class=\"icon_svg\"><img _ngcontent-mqc-c60=\"\" src=\"./assets/img/icons/ic_2.png\" width=\"150px\" height=\"150px\"></div><div _ngcontent-mqc-c60=\"\" class=\"discription\"><h4 _ngcontent-mqc-c60=\"\">BUSINESS</h4><a _ngcontent-mqc-c60=\"\" routerlink=\"/careers\" class=\"btn\" ng-reflect-router-link=\"/careers\" ng-reflect-query-params=\"[object Object]\" href=\"#/careers?career_page_category=Business\">Explore</a></div></div>"
       ],
       "sample_text": [
         "TECHNOLOGY\nExplore",
@@ -183,8 +183,8 @@
       "selector": "div.discription",
       "count": 6,
       "sample_html": [
-        "<div _ngcontent-nhb-c60=\"\" class=\"discription\"><h4 _ngcontent-nhb-c60=\"\">TECHNOLOGY</h4><a _ngcontent-nhb-c60=\"\" routerlink=\"/careers\" class=\"btn\" ng-reflect-router-link=\"/careers\" ng-reflect-query-params=\"[object Object]\" href=\"#/careers?career_page_category=Technology\">Explore</a></div>",
-        "<div _ngcontent-nhb-c60=\"\" class=\"discription\"><h4 _ngcontent-nhb-c60=\"\">BUSINESS</h4><a _ngcontent-nhb-c60=\"\" routerlink=\"/careers\" class=\"btn\" ng-reflect-router-link=\"/careers\" ng-reflect-query-params=\"[object Object]\" href=\"#/careers?career_page_category=Business\">Explore</a></div>"
+        "<div _ngcontent-mqc-c60=\"\" class=\"discription\"><h4 _ngcontent-mqc-c60=\"\">TECHNOLOGY</h4><a _ngcontent-mqc-c60=\"\" routerlink=\"/careers\" class=\"btn\" ng-reflect-router-link=\"/careers\" ng-reflect-query-params=\"[object Object]\" href=\"#/careers?career_page_category=Technology\">Explore</a></div>",
+        "<div _ngcontent-mqc-c60=\"\" class=\"discription\"><h4 _ngcontent-mqc-c60=\"\">BUSINESS</h4><a _ngcontent-mqc-c60=\"\" routerlink=\"/careers\" class=\"btn\" ng-reflect-router-link=\"/careers\" ng-reflect-query-params=\"[object Object]\" href=\"#/careers?career_page_category=Business\">Explore</a></div>"
       ],
       "sample_text": [
         "TECHNOLOGY\nExplore",
@@ -195,8 +195,8 @@
       "selector": "div.row",
       "count": 3,
       "sample_html": [
-        "<div _ngcontent-nhb-c59=\"\" class=\"row\"><div _ngcontent-nhb-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-nhb-c59=\"\" class=\"heading\"><h3 _ngcontent-nhb-c59=\"\" class=\"heading_4\">Key Account Manager II</h3><h1 _ngcontent-nhb-c59=\"\" class=\"heading_5\">Mumbai</h1></div></div><div _ngcontent-nhb-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-nhb-c59=\"\" class=\"heading\"><h3 _ngcontent-nhb-c59=\"\" class=\"heading_4\">Senior Executive - Customer Delight</h3><h1 _ngcontent-nhb-c59=\"\" class=\"heading_5\">Bangalore</h1></div></div><div _ngcontent-nhb-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-nhb-c59=\"\" class=\"heading\"><h3 _ngcontent-nhb-c59=\"\" class=\"heading_4\">Senior Executive - ORM</h3><h1 _ngcontent-nhb-c59=\"\" class=\"heading_5\">Bangalore</h1></div></div><div _ngcontent-nhb-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-nhb-c59=\"\" class=\"heading\"><h3 _ngcontent-nhb-c59=\"\" class=\"heading_4\">Sales Manager I</h3><h1 _ngcontent-nhb-c59=\"\" class=\"heading_5\">Bangalore</h1></div></div><div _ngcontent-nhb-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-nhb-c59=\"\" class=\"heading\"><h3 _ngcontent-nhb-c59=\"\" class=\"heading_4\">Software Dev Engineer II (iOS)</h3><h1 _ngcontent-nhb-c59=\"\" class=\"heading_5\">Sumadhura Capitol Towers</h1></div></div><div _ngcontent-nhb-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-nhb-c59=\"\" class=\"heading\"><h3 _ngcontent-nhb-c59=\"\" class=\"heading_4\">Sales Manager I</h3><h1 _ngcontent-nhb-c59=\"\" clas",
-        "<div _ngcontent-nhb-c60=\"\" class=\"row\"><div _ngcontent-nhb-c60=\"\" class=\"col-xs-12 col col-lg-6 mx-auto\"><h1 _ngcontent-nhb-c60=\"\">#LetsTalkDeepTech |<br _ngcontent-nhb-c60=\"\"> Webinar Series</h1><h5 _ngcontent-nhb-c60=\"\">Missed the latest edition of Gigabytes - Swiggy's tech webinar series? Want to know what's geeking inside Swiggy's hyperlocal tech world? </h5></div></div>"
+        "<div _ngcontent-mqc-c59=\"\" class=\"row\"><div _ngcontent-mqc-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-mqc-c59=\"\" class=\"heading\"><h3 _ngcontent-mqc-c59=\"\" class=\"heading_4\">Key Account Manager II</h3><h1 _ngcontent-mqc-c59=\"\" class=\"heading_5\">Mumbai</h1></div></div><div _ngcontent-mqc-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-mqc-c59=\"\" class=\"heading\"><h3 _ngcontent-mqc-c59=\"\" class=\"heading_4\">Senior Executive - Customer Delight</h3><h1 _ngcontent-mqc-c59=\"\" class=\"heading_5\">Bangalore</h1></div></div><div _ngcontent-mqc-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-mqc-c59=\"\" class=\"heading\"><h3 _ngcontent-mqc-c59=\"\" class=\"heading_4\">Senior Executive - ORM</h3><h1 _ngcontent-mqc-c59=\"\" class=\"heading_5\">Bangalore</h1></div></div><div _ngcontent-mqc-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-mqc-c59=\"\" class=\"heading\"><h3 _ngcontent-mqc-c59=\"\" class=\"heading_4\">Sales Manager I</h3><h1 _ngcontent-mqc-c59=\"\" class=\"heading_5\">Bangalore</h1></div></div><div _ngcontent-mqc-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-mqc-c59=\"\" class=\"heading\"><h3 _ngcontent-mqc-c59=\"\" class=\"heading_4\">Software Dev Engineer II (iOS)</h3><h1 _ngcontent-mqc-c59=\"\" class=\"heading_5\">Sumadhura Capitol Towers</h1></div></div><div _ngcontent-mqc-c59=\"\" class=\"col-xs-12 col-md-4 col-lg-4\"><div _ngcontent-mqc-c59=\"\" class=\"heading\"><h3 _ngcontent-mqc-c59=\"\" class=\"heading_4\">Sales Manager I</h3><h1 _ngcontent-mqc-c59=\"\" clas",
+        "<div _ngcontent-mqc-c60=\"\" class=\"row\"><div _ngcontent-mqc-c60=\"\" class=\"col-xs-12 col col-lg-6 mx-auto\"><h1 _ngcontent-mqc-c60=\"\">#LetsTalkDeepTech |<br _ngcontent-mqc-c60=\"\"> Webinar Series</h1><h5 _ngcontent-mqc-c60=\"\">Missed the latest edition of Gigabytes - Swiggy's tech webinar series? Want to know what's geeking inside Swiggy's hyperlocal tech world? </h5></div></div>"
       ],
       "sample_text": [
         "Key Account Manager II\nMumbai\nSenior Executive - Customer Delight\nBangalore\nSenior Executive - ORM\nBangalore\nSales Manager I\nBangalore\nSoftware Dev Engineer II (iOS)\nSumadhura Capitol Towers\nSales Man",

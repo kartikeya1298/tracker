@@ -1,15 +1,12 @@
 {
+  "oracle": "ok",
+  "google": "ok",
+  "cisco": "ok",
+  "intel": "ok",
+  "linkedin": "ok",
   "jpmorgan-chase": "no_candidates_found",
-  "cognizant": "no_candidates_found",
-  "mu-sigma": "ok",
-  "zs-associates": "ok",
-  "tiger-analytics": "no_candidates_found",
-  "latentview-analytics": "ok",
   "flipkart": "ok",
   "swiggy": "ok",
   "target-india": "ok",
-  "american-express": "no_candidates_found",
-  "optum": "ok",
-  "exl-service": "ok",
-  "wns-global-services": "ok"
+  "american-express": "no_candidates_found"
 }

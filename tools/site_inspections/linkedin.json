@@ -1,18 +1,262 @@
 {
   "slug": "linkedin",
-  "url": "https://careers.linkedin.com/jobs/search?keywords=data%20scientist",
+  "url": "https://www.linkedin.com/jobs/data-scientist-jobs?location=India",
   "initial": {
-    "keyword_candidates": [],
-    "structural_candidates": [],
-    "page_title": "404 Resource at '/content/lem/careers/us/en/jobs/search.html' not found: No resource found"
+    "keyword_candidates": [
+      {
+        "selector": "a.base-card__full-link.absolute.top-0.right-0.bottom-0.left-0.p-0.z-[2].outline-offset-[4px]",
+        "count": 60,
+        "sample_html": [
+          "<a class=\"base-card__full-link absolute top-0 right-0 bottom-0 left-0 p-0 z-[2] outline-offset-[4px]\" href=\"https://in.linkedin.com/jobs/view/data-scientist-at-emerson-4437157729?position=1&amp;pageNum=0&amp;refId=%2BWyqMpVHQM7uuLIhr%2BSuXw%3D%3D&amp;trackingId=fWtjGecFhFFRguqYkpV3eg%3D%3D\" data-tracking-control-name=\"public_jobs_jserp-result_search-card\" data-tracking-client-ingraph=\"\" data-tracking-will-navigate=\"\">\n          \n          <span class=\"sr-only\">\n              \n        \n        Data Scientist\n      \n      \n          </span>\n        </a>",
+          "<a class=\"base-card__full-link absolute top-0 right-0 bottom-0 left-0 p-0 z-[2] outline-offset-[4px]\" href=\"https://in.linkedin.com/jobs/view/data-scientist-at-quest-global-4432989205?position=2&amp;pageNum=0&amp;refId=%2BWyqMpVHQM7uuLIhr%2BSuXw%3D%3D&amp;trackingId=sZSZQA288vP%2BOiHihhItNQ%3D%3D\" data-tracking-control-name=\"public_jobs_jserp-result_search-card\" data-tracking-client-ingraph=\"\" data-tracking-will-navigate=\"\">\n          \n          <span class=\"sr-only\">\n              \n        \n        Data Scientist\n      \n      \n          </span>\n        </a>"
+        ],
+        "sample_text": [
+          "Data Scientist",
+          "Data Scientist"
+        ]
+      },
+      {
+        "selector": "div.base-search-card__info",
+        "count": 60,
+        "sample_html": [
+          "<div class=\"base-search-card__info\">\n          <h3 class=\"base-search-card__title\">\n            \n        Data Scientist\n      \n          </h3>\n\n            <h4 class=\"base-search-card__subtitle\">\n              \n          <a class=\"hidden-nested-link\" data-tracking-client-ingraph=\"\" data-tracking-control-name=\"public_jobs_jserp-result_job-search-card-subtitle\" data-tracking-will-navigate=\"\" href=\"https://www.linkedin.com/company/emerson?trk=public_jobs_jserp-result_job-search-card-subtitle\">\n            Emerson\n          </a>\n      \n            </h4>\n\n<!---->\n            <div class=\"base-search-card__metadata\">\n              \n          <span class=\"job-search-card__location\">\n            Chandigarh, Chandigarh, India\n          </span>\n\n        \n    \n    \n    \n    \n\n<!---->  \n\n          <time class=\"job-search-card__listdate\" datetime=\"2026-07-06\">\n            \n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n      5 days ago\n  \n          </time>\n\n<!---->      \n            </div>\n        </div>",
+          "<div class=\"base-search-card__info\">\n          <h3 class=\"base-search-card__title\">\n            \n        Data Scientist\n      \n          </h3>\n\n            <h4 class=\"base-search-card__subtitle\">\n              \n          <a class=\"hidden-nested-link\" data-tracking-client-ingraph=\"\" data-tracking-control-name=\"public_jobs_jserp-result_job-search-card-subtitle\" data-tracking-will-navigate=\"\" href=\"https://sg.linkedin.com/company/quest-global?trk=public_jobs_jserp-result_job-search-card-subtitle\">\n            Quest Global\n          </a>\n      \n            </h4>\n\n<!---->\n            <div class=\"base-search-card__metadata\">\n              \n          <span class=\"job-search-card__location\">\n            Coimbatore, Tamil Nadu, India\n          </span>\n\n        \n    \n    \n    \n    \n\n<!---->  \n\n          <time class=\"job-search-card__listdate\" datetime=\"2026-06-26\">\n            \n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n      2 weeks ago\n  \n          </time>\n\n<!---->      \n            </div>\n        </div>"
+        ],
+        "sample_text": [
+          "Data Scientist\nEmerson\nChandigarh, Chandigarh, India\n5 days ago",
+          "Data Scientist\nQuest Global\nCoimbatore, Tamil Nadu, India\n2 weeks ago"
+        ]
+      },
+      {
+        "selector": "h3.base-search-card__title",
+        "count": 60,
+        "sample_html": [
+          "<h3 class=\"base-search-card__title\">\n            \n        Data Scientist\n      \n          </h3>",
+          "<h3 class=\"base-search-card__title\">\n            \n        Data Scientist\n      \n          </h3>"
+        ],
+        "sample_text": [
+          "Data Scientist",
+          "Data Scientist"
+        ]
+      },
+      {
+        "selector": "h4.base-search-card__subtitle",
+        "count": 60,
+        "sample_html": [
+          "<h4 class=\"base-search-card__subtitle\">\n              \n          <a class=\"hidden-nested-link\" data-tracking-client-ingraph=\"\" data-tracking-control-name=\"public_jobs_jserp-result_job-search-card-subtitle\" data-tracking-will-navigate=\"\" href=\"https://www.linkedin.com/company/emerson?trk=public_jobs_jserp-result_job-search-card-subtitle\">\n            Emerson\n          </a>\n      \n            </h4>",
+          "<h4 class=\"base-search-card__subtitle\">\n              \n          <a class=\"hidden-nested-link\" data-tracking-client-ingraph=\"\" data-tracking-control-name=\"public_jobs_jserp-result_job-search-card-subtitle\" data-tracking-will-navigate=\"\" href=\"https://sg.linkedin.com/company/quest-global?trk=public_jobs_jserp-result_job-search-card-subtitle\">\n            Quest Global\n          </a>\n      \n            </h4>"
+        ],
+        "sample_text": [
+          "Emerson",
+          "Quest Global"
+        ]
+      },
+      {
+        "selector": "div.base-search-card__metadata",
+        "count": 60,
+        "sample_html": [
+          "<div class=\"base-search-card__metadata\">\n              \n          <span class=\"job-search-card__location\">\n            Chandigarh, Chandigarh, India\n          </span>\n\n        \n    \n    \n    \n    \n\n<!---->  \n\n          <time class=\"job-search-card__listdate\" datetime=\"2026-07-06\">\n            \n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n      5 days ago\n  \n          </time>\n\n<!---->      \n            </div>",
+          "<div class=\"base-search-card__metadata\">\n              \n          <span class=\"job-search-card__location\">\n            Coimbatore, Tamil Nadu, India\n          </span>\n\n        \n    \n    \n    \n    \n\n<!---->  \n\n          <time class=\"job-search-card__listdate\" datetime=\"2026-06-26\">\n            \n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n      2 weeks ago\n  \n          </time>\n\n<!---->      \n            </div>"
+        ],
+        "sample_text": [
+          "Chandigarh, Chandigarh, India\n5 days ago",
+          "Coimbatore, Tamil Nadu, India\n2 weeks ago"
+        ]
+      },
+      {
+        "selector": "span.job-search-card__location",
+        "count": 60,
+        "sample_html": [
+          "<span class=\"job-search-card__location\">\n            Chandigarh, Chandigarh, India\n          </span>",
+          "<span class=\"job-search-card__location\">\n            Coimbatore, Tamil Nadu, India\n          </span>"
+        ],
+        "sample_text": [
+          "Chandigarh, Chandigarh, India",
+          "Coimbatore, Tamil Nadu, India"
+        ]
+      }
+    ],
+    "structural_candidates": [
+      {
+        "selector": "div.base-card.relative.w-full.hover:no-underline.focus:no-underline.base-card--link.base-search-card.base-search-card--link.job-search-card",
+        "count": 59,
+        "sample_html": [
+          "<div class=\"base-card relative w-full hover:no-underline focus:no-underline\n        base-card--link\n         base-search-card base-search-card--link job-search-card\" data-entity-urn=\"urn:li:jobPosting:4432989205\" data-reference-id=\"+WyqMpVHQM7uuLIhr+SuXw==\" data-tracking-id=\"sZSZQA288vP+OiHihhItNQ==\" data-column=\"1\" data-row=\"2\">\n        \n\n        <a class=\"base-card__full-link absolute top-0 right-0 bottom-0 left-0 p-0 z-[2] outline-offset-[4px]\" href=\"https://in.linkedin.com/jobs/view/data-scientist-at-quest-global-4432989205?position=2&amp;pageNum=0&amp;refId=%2BWyqMpVHQM7uuLIhr%2BSuXw%3D%3D&amp;trackingId=sZSZQA288vP%2BOiHihhItNQ%3D%3D\" data-tracking-control-name=\"public_jobs_jserp-result_search-card\" data-tracking-client-ingraph=\"\" data-tracking-will-navigate=\"\">\n          \n          <span class=\"sr-only\">\n              \n        \n        Data Scientist\n      \n      \n          </span>\n        </a>\n\n      \n        \n    <div class=\"search-entity-media\">\n        \n      <img class=\"artdeco-entity-image artdeco-entity-image--square-4 lazy-loaded\" data-ghost-classes=\"artdeco-entity-image--ghost\" data-ghost-url=\"https://static.licdn.com/aero-v1/sc/h/6puxblwmhnodu6fjircz4dn4h\" alt=\"\" src=\"https://media.licdn.com/dms/image/v2/C560BAQFqsywUQl7okA/company-logo_100_100/company-logo_100_100/0/1650955890222/quest_global_logo?e=2147483647&amp;v=beta&amp;t=1iJwdF4wJntsh5TikN51Pj4Xl4TrY1duYOT8WP8ifFU\">\n  \n    </div>\n  \n\n        <div class=\"base-search-card__info\">\n          <h3 class=\"bas",
+          "<div class=\"base-card relative w-full hover:no-underline focus:no-underline\n        base-card--link\n         base-search-card base-search-card--link job-search-card\" data-entity-urn=\"urn:li:jobPosting:4078491097\" data-reference-id=\"+WyqMpVHQM7uuLIhr+SuXw==\" data-tracking-id=\"G1by8Wg3Mk/iweNmbg0uFQ==\" data-column=\"1\" data-row=\"3\">\n        \n\n        <a class=\"base-card__full-link absolute top-0 right-0 bottom-0 left-0 p-0 z-[2] outline-offset-[4px]\" href=\"https://in.linkedin.com/jobs/view/data-scientist-at-apex-tigre-4078491097?position=3&amp;pageNum=0&amp;refId=%2BWyqMpVHQM7uuLIhr%2BSuXw%3D%3D&amp;trackingId=G1by8Wg3Mk%2FiweNmbg0uFQ%3D%3D\" data-tracking-control-name=\"public_jobs_jserp-result_search-card\" data-tracking-client-ingraph=\"\" data-tracking-will-navigate=\"\">\n          \n          <span class=\"sr-only\">\n              \n        \n        Data Scientist\n      \n      \n          </span>\n        </a>\n\n      \n        \n    <div class=\"search-entity-media\">\n        \n      <img class=\"artdeco-entity-image artdeco-entity-image--square-4 lazy-loaded\" data-ghost-classes=\"artdeco-entity-image--ghost\" data-ghost-url=\"https://static.licdn.com/aero-v1/sc/h/6puxblwmhnodu6fjircz4dn4h\" alt=\"\" src=\"https://media.licdn.com/dms/image/v2/D4D0BAQHQnfbqLp9yeQ/company-logo_100_100/B4DZbUysHZHsAU-/0/1747326780354/retransform_logo?e=2147483647&amp;v=beta&amp;t=2cOsWerWME2w1BedmqlYxx4UeNPU-e3kv73GTIeMYXc\">\n  \n    </div>\n  \n\n        <div class=\"base-search-card__info\">\n          <h3 class=\"base-search"
+        ],
+        "sample_text": [
+          "Data Scientist\nData Scientist\nQuest Global\nCoimbatore, Tamil Nadu, India\n2 weeks ago",
+          "Data Scientist\nData Scientist\nApex Tigre\nMumbai, Maharashtra, India\n1 year ago"
+        ]
+      },
+      {
+        "selector": "li.language-selector__item",
+        "count": 36,
+        "sample_html": [
+          "<li class=\"language-selector__item\" role=\"presentation\">\n            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->\n            <button aria-label=\"\u0627\u0644\u0639\u0631\u0628\u064a\u0629 (Arabic)\" class=\"font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark\n                language-selector__link !font-regular\" data-tracking-control-name=\"language-selector-ar_AE\" data-locale=\"ar_AE\" role=\"menuitem\" lang=\"ar_AE\">\n                \u0627\u0644\u0639\u0631\u0628\u064a\u0629 (Arabic)\n            </button>\n          </li>",
+          "<li class=\"language-selector__item\" role=\"presentation\">\n            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->\n            <button aria-label=\"\u09ac\u09be\u0982\u09b2\u09be (Bangla)\" class=\"font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark\n                language-selector__link !font-regular\" data-tracking-control-name=\"language-selector-bn_IN\" data-locale=\"bn_IN\" role=\"menuitem\" lang=\"bn_IN\">\n                \u09ac\u09be\u0982\u09b2\u09be (Bangla)\n            </button>\n          </li>"
+        ],
+        "sample_text": [
+          "\n            \n            \n                \u0627\u0644\u0639\u0631\u0628\u064a\u0629 (Arabic)\n            \n          ",
+          "\n            \n            \n                \u09ac\u09be\u0982\u09b2\u09be (Bangla)\n            \n          "
+        ]
+      },
+      {
+        "selector": "button.font-sans.text-xs.link.block.py-[5px].px-2.w-full.hover:cursor-pointer.hover:bg-color-action.hover:text-color-text-on-dark.focus:bg-color-action.focus:text-color-text-on-dark.language-selector__link.!font-regular",
+        "count": 35,
+        "sample_html": [
+          "<button aria-label=\"\u0627\u0644\u0639\u0631\u0628\u064a\u0629 (Arabic)\" class=\"font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark\n                language-selector__link !font-regular\" data-tracking-control-name=\"language-selector-ar_AE\" data-locale=\"ar_AE\" role=\"menuitem\" lang=\"ar_AE\">\n                \u0627\u0644\u0639\u0631\u0628\u064a\u0629 (Arabic)\n            </button>",
+          "<button aria-label=\"\u09ac\u09be\u0982\u09b2\u09be (Bangla)\" class=\"font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark\n                language-selector__link !font-regular\" data-tracking-control-name=\"language-selector-bn_IN\" data-locale=\"bn_IN\" role=\"menuitem\" lang=\"bn_IN\">\n                \u09ac\u09be\u0982\u09b2\u09be (Bangla)\n            </button>"
+        ],
+        "sample_text": [
+          "\n                \u0627\u0644\u0639\u0631\u0628\u064a\u0629 (Arabic)\n            ",
+          "\n                \u09ac\u09be\u0982\u09b2\u09be (Bangla)\n            "
+        ]
+      },
+      {
+        "selector": "li.description__job-criteria-item",
+        "count": 4,
+        "sample_html": [
+          "<li class=\"description__job-criteria-item\">\n          <h3 class=\"description__job-criteria-subheader\">\n            Seniority level\n          </h3>\n          <span class=\"description__job-criteria-text description__job-criteria-text--criteria\">\n            Not Applicable\n          </span>\n        </li>",
+          "<li class=\"description__job-criteria-item\">\n          <h3 class=\"description__job-criteria-subheader\">\n            Employment type\n          </h3>\n          <span class=\"description__job-criteria-text description__job-criteria-text--criteria\">\n            Full-time\n          </span>\n        </li>"
+        ],
+        "sample_text": [
+          "Seniority level\nNot Applicable",
+          "Employment type\nFull-time"
+        ]
+      }
+    ],
+    "page_title": "1,000+ Data Scientist jobs in India"
   },
   "after_search": null,
   "best_source": "initial",
-  "keyword_candidates": [],
-  "structural_candidates": [],
-  "page_title": "404 Resource at '/content/lem/careers/us/en/jobs/search.html' not found: No resource found",
+  "keyword_candidates": [
+    {
+      "selector": "a.base-card__full-link.absolute.top-0.right-0.bottom-0.left-0.p-0.z-[2].outline-offset-[4px]",
+      "count": 60,
+      "sample_html": [
+        "<a class=\"base-card__full-link absolute top-0 right-0 bottom-0 left-0 p-0 z-[2] outline-offset-[4px]\" href=\"https://in.linkedin.com/jobs/view/data-scientist-at-emerson-4437157729?position=1&amp;pageNum=0&amp;refId=%2BWyqMpVHQM7uuLIhr%2BSuXw%3D%3D&amp;trackingId=fWtjGecFhFFRguqYkpV3eg%3D%3D\" data-tracking-control-name=\"public_jobs_jserp-result_search-card\" data-tracking-client-ingraph=\"\" data-tracking-will-navigate=\"\">\n          \n          <span class=\"sr-only\">\n              \n        \n        Data Scientist\n      \n      \n          </span>\n        </a>",
+        "<a class=\"base-card__full-link absolute top-0 right-0 bottom-0 left-0 p-0 z-[2] outline-offset-[4px]\" href=\"https://in.linkedin.com/jobs/view/data-scientist-at-quest-global-4432989205?position=2&amp;pageNum=0&amp;refId=%2BWyqMpVHQM7uuLIhr%2BSuXw%3D%3D&amp;trackingId=sZSZQA288vP%2BOiHihhItNQ%3D%3D\" data-tracking-control-name=\"public_jobs_jserp-result_search-card\" data-tracking-client-ingraph=\"\" data-tracking-will-navigate=\"\">\n          \n          <span class=\"sr-only\">\n              \n        \n        Data Scientist\n      \n      \n          </span>\n        </a>"
+      ],
+      "sample_text": [
+        "Data Scientist",
+        "Data Scientist"
+      ]
+    },
+    {
+      "selector": "div.base-search-card__info",
+      "count": 60,
+      "sample_html": [
+        "<div class=\"base-search-card__info\">\n          <h3 class=\"base-search-card__title\">\n            \n        Data Scientist\n      \n          </h3>\n\n            <h4 class=\"base-search-card__subtitle\">\n              \n          <a class=\"hidden-nested-link\" data-tracking-client-ingraph=\"\" data-tracking-control-name=\"public_jobs_jserp-result_job-search-card-subtitle\" data-tracking-will-navigate=\"\" href=\"https://www.linkedin.com/company/emerson?trk=public_jobs_jserp-result_job-search-card-subtitle\">\n            Emerson\n          </a>\n      \n            </h4>\n\n<!---->\n            <div class=\"base-search-card__metadata\">\n              \n          <span class=\"job-search-card__location\">\n            Chandigarh, Chandigarh, India\n          </span>\n\n        \n    \n    \n    \n    \n\n<!---->  \n\n          <time class=\"job-search-card__listdate\" datetime=\"2026-07-06\">\n            \n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n      5 days ago\n  \n          </time>\n\n<!---->      \n            </div>\n        </div>",
+        "<div class=\"base-search-card__info\">\n          <h3 class=\"base-search-card__title\">\n            \n        Data Scientist\n      \n          </h3>\n\n            <h4 class=\"base-search-card__subtitle\">\n              \n          <a class=\"hidden-nested-link\" data-tracking-client-ingraph=\"\" data-tracking-control-name=\"public_jobs_jserp-result_job-search-card-subtitle\" data-tracking-will-navigate=\"\" href=\"https://sg.linkedin.com/company/quest-global?trk=public_jobs_jserp-result_job-search-card-subtitle\">\n            Quest Global\n          </a>\n      \n            </h4>\n\n<!---->\n            <div class=\"base-search-card__metadata\">\n              \n          <span class=\"job-search-card__location\">\n            Coimbatore, Tamil Nadu, India\n          </span>\n\n        \n    \n    \n    \n    \n\n<!---->  \n\n          <time class=\"job-search-card__listdate\" datetime=\"2026-06-26\">\n            \n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n      2 weeks ago\n  \n          </time>\n\n<!---->      \n            </div>\n        </div>"
+      ],
+      "sample_text": [
+        "Data Scientist\nEmerson\nChandigarh, Chandigarh, India\n5 days ago",
+        "Data Scientist\nQuest Global\nCoimbatore, Tamil Nadu, India\n2 weeks ago"
+      ]
+    },
+    {
+      "selector": "h3.base-search-card__title",
+      "count": 60,
+      "sample_html": [
+        "<h3 class=\"base-search-card__title\">\n            \n        Data Scientist\n      \n          </h3>",
+        "<h3 class=\"base-search-card__title\">\n            \n        Data Scientist\n      \n          </h3>"
+      ],
+      "sample_text": [
+        "Data Scientist",
+        "Data Scientist"
+      ]
+    },
+    {
+      "selector": "h4.base-search-card__subtitle",
+      "count": 60,
+      "sample_html": [
+        "<h4 class=\"base-search-card__subtitle\">\n              \n          <a class=\"hidden-nested-link\" data-tracking-client-ingraph=\"\" data-tracking-control-name=\"public_jobs_jserp-result_job-search-card-subtitle\" data-tracking-will-navigate=\"\" href=\"https://www.linkedin.com/company/emerson?trk=public_jobs_jserp-result_job-search-card-subtitle\">\n            Emerson\n          </a>\n      \n            </h4>",
+        "<h4 class=\"base-search-card__subtitle\">\n              \n          <a class=\"hidden-nested-link\" data-tracking-client-ingraph=\"\" data-tracking-control-name=\"public_jobs_jserp-result_job-search-card-subtitle\" data-tracking-will-navigate=\"\" href=\"https://sg.linkedin.com/company/quest-global?trk=public_jobs_jserp-result_job-search-card-subtitle\">\n            Quest Global\n          </a>\n      \n            </h4>"
+      ],
+      "sample_text": [
+        "Emerson",
+        "Quest Global"
+      ]
+    },
+    {
+      "selector": "div.base-search-card__metadata",
+      "count": 60,
+      "sample_html": [
+        "<div class=\"base-search-card__metadata\">\n              \n          <span class=\"job-search-card__location\">\n            Chandigarh, Chandigarh, India\n          </span>\n\n        \n    \n    \n    \n    \n\n<!---->  \n\n          <time class=\"job-search-card__listdate\" datetime=\"2026-07-06\">\n            \n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n      5 days ago\n  \n          </time>\n\n<!---->      \n            </div>",
+        "<div class=\"base-search-card__metadata\">\n              \n          <span class=\"job-search-card__location\">\n            Coimbatore, Tamil Nadu, India\n          </span>\n\n        \n    \n    \n    \n    \n\n<!---->  \n\n          <time class=\"job-search-card__listdate\" datetime=\"2026-06-26\">\n            \n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n\n      2 weeks ago\n  \n          </time>\n\n<!---->      \n            </div>"
+      ],
+      "sample_text": [
+        "Chandigarh, Chandigarh, India\n5 days ago",
+        "Coimbatore, Tamil Nadu, India\n2 weeks ago"
+      ]
+    },
+    {
+      "selector": "span.job-search-card__location",
+      "count": 60,
+      "sample_html": [
+        "<span class=\"job-search-card__location\">\n            Chandigarh, Chandigarh, India\n          </span>",
+        "<span class=\"job-search-card__location\">\n            Coimbatore, Tamil Nadu, India\n          </span>"
+      ],
+      "sample_text": [
+        "Chandigarh, Chandigarh, India",
+        "Coimbatore, Tamil Nadu, India"
+      ]
+    }
+  ],
+  "structural_candidates": [
+    {
+      "selector": "div.base-card.relative.w-full.hover:no-underline.focus:no-underline.base-card--link.base-search-card.base-search-card--link.job-search-card",
+      "count": 59,
+      "sample_html": [
+        "<div class=\"base-card relative w-full hover:no-underline focus:no-underline\n        base-card--link\n         base-search-card base-search-card--link job-search-card\" data-entity-urn=\"urn:li:jobPosting:4432989205\" data-reference-id=\"+WyqMpVHQM7uuLIhr+SuXw==\" data-tracking-id=\"sZSZQA288vP+OiHihhItNQ==\" data-column=\"1\" data-row=\"2\">\n        \n\n        <a class=\"base-card__full-link absolute top-0 right-0 bottom-0 left-0 p-0 z-[2] outline-offset-[4px]\" href=\"https://in.linkedin.com/jobs/view/data-scientist-at-quest-global-4432989205?position=2&amp;pageNum=0&amp;refId=%2BWyqMpVHQM7uuLIhr%2BSuXw%3D%3D&amp;trackingId=sZSZQA288vP%2BOiHihhItNQ%3D%3D\" data-tracking-control-name=\"public_jobs_jserp-result_search-card\" data-tracking-client-ingraph=\"\" data-tracking-will-navigate=\"\">\n          \n          <span class=\"sr-only\">\n              \n        \n        Data Scientist\n      \n      \n          </span>\n        </a>\n\n      \n        \n    <div class=\"search-entity-media\">\n        \n      <img class=\"artdeco-entity-image artdeco-entity-image--square-4 lazy-loaded\" data-ghost-classes=\"artdeco-entity-image--ghost\" data-ghost-url=\"https://static.licdn.com/aero-v1/sc/h/6puxblwmhnodu6fjircz4dn4h\" alt=\"\" src=\"https://media.licdn.com/dms/image/v2/C560BAQFqsywUQl7okA/company-logo_100_100/company-logo_100_100/0/1650955890222/quest_global_logo?e=2147483647&amp;v=beta&amp;t=1iJwdF4wJntsh5TikN51Pj4Xl4TrY1duYOT8WP8ifFU\">\n  \n    </div>\n  \n\n        <div class=\"base-search-card__info\">\n          <h3 class=\"bas",
+        "<div class=\"base-card relative w-full hover:no-underline focus:no-underline\n        base-card--link\n         base-search-card base-search-card--link job-search-card\" data-entity-urn=\"urn:li:jobPosting:4078491097\" data-reference-id=\"+WyqMpVHQM7uuLIhr+SuXw==\" data-tracking-id=\"G1by8Wg3Mk/iweNmbg0uFQ==\" data-column=\"1\" data-row=\"3\">\n        \n\n        <a class=\"base-card__full-link absolute top-0 right-0 bottom-0 left-0 p-0 z-[2] outline-offset-[4px]\" href=\"https://in.linkedin.com/jobs/view/data-scientist-at-apex-tigre-4078491097?position=3&amp;pageNum=0&amp;refId=%2BWyqMpVHQM7uuLIhr%2BSuXw%3D%3D&amp;trackingId=G1by8Wg3Mk%2FiweNmbg0uFQ%3D%3D\" data-tracking-control-name=\"public_jobs_jserp-result_search-card\" data-tracking-client-ingraph=\"\" data-tracking-will-navigate=\"\">\n          \n          <span class=\"sr-only\">\n              \n        \n        Data Scientist\n      \n      \n          </span>\n        </a>\n\n      \n        \n    <div class=\"search-entity-media\">\n        \n      <img class=\"artdeco-entity-image artdeco-entity-image--square-4 lazy-loaded\" data-ghost-classes=\"artdeco-entity-image--ghost\" data-ghost-url=\"https://static.licdn.com/aero-v1/sc/h/6puxblwmhnodu6fjircz4dn4h\" alt=\"\" src=\"https://media.licdn.com/dms/image/v2/D4D0BAQHQnfbqLp9yeQ/company-logo_100_100/B4DZbUysHZHsAU-/0/1747326780354/retransform_logo?e=2147483647&amp;v=beta&amp;t=2cOsWerWME2w1BedmqlYxx4UeNPU-e3kv73GTIeMYXc\">\n  \n    </div>\n  \n\n        <div class=\"base-search-card__info\">\n          <h3 class=\"base-search"
+      ],
+      "sample_text": [
+        "Data Scientist\nData Scientist\nQuest Global\nCoimbatore, Tamil Nadu, India\n2 weeks ago",
+        "Data Scientist\nData Scientist\nApex Tigre\nMumbai, Maharashtra, India\n1 year ago"
+      ]
+    },
+    {
+      "selector": "li.language-selector__item",
+      "count": 36,
+      "sample_html": [
+        "<li class=\"language-selector__item\" role=\"presentation\">\n            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->\n            <button aria-label=\"\u0627\u0644\u0639\u0631\u0628\u064a\u0629 (Arabic)\" class=\"font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark\n                language-selector__link !font-regular\" data-tracking-control-name=\"language-selector-ar_AE\" data-locale=\"ar_AE\" role=\"menuitem\" lang=\"ar_AE\">\n                \u0627\u0644\u0639\u0631\u0628\u064a\u0629 (Arabic)\n            </button>\n          </li>",
+        "<li class=\"language-selector__item\" role=\"presentation\">\n            <!-- Adding aria-label to both the li and the button because screen reader focus goes to button on desktop and li on mobile-->\n            <button aria-label=\"\u09ac\u09be\u0982\u09b2\u09be (Bangla)\" class=\"font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark\n                language-selector__link !font-regular\" data-tracking-control-name=\"language-selector-bn_IN\" data-locale=\"bn_IN\" role=\"menuitem\" lang=\"bn_IN\">\n                \u09ac\u09be\u0982\u09b2\u09be (Bangla)\n            </button>\n          </li>"
+      ],
+      "sample_text": [
+        "\n            \n            \n                \u0627\u0644\u0639\u0631\u0628\u064a\u0629 (Arabic)\n            \n          ",
+        "\n            \n            \n                \u09ac\u09be\u0982\u09b2\u09be (Bangla)\n            \n          "
+      ]
+    },
+    {
+      "selector": "button.font-sans.text-xs.link.block.py-[5px].px-2.w-full.hover:cursor-pointer.hover:bg-color-action.hover:text-color-text-on-dark.focus:bg-color-action.focus:text-color-text-on-dark.language-selector__link.!font-regular",
+      "count": 35,
+      "sample_html": [
+        "<button aria-label=\"\u0627\u0644\u0639\u0631\u0628\u064a\u0629 (Arabic)\" class=\"font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark\n                language-selector__link !font-regular\" data-tracking-control-name=\"language-selector-ar_AE\" data-locale=\"ar_AE\" role=\"menuitem\" lang=\"ar_AE\">\n                \u0627\u0644\u0639\u0631\u0628\u064a\u0629 (Arabic)\n            </button>",
+        "<button aria-label=\"\u09ac\u09be\u0982\u09b2\u09be (Bangla)\" class=\"font-sans text-xs link block py-[5px] px-2 w-full hover:cursor-pointer hover:bg-color-action hover:text-color-text-on-dark focus:bg-color-action focus:text-color-text-on-dark\n                language-selector__link !font-regular\" data-tracking-control-name=\"language-selector-bn_IN\" data-locale=\"bn_IN\" role=\"menuitem\" lang=\"bn_IN\">\n                \u09ac\u09be\u0982\u09b2\u09be (Bangla)\n            </button>"
+      ],
+      "sample_text": [
+        "\n                \u0627\u0644\u0639\u0631\u0628\u064a\u0629 (Arabic)\n            ",
+        "\n                \u09ac\u09be\u0982\u09b2\u09be (Bangla)\n            "
+      ]
+    },
+    {
+      "selector": "li.description__job-criteria-item",
+      "count": 4,
+      "sample_html": [
+        "<li class=\"description__job-criteria-item\">\n          <h3 class=\"description__job-criteria-subheader\">\n            Seniority level\n          </h3>\n          <span class=\"description__job-criteria-text description__job-criteria-text--criteria\">\n            Not Applicable\n          </span>\n        </li>",
+        "<li class=\"description__job-criteria-item\">\n          <h3 class=\"description__job-criteria-subheader\">\n            Employment type\n          </h3>\n          <span class=\"description__job-criteria-text description__job-criteria-text--criteria\">\n            Full-time\n          </span>\n        </li>"
+      ],
+      "sample_text": [
+        "Seniority level\nNot Applicable",
+        "Employment type\nFull-time"
+      ]
+    }
+  ],
+  "page_title": "1,000+ Data Scientist jobs in India",
   "cookie_banner_dismissed": false,
   "search_interacted": false,
-  "status": "no_candidates_found",
+  "status": "ok",
   "screenshot": "linkedin.png"
 }

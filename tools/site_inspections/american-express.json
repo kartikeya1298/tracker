@@ -6,17 +6,13 @@
     "structural_candidates": [],
     "page_title": "Search Jobs - American Express Careers"
   },
-  "after_search": {
-    "keyword_candidates": [],
-    "structural_candidates": [],
-    "page_title": "Search Jobs - American Express Careers"
-  },
+  "after_search": null,
   "best_source": "initial",
   "keyword_candidates": [],
   "structural_candidates": [],
   "page_title": "Search Jobs - American Express Careers",
   "cookie_banner_dismissed": true,
-  "search_interacted": true,
+  "search_interacted": false,
   "status": "no_candidates_found",
   "screenshot": "american-express.png"
 }
