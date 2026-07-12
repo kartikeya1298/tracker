@@ -1,5 +1,7 @@
-"""Seed registry of the 50 tracked companies (51 rows — Adobe has a second early-careers
-Workday site; see below).
+"""Seed registry: the original 50 user-specified companies (51 rows — Adobe has a
+second early-careers Workday site) plus 12 user-approved additions (pure-play
+analytics/decision-science consulting firms and India-based product companies/GCCs
+with large data science hiring) — 63 rows total.
 
 `verified=True` entries use a documented public JSON API (Greenhouse, Lever, or Workday's
 CxS API) with a tenant/dc/site confirmed against real, currently-live job-posting URLs
@@ -354,6 +356,52 @@ COMPANIES: list[dict] = [
     # --- Samsung R&D ---
     {"name": "Samsung R&D", "slug": "samsung-rd", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://www.samsung.com/in/careers/job-search/"), "careers_url": "https://www.samsung.com/in/careers/", "verified": False},
+
+    # --- User-requested additions: pure-play analytics/decision-science consulting
+    # firms and India-based product companies/GCCs with large data science hiring,
+    # often more fresher-friendly for DS specifically than several companies above. ---
+    {"name": "Mu Sigma", "slug": "mu-sigma", "platform": ATSPlatform.CUSTOM,
+     "identifier": _custom("https://www.mu-sigma.com/career/"), "careers_url": "https://www.mu-sigma.com/career/", "verified": False},
+    # Confirmed on Workday via multiple live job-posting URLs
+    # (fractal.wd1.myworkdayjobs.com/en-US/Careers/job/...).
+    {"name": "Fractal Analytics", "slug": "fractal-analytics", "platform": ATSPlatform.WORKDAY,
+     "identifier": "fractal|wd1|Careers", "careers_url": "https://fractal.wd1.myworkdayjobs.com/en-US/Careers", "verified": True},
+    {"name": "ZS Associates", "slug": "zs-associates", "platform": ATSPlatform.CUSTOM,
+     "identifier": _custom("https://jobs.zs.com/jobs"), "careers_url": "https://jobs.zs.com/jobs", "verified": False},
+    # Runs on the SenseHQ ATS platform.
+    {"name": "Tiger Analytics", "slug": "tiger-analytics", "platform": ATSPlatform.CUSTOM,
+     "identifier": _custom("https://tiger-analytics.sensehq.com/careers"), "careers_url": "https://tiger-analytics.sensehq.com/careers", "verified": False},
+    {"name": "LatentView Analytics", "slug": "latentview-analytics", "platform": ATSPlatform.CUSTOM,
+     "identifier": _custom("https://www.latentview.com/career/"), "careers_url": "https://www.latentview.com/career/", "verified": False},
+    {"name": "Flipkart", "slug": "flipkart", "platform": ATSPlatform.CUSTOM,
+     "identifier": _custom("https://www.flipkartcareers.com/data-science"), "careers_url": "https://www.flipkartcareers.com/data-science", "verified": False},
+    {"name": "Swiggy", "slug": "swiggy", "platform": ATSPlatform.CUSTOM,
+     "identifier": _custom("https://careers.swiggy.com/"), "careers_url": "https://careers.swiggy.com/", "verified": False},
+    {"name": "Target India", "slug": "target-india", "platform": ATSPlatform.CUSTOM,
+     "identifier": _custom("https://indiajobs.target.com/search-jobs?k=Data%20Scientist"), "careers_url": "https://indiajobs.target.com", "verified": False},
+    # Runs on Oracle Fusion Cloud Recruiting (careers.americanexpress.com/en/sites/
+    # CX_1/job/... confirmed via a live job posting URL) - same platform as JPMorgan
+    # Chase/Cisco/Nokia/Oracle above.
+    {"name": "American Express", "slug": "american-express", "platform": ATSPlatform.ORACLE_CAREERS,
+     "identifier": _custom("https://careers.americanexpress.com/en/sites/CX_1/jobs?keyword=Data+Scientist&location=India&locationLevel=country&mode=location"),
+     "careers_url": "https://careers.americanexpress.com", "verified": False},
+    {"name": "Optum", "slug": "optum", "platform": ATSPlatform.CUSTOM,
+     "identifier": _custom("https://www.optum.in/about/careers.html"), "careers_url": "https://www.optum.in/about/careers.html", "verified": False},
+    # Runs on Oracle Fusion Cloud Recruiting with a confirmed India locationId found
+    # directly via search (fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com), unlike most
+    # other Oracle-Cloud rows here where the locationId is unknown.
+    {"name": "EXL Service", "slug": "exl-service", "platform": ATSPlatform.ORACLE_CAREERS,
+     "identifier": _custom(
+         "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/jobs"
+         "?keyword=Data+Scientist&location=India&locationId=300000000467203&locationLevel=country&mode=location"
+     ), "careers_url": "https://www.exlservice.com/careers", "verified": False},
+    # Runs on SmartRecruiters, which (like Greenhouse/Lever) has a public postings
+    # JSON API - api.smartrecruiters.com/v1/companies/{company}/postings - worth a
+    # dedicated adapter (see app/scrapers/greenhouse.py for the pattern to follow)
+    # rather than the generic Playwright scraper, as a future enhancement.
+    {"name": "WNS Global Services", "slug": "wns-global-services", "platform": ATSPlatform.CUSTOM,
+     "identifier": _custom("https://careers.smartrecruiters.com/WNSGlobalServices144/wns-india-career-page"),
+     "careers_url": "https://careers.smartrecruiters.com/WNSGlobalServices144/wns-india-career-page", "verified": False},
 ]
 
 

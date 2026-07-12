@@ -1,6 +1,8 @@
 # DataScience Career Tracker AI
 
-Monitors career pages at 50 companies every 15 minutes, filters for fresher / 0–2 yr
+Monitors career pages at 62 companies (the original 50 plus 12 analytics-consulting/
+India-product-company additions — see the registry section below) every 15 minutes,
+filters for fresher / 0–2 yr
 Data Science roles (Data Analyst, Data Scientist, ML Engineer, AI Engineer, and 16 more
 close variants), deduplicates against previously-seen postings, enriches new matches
 with Claude (summary, skill extraction, resume match score, learning recommendations),
@@ -68,41 +70,41 @@ cd backend && pytest
 
 ## Company registry — what's verified vs. what needs setup
 
-`backend/app/scrapers/registry.py` seeds 51 rows (50 companies; Adobe has a second
-early-careers Workday site) with a platform + identifier. Two tiers:
+`backend/app/scrapers/registry.py` seeds 63 rows: the original 50 user-specified
+companies (51 rows — Adobe has a second early-careers Workday site) plus 12
+user-approved additions — pure-play analytics/decision-science consulting firms
+(Mu Sigma, Fractal Analytics, ZS Associates, Tiger Analytics, LatentView Analytics)
+and India-based product companies/GCCs with large data science hiring (Flipkart,
+Swiggy, Target India, American Express, Optum, EXL Service, WNS Global Services) —
+that are often more fresher-friendly for DS specifically than several companies on
+the original list. Two tiers:
 
-- **Verified (26 rows, work immediately):** Databricks and Airbnb on Greenhouse's
-  public JSON API; 11 Workday rows (Walmart Global Tech, Visa, Mastercard, Philips,
-  NVIDIA, Salesforce, Adobe + Adobe Early Careers, PayPal, Qualcomm) with
-  `tenant|dc|site` confirmed against live job-posting URLs / the real CxS API
-  directly — no scraping, no auth, worth a periodic spot-check since Workday dc
-  subdomains do occasionally migrate; and 13 rows on custom/SAP SuccessFactors
-  career sites (SAP, Siemens, Amazon, Microsoft, IBM, Apple, Snowflake, Goldman
-  Sachs, Deloitte, Accenture, Infosys, LTIMindtree, EY, PwC) with real CSS
-  selectors extracted from live rendered HTML via `tools/inspect_career_sites.py`
-  (see below). Three of those (IBM, Apple, Snowflake) needed more than a selector
-  fix — their career sites don't actually run a search from the URL's query string
-  alone, only from a real keystroke+submit against the search box, so
-  `GenericPlaywrightScraper` (`app/scrapers/generic.py`) now supports an optional
-  `search_input_selector`/`search_submit_selector`/`search_text` config that fills
-  and submits the search box before scanning for listings. CSS-selector-based rows
-  are inherently more fragile than API-backed ones since a site redesign can
-  silently break a selector, so still worth a periodic spot-check.
-- **Best-effort (needs bespoke work, ~25 rows):** three systematic inspection
-  passes (see `tools/inspect_career_sites.py`'s git history for what each one
-  found and fixed) got the count this far, but the remaining companies didn't
-  yield to a generic "type into a search box" heuristic:
-  - **No plain search box found** (Nokia, Bosch, Oracle, Google, Cisco, Intel,
-    JPMorgan Chase, Capgemini, Wipro, KPMG, Mphasis, Freshworks, GoComet,
-    Samsung R&D, LinkedIn, ServiceNow, Cognizant, Tech Mahindra, Genpact) — these
-    likely gate search behind a dropdown/autocomplete filter UI (confirmed for
-    Bosch: a country-then-location autocomplete, not free text) or a multi-step
-    flow, not a single text input + submit.
-  - **Search box found and used, but still no real job listings** (Ericsson,
-    Uber) — worth a manual look at why.
-  - **Hard network/bot-detection failures that survived a retry** (TCS, HCLTech —
-    DNS/HTTP2-level errors from the GitHub Actions runner; Zoho — no longer
-    crashes after UA/webdriver masking, but still surfaces no listings).
+- **Verified (30 rows, work immediately):** API-backed rows (Greenhouse, Lever,
+  Workday's CxS API — Databricks, Airbnb, 11 Workday companies including the new
+  Fractal Analytics, confirmed via live job-posting URLs/the real API) plus
+  CSS-selector rows with real selectors extracted from live rendered HTML via
+  `tools/inspect_career_sites.py` (SAP, Siemens, Amazon, Microsoft, IBM, Apple,
+  Snowflake, Goldman Sachs, Deloitte, Accenture, Infosys, LTIMindtree, EY, PwC,
+  Ericsson, Zoho, HCLTech). Several needed more than a selector fix — their query
+  strings don't actually trigger a search on page load, only a real keystroke+submit
+  against the search box, so `GenericPlaywrightScraper`
+  (`app/scrapers/generic.py`) supports an optional `search_input_selector`/
+  `search_submit_selector`/`search_text` config for that. CSS-selector rows are
+  inherently more fragile than API-backed ones since a site redesign can silently
+  break a selector, so still worth a periodic spot-check.
+- **Best-effort (needs bespoke work, ~33 rows):** several inspection passes (see
+  `tools/inspect_career_sites.py`'s git history for what each one found and fixed)
+  got the count this far, including catching real bugs in my own guessed URLs along
+  the way (wrong domains for Cisco/Cognizant/HCLTech/Zoho/Ericsson, a missing
+  trailing slash for Google) once real ones were confirmed. What's left mostly
+  didn't yield to a generic "type into a search box" heuristic — dropdown/
+  autocomplete filter UIs instead of free text (confirmed for Bosch: a
+  country-then-location autocomplete), multi-step flows, or persistent
+  bot-detection/network failures (TCS). Several (Nokia, Oracle, JPMorgan Chase,
+  Cisco, American Express, EXL Service) run Oracle Fusion Cloud Recruiting, whose
+  two-field "Find"/"Near Location" search bar has a known interaction bug (Enter
+  advances focus to the wrong field) — a deep-link URL with location params baked
+  in bypasses it for some tenants but not all; still being worked through.
 
   Each entry has the correct `careers_url` and a *template* config for
   `GenericPlaywrightScraper`. Being honest about this bucket: it needs either
@@ -222,7 +224,7 @@ once the backend is running.
 
 ## Known limitations / next steps
 
-- Only 1 of 50 companies (Databricks) is scrape-verified out of the box; see
+- 30 of 63 companies are scrape-verified out of the box as of this writing; see
   "Company registry" above to activate the rest — this is expected onboarding work,
   not a bug.
 - No auth on the dashboard/API — it's designed for single-user personal use behind

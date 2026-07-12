@@ -94,13 +94,10 @@ CUSTOM_SITES: list[tuple[str, str]] = [
     # same Oracle Fusion Cloud Recruiting URL shape as JPMorgan Chase/Nokia/Oracle
     # (/global/en/search-results, /global/en/job/{id}/{slug}) - likely the same platform.
     ("cisco", "https://careers.cisco.com/global/en/search-results?keywords=Data+Scientist&location=India&locationLevel=country&mode=location"),
-    ("ibm", "https://www.ibm.com/careers/search?field_keyword_18[0]=Data%20and%20AI"),
     ("intel", "https://jobs.intel.com/en/search-jobs?k=data%20scientist"),
-    ("apple", "https://jobs.apple.com/en-us/search?search=data%20scientist"),
     ("uber", "https://www.uber.com/us/en/careers/list/?query=data%20scientist"),
     ("linkedin", "https://careers.linkedin.com/jobs/search?keywords=data%20scientist"),
     ("servicenow", "https://careers.servicenow.com/jobs/?search=data+scientist"),
-    ("snowflake", "https://careers.snowflake.com/us/en/search-results?keywords=data%20scientist"),
     # careers.jpmorgan.com just redirected to a marketing homepage with no visible
     # search box in the DOM - this is the real underlying Oracle Fusion Cloud
     # Recruiting deep link (same platform as Nokia/Oracle above), user-confirmed to
@@ -128,6 +125,24 @@ CUSTOM_SITES: list[tuple[str, str]] = [
     ("freshworks", "https://www.freshworks.com/company/careers/"),
     ("gocomet", "https://gocomet.com/careers/"),
     ("samsung-rd", "https://www.samsung.com/in/careers/job-search/"),
+
+    # --- User-requested additions (analytics consulting firms + India product
+    # companies/GCCs) not yet run through inspection ---
+    ("mu-sigma", "https://www.mu-sigma.com/career/"),
+    ("zs-associates", "https://jobs.zs.com/jobs"),
+    ("tiger-analytics", "https://tiger-analytics.sensehq.com/careers"),
+    ("latentview-analytics", "https://www.latentview.com/career/"),
+    ("flipkart", "https://www.flipkartcareers.com/data-science"),
+    ("swiggy", "https://careers.swiggy.com/"),
+    ("target-india", "https://indiajobs.target.com/search-jobs?k=Data%20Scientist"),
+    ("american-express", "https://careers.americanexpress.com/en/sites/CX_1/jobs?keyword=Data+Scientist&location=India&locationLevel=country&mode=location"),
+    ("optum", "https://www.optum.in/about/careers.html"),
+    (
+        "exl-service",
+        "https://fa-ewjt-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/jobs"
+        "?keyword=Data+Scientist&location=India&locationId=300000000467203&locationLevel=country&mode=location",
+    ),
+    ("wns-global-services", "https://careers.smartrecruiters.com/WNSGlobalServices144/wns-india-career-page"),
 ]
 
 QUALCOMM_CANDIDATES = [
