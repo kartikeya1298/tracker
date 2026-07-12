@@ -213,8 +213,12 @@ COMPANIES: list[dict] = [
      }), "careers_url": "https://careers.snowflake.com", "verified": True},
 
     # --- Banking / finance ---
-    {"name": "JPMorgan Chase", "slug": "jpmorgan-chase", "platform": ATSPlatform.CUSTOM,
-     "identifier": _custom("https://careers.jpmorgan.com/us/en/search-results?keywords=data%20scientist"), "careers_url": "https://careers.jpmorgan.com", "verified": False},
+    # careers.jpmorgan.com redirected to a marketing homepage with no search box in
+    # the DOM. User-supplied the real underlying Oracle Fusion Cloud Recruiting deep
+    # link (same platform as Nokia/Oracle), which carries search state directly in
+    # the URL and works without any client-side interaction.
+    {"name": "JPMorgan Chase", "slug": "jpmorgan-chase", "platform": ATSPlatform.ORACLE_CAREERS,
+     "identifier": _custom("https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs?keyword=Data+scientist&location=India&locationId=300000000289360&locationLevel=country&mode=location"), "careers_url": "https://careers.jpmorgan.com", "verified": False},
     {"name": "Goldman Sachs", "slug": "goldman-sachs", "platform": ATSPlatform.CUSTOM,
      "identifier": json.dumps({
          "url": "https://higher.gs.com/roles?query=data%20scientist",

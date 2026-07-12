@@ -73,13 +73,17 @@ REALISTIC_UA = (
 # tool's last update (2026-07-12, after the first inspection pass resolved 12 more
 # companies). If you've since edited registry.py, update this list to match.
 CUSTOM_SITES: list[tuple[str, str]] = [
-    ("nokia", "https://jobs.nokia.com/en/sites/CX_1/jobs"),
+    # Adding location params directly to the URL (confirmed to work for JPMorgan
+    # Chase's identical underlying platform - see jpmorgan-chase below) may bypass the
+    # broken Enter-key/dropdown interaction entirely, since the deep link itself
+    # carries the search state instead of relying on a client-side form submit.
+    ("nokia", "https://jobs.nokia.com/en/sites/CX_1/jobs?keyword=Data+scientist&location=India&locationLevel=country&mode=location"),
     ("bosch", "https://jobs.bosch.com/en/"),
     # Was career2.successfactors.eu/careers?company=Ericsson - that turned out to be a
     # login-gated internal portal (redirects to a Microsoft/Azure AD sign-in page), not
     # the public candidate site. jobs.ericsson.com/careers is the real public one.
     ("ericsson", "https://jobs.ericsson.com/careers?query=data+scientist"),
-    ("oracle", "https://careers.oracle.com/en/sites/jobsearch/jobs"),
+    ("oracle", "https://careers.oracle.com/en/sites/jobsearch/jobs?keyword=Data+scientist&location=India&locationLevel=country&mode=location"),
     # Missing the trailing slash before the query string - confirmed via a real user
     # search that the live URL is .../jobs/results/?q=... (with slash), which likely
     # matters for the client-side router picking up the query param at all.
@@ -92,7 +96,11 @@ CUSTOM_SITES: list[tuple[str, str]] = [
     ("linkedin", "https://careers.linkedin.com/jobs/search?keywords=data%20scientist"),
     ("servicenow", "https://careers.servicenow.com/jobs/?search=data+scientist"),
     ("snowflake", "https://careers.snowflake.com/us/en/search-results?keywords=data%20scientist"),
-    ("jpmorgan-chase", "https://careers.jpmorgan.com/us/en/search-results?keywords=data%20scientist"),
+    # careers.jpmorgan.com just redirected to a marketing homepage with no visible
+    # search box in the DOM - this is the real underlying Oracle Fusion Cloud
+    # Recruiting deep link (same platform as Nokia/Oracle above), user-confirmed to
+    # actually load results directly.
+    ("jpmorgan-chase", "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs?keyword=Data+scientist&location=India&locationId=300000000289360&locationLevel=country&mode=location"),
     ("capgemini", "https://www.capgemini.com/careers/join-capgemini/?search=data+scientist"),
     ("cognizant", "https://careers.cognizant.com/global/en/search-results?keywords=data%20scientist"),
     ("tcs", "https://ibegin.tcs.com/iBegin/jobs/search?searchText=data+scientist"),
