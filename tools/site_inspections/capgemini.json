@@ -1,0 +1,95 @@
+{
+  "slug": "capgemini",
+  "url": "https://www.capgemini.com/careers/join-capgemini/?search=data+scientist",
+  "keyword_candidates": [
+    {
+      "selector": "a.more2.analytics-card-title",
+      "count": 7,
+      "sample_html": [
+        "<a aria-label=\"Insights Learn more link\" class=\"more2 analytics-card-title\" href=\"https://www.capgemini.com/insights/\">Learn more</a>",
+        "<a aria-label=\"Industries Learn more link\" class=\"more2 analytics-card-title\" href=\"https://www.capgemini.com/industries/\">Learn more</a>"
+      ],
+      "sample_text": [
+        "",
+        ""
+      ]
+    }
+  ],
+  "structural_candidates": [
+    {
+      "selector": "ul.sub-menu",
+      "count": 9,
+      "sample_html": [
+        "<ul class=\"sub-menu\"><li class=\"active\"><a href=\"https://www.capgemini.com/\" tabindex=\"-1\"><span class=\"lang-globe-alignement\"><i class=\" icon icon-zodiak-globe\"></i><span class=\"inner location-span\">Global | EN</span></span></a></li></ul>",
+        "<ul class=\"sub-menu\"><li class=\"\"><a href=\"/ar-es/\" tabindex=\"-1\"><span class=\"lang-globe-alignement\"><img decoding=\"async\" loading=\"lazy\" aria-hidden=\"true\" src=\"https://www.capgemini.com/wp-content/themes/capgemini2025/assets/images/fl/flag-argentina.svg\" alt=\"\"><span class=\"inner location-span\">Argentina | ES</span></span></a></li><li class=\"\"><a href=\"/br-pt/\" tabindex=\"-1\"><span class=\"lang-globe-alignement\"><img decoding=\"async\" loading=\"lazy\" aria-hidden=\"true\" src=\"https://www.capgemini.com/wp-content/themes/capgemini2025/assets/images/fl/flag-brazil.svg\" alt=\"\"><span class=\"inner location-span\">Brazil | PT</span></span></a></li><li class=\"\"><a href=\"/ca-en/\" tabindex=\"-1\"><span class=\"lang-globe-alignement\"><img decoding=\"async\" loading=\"lazy\" aria-hidden=\"true\" src=\"https://www.capgemini.com/wp-content/themes/capgemini2025/assets/images/fl/flag-canada.svg\" alt=\"\"><span class=\"inner location-span\">Canada | EN</span></span></a></li><li class=\"\"><a href=\"/ca-fr/\" tabindex=\"-1\"><span class=\"lang-globe-alignement\"><img decoding=\"async\" loading=\"lazy\" aria-hidden=\"true\" src=\"https://www.capgemini.com/wp-content/themes/capgemini2025/assets/images/fl/flag-canada.svg\" alt=\"\"><span class=\"inner location-span\">Canada | FR</span></span></a></li><li class=\"\"><a href=\"/co-es/\" tabindex=\"-1\"><span class=\"lang-globe-alignement\"><img decoding=\"async\" loading=\"lazy\" aria-hidden=\"true\" src=\"https://www.capgemini.com/wp-content/themes/capgemini2025/assets/images/fl/flag-colombia.svg\" a"
+      ],
+      "sample_text": [
+        "Global | EN",
+        "Argentina | ESBrazil | PTCanada | ENCanada | FRColombia | ESGuatemala | ENMexico | ESUnited States | EN"
+      ]
+    },
+    {
+      "selector": "a.menu-acc",
+      "count": 9,
+      "sample_html": [
+        "<a aria-label=\"Industries menu\" href=\"https://www.capgemini.com/industries/\" class=\"menu-acc\"><span><span>Industries</span></span></a>",
+        "<a href=\"https://www.capgemini.com/industries/\" class=\"menu-acc\">Industries</a>"
+      ],
+      "sample_text": [
+        "Industries",
+        "Industries"
+      ]
+    },
+    {
+      "selector": "li.menu-parent",
+      "count": 8,
+      "sample_html": [
+        "<li aria-label=\"Hot topics Submenu\" class=\"menu-parent\"><a href=\"https://www.capgemini.com/insights/hot-topics/\"><span>Hot topics</span></a>\n\t<ul class=\"menu-submenu menu-l2\"><li class=\"menu-submenu-title-wrapper\"><span class=\"menu-submenu-title\"><button class=\"menu-submenu-back\">Back</button><a href=\"https://www.capgemini.com/insights/hot-topics/\"><span>Hot topics</span></a></span></li>\n\t\t<li aria-label=\"Reshape your future with AI Submenu\" class=\"\"><a href=\"https://www.capgemini.com/insights/hot-topics/reshape-your-future-with-ai/\"><span>Reshape your future with AI</span></a></li>\n\t\t<li aria-label=\"Leading sustainability Submenu\" class=\"\"><a href=\"https://www.capgemini.com/insights/hot-topics/leading-sustainability/\"><span>Leading sustainability</span></a></li>\n\t\t<li aria-label=\"The future of technology Submenu\" class=\"\"><a href=\"https://www.capgemini.com/insights/hot-topics/future-of-technology/\"><span>The future of technology</span></a></li>\n\t\t<li aria-label=\"Marketing for customer experience Submenu\" class=\"\"><a href=\"https://www.capgemini.com/insights/hot-topics/marketing-for-customer-experience/\"><span>Marketing for customer experience</span></a></li>\n\t\n</ul>\n</li>",
+        "<li aria-label=\"Industries Submenu\" class=\"menu-parent\"><a href=\"https://www.capgemini.com/industries/\"><span>Industries</span></a> <div class=\"menu-submenu menu-l1\"><div class=\"menu-submenu-title-wrapper\"><span class=\"menu-submenu-title\"><button class=\"menu-submenu-back\" aria-label=\"Industries Submenu\" title=\"submenu\">link</button><a href=\"https://www.capgemini.com/industries/\">Industries</a></span><p>Choose a partner with intimate knowledge of your industry and first-hand experience of defining its future.</p><a aria-label=\"Industries learn more\" class=\"more4\" href=\"https://www.capgemini.com/industries/\">Learn more</a></div>\n<ul class=\"\">\n\t<li aria-label=\"Aerospace and defense Submenu\" class=\"\"><a href=\"https://www.capgemini.com/industries/aerospace-and-defense/\"><span>Aerospace and defense</span></a></li>\n\t<li aria-label=\"Automotive Submenu\" class=\"\"><a href=\"https://www.capgemini.com/industries/automotive/\"><span>Automotive</span></a></li>\n\t<li aria-label=\"Banking and capital markets Submenu\" class=\"\"><a href=\"https://www.capgemini.com/industries/banking-and-capital-markets/\"><span>Banking and capital markets</span></a></li>\n\t<li aria-label=\"Consumer products Submenu\" class=\"\"><a href=\"https://www.capgemini.com/industries/consumer-products/\"><span>Consumer products</span></a></li>\n\t<li aria-label=\"Energy and utilities Submenu\" class=\"\"><a href=\"https://www.capgemini.com/industries/energy-and-utilities/\"><span>Energy and utilities</span></a></li>\n\t<li aria-label=\"Healthcar"
+      ],
+      "sample_text": [
+        "Hot topics\n\tBackHot topics\n\t\tReshape your future with AI\n\t\tLeading sustainability\n\t\tThe future of technology\n\t\tMarketing for customer experience\n\t\n\n",
+        "Industries linkIndustriesChoose a partner with intimate knowledge of your industry and first-hand experience of defining its future.Learn more\n\n\tAerospace and defense\n\tAutomotive\n\tBanking and capital "
+      ]
+    },
+    {
+      "selector": "li.lang-title",
+      "count": 8,
+      "sample_html": [
+        "<li class=\"lang-title\">Worldwide<ul class=\"sub-menu\"><li class=\"active\"><a href=\"https://www.capgemini.com/\" tabindex=\"-1\"><span class=\"lang-globe-alignement\"><i class=\" icon icon-zodiak-globe\"></i><span class=\"inner location-span\">Global | EN</span></span></a></li></ul></li>",
+        "<li class=\"lang-title\">Americas<ul class=\"sub-menu\"><li class=\"\"><a href=\"/ar-es/\" tabindex=\"-1\"><span class=\"lang-globe-alignement\"><img decoding=\"async\" loading=\"lazy\" aria-hidden=\"true\" src=\"https://www.capgemini.com/wp-content/themes/capgemini2025/assets/images/fl/flag-argentina.svg\" alt=\"\"><span class=\"inner location-span\">Argentina | ES</span></span></a></li><li class=\"\"><a href=\"/br-pt/\" tabindex=\"-1\"><span class=\"lang-globe-alignement\"><img decoding=\"async\" loading=\"lazy\" aria-hidden=\"true\" src=\"https://www.capgemini.com/wp-content/themes/capgemini2025/assets/images/fl/flag-brazil.svg\" alt=\"\"><span class=\"inner location-span\">Brazil | PT</span></span></a></li><li class=\"\"><a href=\"/ca-en/\" tabindex=\"-1\"><span class=\"lang-globe-alignement\"><img decoding=\"async\" loading=\"lazy\" aria-hidden=\"true\" src=\"https://www.capgemini.com/wp-content/themes/capgemini2025/assets/images/fl/flag-canada.svg\" alt=\"\"><span class=\"inner location-span\">Canada | EN</span></span></a></li><li class=\"\"><a href=\"/ca-fr/\" tabindex=\"-1\"><span class=\"lang-globe-alignement\"><img decoding=\"async\" loading=\"lazy\" aria-hidden=\"true\" src=\"https://www.capgemini.com/wp-content/themes/capgemini2025/assets/images/fl/flag-canada.svg\" alt=\"\"><span class=\"inner location-span\">Canada | FR</span></span></a></li><li class=\"\"><a href=\"/co-es/\" tabindex=\"-1\"><span class=\"lang-globe-alignement\"><img decoding=\"async\" loading=\"lazy\" aria-hidden=\"true\" src=\"https://www.capgemini.com/wp-content/themes/capgemini2025/assets"
+      ],
+      "sample_text": [
+        "WorldwideGlobal | EN",
+        "AmericasArgentina | ESBrazil | PTCanada | ENCanada | FRColombia | ESGuatemala | ENMexico | ESUnited States | EN"
+      ]
+    },
+    {
+      "selector": "span.menu-submenu-title",
+      "count": 7,
+      "sample_html": [
+        "<span class=\"menu-submenu-title\"><button class=\"menu-submenu-back\">Back</button><a href=\"https://www.capgemini.com/insights/hot-topics/\"><span>Hot topics</span></a></span>",
+        "<span class=\"menu-submenu-title\"><button class=\"menu-submenu-back\" aria-label=\"Industries Submenu\" title=\"submenu\">link</button><a href=\"https://www.capgemini.com/industries/\">Industries</a></span>"
+      ],
+      "sample_text": [
+        "BackHot topics",
+        "linkIndustries"
+      ]
+    },
+    {
+      "selector": "nav.menu-submenu-nav",
+      "count": 7,
+      "sample_html": [
+        "<nav aria-label=\"Hot topics SubMenu\" class=\"menu-submenu-nav\"><ul class=\"menu-l2 menu-l2-normal 4\">\n\t\t<li aria-label=\"Reshape your future with AI Submenu\" class=\"\"><a aria-label=\"Reshape your future with AI menu\" href=\"https://www.capgemini.com/insights/hot-topics/reshape-your-future-with-ai/\"><span><span>Reshape your future with AI</span></span></a></li>\n\t\t<li aria-label=\"Leading sustainability Submenu\" class=\"\"><a aria-label=\"Leading sustainability menu\" href=\"https://www.capgemini.com/insights/hot-topics/leading-sustainability/\"><span><span>Leading sustainability</span></span></a></li>\n\t\t<li aria-label=\"The future of technology Submenu\" class=\"\"><a aria-label=\"The future of technology menu\" href=\"https://www.capgemini.com/insights/hot-topics/future-of-technology/\"><span><span>The future of technology</span></span></a></li>\n\t\t<li aria-label=\"Marketing for customer experience Submenu\" class=\"\"><a aria-label=\"Marketing for customer experience menu\" href=\"https://www.capgemini.com/insights/hot-topics/marketing-for-customer-experience/\"><span><span>Marketing for customer experience</span></span></a></li>\n\t\n</ul></nav>",
+        "<nav aria-label=\"Career paths SubMenu\" class=\"menu-submenu-nav\"><ul class=\"menu-l2 menu-l2-normal 6\">\n\t\t<li aria-label=\"Students and graduates Submenu\" class=\"\"><a aria-label=\"Students and graduates menu\" href=\"https://www.capgemini.com/careers/career-paths/students-and-graduates/\"><span><span>Students and graduates</span></span></a></li>\n\t\t<li aria-label=\"Experienced professionals Submenu\" class=\"\"><a aria-label=\"Experienced professionals menu\" href=\"https://www.capgemini.com/careers/career-paths/experienced-professionals/\"><span><span>Experienced professionals</span></span></a></li>\n\t\t<li aria-label=\"Executives Submenu\" class=\"\"><a aria-label=\"Executives menu\" href=\"https://www.capgemini.com/careers/career-paths/executives/\"><span><span>Executives</span></span></a></li>\n\t\t<li aria-label=\"Our professions Submenu\" class=\"\"><a aria-label=\"Our professions menu\" href=\"https://www.capgemini.com/careers/career-paths/professions/\"><span><span>Our professions</span></span></a></li>\n\t\t<li aria-label=\"Careers at Capgemini Engineering Submenu\" class=\"\"><a aria-label=\"Careers at Capgemini Engineering menu\" href=\"https://www.capgemini.com/careers/career-paths/careers-at-capgemini-engineering/\"><span><span>Careers at Capgemini Engineering</span></span></a></li>\n\t\t<li aria-label=\"Careers at Capgemini Invent Submenu\" class=\"\"><a aria-label=\"Careers at Capgemini Invent menu\" href=\"https://www.capgemini.com/careers/career-paths/careers-at-capgemini-invent/\"><span><span>Careers at Capgemini In"
+      ],
+      "sample_text": [
+        "\n\t\tReshape your future with AI\n\t\tLeading sustainability\n\t\tThe future of technology\n\t\tMarketing for customer experience\n\t\n",
+        "\n\t\tStudents and graduates\n\t\tExperienced professionals\n\t\tExecutives\n\t\tOur professions\n\t\tCareers at Capgemini Engineering\n\t\tCareers at Capgemini Invent\n\t\n"
+      ]
+    }
+  ],
+  "page_title": "Join Capgemini - Capgemini",
+  "status": "ok",
+  "screenshot": "capgemini.png"
+}

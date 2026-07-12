@@ -1,0 +1,58 @@
+{
+  "slug": "goldman-sachs",
+  "url": "https://higher.gs.com/roles?query=data%20scientist",
+  "keyword_candidates": [],
+  "structural_candidates": [
+    {
+      "selector": "div.d-flex.justify-content-between.border-bottom.gs-uitk-mb-2.gs-uitk-pb-1",
+      "count": 12,
+      "sample_html": [
+        "<div class=\"d-flex justify-content-between border-bottom gs-uitk-mb-2 gs-uitk-pb-1\"><div><a class=\"text-decoration-none\" href=\"/roles/177865\"><span data-gs-uitk-component=\"text\" class=\"gs-uitk-c-nv7fiq--text-root gs-uitk-mb-1 gs-text\">Platform Solutions- Richardson- Vice President, Analytics &amp; Reporting- 9848762</span><div class=\"d-flex\"><div data-testid=\"location\"><span data-gs-uitk-component=\"text\" class=\"gs-uitk-c-d1sssb--text-root gs-text\"><span>Richardson</span><span class=\"gs-uitk-mx-1\">\u00b7</span><span>United States</span></span></div><div class=\"d-flex align-items-center\"><span data-gs-uitk-component=\"text\" class=\"gs-uitk-c-d1sssb--text-root gs-text\"><span class=\"gs-uitk-mx-1\">\u00b7</span>Vice President</span></div></div></a><div class=\"d-none d-md-block\"></div></div><div class=\"d-none d-md-flex align-items-center\"><div class=\"d-flex align-items-center\"><span class=\"gs-uitk-c-nzeboc--popover-target-target\" data-gs-uitk-component=\"popover-target\" tabindex=\"0\" data-gs-uitk-popover-id=\"gs-uitk-popover-6\" aria-expanded=\"false\"><span class=\"rounded\" data-gs-uitk-component=\"tooltip-target\" tabindex=\"-1\" role=\"button\" aria-pressed=\"false\" aria-live=\"polite\" placement=\"bottom-center\" triggers=\"click\" container=\"[object HTMLBodyElement]\" data-gs-uitk-tooltip-id=\"gs-uitk-tooltip-103\" aria-expanded=\"false\"><button data-gs-uitk-component=\"button\" data-appearance=\"neutral\" data-emphasis=\"minimal\" data-size=\"md\" data-status=\"none\" data-active=\"false\" emphasis=\"minimal\" data-testid=\"sh",
+        "<div class=\"d-flex justify-content-between border-bottom gs-uitk-mb-2 gs-uitk-pb-1\"><div><a class=\"text-decoration-none\" href=\"/roles/173275\"><span data-gs-uitk-component=\"text\" class=\"gs-uitk-c-nv7fiq--text-root gs-uitk-mb-1 gs-text\">Compliance, Surveillance &amp; Models-Software Engineering, Vice President, Dallas</span><div class=\"d-flex\"><div data-testid=\"location\"><span data-gs-uitk-component=\"text\" class=\"gs-uitk-c-d1sssb--text-root gs-text\"><span>Dallas</span><span class=\"gs-uitk-mx-1\">\u00b7</span><span>United States</span></span></div><div class=\"d-flex align-items-center\"><span data-gs-uitk-component=\"text\" class=\"gs-uitk-c-d1sssb--text-root gs-text\"><span class=\"gs-uitk-mx-1\">\u00b7</span>Vice President</span></div></div></a><div class=\"d-none d-md-block\"><span data-gs-uitk-component=\"tag\" data-cy=\"gs-tag\" data-size=\"sm\" class=\"gs-uitk-mr-1 gs-uitk-mt-1_5 gs-tag gs-uitk-c-qggzs--tag-root--q\"><button data-cy=\"gs-tag__button\" tabindex=\"0\" class=\"gs-uitk-c-1nke4k8--tag-button gs-tag__button\">Software Engineering</button></span></div></div><div class=\"d-none d-md-flex align-items-center\"><div class=\"d-flex align-items-center\"><span class=\"gs-uitk-c-nzeboc--popover-target-target\" data-gs-uitk-component=\"popover-target\" tabindex=\"0\" data-gs-uitk-popover-id=\"gs-uitk-popover-10\" aria-expanded=\"false\"><span class=\"rounded\" data-gs-uitk-component=\"tooltip-target\" tabindex=\"-1\" role=\"button\" aria-pressed=\"false\" aria-live=\"polite\" placement=\"bottom-center\" triggers=\"click\" container=\"["
+      ],
+      "sample_text": [
+        "Platform Solutions- Richardson- Vice President, Analytics & Reporting- 9848762\nRichardson\u00b7United States\n\u00b7Vice President\nshare\nShare\nbookmark_border\nSave",
+        "Compliance, Surveillance & Models-Software Engineering, Vice President, Dallas\nDallas\u00b7United States\n\u00b7Vice President\nSoftware Engineering\nshare\nShare\nbookmark_border\nSave"
+      ]
+    },
+    {
+      "selector": "a.text-decoration-none",
+      "count": 12,
+      "sample_html": [
+        "<a class=\"text-decoration-none\" href=\"/roles/177865\"><span data-gs-uitk-component=\"text\" class=\"gs-uitk-c-nv7fiq--text-root gs-uitk-mb-1 gs-text\">Platform Solutions- Richardson- Vice President, Analytics &amp; Reporting- 9848762</span><div class=\"d-flex\"><div data-testid=\"location\"><span data-gs-uitk-component=\"text\" class=\"gs-uitk-c-d1sssb--text-root gs-text\"><span>Richardson</span><span class=\"gs-uitk-mx-1\">\u00b7</span><span>United States</span></span></div><div class=\"d-flex align-items-center\"><span data-gs-uitk-component=\"text\" class=\"gs-uitk-c-d1sssb--text-root gs-text\"><span class=\"gs-uitk-mx-1\">\u00b7</span>Vice President</span></div></div></a>",
+        "<a class=\"text-decoration-none\" href=\"/roles/173275\"><span data-gs-uitk-component=\"text\" class=\"gs-uitk-c-nv7fiq--text-root gs-uitk-mb-1 gs-text\">Compliance, Surveillance &amp; Models-Software Engineering, Vice President, Dallas</span><div class=\"d-flex\"><div data-testid=\"location\"><span data-gs-uitk-component=\"text\" class=\"gs-uitk-c-d1sssb--text-root gs-text\"><span>Dallas</span><span class=\"gs-uitk-mx-1\">\u00b7</span><span>United States</span></span></div><div class=\"d-flex align-items-center\"><span data-gs-uitk-component=\"text\" class=\"gs-uitk-c-d1sssb--text-root gs-text\"><span class=\"gs-uitk-mx-1\">\u00b7</span>Vice President</span></div></div></a>"
+      ],
+      "sample_text": [
+        "Platform Solutions- Richardson- Vice President, Analytics & Reporting- 9848762\nRichardson\u00b7United States\n\u00b7Vice President",
+        "Compliance, Surveillance & Models-Software Engineering, Vice President, Dallas\nDallas\u00b7United States\n\u00b7Vice President"
+      ]
+    },
+    {
+      "selector": "li.gs-footer__link.gs-navigation-link.gs-uitk-c-1rq5mf3--menu-list-root--footer-link-root",
+      "count": 5,
+      "sample_html": [
+        "<li data-cy=\"gs-uitk-navigation__navigation-link\" data-gs-uitk-component=\"navigation__navigation-link\" data-href=\"https://www.goldmansachs.com/privacy-and-cookies/index.html\" class=\"gs-footer__link gs-navigation-link gs-uitk-c-1rq5mf3--menu-list-root--footer-link-root\" data-selected=\"false\" data-size=\"sm\" data-border=\"false\"><a data-gs-uitk-component=\"link\" data-emphasis=\"regular\" data-size=\"sm\" class=\"gs-link gs-uitk-c-1047t7t--link-root--link-anchor\" href=\"https://www.goldmansachs.com/privacy-and-cookies/index.html\" data-cy=\"gs-uitk-footer__link\" id=\"\" data-testid=\"footer-links\" target=\"_self\"><span>Privacy and Cookies</span></a></li>",
+        "<li data-cy=\"gs-uitk-navigation__navigation-link\" data-gs-uitk-component=\"navigation__navigation-link\" data-href=\"https://www.goldmansachs.com/terms-and-conditions/index.html\" class=\"gs-footer__link gs-navigation-link gs-uitk-c-1rq5mf3--menu-list-root--footer-link-root\" data-selected=\"false\" data-size=\"sm\" data-border=\"false\"><a data-gs-uitk-component=\"link\" data-emphasis=\"regular\" data-size=\"sm\" class=\"gs-link gs-uitk-c-1047t7t--link-root--link-anchor\" href=\"https://www.goldmansachs.com/terms-and-conditions/index.html\" data-cy=\"gs-uitk-footer__link\" id=\"\" data-testid=\"footer-links\" target=\"_self\"><span>Terms &amp; Conditions</span></a></li>"
+      ],
+      "sample_text": [
+        "Privacy and Cookies",
+        "Terms & Conditions"
+      ]
+    },
+    {
+      "selector": "a.gs-link.gs-uitk-c-1047t7t--link-root--link-anchor",
+      "count": 5,
+      "sample_html": [
+        "<a data-gs-uitk-component=\"link\" data-emphasis=\"regular\" data-size=\"sm\" class=\"gs-link gs-uitk-c-1047t7t--link-root--link-anchor\" href=\"https://www.goldmansachs.com/privacy-and-cookies/index.html\" data-cy=\"gs-uitk-footer__link\" id=\"\" data-testid=\"footer-links\" target=\"_self\"><span>Privacy and Cookies</span></a>",
+        "<a data-gs-uitk-component=\"link\" data-emphasis=\"regular\" data-size=\"sm\" class=\"gs-link gs-uitk-c-1047t7t--link-root--link-anchor\" href=\"https://www.goldmansachs.com/terms-and-conditions/index.html\" data-cy=\"gs-uitk-footer__link\" id=\"\" data-testid=\"footer-links\" target=\"_self\"><span>Terms &amp; Conditions</span></a>"
+      ],
+      "sample_text": [
+        "Privacy and Cookies",
+        "Terms & Conditions"
+      ]
+    }
+  ],
+  "page_title": "Opportunities | Goldman Sachs",
+  "status": "ok",
+  "screenshot": "goldman-sachs.png"
+}

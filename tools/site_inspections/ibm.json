@@ -1,0 +1,58 @@
+{
+  "slug": "ibm",
+  "url": "https://www.ibm.com/careers/search?field_keyword_18[0]=Data%20and%20AI",
+  "keyword_candidates": [],
+  "structural_candidates": [
+    {
+      "selector": "li.new-basic-links__item",
+      "count": 7,
+      "sample_html": [
+        "<li class=\"new-basic-links__item\"><a class=\"new-basic-links__link\" href=\"https://www.ibm.com/mysupport/s/?language=en_US&amp;lnk=flathl\"><span>Overview</span><div class=\"new-basic-links__description\">Resolve product issues with self-service tools</div></a></li>",
+        "<li class=\"new-basic-links__item\"><a class=\"new-basic-links__link\" href=\"https://community.ibm.com/community/user/community?lnk=flathl\"><span>Community</span><div class=\"new-basic-links__description\">Share knowledge in a collaborative environment to unlock innovation</div></a></li>"
+      ],
+      "sample_text": [
+        "OverviewResolve product issues with self-service tools",
+        "CommunityShare knowledge in a collaborative environment to unlock innovation"
+      ]
+    },
+    {
+      "selector": "a.new-basic-links__link",
+      "count": 7,
+      "sample_html": [
+        "<a class=\"new-basic-links__link\" href=\"https://www.ibm.com/mysupport/s/?language=en_US&amp;lnk=flathl\"><span>Overview</span><div class=\"new-basic-links__description\">Resolve product issues with self-service tools</div></a>",
+        "<a class=\"new-basic-links__link\" href=\"https://community.ibm.com/community/user/community?lnk=flathl\"><span>Community</span><div class=\"new-basic-links__description\">Share knowledge in a collaborative environment to unlock innovation</div></a>"
+      ],
+      "sample_text": [
+        "OverviewResolve product issues with self-service tools",
+        "CommunityShare knowledge in a collaborative environment to unlock innovation"
+      ]
+    },
+    {
+      "selector": "c4d-cta-block-item.cds--cta-block-item__pictogram-styling",
+      "count": 4,
+      "sample_html": [
+        "<c4d-cta-block-item class=\"cds--cta-block-item__pictogram-styling\" data-autoid=\"c4d--cta-block-item\">\n    \n    \n    <svg fill=\"url(#pictogram-color-blue-60-018d885f-082a-4908-b3a3-47968543c21c)\" slot=\"media\" class=\"question--and--answer pictogram-color-blue-60 cds--pictogram-item__pictogram\" data-autoid=\"c4d--pictogram-item__pictogram\" focusable=\"false\" viewBox=\"0 0 80 80\" height=\"80\" width=\"80\" role=\"img\">\n        <use href=\"#question--and--answer\" height=\"80\" width=\"80\"></use>\n        <defs>\n            <linearGradient id=\"pictogram-color-gradient-180-blue-to-purple-018d885f-082a-4908-b3a3-47968543c21c\" gradientTransform=\"rotate(90)\">\n                <stop offset=\"0%\" stop-color=\"#0f62fe\"></stop>\n                <stop offset=\"100%\" stop-color=\"#8a3ffc\"></stop>\n            </linearGradient>\n            <linearGradient id=\"pictogram-color-gradient-180-blue-dark-to-light-018d885f-082a-4908-b3a3-47968543c21c\" gradientTransform=\"rotate(90)\">\n                <stop offset=\"0%\" stop-color=\"#0f62fe\"></stop>\n                <stop offset=\"100%\" stop-color=\"#78a9ff\"></stop>\n            </linearGradient>\n            <linearGradient id=\"pictogram-color-gradient-180-blue-to-teal-018d885f-082a-4908-b3a3-47968543c21c\" gradientTransform=\"rotate(90)\">\n                <stop offset=\"0%\" stop-color=\"#0f62fe\"></stop>\n                <stop offset=\"100%\" stop-color=\"#08bdba\"></stop>\n            </linearGradient>\n            <linearGradient id=\"pictogram-color-gradient-180-blue-to-magenta-018d885f-0",
+        "<c4d-cta-block-item class=\"cds--cta-block-item__pictogram-styling\" data-autoid=\"c4d--cta-block-item\">\n    \n    \n    <svg fill=\"url(#pictogram-color-blue-60-f7641fd1-240f-436e-9842-b5def078b415)\" slot=\"media\" class=\"alarm pictogram-color-blue-60 cds--pictogram-item__pictogram\" data-autoid=\"c4d--pictogram-item__pictogram\" focusable=\"false\" viewBox=\"0 0 80 80\" height=\"80\" width=\"80\" role=\"img\">\n        <use href=\"#alarm\" height=\"80\" width=\"80\"></use>\n        <defs>\n            <linearGradient id=\"pictogram-color-gradient-180-blue-to-purple-f7641fd1-240f-436e-9842-b5def078b415\" gradientTransform=\"rotate(90)\">\n                <stop offset=\"0%\" stop-color=\"#0f62fe\"></stop>\n                <stop offset=\"100%\" stop-color=\"#8a3ffc\"></stop>\n            </linearGradient>\n            <linearGradient id=\"pictogram-color-gradient-180-blue-dark-to-light-f7641fd1-240f-436e-9842-b5def078b415\" gradientTransform=\"rotate(90)\">\n                <stop offset=\"0%\" stop-color=\"#0f62fe\"></stop>\n                <stop offset=\"100%\" stop-color=\"#78a9ff\"></stop>\n            </linearGradient>\n            <linearGradient id=\"pictogram-color-gradient-180-blue-to-teal-f7641fd1-240f-436e-9842-b5def078b415\" gradientTransform=\"rotate(90)\">\n                <stop offset=\"0%\" stop-color=\"#0f62fe\"></stop>\n                <stop offset=\"100%\" stop-color=\"#08bdba\"></stop>\n            </linearGradient>\n            <linearGradient id=\"pictogram-color-gradient-180-blue-to-magenta-f7641fd1-240f-436e-9842-b5def078b415\" grad"
+      ],
+      "sample_text": [
+        "Talent Network\n\nStay up to date on career related news and events.\n\nJoin our Talent Network ",
+        "Job Alerts\n\nGet notified on job openings that match your skills.\n\nTurn on Job Alerts "
+      ]
+    },
+    {
+      "selector": "a.sk-item-list-option.sk-item-list__item",
+      "count": 3,
+      "sample_html": [
+        "<a class=\"sk-item-list-option sk-item-list__item\" data-qa=\"option\" data-key=\"Professional\" data-attribute1=\"mh_filterClick\" data-attribute8=\"ExperienceLevel-Professional\" href=\"javascript:void(0)\" id=\"IBMAccessibleCheckboxItemComponents-ExperienceLevel-Professional\"><input type=\"checkbox\" data-qa=\"checkbox\" aria-label=\"Professional\" class=\"sk-item-list-option__checkbox\"><div data-qa=\"label\" class=\"sk-item-list-option__text\"><span><span class=\"\">Professional</span></span> (862)</div></a>",
+        "<a class=\"sk-item-list-option sk-item-list__item\" data-qa=\"option\" data-key=\"Internship\" data-attribute1=\"mh_filterClick\" data-attribute8=\"ExperienceLevel-Internship\" href=\"javascript:void(0)\" id=\"IBMAccessibleCheckboxItemComponents-ExperienceLevel-Internship\"><input type=\"checkbox\" data-qa=\"checkbox\" aria-label=\"Internship\" class=\"sk-item-list-option__checkbox\"><div data-qa=\"label\" class=\"sk-item-list-option__text\"><span><span class=\"\">Internship</span></span> (101)</div></a>"
+      ],
+      "sample_text": [
+        "Professional (862)",
+        "Internship (101)"
+      ]
+    }
+  ],
+  "page_title": "Search jobs | IBM Careers",
+  "status": "ok",
+  "screenshot": "ibm.png"
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "dxc-technology",
+  "url": "https://jobs.dxc.com/global/en/search-results?keywords=data%20scientist",
+  "keyword_candidates": [],
+  "structural_candidates": [
+    {
+      "selector": "a.awb-menu__main-a.awb-menu__main-a_regular",
+      "count": 7,
+      "sample_html": [
+        "<a href=\"https://careers.dxc.com/profile/join/\" class=\"awb-menu__main-a awb-menu__main-a_regular\"><span class=\"menu-text\">Join Our Talent Community</span></a>",
+        "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/login\" class=\"awb-menu__main-a awb-menu__main-a_regular\" aria-label=\"My Applications - Opens in new tab\"><span class=\"menu-text\">My Applications</span><span class=\"awb-menu__i awb-menu__i_main fusion-megamenu-icon\"><i class=\"fa-external-link fal\" aria-hidden=\"true\"></i></span></a>"
+      ],
+      "sample_text": [
+        "Join Our Talent Community",
+        "My Applications"
+      ]
+    },
+    {
+      "selector": "a.awb-menu__sub-a.wpml-ls-link",
+      "count": 7,
+      "sample_html": [
+        "<a title=\"Switch to German\" href=\"https://careers.dxc.com/de/\" class=\"awb-menu__sub-a wpml-ls-link\"><span><span class=\"wpml-ls-native\" lang=\"de\">Deutsch</span><span class=\"wpml-ls-display\"><span class=\"wpml-ls-bracket\"> (</span>German<span class=\"wpml-ls-bracket\">)</span></span></span></a>",
+        "<a title=\"Switch to Spanish\" href=\"https://careers.dxc.com/es/\" class=\"awb-menu__sub-a wpml-ls-link\"><span><span class=\"wpml-ls-native\" lang=\"es\">Espa\u00f1ol</span><span class=\"wpml-ls-display\"><span class=\"wpml-ls-bracket\"> (</span>Spanish<span class=\"wpml-ls-bracket\">)</span></span></span></a>"
+      ],
+      "sample_text": [
+        "Deutsch (German)",
+        "Espa\u00f1ol (Spanish)"
+      ]
+    },
+    {
+      "selector": "div.fusion-column-wrapper.fusion-column-has-shadow.fusion-flex-justify-content-center.fusion-content-layout-column",
+      "count": 3,
+      "sample_html": [
+        "<div class=\"fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column\"><div class=\"fusion-text fusion-text-1\"><p>We can\u2019t find the page you were looking for. But let\u2019s get you back on track.</p> </div><div class=\"fusion-builder-row fusion-builder-row-inner fusion-row fusion-flex-align-items-flex-start fusion-flex-content-wrap\" style=\"width:calc( 100% + 80px ) !important;max-width:calc( 100% + 80px ) !important;margin-left: calc(-80px / 2 );margin-right: calc(-80px / 2 );\"><div class=\"fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-0 fusion-flex-column fusion-flex-align-self-stretch\" style=\"--awb-bg-size:cover;--awb-width-large:45%;--awb-margin-top-large:0px;--awb-spacing-right-large:40px;--awb-margin-bottom-large:0px;--awb-spacing-left-large:40px;--awb-width-medium:45%;--awb-order-medium:0;--awb-spacing-right-medium:40px;--awb-spacing-left-medium:40px;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:40px;--awb-spacing-left-small:40px;\" data-scroll-devices=\"small-visibility,medium-visibility,large-visibility\"><div class=\"fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column\"><div class=\"fusion-widget-area awb-widget-area-element fusion-widget-area-1 fusion-content-widget-area searchSmall\" style=\"--awb-title-size:19px;--awb-background-color:var(--awb-color2);--awb-title-color:var(--awb-color8);--awb-padding:20px 20px 20p",
+        "<div class=\"fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column\"><div style=\"text-align:center;\"><a class=\"fusion-button button-flat fusion-button-default-size button-default fusion-button-default button-1 fusion-button-default-span fusion-button-default-type\" target=\"_self\" href=\"/\" id=\"btn-go-to-homepage\"><span class=\"fusion-button-text\">Go to homepage</span></a></div></div>"
+      ],
+      "sample_text": [
+        "We can\u2019t find the page you were looking for. But let\u2019s get you back on track.\n\nSearch Jobs\nKeywords\nBegin typing to find suggestions.\n\nor\n\nGo to homepage",
+        "Go to homepage"
+      ]
+    }
+  ],
+  "page_title": "Page not found - dxc",
+  "status": "ok",
+  "screenshot": "dxc-technology.png"
+}

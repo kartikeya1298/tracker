@@ -1,0 +1,107 @@
+{
+  "slug": "pwc",
+  "url": "https://jobs.us.pwc.com/search-jobs/data%20scientist",
+  "keyword_candidates": [
+    {
+      "selector": "li.job-list__item",
+      "count": 50,
+      "sample_html": [
+        "<li class=\"job-list__item\">\n                            \n                            \n                            <div class=\"job-list__content\">\n                                <h3 class=\"job-list__job-title\">\n                                    <a class=\"job-list__job-link\" href=\"/job/new-york/strategy-and-deals-private-equity-value-creation-pevc-working-capital-sr-manager/932/97633001552\" data-job-id=\"97633001552\" id=\"job-link-97633001552\">\n                                        Strategy&amp; Deals Private Equity Value Creation (PEVC) - Working Capital, Sr. Manager\n                                    </a>\n                                </h3>\n\n                                <ul class=\"job-list__job-info-list\">\n                                            <li class=\"job-list__job-info job-location\">Multiple Locations</li>\n                                            <li class=\"job-list__job-info job-category\"><strong>Category:</strong> Deals</li>\n\n                                </ul>\n                            </div>\n\n                        </li>",
+        "<li class=\"job-list__item\">\n                            \n                            \n                            <div class=\"job-list__content\">\n                                <h3 class=\"job-list__job-title\">\n                                    <a class=\"job-list__job-link\" href=\"/job/new-york/strategy-and-deals-private-equity-value-creation-working-capital-sr-associate/932/93538944464\" data-job-id=\"93538944464\" id=\"job-link-93538944464\">\n                                        Strategy&amp; Deals Private Equity Value Creation - Working Capital Sr. Associate\n                                    </a>\n                                </h3>\n\n                                <ul class=\"job-list__job-info-list\">\n                                            <li class=\"job-list__job-info job-location\">Multiple Locations</li>\n                                            <li class=\"job-list__job-info job-category\"><strong>Category:</strong> Deals</li>\n\n                                </ul>\n                            </div>\n\n                        </li>"
+      ],
+      "sample_text": [
+        "Strategy& Deals Private Equity Value Creation (PEVC) - Working Capital, Sr. Manager\nMultiple Locations\nCategory: Deals",
+        "Strategy& Deals Private Equity Value Creation - Working Capital Sr. Associate\nMultiple Locations\nCategory: Deals"
+      ]
+    },
+    {
+      "selector": "div.job-list__content",
+      "count": 50,
+      "sample_html": [
+        "<div class=\"job-list__content\">\n                                <h3 class=\"job-list__job-title\">\n                                    <a class=\"job-list__job-link\" href=\"/job/new-york/strategy-and-deals-private-equity-value-creation-pevc-working-capital-sr-manager/932/97633001552\" data-job-id=\"97633001552\" id=\"job-link-97633001552\">\n                                        Strategy&amp; Deals Private Equity Value Creation (PEVC) - Working Capital, Sr. Manager\n                                    </a>\n                                </h3>\n\n                                <ul class=\"job-list__job-info-list\">\n                                            <li class=\"job-list__job-info job-location\">Multiple Locations</li>\n                                            <li class=\"job-list__job-info job-category\"><strong>Category:</strong> Deals</li>\n\n                                </ul>\n                            </div>",
+        "<div class=\"job-list__content\">\n                                <h3 class=\"job-list__job-title\">\n                                    <a class=\"job-list__job-link\" href=\"/job/new-york/strategy-and-deals-private-equity-value-creation-working-capital-sr-associate/932/93538944464\" data-job-id=\"93538944464\" id=\"job-link-93538944464\">\n                                        Strategy&amp; Deals Private Equity Value Creation - Working Capital Sr. Associate\n                                    </a>\n                                </h3>\n\n                                <ul class=\"job-list__job-info-list\">\n                                            <li class=\"job-list__job-info job-location\">Multiple Locations</li>\n                                            <li class=\"job-list__job-info job-category\"><strong>Category:</strong> Deals</li>\n\n                                </ul>\n                            </div>"
+      ],
+      "sample_text": [
+        "Strategy& Deals Private Equity Value Creation (PEVC) - Working Capital, Sr. Manager\nMultiple Locations\nCategory: Deals",
+        "Strategy& Deals Private Equity Value Creation - Working Capital Sr. Associate\nMultiple Locations\nCategory: Deals"
+      ]
+    },
+    {
+      "selector": "h3.job-list__job-title",
+      "count": 50,
+      "sample_html": [
+        "<h3 class=\"job-list__job-title\">\n                                    <a class=\"job-list__job-link\" href=\"/job/new-york/strategy-and-deals-private-equity-value-creation-pevc-working-capital-sr-manager/932/97633001552\" data-job-id=\"97633001552\" id=\"job-link-97633001552\">\n                                        Strategy&amp; Deals Private Equity Value Creation (PEVC) - Working Capital, Sr. Manager\n                                    </a>\n                                </h3>",
+        "<h3 class=\"job-list__job-title\">\n                                    <a class=\"job-list__job-link\" href=\"/job/new-york/strategy-and-deals-private-equity-value-creation-working-capital-sr-associate/932/93538944464\" data-job-id=\"93538944464\" id=\"job-link-93538944464\">\n                                        Strategy&amp; Deals Private Equity Value Creation - Working Capital Sr. Associate\n                                    </a>\n                                </h3>"
+      ],
+      "sample_text": [
+        "Strategy& Deals Private Equity Value Creation (PEVC) - Working Capital, Sr. Manager",
+        "Strategy& Deals Private Equity Value Creation - Working Capital Sr. Associate"
+      ]
+    },
+    {
+      "selector": "a.job-list__job-link",
+      "count": 50,
+      "sample_html": [
+        "<a class=\"job-list__job-link\" href=\"/job/new-york/strategy-and-deals-private-equity-value-creation-pevc-working-capital-sr-manager/932/97633001552\" data-job-id=\"97633001552\" id=\"job-link-97633001552\">\n                                        Strategy&amp; Deals Private Equity Value Creation (PEVC) - Working Capital, Sr. Manager\n                                    </a>",
+        "<a class=\"job-list__job-link\" href=\"/job/new-york/strategy-and-deals-private-equity-value-creation-working-capital-sr-associate/932/93538944464\" data-job-id=\"93538944464\" id=\"job-link-93538944464\">\n                                        Strategy&amp; Deals Private Equity Value Creation - Working Capital Sr. Associate\n                                    </a>"
+      ],
+      "sample_text": [
+        "Strategy& Deals Private Equity Value Creation (PEVC) - Working Capital, Sr. Manager",
+        "Strategy& Deals Private Equity Value Creation - Working Capital Sr. Associate"
+      ]
+    },
+    {
+      "selector": "ul.job-list__job-info-list",
+      "count": 50,
+      "sample_html": [
+        "<ul class=\"job-list__job-info-list\">\n                                            <li class=\"job-list__job-info job-location\">Multiple Locations</li>\n                                            <li class=\"job-list__job-info job-category\"><strong>Category:</strong> Deals</li>\n\n                                </ul>",
+        "<ul class=\"job-list__job-info-list\">\n                                            <li class=\"job-list__job-info job-location\">Multiple Locations</li>\n                                            <li class=\"job-list__job-info job-category\"><strong>Category:</strong> Deals</li>\n\n                                </ul>"
+      ],
+      "sample_text": [
+        "Multiple Locations\nCategory: Deals",
+        "Multiple Locations\nCategory: Deals"
+      ]
+    },
+    {
+      "selector": "li.job-list__job-info.job-location",
+      "count": 50,
+      "sample_html": [
+        "<li class=\"job-list__job-info job-location\">Multiple Locations</li>",
+        "<li class=\"job-list__job-info job-location\">Multiple Locations</li>"
+      ],
+      "sample_text": [
+        "Multiple Locations",
+        "Multiple Locations"
+      ]
+    }
+  ],
+  "structural_candidates": [
+    {
+      "selector": "li.search-results-list__item",
+      "count": 15,
+      "sample_html": [
+        "<li class=\"search-results-list__item\">\n                            \n                                <div class=\"search-results-list__saved-job-container\">\n                                    <button class=\"js-save-job-btn search-results-list__save-job-btn\" data-job-id=\"92742763872\" data-org-id=\"932\" aria-describedby=\"job-92742763872\" data-job-saved=\"false\" aria-label=\"Save Job\" role=\"button\" aria-pressed=\"false\">\n                                        <span class=\"search-results-list__save-job-txt visually-hidden\">Save Job</span>\n                                    </button>\n                                </div>\n                            \n                            <div class=\"search-results-list__content\">\n                                <h2 class=\"search-results-list__job-title\">\n                                    <a class=\"search-results-list__job-link\" href=\"/job/new-york/risk-modeling-services-ai-data-scientist/932/92742763872\" data-job-id=\"92742763872\" id=\"job-92742763872\">Risk Modeling Services - AI Data Scientist</a>\n                                </h2>\n\n                                <ul class=\"search-results-list__job-info-list\">\n                                        <li class=\"search-results-list__job-info job-location\"> New York, NY </li>\n                                        <li class=\"search-results-list__job-info job-level\"> Senior Associate </li>\n                                </ul>\n                            </div>\n                        </li>",
+        "<li class=\"search-results-list__item\">\n                            \n                                <div class=\"search-results-list__saved-job-container\">\n                                    <button class=\"js-save-job-btn search-results-list__save-job-btn\" data-job-id=\"97486422288\" data-org-id=\"932\" aria-describedby=\"job-97486422288\" data-job-saved=\"false\" aria-label=\"Save Job\" role=\"button\" aria-pressed=\"false\">\n                                        <span class=\"search-results-list__save-job-txt visually-hidden\">Save Job</span>\n                                    </button>\n                                </div>\n                            \n                            <div class=\"search-results-list__content\">\n                                <h2 class=\"search-results-list__job-title\">\n                                    <a class=\"search-results-list__job-link\" href=\"/job/tampa/ait-ai-data-scientist-manager/932/97486422288\" data-job-id=\"97486422288\" id=\"job-97486422288\">AIT - AI Data Scientist Manager</a>\n                                </h2>\n\n                                <ul class=\"search-results-list__job-info-list\">\n                                        <li class=\"search-results-list__job-info job-location\"> Multiple Locations </li>\n                                        <li class=\"search-results-list__job-info job-level\"> Manager </li>\n                                </ul>\n                            </div>\n                        </li>"
+      ],
+      "sample_text": [
+        "Save Job\nRisk Modeling Services - AI Data Scientist\nNew York, NY\nSenior Associate",
+        "Save Job\nAIT - AI Data Scientist Manager\nMultiple Locations\nManager"
+      ]
+    },
+    {
+      "selector": "div.search-results-list__content",
+      "count": 15,
+      "sample_html": [
+        "<div class=\"search-results-list__content\">\n                                <h2 class=\"search-results-list__job-title\">\n                                    <a class=\"search-results-list__job-link\" href=\"/job/new-york/risk-modeling-services-ai-data-scientist/932/92742763872\" data-job-id=\"92742763872\" id=\"job-92742763872\">Risk Modeling Services - AI Data Scientist</a>\n                                </h2>\n\n                                <ul class=\"search-results-list__job-info-list\">\n                                        <li class=\"search-results-list__job-info job-location\"> New York, NY </li>\n                                        <li class=\"search-results-list__job-info job-level\"> Senior Associate </li>\n                                </ul>\n                            </div>",
+        "<div class=\"search-results-list__content\">\n                                <h2 class=\"search-results-list__job-title\">\n                                    <a class=\"search-results-list__job-link\" href=\"/job/tampa/ait-ai-data-scientist-manager/932/97486422288\" data-job-id=\"97486422288\" id=\"job-97486422288\">AIT - AI Data Scientist Manager</a>\n                                </h2>\n\n                                <ul class=\"search-results-list__job-info-list\">\n                                        <li class=\"search-results-list__job-info job-location\"> Multiple Locations </li>\n                                        <li class=\"search-results-list__job-info job-level\"> Manager </li>\n                                </ul>\n                            </div>"
+      ],
+      "sample_text": [
+        "Risk Modeling Services - AI Data Scientist\nNew York, NY\nSenior Associate",
+        "AIT - AI Data Scientist Manager\nMultiple Locations\nManager"
+      ]
+    }
+  ],
+  "page_title": "Search our Job Opportunities at PRICE WATERHOUSE COOPERS",
+  "status": "ok",
+  "screenshot": "pwc.png"
+}

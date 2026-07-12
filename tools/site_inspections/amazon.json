@@ -1,0 +1,131 @@
+{
+  "slug": "amazon",
+  "url": "https://www.amazon.jobs/en/search?base_query=data+scientist",
+  "keyword_candidates": [
+    {
+      "selector": "span.job-count",
+      "count": 184,
+      "sample_html": [
+        "<span class=\"job-count\"><span aria-hidden=\"true\"><!-- react-text: 163 -->(<!-- /react-text --><!-- react-text: 164 -->126<!-- /react-text --><!-- react-text: 165 -->)<!-- /react-text --></span><span class=\"sr-only\">126 jobs</span></span>",
+        "<span class=\"job-count\"><span aria-hidden=\"true\"><!-- react-text: 174 -->(<!-- /react-text --><!-- react-text: 175 -->67<!-- /react-text --><!-- react-text: 176 -->)<!-- /react-text --></span><span class=\"sr-only\">67 jobs</span></span>"
+      ],
+      "sample_text": [
+        "(126)\n126 jobs",
+        "(67)\n67 jobs"
+      ]
+    },
+    {
+      "selector": "div.job-tile",
+      "count": 10,
+      "sample_html": [
+        "<div class=\"job-tile\"><div class=\"job\" data-job-id=\"10468971\"><div class=\"row\"><div class=\"info first col-12 col-md-8\"><h3 class=\"job-title\"><a href=\"/en/jobs/10468971/data-scientist\" class=\"job-link\">Data Scientist </a></h3><div class=\"location-and-id d-inline-flex flex-row flex-wrap\" style=\"gap: 8px 16px;\"><span class=\"d-inline-flex flex-row flex-wrap mr-1\" style=\"gap: 8px 16px;\"><legend class=\"d-none\">Locations</legend><ul class=\"list-unstyled m-0 d-inline-flex flex-row flex-wrap\" style=\"gap: 8px 16px;\"><li class=\"text-nowrap\">San Francisco, CA, USA</li><li><span><button class=\"popover-button\" data-toggle=\"popover\" data-placement=\"top\" data-content=\"<ul class=&quot;list-unstyled m-0&quot;><li>New York, NY, USA</li><li>Seattle, WA, USA</li></ul>\" aria-label=\"+2 other locations\" aria-expanded=\"false\" data-original-title=\"\" title=\"\"><span><!-- react-text: 1273 -->+2 other locations<!-- /react-text --><!-- react-text: 1274 --> <!-- /react-text --><i aria-hidden=\"true\" class=\"fa fa-angle-down\"> </i></span></button></span></li><li>|</li><li>Job ID: 10468971</li></ul></span></div></div><div class=\"info col-12 col-md-4\"><span class=\"posting-date\">Posted July  8, 2026</span><p class=\"meta time-elapsed\">(Updated 3 days ago)</p></div></div><div class=\"row\"><div class=\"description col-12\"><div class=\"qualifications-preview\"><!-- react-text: 1284 -->Basic qualifications:<!-- /react-text --><br><ul><li>3+ years of data scientist experience</li></ul></div><a href=\"/en/jobs/10468971/data-",
+        "<div class=\"job-tile\"><div class=\"job\" data-job-id=\"10408648\"><div class=\"row\"><div class=\"info first col-12 col-md-8\"><h3 class=\"job-title\"><a href=\"/en/jobs/10408648/data-scientist-sidewalk\" class=\"job-link\">Data Scientist , Sidewalk</a></h3><div class=\"location-and-id d-inline-flex flex-row flex-wrap\" style=\"gap: 8px 16px;\"><span class=\"d-inline-flex flex-row flex-wrap mr-1\" style=\"gap: 8px 16px;\"><legend class=\"d-none\">Locations</legend><ul class=\"list-unstyled m-0 d-inline-flex flex-row flex-wrap\" style=\"gap: 8px 16px;\"><li class=\"text-nowrap\">Bengaluru, KA, IND</li><li>|</li><li>Job ID: 10408648</li></ul></span></div></div><div class=\"info col-12 col-md-4\"><span class=\"posting-date\">Posted May  1, 2026</span><p class=\"meta time-elapsed\">(Updated 2 months ago)</p></div></div><div class=\"row\"><div class=\"description col-12\"><div class=\"qualifications-preview\"><!-- react-text: 1308 -->Basic qualifications:<!-- /react-text --><br><ul><li>2+ years of data scientist experience</li><li>3+ years of data querying languages (e.g. SQL), scripting languages (e.g. Python) or statistical/mathematical software (e.g. R, SAS, Matlab, etc.) experience</li><li>3+ years of machine learning/statistical modeling data analysis tools and techniques, and parameters that affect their performance experience</li><li>1+ years of guiding and coaching a group of researchers experience</li><li>1+ years of working with or evaluating AI systems experience</li><li>Experience applying theoretical models i"
+      ],
+      "sample_text": [
+        "Data Scientist\nSan Francisco, CA, USA\n+2 other locations \n|\nJob ID: 10468971\nPosted July 8, 2026\n\n(Updated 3 days ago)\n\nBasic qualifications:\n\n3+ years of data scientist experience\n...Read more",
+        "Data Scientist , Sidewalk\nBengaluru, KA, IND\n|\nJob ID: 10408648\nPosted May 1, 2026\n\n(Updated 2 months ago)\n\nBasic qualifications:\n\n2+ years of data scientist experience\n3+ years of data querying langu"
+      ]
+    },
+    {
+      "selector": "div.job",
+      "count": 10,
+      "sample_html": [
+        "<div class=\"job\" data-job-id=\"10468971\"><div class=\"row\"><div class=\"info first col-12 col-md-8\"><h3 class=\"job-title\"><a href=\"/en/jobs/10468971/data-scientist\" class=\"job-link\">Data Scientist </a></h3><div class=\"location-and-id d-inline-flex flex-row flex-wrap\" style=\"gap: 8px 16px;\"><span class=\"d-inline-flex flex-row flex-wrap mr-1\" style=\"gap: 8px 16px;\"><legend class=\"d-none\">Locations</legend><ul class=\"list-unstyled m-0 d-inline-flex flex-row flex-wrap\" style=\"gap: 8px 16px;\"><li class=\"text-nowrap\">San Francisco, CA, USA</li><li><span><button class=\"popover-button\" data-toggle=\"popover\" data-placement=\"top\" data-content=\"<ul class=&quot;list-unstyled m-0&quot;><li>New York, NY, USA</li><li>Seattle, WA, USA</li></ul>\" aria-label=\"+2 other locations\" aria-expanded=\"false\" data-original-title=\"\" title=\"\"><span><!-- react-text: 1273 -->+2 other locations<!-- /react-text --><!-- react-text: 1274 --> <!-- /react-text --><i aria-hidden=\"true\" class=\"fa fa-angle-down\"> </i></span></button></span></li><li>|</li><li>Job ID: 10468971</li></ul></span></div></div><div class=\"info col-12 col-md-4\"><span class=\"posting-date\">Posted July  8, 2026</span><p class=\"meta time-elapsed\">(Updated 3 days ago)</p></div></div><div class=\"row\"><div class=\"description col-12\"><div class=\"qualifications-preview\"><!-- react-text: 1284 -->Basic qualifications:<!-- /react-text --><br><ul><li>3+ years of data scientist experience</li></ul></div><a href=\"/en/jobs/10468971/data-scientist\" class=\"read",
+        "<div class=\"job\" data-job-id=\"10408648\"><div class=\"row\"><div class=\"info first col-12 col-md-8\"><h3 class=\"job-title\"><a href=\"/en/jobs/10408648/data-scientist-sidewalk\" class=\"job-link\">Data Scientist , Sidewalk</a></h3><div class=\"location-and-id d-inline-flex flex-row flex-wrap\" style=\"gap: 8px 16px;\"><span class=\"d-inline-flex flex-row flex-wrap mr-1\" style=\"gap: 8px 16px;\"><legend class=\"d-none\">Locations</legend><ul class=\"list-unstyled m-0 d-inline-flex flex-row flex-wrap\" style=\"gap: 8px 16px;\"><li class=\"text-nowrap\">Bengaluru, KA, IND</li><li>|</li><li>Job ID: 10408648</li></ul></span></div></div><div class=\"info col-12 col-md-4\"><span class=\"posting-date\">Posted May  1, 2026</span><p class=\"meta time-elapsed\">(Updated 2 months ago)</p></div></div><div class=\"row\"><div class=\"description col-12\"><div class=\"qualifications-preview\"><!-- react-text: 1308 -->Basic qualifications:<!-- /react-text --><br><ul><li>2+ years of data scientist experience</li><li>3+ years of data querying languages (e.g. SQL), scripting languages (e.g. Python) or statistical/mathematical software (e.g. R, SAS, Matlab, etc.) experience</li><li>3+ years of machine learning/statistical modeling data analysis tools and techniques, and parameters that affect their performance experience</li><li>1+ years of guiding and coaching a group of researchers experience</li><li>1+ years of working with or evaluating AI systems experience</li><li>Experience applying theoretical models in an applied environme"
+      ],
+      "sample_text": [
+        "Data Scientist\nSan Francisco, CA, USA\n+2 other locations \n|\nJob ID: 10468971\nPosted July 8, 2026\n\n(Updated 3 days ago)\n\nBasic qualifications:\n\n3+ years of data scientist experience\n...Read more",
+        "Data Scientist , Sidewalk\nBengaluru, KA, IND\n|\nJob ID: 10408648\nPosted May 1, 2026\n\n(Updated 2 months ago)\n\nBasic qualifications:\n\n2+ years of data scientist experience\n3+ years of data querying langu"
+      ]
+    },
+    {
+      "selector": "h3.job-title",
+      "count": 10,
+      "sample_html": [
+        "<h3 class=\"job-title\"><a href=\"/en/jobs/10468971/data-scientist\" class=\"job-link\">Data Scientist </a></h3>",
+        "<h3 class=\"job-title\"><a href=\"/en/jobs/10408648/data-scientist-sidewalk\" class=\"job-link\">Data Scientist , Sidewalk</a></h3>"
+      ],
+      "sample_text": [
+        "Data Scientist",
+        "Data Scientist , Sidewalk"
+      ]
+    },
+    {
+      "selector": "a.job-link",
+      "count": 10,
+      "sample_html": [
+        "<a href=\"/en/jobs/10468971/data-scientist\" class=\"job-link\">Data Scientist </a>",
+        "<a href=\"/en/jobs/10408648/data-scientist-sidewalk\" class=\"job-link\">Data Scientist , Sidewalk</a>"
+      ],
+      "sample_text": [
+        "Data Scientist",
+        "Data Scientist , Sidewalk"
+      ]
+    },
+    {
+      "selector": "span.posting-date",
+      "count": 10,
+      "sample_html": [
+        "<span class=\"posting-date\">Posted July  8, 2026</span>",
+        "<span class=\"posting-date\">Posted May  1, 2026</span>"
+      ],
+      "sample_text": [
+        "Posted July 8, 2026",
+        "Posted May 1, 2026"
+      ]
+    }
+  ],
+  "structural_candidates": [
+    {
+      "selector": "div.row",
+      "count": 27,
+      "sample_html": [
+        "<div class=\"row\"><div class=\"col-11\"><div class=\"banner-content\"><div class=\"tooltip-icon\"><i class=\"fa fa-info-circle\" aria-hidden=\"true\"></i></div><p><!-- react-text: 138 -->Set job alerts for your search and never miss an opportunity!<!-- /react-text --><!-- react-text: 139 --> <!-- /react-text --><a href=\"https://passport.amazon.jobs/accountInfo\">Login or create an account</a></p></div></div><div class=\"col-1 text-right\"><button class=\"close-button\" aria-label=\"close\"><span aria-hidden=\"true\">\u00d7</span></button></div></div>",
+        "<div class=\"row\"><div class=\"d-none d-md-block col-sm-4 search-page-filter\"><div class=\"search-filters\"><div class=\"search-filters-title d-none d-md-block\"><h2>Filter by</h2><button href=\"javascript:void(0);\" data-label=\"reset\" data-action=\"reset\" data-search-track=\"true\" class=\"btn btn-quinary hover-none d-none\" aria-label=\"Reset filters\" aria-live=\"polite\">Reset</button></div><div class=\"search-filter d-md-none\"><div class=\"mobile-sort-wrapper\"><button class=\"options-title btn\" data-label=\"display\" data-action=\"sort\" data-search-track=\"true\" aria-haspopup=\"true\" aria-expanded=\"false\"><h3><!-- react-text: 27 --> <!-- /react-text --><!-- react-text: 28 -->Sort by<!-- /react-text --><!-- react-text: 29 --> <!-- /react-text --></h3><span class=\"selected-sort-text\"><!-- react-text: 31 --> <!-- /react-text --><!-- react-text: 32 -->Most relevant<!-- /react-text --><!-- react-text: 33 --> <!-- /react-text --></span><span class=\"arrow-down\"></span></button><div class=\"show-none\"><div class=\"radio-button\"><button class=\"radio-option btn\" name=\"desktopFilter_sort_by\"><p class=\"label-text\"><!-- react-text: 39 -->Most recent<!-- /react-text --><!-- react-text: 40 --><!-- /react-text --></p></button><button class=\"radio-option btn radio-selected\" name=\"desktopFilter_sort_by\"><p class=\"label-text\"><!-- react-text: 43 -->Most relevant<!-- /react-text --><!-- react-text: 44 --><!-- /react-text --></p></button></div></div></div></div><div class=\"search-filters-title-mobile d-md-none\"><h2>Fi"
+      ],
+      "sample_text": [
+        "Set job alerts for your search and never miss an opportunity! Login or create an account\n\n\u00d7",
+        "Filter by\nSkip to job results\nINDUSTRY EXPERIENCE\n(4 SHOWN)\nINDUSTRY EXPERIENCE (4 shown) filters\n\nLess than 1 year\n\n1-3 years\n\n4-6 years\n\n7+ years\n\nSkip to job results\nJOB TYPE\n(1 SHOWN)\nJOB TYPE (1 "
+      ]
+    },
+    {
+      "selector": "div.search-filter",
+      "count": 18,
+      "sample_html": [
+        "<div class=\"search-filter\" id=\"desktopFilter_industry_experience_filter\"><a href=\"#job-listings\" class=\"filter-skip-link\">Skip to job results</a><div class=\"option-wrapper\"><button class=\"options-title btn\" data-label=\"display\" data-action=\"industry_experience_facet\" data-search-track=\"true\" aria-expanded=\"true\" aria-label=\"INDUSTRY EXPERIENCE (4 shown) filters\"><span class=\"options-title-text\"><!-- react-text: 52 -->INDUSTRY EXPERIENCE<!-- /react-text --><span class=\"filter-count\"> (4 shown)</span></span><span class=\"arrow-up\" aria-hidden=\"true\"></span></button><div class=\"show-all\"><fieldset><legend class=\"option-legend\"><span>INDUSTRY EXPERIENCE (4 shown) filters</span></legend><div class=\"sr-only\" aria-live=\"polite\" role=\"status\" aria-relevant=\"additions\"></div><div class=\"radio-button\"><button class=\"radio-option btn\" name=\"desktopFilter_industry_experience\"><p class=\"label-text\"><!-- react-text: 63 -->Less than 1 year<!-- /react-text --></p></button><button class=\"radio-option btn\" name=\"desktopFilter_industry_experience\"><p class=\"label-text\"><!-- react-text: 66 -->1-3 years<!-- /react-text --></p></button><button class=\"radio-option btn\" name=\"desktopFilter_industry_experience\"><p class=\"label-text\"><!-- react-text: 69 -->4-6 years<!-- /react-text --></p></button><button class=\"radio-option btn\" name=\"desktopFilter_industry_experience\"><p class=\"label-text\"><!-- react-text: 72 -->7+ years<!-- /react-text --></p></button></div></fieldset></div></div></div>",
+        "<div class=\"search-filter\" id=\"desktopFilter_job_type_filter\"><a href=\"#job-listings\" class=\"filter-skip-link\">Skip to job results</a><div class=\"option-wrapper\"><button class=\"options-title btn\" data-label=\"display\" data-action=\"job_type_facet\" data-search-track=\"true\" aria-expanded=\"true\" aria-label=\"JOB TYPE (1 shown) filters\"><span class=\"options-title-text\"><!-- react-text: 149 -->JOB TYPE<!-- /react-text --><span class=\"filter-count\"> (1 shown)</span></span><span class=\"arrow-up\" aria-hidden=\"true\"></span></button><div class=\"show-all\"><fieldset><legend class=\"option-legend\"><span>JOB TYPE (1 shown) filters</span></legend><div class=\"sr-only\" aria-live=\"polite\" role=\"status\" aria-relevant=\"additions\"></div><div class=\"checkbox\"><button class=\"checkbox-option btn\" name=\"desktopFilter_job_type\" role=\"checkbox\" data-label=\"Full Time\" aria-checked=\"false\"><p class=\"label-text\"><!-- react-text: 160 -->Full Time<!-- /react-text --><span class=\"job-count\"><span aria-hidden=\"true\"><!-- react-text: 163 -->(<!-- /react-text --><!-- react-text: 164 -->126<!-- /react-text --><!-- react-text: 165 -->)<!-- /react-text --></span><span class=\"sr-only\">126 jobs</span></span></p><div class=\"checkbox-icon-container\"><span class=\"checkbox-icon\" aria-hidden=\"true\"></span></div></button></div></fieldset></div></div></div>"
+      ],
+      "sample_text": [
+        "Skip to job results\nINDUSTRY EXPERIENCE\n(4 SHOWN)\nINDUSTRY EXPERIENCE (4 shown) filters\n\nLess than 1 year\n\n1-3 years\n\n4-6 years\n\n7+ years",
+        "Skip to job results\nJOB TYPE\n(1 SHOWN)\nJOB TYPE (1 shown) filters\n\nFull Time(126)\n126 jobs"
+      ]
+    },
+    {
+      "selector": "a.filter-skip-link",
+      "count": 18,
+      "sample_html": [
+        "<a href=\"#job-listings\" class=\"filter-skip-link\">Skip to job results</a>",
+        "<a href=\"#job-listings\" class=\"filter-skip-link\">Skip to job results</a>"
+      ],
+      "sample_text": [
+        "Skip to job results",
+        "Skip to job results"
+      ]
+    },
+    {
+      "selector": "div.info.first.col-12.col-md-8",
+      "count": 10,
+      "sample_html": [
+        "<div class=\"info first col-12 col-md-8\"><h3 class=\"job-title\"><a href=\"/en/jobs/10468971/data-scientist\" class=\"job-link\">Data Scientist </a></h3><div class=\"location-and-id d-inline-flex flex-row flex-wrap\" style=\"gap: 8px 16px;\"><span class=\"d-inline-flex flex-row flex-wrap mr-1\" style=\"gap: 8px 16px;\"><legend class=\"d-none\">Locations</legend><ul class=\"list-unstyled m-0 d-inline-flex flex-row flex-wrap\" style=\"gap: 8px 16px;\"><li class=\"text-nowrap\">San Francisco, CA, USA</li><li><span><button class=\"popover-button\" data-toggle=\"popover\" data-placement=\"top\" data-content=\"<ul class=&quot;list-unstyled m-0&quot;><li>New York, NY, USA</li><li>Seattle, WA, USA</li></ul>\" aria-label=\"+2 other locations\" aria-expanded=\"false\" data-original-title=\"\" title=\"\"><span><!-- react-text: 1273 -->+2 other locations<!-- /react-text --><!-- react-text: 1274 --> <!-- /react-text --><i aria-hidden=\"true\" class=\"fa fa-angle-down\"> </i></span></button></span></li><li>|</li><li>Job ID: 10468971</li></ul></span></div></div>",
+        "<div class=\"info first col-12 col-md-8\"><h3 class=\"job-title\"><a href=\"/en/jobs/10408648/data-scientist-sidewalk\" class=\"job-link\">Data Scientist , Sidewalk</a></h3><div class=\"location-and-id d-inline-flex flex-row flex-wrap\" style=\"gap: 8px 16px;\"><span class=\"d-inline-flex flex-row flex-wrap mr-1\" style=\"gap: 8px 16px;\"><legend class=\"d-none\">Locations</legend><ul class=\"list-unstyled m-0 d-inline-flex flex-row flex-wrap\" style=\"gap: 8px 16px;\"><li class=\"text-nowrap\">Bengaluru, KA, IND</li><li>|</li><li>Job ID: 10408648</li></ul></span></div></div>"
+      ],
+      "sample_text": [
+        "Data Scientist\nSan Francisco, CA, USA\n+2 other locations \n|\nJob ID: 10468971",
+        "Data Scientist , Sidewalk\nBengaluru, KA, IND\n|\nJob ID: 10408648"
+      ]
+    }
+  ],
+  "page_title": "Job search | Amazon.jobs",
+  "status": "ok",
+  "screenshot": "amazon.png"
+}

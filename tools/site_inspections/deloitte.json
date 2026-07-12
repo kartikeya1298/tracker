@@ -1,0 +1,83 @@
+{
+  "slug": "deloitte",
+  "url": "https://apply.deloitte.com/careers/SearchJobs/data-scientist",
+  "keyword_candidates": [
+    {
+      "selector": "article.article--result",
+      "count": 10,
+      "sample_html": [
+        "<article class=\"article--result \" data-total=\"62\">\n    <div class=\"article__content--result\">\n        <div class=\"article__header__text\">\n                            <h3 class=\"article__header__text__title article__header__text__title--2\">\n                    <a href=\"https://apply.deloitte.com/en_US/careers/JobDetail/Sr-Data-Scientist/355015\" class=\"link\">\n                        Sr. Data Scientist\n                    </a>\n                </h3>\n            \n                            <div class=\"article__header__text__subtitle\">\n                                            <span>\n                            Deloitte US\n                        </span>\n                    \n                                                                        |\n                                                <span>\n                            Deloitte Consulting LLP\n                        </span>\n                    \n                                                                        |\n                                                <span>Raleigh, North Carolina, United States</span>\n                    \n                    \n                </div>\n                    </div>\n\n            </div>\n\n</article>",
+        "<article class=\"article--result \" data-total=\"62\">\n    <div class=\"article__content--result\">\n        <div class=\"article__header__text\">\n                            <h3 class=\"article__header__text__title article__header__text__title--2\">\n                    <a href=\"https://apply.deloitte.com/en_US/careers/JobDetail/Risk-Adjustment-Analytics-Data-Scientist/359109\" class=\"link\">\n                        Risk Adjustment Analytics Data Scientist\n                    </a>\n                </h3>\n            \n                            <div class=\"article__header__text__subtitle\">\n                                            <span>\n                            Deloitte US\n                        </span>\n                    \n                                                                        |\n                                                <span>\n                            Deloitte Consulting LLP\n                        </span>\n                    \n                                                                        |\n                                                <span>Arlington/Rosslyn, Virginia, United States</span>\n                    \n                    \n                </div>\n                    </div>\n\n            </div>\n\n</article>"
+      ],
+      "sample_text": [
+        "Sr. Data Scientist\nDeloitte US | Deloitte Consulting LLP | Raleigh, North Carolina, United States",
+        "Risk Adjustment Analytics Data Scientist\nDeloitte US | Deloitte Consulting LLP | Arlington/Rosslyn, Virginia, United States"
+      ]
+    },
+    {
+      "selector": "div.article__content--result",
+      "count": 10,
+      "sample_html": [
+        "<div class=\"article__content--result\">\n        <div class=\"article__header__text\">\n                            <h3 class=\"article__header__text__title article__header__text__title--2\">\n                    <a href=\"https://apply.deloitte.com/en_US/careers/JobDetail/Sr-Data-Scientist/355015\" class=\"link\">\n                        Sr. Data Scientist\n                    </a>\n                </h3>\n            \n                            <div class=\"article__header__text__subtitle\">\n                                            <span>\n                            Deloitte US\n                        </span>\n                    \n                                                                        |\n                                                <span>\n                            Deloitte Consulting LLP\n                        </span>\n                    \n                                                                        |\n                                                <span>Raleigh, North Carolina, United States</span>\n                    \n                    \n                </div>\n                    </div>\n\n            </div>",
+        "<div class=\"article__content--result\">\n        <div class=\"article__header__text\">\n                            <h3 class=\"article__header__text__title article__header__text__title--2\">\n                    <a href=\"https://apply.deloitte.com/en_US/careers/JobDetail/Risk-Adjustment-Analytics-Data-Scientist/359109\" class=\"link\">\n                        Risk Adjustment Analytics Data Scientist\n                    </a>\n                </h3>\n            \n                            <div class=\"article__header__text__subtitle\">\n                                            <span>\n                            Deloitte US\n                        </span>\n                    \n                                                                        |\n                                                <span>\n                            Deloitte Consulting LLP\n                        </span>\n                    \n                                                                        |\n                                                <span>Arlington/Rosslyn, Virginia, United States</span>\n                    \n                    \n                </div>\n                    </div>\n\n            </div>"
+      ],
+      "sample_text": [
+        "Sr. Data Scientist\nDeloitte US | Deloitte Consulting LLP | Raleigh, North Carolina, United States",
+        "Risk Adjustment Analytics Data Scientist\nDeloitte US | Deloitte Consulting LLP | Arlington/Rosslyn, Virginia, United States"
+      ]
+    }
+  ],
+  "structural_candidates": [
+    {
+      "selector": "a.link",
+      "count": 13,
+      "sample_html": [
+        "<a href=\"https://apply.deloitte.com/en_US/careers/JobDetail/Sr-Data-Scientist/355015\" class=\"link\">\n                        Sr. Data Scientist\n                    </a>",
+        "<a href=\"https://apply.deloitte.com/en_US/careers/JobDetail/Risk-Adjustment-Analytics-Data-Scientist/359109\" class=\"link\">\n                        Risk Adjustment Analytics Data Scientist\n                    </a>"
+      ],
+      "sample_text": [
+        "Sr. Data Scientist",
+        "Risk Adjustment Analytics Data Scientist"
+      ]
+    },
+    {
+      "selector": "div.article__header__text",
+      "count": 10,
+      "sample_html": [
+        "<div class=\"article__header__text\">\n                            <h3 class=\"article__header__text__title article__header__text__title--2\">\n                    <a href=\"https://apply.deloitte.com/en_US/careers/JobDetail/Sr-Data-Scientist/355015\" class=\"link\">\n                        Sr. Data Scientist\n                    </a>\n                </h3>\n            \n                            <div class=\"article__header__text__subtitle\">\n                                            <span>\n                            Deloitte US\n                        </span>\n                    \n                                                                        |\n                                                <span>\n                            Deloitte Consulting LLP\n                        </span>\n                    \n                                                                        |\n                                                <span>Raleigh, North Carolina, United States</span>\n                    \n                    \n                </div>\n                    </div>",
+        "<div class=\"article__header__text\">\n                            <h3 class=\"article__header__text__title article__header__text__title--2\">\n                    <a href=\"https://apply.deloitte.com/en_US/careers/JobDetail/Risk-Adjustment-Analytics-Data-Scientist/359109\" class=\"link\">\n                        Risk Adjustment Analytics Data Scientist\n                    </a>\n                </h3>\n            \n                            <div class=\"article__header__text__subtitle\">\n                                            <span>\n                            Deloitte US\n                        </span>\n                    \n                                                                        |\n                                                <span>\n                            Deloitte Consulting LLP\n                        </span>\n                    \n                                                                        |\n                                                <span>Arlington/Rosslyn, Virginia, United States</span>\n                    \n                    \n                </div>\n                    </div>"
+      ],
+      "sample_text": [
+        "Sr. Data Scientist\nDeloitte US | Deloitte Consulting LLP | Raleigh, North Carolina, United States",
+        "Risk Adjustment Analytics Data Scientist\nDeloitte US | Deloitte Consulting LLP | Arlington/Rosslyn, Virginia, United States"
+      ]
+    },
+    {
+      "selector": "h3.article__header__text__title.article__header__text__title--2",
+      "count": 10,
+      "sample_html": [
+        "<h3 class=\"article__header__text__title article__header__text__title--2\">\n                    <a href=\"https://apply.deloitte.com/en_US/careers/JobDetail/Sr-Data-Scientist/355015\" class=\"link\">\n                        Sr. Data Scientist\n                    </a>\n                </h3>",
+        "<h3 class=\"article__header__text__title article__header__text__title--2\">\n                    <a href=\"https://apply.deloitte.com/en_US/careers/JobDetail/Risk-Adjustment-Analytics-Data-Scientist/359109\" class=\"link\">\n                        Risk Adjustment Analytics Data Scientist\n                    </a>\n                </h3>"
+      ],
+      "sample_text": [
+        "Sr. Data Scientist",
+        "Risk Adjustment Analytics Data Scientist"
+      ]
+    },
+    {
+      "selector": "li.extra__footer__menu--item",
+      "count": 7,
+      "sample_html": [
+        "<li class=\"extra__footer__menu--item\">\n                                    <a href=\"https://www2.deloitte.com/us/en/footerlinks1/about-deloitte.html\" class=\"extra__footer__menu--item-link\" target=\"_blank\">About Deloitte</a>\n                                </li>",
+        "<li class=\"extra__footer__menu--item\">\n                                    <a href=\"https://www2.deloitte.com/us/en/footerlinks1/terms-of-use.html\" class=\"extra__footer__menu--item-link\" target=\"_blank\">Terms of use</a>\n                                </li>"
+      ],
+      "sample_text": [
+        "About Deloitte ",
+        "Terms of use "
+      ]
+    }
+  ],
+  "page_title": "Job Search | Deloitte US",
+  "status": "ok",
+  "screenshot": "deloitte.png"
+}

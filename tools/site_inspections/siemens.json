@@ -1,0 +1,143 @@
+{
+  "slug": "siemens",
+  "url": "https://jobs.siemens.com/en_US/externaljobs/SearchJobs",
+  "keyword_candidates": [
+    {
+      "selector": "article.article.article--result.1",
+      "count": 6,
+      "sample_html": [
+        "<article class=\"article article--result 1\" id=\"article--1\">\n                                        <div class=\"article__header\">\n                                            <div class=\"article__header__text\">\n                                                                                                    \n                                                    <h3 class=\"article__header__text__title title title--h3 title--white\" data-au=\"ag-h3-6\">\n                                                        <a class=\"link\" href=\"https://jobs.siemens.com/en_US/externaljobs/JobDetail/512793\" data-au=\"ag-a-10\">\n                                                            Process Expert - Finance &amp; Procurement Services\n                                                        </a>\n                                                    </h3>\n                                                \n                                                                                                \n                                                                                                                                                                                                                \n                                                                                                                                                                \n                                                                                                                                              ",
+        "<article class=\"article article--result 1\" id=\"article--2\">\n                                        <div class=\"article__header\">\n                                            <div class=\"article__header__text\">\n                                                                                                    \n                                                    <h3 class=\"article__header__text__title title title--h3 title--white\" data-au=\"ag-h3-6\">\n                                                        <a class=\"link\" href=\"https://jobs.siemens.com/en_US/externaljobs/JobDetail/513199\" data-au=\"ag-a-10\">\n                                                            Planning Engineer\n                                                        </a>\n                                                    </h3>\n                                                \n                                                                                                \n                                                                                                                                                                                                                \n                                                                                                                                                                \n                                                                                                                                                                \n               "
+      ],
+      "sample_text": [
+        "Process Expert - Finance & Procurement Services\nBangalore, Karnataka, India \u00a0\u2022\u00a0 Job ID: 512793 \u00a0\u2022\u00a0 Finance\nShare\nLearn more",
+        "Planning Engineer\nNashik, Maharashtra, India \u00a0\u2022\u00a0 Job ID: 513199 \u00a0\u2022\u00a0 Manufacturing\nShare\nLearn more"
+      ]
+    },
+    {
+      "selector": "span.list-item-jobId",
+      "count": 6,
+      "sample_html": [
+        "<span class=\"list-item-jobId\">Job ID: 512793</span>",
+        "<span class=\"list-item-jobId\">Job ID: 513199</span>"
+      ],
+      "sample_text": [
+        "Job ID: 512793",
+        "Job ID: 513199"
+      ]
+    },
+    {
+      "selector": "span.list-item-jobCity",
+      "count": 5,
+      "sample_html": [
+        "<span class=\"list-item-jobCity\">Bangalore</span>",
+        "<span class=\"list-item-jobCity\">Nashik</span>"
+      ],
+      "sample_text": [
+        "Bangalore",
+        "Nashik"
+      ]
+    },
+    {
+      "selector": "span.list-item-jobState",
+      "count": 5,
+      "sample_html": [
+        "<span class=\"list-item-jobState\">Karnataka</span>",
+        "<span class=\"list-item-jobState\">Maharashtra</span>"
+      ],
+      "sample_text": [
+        "Karnataka",
+        "Maharashtra"
+      ]
+    },
+    {
+      "selector": "span.list-item-jobCountry",
+      "count": 5,
+      "sample_html": [
+        "<span class=\"list-item-jobCountry\">India</span>",
+        "<span class=\"list-item-jobCountry\">India</span>"
+      ],
+      "sample_text": [
+        "India",
+        "India"
+      ]
+    },
+    {
+      "selector": "li.sort__item.tpt_listSortableItem.sort__item--job.dropdown__item",
+      "count": 3,
+      "sample_html": [
+        "<li role=\"option\" class=\"sort__item  tpt_listSortableItem sort__item--job dropdown__item \" data-entity=\"job\" data-sortby=\"postedDate\" aria-label=\"Sort jobs by Most recent\" tabindex=\"0\">\n                                    <span class=\"sort__item__icon\" data-tc-icon=\"\" aria-hidden=\"true\"></span>\n                \n                                <span class=\"dropdown__text sort__item__text\">\n                    Most recent\n                </span>\n            </li>",
+        "<li role=\"option\" class=\"sort__item  tpt_listSortableItem sort__item--job dropdown__item \" data-entity=\"job\" data-sortby=\"schemaField_3_142_3\" aria-label=\"Sort jobs by Field of work\" tabindex=\"0\">\n                                    <span class=\"sort__item__icon\" data-tc-icon=\"\" aria-hidden=\"true\"></span>\n                \n                                <span class=\"dropdown__text sort__item__text\">\n                    Field of work\n                </span>\n            </li>"
+      ],
+      "sample_text": [
+        "\n                                    \n                \n                                \n                    Most recent\n                \n            ",
+        "\n                                    \n                \n                                \n                    Field of work\n                \n            "
+      ]
+    }
+  ],
+  "structural_candidates": [
+    {
+      "selector": "li.menu__item",
+      "count": 6,
+      "sample_html": [
+        "<li class=\"menu__item\" role=\"none\">\n        <a class=\"menu__link\" role=\"menuitem\" href=\"https://jobs.siemens.com/en_US/externaljobs/Home\" tabindex=\"0\" data-au=\"ag-a-61\">\n            \n            <span class=\"menu__text\">\n                Job Search\n            </span>\n        </a>\n\n            </li>",
+        "<li class=\"menu__item\" role=\"none\">\n        <a class=\"menu__link\" role=\"menuitem\" href=\"https://jobs.siemens.com/en_US/externaljobs/AIRecommendations\" tabindex=\"0\" data-au=\"ag-a-61\">\n            \n            <span class=\"menu__text\">\n                AI Recommendations\n            </span>\n        </a>\n\n            </li>"
+      ],
+      "sample_text": [
+        "\n        \n            \n            \n                Job Search\n            \n        \n\n            ",
+        "\n        \n            \n            \n                AI Recommendations\n            \n        \n\n            "
+      ]
+    },
+    {
+      "selector": "a.menu__link",
+      "count": 6,
+      "sample_html": [
+        "<a class=\"menu__link\" role=\"menuitem\" href=\"https://jobs.siemens.com/en_US/externaljobs/Home\" tabindex=\"0\" data-au=\"ag-a-61\">\n            \n            <span class=\"menu__text\">\n                Job Search\n            </span>\n        </a>",
+        "<a class=\"menu__link\" role=\"menuitem\" href=\"https://jobs.siemens.com/en_US/externaljobs/AIRecommendations\" tabindex=\"0\" data-au=\"ag-a-61\">\n            \n            <span class=\"menu__text\">\n                AI Recommendations\n            </span>\n        </a>"
+      ],
+      "sample_text": [
+        "\n            \n            \n                Job Search\n            \n        ",
+        "\n            \n            \n                AI Recommendations\n            \n        "
+      ]
+    },
+    {
+      "selector": "div.article__header",
+      "count": 6,
+      "sample_html": [
+        "<div class=\"article__header\">\n                                            <div class=\"article__header__text\">\n                                                                                                    \n                                                    <h3 class=\"article__header__text__title title title--h3 title--white\" data-au=\"ag-h3-6\">\n                                                        <a class=\"link\" href=\"https://jobs.siemens.com/en_US/externaljobs/JobDetail/512793\" data-au=\"ag-a-10\">\n                                                            Process Expert - Finance &amp; Procurement Services\n                                                        </a>\n                                                    </h3>\n                                                \n                                                                                                \n                                                                                                                                                                                                                \n                                                                                                                                                                \n                                                                                                                                                                \n                                                                                 ",
+        "<div class=\"article__header\">\n                                            <div class=\"article__header__text\">\n                                                                                                    \n                                                    <h3 class=\"article__header__text__title title title--h3 title--white\" data-au=\"ag-h3-6\">\n                                                        <a class=\"link\" href=\"https://jobs.siemens.com/en_US/externaljobs/JobDetail/513199\" data-au=\"ag-a-10\">\n                                                            Planning Engineer\n                                                        </a>\n                                                    </h3>\n                                                \n                                                                                                \n                                                                                                                                                                                                                \n                                                                                                                                                                \n                                                                                                                                                                \n                                                                                                    \n              "
+      ],
+      "sample_text": [
+        "Process Expert - Finance & Procurement Services\nBangalore, Karnataka, India \u00a0\u2022\u00a0 Job ID: 512793 \u00a0\u2022\u00a0 Finance",
+        "Planning Engineer\nNashik, Maharashtra, India \u00a0\u2022\u00a0 Job ID: 513199 \u00a0\u2022\u00a0 Manufacturing"
+      ]
+    },
+    {
+      "selector": "div.article__header__text",
+      "count": 6,
+      "sample_html": [
+        "<div class=\"article__header__text\">\n                                                                                                    \n                                                    <h3 class=\"article__header__text__title title title--h3 title--white\" data-au=\"ag-h3-6\">\n                                                        <a class=\"link\" href=\"https://jobs.siemens.com/en_US/externaljobs/JobDetail/512793\" data-au=\"ag-a-10\">\n                                                            Process Expert - Finance &amp; Procurement Services\n                                                        </a>\n                                                    </h3>\n                                                \n                                                                                                \n                                                                                                                                                                                                                \n                                                                                                                                                                \n                                                                                                                                                                \n                                                                                                    \n                                                \n     ",
+        "<div class=\"article__header__text\">\n                                                                                                    \n                                                    <h3 class=\"article__header__text__title title title--h3 title--white\" data-au=\"ag-h3-6\">\n                                                        <a class=\"link\" href=\"https://jobs.siemens.com/en_US/externaljobs/JobDetail/513199\" data-au=\"ag-a-10\">\n                                                            Planning Engineer\n                                                        </a>\n                                                    </h3>\n                                                \n                                                                                                \n                                                                                                                                                                                                                \n                                                                                                                                                                \n                                                                                                                                                                \n                                                                                                    \n                                                \n                                       "
+      ],
+      "sample_text": [
+        "Process Expert - Finance & Procurement Services\nBangalore, Karnataka, India \u00a0\u2022\u00a0 Job ID: 512793 \u00a0\u2022\u00a0 Finance",
+        "Planning Engineer\nNashik, Maharashtra, India \u00a0\u2022\u00a0 Job ID: 513199 \u00a0\u2022\u00a0 Manufacturing"
+      ]
+    },
+    {
+      "selector": "h3.article__header__text__title.title.title--h3.title--white",
+      "count": 6,
+      "sample_html": [
+        "<h3 class=\"article__header__text__title title title--h3 title--white\" data-au=\"ag-h3-6\">\n                                                        <a class=\"link\" href=\"https://jobs.siemens.com/en_US/externaljobs/JobDetail/512793\" data-au=\"ag-a-10\">\n                                                            Process Expert - Finance &amp; Procurement Services\n                                                        </a>\n                                                    </h3>",
+        "<h3 class=\"article__header__text__title title title--h3 title--white\" data-au=\"ag-h3-6\">\n                                                        <a class=\"link\" href=\"https://jobs.siemens.com/en_US/externaljobs/JobDetail/513199\" data-au=\"ag-a-10\">\n                                                            Planning Engineer\n                                                        </a>\n                                                    </h3>"
+      ],
+      "sample_text": [
+        "Process Expert - Finance & Procurement Services",
+        "Planning Engineer"
+      ]
+    }
+  ],
+  "page_title": "Job Search | Careers Marketplace - Siemens",
+  "status": "ok",
+  "screenshot": "siemens.png"
+}

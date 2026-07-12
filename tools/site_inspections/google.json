@@ -1,0 +1,82 @@
+{
+  "slug": "google",
+  "url": "https://www.google.com/about/careers/applications/jobs/results?q=data%20scientist",
+  "keyword_candidates": [],
+  "structural_candidates": [
+    {
+      "selector": "a.RR1RZd",
+      "count": 27,
+      "sample_html": [
+        "<a class=\"RR1RZd\" href=\"https://about.google/\" aria-label=\"About us (opens in a new tab)\" target=\"_blank\">About us<span class=\"ntyjwf\"><i class=\"google-material-icons notranslate\" aria-hidden=\"true\" alt=\"Opens in a new tab\" style=\"font-size: 16px; color: #5f6368;\">open_in_new</i></span></a>",
+        "<a class=\"RR1RZd\" href=\"https://about.google/contact-google/\" aria-label=\"Contact us (opens in a new tab)\" target=\"_blank\">Contact us<span class=\"ntyjwf\"><i class=\"google-material-icons notranslate\" aria-hidden=\"true\" alt=\"Opens in a new tab\" style=\"font-size: 16px; color: #5f6368;\">open_in_new</i></span></a>"
+      ],
+      "sample_text": [
+        "About usopen_in_new",
+        "Contact usopen_in_new"
+      ]
+    },
+    {
+      "selector": "div.IYPQub",
+      "count": 6,
+      "sample_html": [
+        "<div class=\"IYPQub\"><a class=\"RR1RZd\" href=\"https://about.google/\" aria-label=\"About us (opens in a new tab)\" target=\"_blank\">About us<span class=\"ntyjwf\"><i class=\"google-material-icons notranslate\" aria-hidden=\"true\" alt=\"Opens in a new tab\" style=\"font-size: 16px; color: #5f6368;\">open_in_new</i></span></a><a class=\"RR1RZd\" href=\"https://about.google/contact-google/\" aria-label=\"Contact us (opens in a new tab)\" target=\"_blank\">Contact us<span class=\"ntyjwf\"><i class=\"google-material-icons notranslate\" aria-hidden=\"true\" alt=\"Opens in a new tab\" style=\"font-size: 16px; color: #5f6368;\">open_in_new</i></span></a><a class=\"RR1RZd\" href=\"https://blog.google/press/\" aria-label=\"Press (opens in a new tab)\" target=\"_blank\">Press<span class=\"ntyjwf\"><i class=\"google-material-icons notranslate\" aria-hidden=\"true\" alt=\"Opens in a new tab\" style=\"font-size: 16px; color: #5f6368;\">open_in_new</i></span></a></div>",
+        "<div class=\"IYPQub\"><a class=\"RR1RZd\" href=\"https://abc.xyz/investor/\" aria-label=\"Investor relations (opens in a new tab)\" target=\"_blank\">Investor relations<span class=\"ntyjwf\"><i class=\"google-material-icons notranslate\" aria-hidden=\"true\" alt=\"Opens in a new tab\" style=\"font-size: 16px; color: #5f6368;\">open_in_new</i></span></a><a class=\"RR1RZd\" href=\"https://blog.google/\" aria-label=\"Blog (opens in a new tab)\" target=\"_blank\">Blog<span class=\"ntyjwf\"><i class=\"google-material-icons notranslate\" aria-hidden=\"true\" alt=\"Opens in a new tab\" style=\"font-size: 16px; color: #5f6368;\">open_in_new</i></span></a></div>"
+      ],
+      "sample_text": [
+        "About usopen_in_newContact usopen_in_newPressopen_in_new",
+        "Investor relationsopen_in_newBlogopen_in_new"
+      ]
+    },
+    {
+      "selector": "a.w4LOZ.WNUEBf",
+      "count": 5,
+      "sample_html": [
+        "<a href=\"./jobs/recommendations?q=data+scientist\" jscontroller=\"wGVvvd\" jsaction=\"click:Vchlwd\" data-navigation-path=\"/jobs/recommendations\" aria-label=\"Recommended jobs\" class=\"w4LOZ WNUEBf\" key=\"$navigationSubTab.getLabel()\">Recommended jobs</a>",
+        "<a href=\"./jobs/saved?q=data+scientist\" jscontroller=\"wGVvvd\" jsaction=\"click:Vchlwd\" data-navigation-path=\"/jobs/saved\" aria-label=\"Saved jobs\" class=\"w4LOZ WNUEBf\" key=\"$navigationSubTab.getLabel()\">Saved jobs</a>"
+      ],
+      "sample_text": [
+        "Recommended jobs",
+        "Saved jobs"
+      ]
+    },
+    {
+      "selector": "div.ObfsIf-eEDwDf.ObfsIf-eEDwDf-purZT-qWD73c.ObfsIf-eEDwDf-pSzOP-qWD73c.ObfsIf-eEDwDf-hJDwNd-qWD73c.ObfsIf-eEDwDf-PvhD9-hJDwNd-c5RTEf",
+      "count": 4,
+      "sample_html": [
+        "<div class=\"ObfsIf-eEDwDf ObfsIf-eEDwDf-purZT-qWD73c ObfsIf-eEDwDf-pSzOP-qWD73c ObfsIf-eEDwDf-hJDwNd-qWD73c ObfsIf-eEDwDf-PvhD9-hJDwNd-c5RTEf\"><h2 class=\"d3Kuye\">More about us</h2><div class=\"IYPQub\"><a class=\"RR1RZd\" href=\"https://about.google/\" aria-label=\"About us (opens in a new tab)\" target=\"_blank\">About us<span class=\"ntyjwf\"><i class=\"google-material-icons notranslate\" aria-hidden=\"true\" alt=\"Opens in a new tab\" style=\"font-size: 16px; color: #5f6368;\">open_in_new</i></span></a><a class=\"RR1RZd\" href=\"https://about.google/contact-google/\" aria-label=\"Contact us (opens in a new tab)\" target=\"_blank\">Contact us<span class=\"ntyjwf\"><i class=\"google-material-icons notranslate\" aria-hidden=\"true\" alt=\"Opens in a new tab\" style=\"font-size: 16px; color: #5f6368;\">open_in_new</i></span></a><a class=\"RR1RZd\" href=\"https://blog.google/press/\" aria-label=\"Press (opens in a new tab)\" target=\"_blank\">Press<span class=\"ntyjwf\"><i class=\"google-material-icons notranslate\" aria-hidden=\"true\" alt=\"Opens in a new tab\" style=\"font-size: 16px; color: #5f6368;\">open_in_new</i></span></a></div></div>",
+        "<div class=\"ObfsIf-eEDwDf ObfsIf-eEDwDf-purZT-qWD73c ObfsIf-eEDwDf-pSzOP-qWD73c ObfsIf-eEDwDf-hJDwNd-qWD73c ObfsIf-eEDwDf-PvhD9-hJDwNd-c5RTEf\"><h2 class=\"d3Kuye\">Related Information</h2><div class=\"IYPQub\"><a class=\"RR1RZd\" href=\"https://abc.xyz/investor/\" aria-label=\"Investor relations (opens in a new tab)\" target=\"_blank\">Investor relations<span class=\"ntyjwf\"><i class=\"google-material-icons notranslate\" aria-hidden=\"true\" alt=\"Opens in a new tab\" style=\"font-size: 16px; color: #5f6368;\">open_in_new</i></span></a><a class=\"RR1RZd\" href=\"https://blog.google/\" aria-label=\"Blog (opens in a new tab)\" target=\"_blank\">Blog<span class=\"ntyjwf\"><i class=\"google-material-icons notranslate\" aria-hidden=\"true\" alt=\"Opens in a new tab\" style=\"font-size: 16px; color: #5f6368;\">open_in_new</i></span></a></div></div>"
+      ],
+      "sample_text": [
+        "More about usAbout usopen_in_newContact usopen_in_newPressopen_in_new",
+        "Related InformationInvestor relationsopen_in_newBlogopen_in_new"
+      ]
+    },
+    {
+      "selector": "div.ObfsIf-oKdM2c",
+      "count": 3,
+      "sample_html": [
+        "<div class=\"ObfsIf-oKdM2c\"><div class=\"ObfsIf-eEDwDf ObfsIf-eEDwDf-purZT-qWD73c ObfsIf-eEDwDf-pSzOP-qWD73c ObfsIf-eEDwDf-hJDwNd-qWD73c ObfsIf-eEDwDf-PvhD9-hJDwNd-c5RTEf\"><h2 class=\"d3Kuye\">More about us</h2><div class=\"IYPQub\"><a class=\"RR1RZd\" href=\"https://about.google/\" aria-label=\"About us (opens in a new tab)\" target=\"_blank\">About us<span class=\"ntyjwf\"><i class=\"google-material-icons notranslate\" aria-hidden=\"true\" alt=\"Opens in a new tab\" style=\"font-size: 16px; color: #5f6368;\">open_in_new</i></span></a><a class=\"RR1RZd\" href=\"https://about.google/contact-google/\" aria-label=\"Contact us (opens in a new tab)\" target=\"_blank\">Contact us<span class=\"ntyjwf\"><i class=\"google-material-icons notranslate\" aria-hidden=\"true\" alt=\"Opens in a new tab\" style=\"font-size: 16px; color: #5f6368;\">open_in_new</i></span></a><a class=\"RR1RZd\" href=\"https://blog.google/press/\" aria-label=\"Press (opens in a new tab)\" target=\"_blank\">Press<span class=\"ntyjwf\"><i class=\"google-material-icons notranslate\" aria-hidden=\"true\" alt=\"Opens in a new tab\" style=\"font-size: 16px; color: #5f6368;\">open_in_new</i></span></a></div></div><div class=\"ObfsIf-eEDwDf ObfsIf-eEDwDf-purZT-qWD73c ObfsIf-eEDwDf-pSzOP-qWD73c ObfsIf-eEDwDf-hJDwNd-qWD73c ObfsIf-eEDwDf-PvhD9-hJDwNd-c5RTEf\"><h2 class=\"d3Kuye\">Related Information</h2><div class=\"IYPQub\"><a class=\"RR1RZd\" href=\"https://abc.xyz/investor/\" aria-label=\"Investor relations (opens in a new tab)\" target=\"_blank\">Investor relations<span class=\"ntyjwf\"><i cl",
+        "<div class=\"ObfsIf-oKdM2c\"><div class=\"ObfsIf-eEDwDf ObfsIf-eEDwDf-purZT-qWD73c ObfsIf-eEDwDf-pSzOP-qWD73c ObfsIf-eEDwDf-hJDwNd-qWD73c ObfsIf-eEDwDf-PvhD9-hJDwNd-c5RTEf\"><h2 class=\"d3Kuye\">More about us</h2><div class=\"IYPQub\"><a class=\"RR1RZd\" href=\"https://about.google/\" aria-label=\"About us (opens in a new tab)\" target=\"_blank\">About us<span class=\"ntyjwf\"><i class=\"google-material-icons notranslate\" aria-hidden=\"true\" alt=\"Opens in a new tab\" style=\"font-size: 16px; color: #5f6368;\">open_in_new</i></span></a><a class=\"RR1RZd\" href=\"https://about.google/contact-google/\" aria-label=\"Contact us (opens in a new tab)\" target=\"_blank\">Contact us<span class=\"ntyjwf\"><i class=\"google-material-icons notranslate\" aria-hidden=\"true\" alt=\"Opens in a new tab\" style=\"font-size: 16px; color: #5f6368;\">open_in_new</i></span></a><a class=\"RR1RZd\" href=\"https://blog.google/press/\" aria-label=\"Press (opens in a new tab)\" target=\"_blank\">Press<span class=\"ntyjwf\"><i class=\"google-material-icons notranslate\" aria-hidden=\"true\" alt=\"Opens in a new tab\" style=\"font-size: 16px; color: #5f6368;\">open_in_new</i></span></a></div></div><div class=\"ObfsIf-eEDwDf ObfsIf-eEDwDf-purZT-qWD73c ObfsIf-eEDwDf-pSzOP-qWD73c ObfsIf-eEDwDf-hJDwNd-qWD73c ObfsIf-eEDwDf-PvhD9-hJDwNd-c5RTEf\"><h2 class=\"d3Kuye\">Related Information</h2><div class=\"IYPQub\"><a class=\"RR1RZd\" href=\"https://abc.xyz/investor/\" aria-label=\"Investor relations (opens in a new tab)\" target=\"_blank\">Investor relations<span class=\"ntyjwf\"><i cl"
+      ],
+      "sample_text": [
+        "More about usAbout usopen_in_newContact usopen_in_newPressopen_in_newRelated InformationInvestor relationsopen_in_newBlogopen_in_newEqual OpportunityGoogle is proud to be an equal opportunity and affi",
+        "More about us\nAbout usopen_in_new\nContact usopen_in_new\nPressopen_in_new\nRelated Information\nInvestor relationsopen_in_new\nBlogopen_in_new\nEqual Opportunity\n\nGoogle is proud to be an equal opportunity"
+      ]
+    },
+    {
+      "selector": "p.MLx3Ee",
+      "count": 3,
+      "sample_html": [
+        "<p class=\"MLx3Ee\">Google is proud to be an equal opportunity and affirmative action employer. We are committed to building a workforce that is representative of the users we serve, creating a culture of belonging, and providing an equal employment opportunity regardless of race, creed, color, religion, gender, sexual orientation, gender identity/expression, national origin, disability, age, genetic information, veteran status, marital status, pregnancy or related condition (including breastfeeding), expecting or parents-to-be, criminal histories consistent with legal requirements, or any other basis protected by law. See also <a target=\"_top\" href=\"https://www.google.com/about/careers/applications/eeo/\"> Google's EEO Policy</a>, <a target=\"_top\" href=\"https://careers.google.com/jobs/dist/legal/EEOC_KnowYourRights_10_20.pdf\">Know your rights: workplace discrimination is illegal</a>, <a target=\"_top\" href=\"https://about.google/belonging/\">Belonging at Google</a>, and <a target=\"_top\" href=\"https://careers.google.com/how-we-hire/\">How we hire</a>.</p>",
+        "<p class=\"MLx3Ee\">Google is proud to be an equal opportunity and affirmative action employer. We are committed to building a workforce that is representative of the users we serve, creating a culture of belonging, and providing an equal employment opportunity regardless of race, creed, color, religion, gender, sexual orientation, gender identity/expression, national origin, disability, age, genetic information, veteran status, marital status, pregnancy or related condition (including breastfeeding), expecting or parents-to-be, criminal histories consistent with legal requirements, or any other basis protected by law. See also <a target=\"_top\" href=\"https://www.google.com/about/careers/applications/eeo/\"> Google's EEO Policy</a>, <a target=\"_top\" href=\"https://careers.google.com/jobs/dist/legal/EEOC_KnowYourRights_10_20.pdf\">Know your rights: workplace discrimination is illegal</a>, <a target=\"_top\" href=\"https://about.google/belonging/\">Belonging at Google</a>, and <a target=\"_top\" href=\"https://careers.google.com/how-we-hire/\">How we hire</a>.</p>"
+      ],
+      "sample_text": [
+        "Google is proud to be an equal opportunity and affirmative action employer. We are committed to building a workforce that is representative of the users we serve, creating a culture of belonging, and ",
+        "Google is proud to be an equal opportunity and affirmative action employer. We are committed to building a workforce that is representative of the users we serve, creating a culture of belonging, and "
+      ]
+    }
+  ],
+  "page_title": "Search Jobs \u2014 Google Careers",
+  "status": "ok",
+  "screenshot": "google.png"
+}

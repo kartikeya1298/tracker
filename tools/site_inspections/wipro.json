@@ -1,0 +1,82 @@
+{
+  "slug": "wipro",
+  "url": "https://careers.wipro.com/careers-home/jobs?keywords=data+scientist",
+  "keyword_candidates": [],
+  "structural_candidates": [
+    {
+      "selector": "li.linkcolor45fb230c7d1ffc87.linkhovercolor45fb230c7d1ffc87.customheaderlinkhovercolor45fb230c7d1ffc87",
+      "count": 30,
+      "sample_html": [
+        "<li role=\"none\" class=\"linkcolor45fb230c7d1ffc87 linkhovercolor45fb230c7d1ffc87 customheaderlinkhovercolor45fb230c7d1ffc87\">\n                        <a role=\"menuitem\" href=\"https://careers.wipro.com/errorpage/?errortype=404&amp;locale=ar_SA\" lang=\"ar-SA\">\u0627\u0644\u0639\u064e\u0631\u064e\u0628\u0650\u064a\u064e\u0651\u0629 (\u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629)</a>\n                    </li>",
+        "<li role=\"none\" class=\"linkcolor45fb230c7d1ffc87 linkhovercolor45fb230c7d1ffc87 customheaderlinkhovercolor45fb230c7d1ffc87\">\n                        <a role=\"menuitem\" href=\"https://careers.wipro.com/errorpage/?errortype=404&amp;locale=de_DE\" lang=\"de-DE\">Deutsch (Deutschland)</a>\n                    </li>"
+      ],
+      "sample_text": [
+        "\n                        \u0627\u0644\u0639\u064e\u0631\u064e\u0628\u0650\u064a\u064e\u0651\u0629 (\u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629)\n                    ",
+        "\n                        Deutsch (Deutschland)\n                    "
+      ]
+    },
+    {
+      "selector": "li.menu",
+      "count": 18,
+      "sample_html": [
+        "<li class=\"menu\" role=\"none\"><span><a role=\"menuitem\" class=\"menu linkcolor8c42af36b6863240 linkhovercolor8c42af36b6863240 customheaderlinkhovercolor8c42af36b6863240\" href=\"/content/Early-Careers/?locale=en_US\" title=\"Early Careers\">Early Careers</a></span></li>",
+        "<li class=\"menu\" role=\"none\"><span><a role=\"menuitem\" class=\"menu linkcolor8c42af36b6863240 linkhovercolor8c42af36b6863240 customheaderlinkhovercolor8c42af36b6863240\" href=\"/content/Experienced-Professionals/?locale=en_US\" title=\"Experienced Professionals\">Experienced Professionals</a></span></li>"
+      ],
+      "sample_text": [
+        "Early Careers",
+        "Experienced Professionals"
+      ]
+    },
+    {
+      "selector": "a.menu.linkcolor8c42af36b6863240.linkhovercolor8c42af36b6863240.customheaderlinkhovercolor8c42af36b6863240",
+      "count": 18,
+      "sample_html": [
+        "<a role=\"menuitem\" class=\"menu linkcolor8c42af36b6863240 linkhovercolor8c42af36b6863240 customheaderlinkhovercolor8c42af36b6863240\" href=\"/content/Early-Careers/?locale=en_US\" title=\"Early Careers\">Early Careers</a>",
+        "<a role=\"menuitem\" class=\"menu linkcolor8c42af36b6863240 linkhovercolor8c42af36b6863240 customheaderlinkhovercolor8c42af36b6863240\" href=\"/content/Experienced-Professionals/?locale=en_US\" title=\"Experienced Professionals\">Experienced Professionals</a>"
+      ],
+      "sample_text": [
+        "Early Careers",
+        "Experienced Professionals"
+      ]
+    },
+    {
+      "selector": "li.linkcolor8c42af36b6863240.linkhovercolor0e3410afbe213aa4.customheaderlinkhovercolor0e3410afbe213aa4",
+      "count": 12,
+      "sample_html": [
+        "<li role=\"none\" class=\"linkcolor8c42af36b6863240 linkhovercolor0e3410afbe213aa4 customheaderlinkhovercolor0e3410afbe213aa4\">\n                        <a role=\"menuitem\" href=\"https://careers.wipro.com/errorpage/?errortype=404&amp;locale=ar_SA\" lang=\"ar-SA\">\u0627\u0644\u0639\u064e\u0631\u064e\u0628\u0650\u064a\u064e\u0651\u0629 (\u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629)</a>\n                    </li>",
+        "<li role=\"none\" class=\"linkcolor8c42af36b6863240 linkhovercolor0e3410afbe213aa4 customheaderlinkhovercolor0e3410afbe213aa4\">\n                        <a role=\"menuitem\" href=\"https://careers.wipro.com/errorpage/?errortype=404&amp;locale=de_DE\" lang=\"de-DE\">Deutsch (Deutschland)</a>\n                    </li>"
+      ],
+      "sample_text": [
+        "\n                        \u0627\u0644\u0639\u064e\u0631\u064e\u0628\u0650\u064a\u064e\u0651\u0629 (\u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629)\n                    ",
+        "\n                        Deutsch (Deutschland)\n                    "
+      ]
+    },
+    {
+      "selector": "ul.dropdown-menu.company-dropdown.headerdropdown.backgroundcolor45fb230c7d1ffc87",
+      "count": 4,
+      "sample_html": [
+        "<ul role=\"menu\" class=\"dropdown-menu company-dropdown headerdropdown backgroundcolor45fb230c7d1ffc87\" id=\"customheadermenuitemsmobilerow1column02\">\n                        <li class=\"menu\" role=\"none\"><span><a role=\"menuitem\" class=\"menu linkcolor8c42af36b6863240 linkhovercolor8c42af36b6863240 customheaderlinkhovercolor8c42af36b6863240\" href=\"/content/Early-Careers/?locale=en_US\" title=\"Early Careers\">Early Careers</a></span></li>\n                        <li class=\"menu\" role=\"none\"><span><a role=\"menuitem\" class=\"menu linkcolor8c42af36b6863240 linkhovercolor8c42af36b6863240 customheaderlinkhovercolor8c42af36b6863240\" href=\"/content/Experienced-Professionals/?locale=en_US\" title=\"Experienced Professionals\">Experienced Professionals</a></span></li>\n            </ul>",
+        "<ul role=\"menu\" class=\"dropdown-menu company-dropdown headerdropdown backgroundcolor45fb230c7d1ffc87\" id=\"customheadermenuitemstabletrow1column02\">\n                        <li class=\"menu\" role=\"none\"><span><a role=\"menuitem\" class=\"menu linkcolor8c42af36b6863240 linkhovercolor8c42af36b6863240 customheaderlinkhovercolor8c42af36b6863240\" href=\"/content/Early-Careers/?locale=en_US\" title=\"Early Careers\">Early Careers</a></span></li>\n                        <li class=\"menu\" role=\"none\"><span><a role=\"menuitem\" class=\"menu linkcolor8c42af36b6863240 linkhovercolor8c42af36b6863240 customheaderlinkhovercolor8c42af36b6863240\" href=\"/content/Experienced-Professionals/?locale=en_US\" title=\"Experienced Professionals\">Experienced Professionals</a></span></li>\n            </ul>"
+      ],
+      "sample_text": [
+        "\n                        Early Careers\n                        Experienced Professionals\n            ",
+        "\n                        Early Careers\n                        Experienced Professionals\n            "
+      ]
+    },
+    {
+      "selector": "li.social-icons",
+      "count": 4,
+      "sample_html": [
+        "<li class=\"social-icons\">\n                                        <a href=\"https://www.facebook.com/wiprocareers/\" class=\"social-icon btn-facebook\" target=\"_blank\" aria-label=\"Visit our Facebook page\" aria-describedby=\"socialIconAriaDescribed\" title=\"facebook\">\n                                        <span class=\"sr-only\" id=\"socialIconAriaDescribed\">Opens in a new tab.</span>\n                                            <svg width=\"48px\" height=\"48px\" viewBox=\"0 0 24 24\">\n                                                <path fill=\"#ffffff\" id=\"facebook1\" d=\"M12 2.03998C6.5 2.03998 2 6.52998 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.84998C10.44 7.33998 11.93 5.95998 14.22 5.95998C15.31 5.95998 16.45 6.14998 16.45 6.14998V8.61998H15.19C13.95 8.61998 13.56 9.38998 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96C15.9164 21.5878 18.0622 20.3855 19.6099 18.57C21.1576 16.7546 22.0054 14.4456 22 12.06C22 6.52998 17.5 2.03998 12 2.03998Z\"></path>\n                                            </svg>\n                                    </a>\n                                </li>",
+        "<li class=\"social-icons\">\n                                        <a href=\"https://www.instagram.com/wiprocareers/\" class=\"social-icon btn-instagram\" target=\"_blank\" aria-label=\"Follow us on Instagram\" aria-describedby=\"socialIconAriaDescribed\" title=\"instagram\">\n                                        <span class=\"sr-only\" id=\"socialIconAriaDescribed\">Opens in a new tab.</span>\n                                            <svg fill=\"#ffffff\" width=\"48px\" height=\"48px\" viewBox=\"0 0 32 32\"><path id=\"instagram1\" d=\"M20.445 5h-8.891A6.559 6.559 0 0 0 5 11.554v8.891A6.559 6.559 0 0 0 11.554 27h8.891a6.56 6.56 0 0 0 6.554-6.555v-8.891A6.557 6.557 0 0 0 20.445 5zm4.342 15.445a4.343 4.343 0 0 1-4.342 4.342h-8.891a4.341 4.341 0 0 1-4.341-4.342v-8.891a4.34 4.34 0 0 1 4.341-4.341h8.891a4.342 4.342 0 0 1 4.341 4.341l.001 8.891z\"></path><path d=\"M16 10.312c-3.138 0-5.688 2.551-5.688 5.688s2.551 5.688 5.688 5.688 5.688-2.551 5.688-5.688-2.55-5.688-5.688-5.688zm0 9.163a3.475 3.475 0 1 1-.001-6.95 3.475 3.475 0 0 1 .001 6.95zM21.7 8.991a1.363 1.363 0 1 1-1.364 1.364c0-.752.51-1.364 1.364-1.364z\"></path></svg>\n                                    </a>\n                                </li>"
+      ],
+      "sample_text": [
+        "Opens in a new tab.",
+        "Opens in a new tab."
+      ]
+    }
+  ],
+  "page_title": "Wipro Careers | Reinvent Your World",
+  "status": "ok",
+  "screenshot": "wipro.png"
+}

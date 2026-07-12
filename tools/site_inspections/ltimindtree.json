@@ -1,0 +1,107 @@
+{
+  "slug": "ltimindtree",
+  "url": "https://careers.ltimindtree.com/search?searchText=data+scientist",
+  "keyword_candidates": [
+    {
+      "selector": "span.jobLocation",
+      "count": 51,
+      "sample_html": [
+        "<span class=\"jobLocation\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a id=\"hdrLocationButton\" role=\"button\" class=\"jobLocation sort\" href=\"/search?q=&amp;sortColumn=sort_location&amp;sortDirection=desc#hdrLocationButton\">Location\n\t\t\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t\t\t\t</span>",
+        "<span class=\"jobLocation\">\n            Mexico, MEX, MX\n            \n        </span>"
+      ],
+      "sample_text": [
+        "Location",
+        "\n            Mexico, MEX, MX\n            \n        "
+      ]
+    },
+    {
+      "selector": "a.jobTitle-link",
+      "count": 50,
+      "sample_html": [
+        "<a href=\"/job/Mexico-Senior-Quality-Engineer-MEX/1404010933/\" class=\"jobTitle-link\">Senior Quality Engineer</a>",
+        "<a class=\"jobTitle-link\" href=\"/job/Mexico-Senior-Quality-Engineer-MEX/1404010933/\">Senior Quality Engineer</a>"
+      ],
+      "sample_text": [
+        "Senior Quality Engineer",
+        "Senior Quality Engineer"
+      ]
+    },
+    {
+      "selector": "span.jobDate",
+      "count": 26,
+      "sample_html": [
+        "<span class=\"jobDate\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a id=\"hdrDateButton\" role=\"button\" href=\"/search?q=&amp;sortColumn=referencedate&amp;sortDirection=asc#hdrDateButton\">Date <img src=\"/platform/images/shared/downtri.png\" border=\"0\" alt=\"Sort descending\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t\t\t\t</span>",
+        "<span class=\"jobDate\">Jul 11, 2026\n\t\t\t\t\t\t\t\t\t\t\t\t</span>"
+      ],
+      "sample_text": [
+        "Date ",
+        "Jul 11, 2026"
+      ]
+    },
+    {
+      "selector": "span.jobTitle.hidden-phone",
+      "count": 25,
+      "sample_html": [
+        "<span class=\"jobTitle hidden-phone\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/job/Mexico-Senior-Quality-Engineer-MEX/1404010933/\" class=\"jobTitle-link\">Senior Quality Engineer</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>",
+        "<span class=\"jobTitle hidden-phone\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/job/Mexico-Senior-Software-Engineer-MEX/1404008733/\" class=\"jobTitle-link\">Senior Software Engineer</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>"
+      ],
+      "sample_text": [
+        "Senior Quality Engineer",
+        "Senior Software Engineer"
+      ]
+    },
+    {
+      "selector": "div.jobdetail-phone.visible-phone",
+      "count": 25,
+      "sample_html": [
+        "<div class=\"jobdetail-phone visible-phone\">\n                                                                    <span class=\"jobTitle visible-phone\">\n                                                                        <a class=\"jobTitle-link\" href=\"/job/Mexico-Senior-Quality-Engineer-MEX/1404010933/\">Senior Quality Engineer</a>\n                                                                    </span>\n                                                                    <span class=\"jobLocation visible-phone\">\n        \n        <span class=\"jobLocation\">\n            Mexico, MEX, MX\n            \n        </span></span>\n                                                                    <span class=\"jobDate visible-phone\">Jul 11, 2026\n\t\t\t\t\t\t\t\t\t\t\t\t\t                </span>\n                                                    </div>",
+        "<div class=\"jobdetail-phone visible-phone\">\n                                                                    <span class=\"jobTitle visible-phone\">\n                                                                        <a class=\"jobTitle-link\" href=\"/job/Mexico-Senior-Software-Engineer-MEX/1404008733/\">Senior Software Engineer</a>\n                                                                    </span>\n                                                                    <span class=\"jobLocation visible-phone\">\n        \n        <span class=\"jobLocation\">\n            Mexico, MEX, MX\n            \n        </span></span>\n                                                                    <span class=\"jobDate visible-phone\">Jul 11, 2026\n\t\t\t\t\t\t\t\t\t\t\t\t\t                </span>\n                                                    </div>"
+      ],
+      "sample_text": [
+        "\n                                                                    \n                                                                        Senior Quality Engineer\n                                  ",
+        "\n                                                                    \n                                                                        Senior Software Engineer\n                                 "
+      ]
+    },
+    {
+      "selector": "span.jobTitle.visible-phone",
+      "count": 25,
+      "sample_html": [
+        "<span class=\"jobTitle visible-phone\">\n                                                                        <a class=\"jobTitle-link\" href=\"/job/Mexico-Senior-Quality-Engineer-MEX/1404010933/\">Senior Quality Engineer</a>\n                                                                    </span>",
+        "<span class=\"jobTitle visible-phone\">\n                                                                        <a class=\"jobTitle-link\" href=\"/job/Mexico-Senior-Software-Engineer-MEX/1404008733/\">Senior Software Engineer</a>\n                                                                    </span>"
+      ],
+      "sample_text": [
+        "\n                                                                        Senior Quality Engineer\n                                                                    ",
+        "\n                                                                        Senior Software Engineer\n                                                                    "
+      ]
+    }
+  ],
+  "structural_candidates": [
+    {
+      "selector": "tr.data-row",
+      "count": 25,
+      "sample_html": [
+        "<tr class=\"data-row\">\n                                                <td class=\"colTitle\" headers=\"hdrTitle\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"jobTitle hidden-phone\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/job/Mexico-Senior-Quality-Engineer-MEX/1404010933/\" class=\"jobTitle-link\">Senior Quality Engineer</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n                                                    <div class=\"jobdetail-phone visible-phone\">\n                                                                    <span class=\"jobTitle visible-phone\">\n                                                                        <a class=\"jobTitle-link\" href=\"/job/Mexico-Senior-Quality-Engineer-MEX/1404010933/\">Senior Quality Engineer</a>\n                                                                    </span>\n                                                                    <span class=\"jobLocation visible-phone\">\n        \n        <span class=\"jobLocation\">\n            Mexico, MEX, MX\n            \n        </span></span>\n                                                                    <span class=\"jobDate visible-phone\">Jul 11, 2026\n\t\t\t\t\t\t\t\t\t\t\t\t\t                </span>\n                                                    </div>\n                                                </td>\n\t\t\t\t\t\t\t\t\t\t\t<td class=\"colLocation hidden-phone\" headers=\"hdrLocation\">\n        \n        <span class=\"jobLocation\">\n            Mexico, MEX, MX\n            \n        </span>\n\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t<td class=\"colDate hidden-phone\" nowrap=\"nowra",
+        "<tr class=\"data-row\">\n                                                <td class=\"colTitle\" headers=\"hdrTitle\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"jobTitle hidden-phone\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/job/Mexico-Senior-Software-Engineer-MEX/1404008733/\" class=\"jobTitle-link\">Senior Software Engineer</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n                                                    <div class=\"jobdetail-phone visible-phone\">\n                                                                    <span class=\"jobTitle visible-phone\">\n                                                                        <a class=\"jobTitle-link\" href=\"/job/Mexico-Senior-Software-Engineer-MEX/1404008733/\">Senior Software Engineer</a>\n                                                                    </span>\n                                                                    <span class=\"jobLocation visible-phone\">\n        \n        <span class=\"jobLocation\">\n            Mexico, MEX, MX\n            \n        </span></span>\n                                                                    <span class=\"jobDate visible-phone\">Jul 11, 2026\n\t\t\t\t\t\t\t\t\t\t\t\t\t                </span>\n                                                    </div>\n                                                </td>\n\t\t\t\t\t\t\t\t\t\t\t<td class=\"colLocation hidden-phone\" headers=\"hdrLocation\">\n        \n        <span class=\"jobLocation\">\n            Mexico, MEX, MX\n            \n        </span>\n\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t\t\t<td class=\"colDate hidden-phone\" nowrap=\"n"
+      ],
+      "sample_text": [
+        "Senior Quality Engineer\n\tMexico, MEX, MX\tJul 11, 2026\t",
+        "Senior Software Engineer\n\tMexico, MEX, MX\tJul 11, 2026\t"
+      ]
+    },
+    {
+      "selector": "td.colTitle",
+      "count": 25,
+      "sample_html": [
+        "<td class=\"colTitle\" headers=\"hdrTitle\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"jobTitle hidden-phone\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/job/Mexico-Senior-Quality-Engineer-MEX/1404010933/\" class=\"jobTitle-link\">Senior Quality Engineer</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n                                                    <div class=\"jobdetail-phone visible-phone\">\n                                                                    <span class=\"jobTitle visible-phone\">\n                                                                        <a class=\"jobTitle-link\" href=\"/job/Mexico-Senior-Quality-Engineer-MEX/1404010933/\">Senior Quality Engineer</a>\n                                                                    </span>\n                                                                    <span class=\"jobLocation visible-phone\">\n        \n        <span class=\"jobLocation\">\n            Mexico, MEX, MX\n            \n        </span></span>\n                                                                    <span class=\"jobDate visible-phone\">Jul 11, 2026\n\t\t\t\t\t\t\t\t\t\t\t\t\t                </span>\n                                                    </div>\n                                                </td>",
+        "<td class=\"colTitle\" headers=\"hdrTitle\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"jobTitle hidden-phone\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/job/Mexico-Senior-Software-Engineer-MEX/1404008733/\" class=\"jobTitle-link\">Senior Software Engineer</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n                                                    <div class=\"jobdetail-phone visible-phone\">\n                                                                    <span class=\"jobTitle visible-phone\">\n                                                                        <a class=\"jobTitle-link\" href=\"/job/Mexico-Senior-Software-Engineer-MEX/1404008733/\">Senior Software Engineer</a>\n                                                                    </span>\n                                                                    <span class=\"jobLocation visible-phone\">\n        \n        <span class=\"jobLocation\">\n            Mexico, MEX, MX\n            \n        </span></span>\n                                                                    <span class=\"jobDate visible-phone\">Jul 11, 2026\n\t\t\t\t\t\t\t\t\t\t\t\t\t                </span>\n                                                    </div>\n                                                </td>"
+      ],
+      "sample_text": [
+        "Senior Quality Engineer",
+        "Senior Software Engineer"
+      ]
+    }
+  ],
+  "page_title": "LTM Jobs",
+  "status": "ok",
+  "screenshot": "ltimindtree.png"
+}

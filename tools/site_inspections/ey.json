@@ -1,0 +1,119 @@
+{
+  "slug": "ey",
+  "url": "https://careers.ey.com/ey/search/?q=data+scientist",
+  "keyword_candidates": [
+    {
+      "selector": "a.jobTitle-link",
+      "count": 50,
+      "sample_html": [
+        "<a href=\"/ey/job/Kuala-Lumpur-Data-Scientist%2C-AI-&amp;-Data-Senior-ManagerManager-Fede-50490/954171501/\" class=\"jobTitle-link\">Data Scientist, AI &amp; Data - Senior Manager/Manager</a>",
+        "<a class=\"jobTitle-link\" href=\"/ey/job/Kuala-Lumpur-Data-Scientist%2C-AI-&amp;-Data-Senior-ManagerManager-Fede-50490/954171501/\">Data Scientist, AI &amp; Data - Senior Manager/Manager</a>"
+      ],
+      "sample_text": [
+        "Data Scientist, AI & Data - Senior Manager/Manager",
+        "Data Scientist, AI & Data - Senior Manager/Manager"
+      ]
+    },
+    {
+      "selector": "span.jobLocation",
+      "count": 26,
+      "sample_html": [
+        "<span class=\"jobLocation\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a id=\"hdrLocationButton\" role=\"button\" class=\"jobLocation sort\" href=\"/ey/search/?q=data+scientist&amp;sortColumn=sort_location&amp;sortDirection=desc#hdrLocationButton\">Location\n\t\t\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t\t\t\t</span>",
+        "<span class=\"jobLocation\">\n            Kuala Lumpur, Federal Territory of Kuala Lumpur, MY, 50490\n            \n        </span>"
+      ],
+      "sample_text": [
+        "Location",
+        "Kuala Lumpur, Federal Territory of Kuala Lumpur, MY, 50490"
+      ]
+    },
+    {
+      "selector": "span.jobTitle.hidden-phone",
+      "count": 25,
+      "sample_html": [
+        "<span class=\"jobTitle hidden-phone\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/ey/job/Kuala-Lumpur-Data-Scientist%2C-AI-&amp;-Data-Senior-ManagerManager-Fede-50490/954171501/\" class=\"jobTitle-link\">Data Scientist, AI &amp; Data - Senior Manager/Manager</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>",
+        "<span class=\"jobTitle hidden-phone\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/ey/job/Kuala-Lumpur-Senior-Data-Scientist-Fede-50490/1265222501/\" class=\"jobTitle-link\">Senior Data Scientist</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>"
+      ],
+      "sample_text": [
+        "Data Scientist, AI & Data - Senior Manager/Manager",
+        "Senior Data Scientist"
+      ]
+    },
+    {
+      "selector": "div.jobdetail-phone.visible-phone",
+      "count": 25,
+      "sample_html": [
+        "<div class=\"jobdetail-phone visible-phone\">\n                                                                    <span class=\"jobTitle visible-phone\">\n                                                                        <a class=\"jobTitle-link\" href=\"/ey/job/Kuala-Lumpur-Data-Scientist%2C-AI-&amp;-Data-Senior-ManagerManager-Fede-50490/954171501/\">Data Scientist, AI &amp; Data - Senior Manager/Manager</a>\n                                                                    </span>\n                                                                    <span class=\"jobState visible-phone\">Fede</span>\n                                                    </div>",
+        "<div class=\"jobdetail-phone visible-phone\">\n                                                                    <span class=\"jobTitle visible-phone\">\n                                                                        <a class=\"jobTitle-link\" href=\"/ey/job/Kuala-Lumpur-Senior-Data-Scientist-Fede-50490/1265222501/\">Senior Data Scientist</a>\n                                                                    </span>\n                                                                    <span class=\"jobState visible-phone\">Fede</span>\n                                                    </div>"
+      ],
+      "sample_text": [
+        "\n                                                                    \n                                                                        Data Scientist, AI & Data - Senior Manager/Manager\n       ",
+        "\n                                                                    \n                                                                        Senior Data Scientist\n                                    "
+      ]
+    },
+    {
+      "selector": "span.jobTitle.visible-phone",
+      "count": 25,
+      "sample_html": [
+        "<span class=\"jobTitle visible-phone\">\n                                                                        <a class=\"jobTitle-link\" href=\"/ey/job/Kuala-Lumpur-Data-Scientist%2C-AI-&amp;-Data-Senior-ManagerManager-Fede-50490/954171501/\">Data Scientist, AI &amp; Data - Senior Manager/Manager</a>\n                                                                    </span>",
+        "<span class=\"jobTitle visible-phone\">\n                                                                        <a class=\"jobTitle-link\" href=\"/ey/job/Kuala-Lumpur-Senior-Data-Scientist-Fede-50490/1265222501/\">Senior Data Scientist</a>\n                                                                    </span>"
+      ],
+      "sample_text": [
+        "\n                                                                        Data Scientist, AI & Data - Senior Manager/Manager\n                                                                    ",
+        "\n                                                                        Senior Data Scientist\n                                                                    "
+      ]
+    },
+    {
+      "selector": "span.jobState.visible-phone",
+      "count": 25,
+      "sample_html": [
+        "<span class=\"jobState visible-phone\">Fede</span>",
+        "<span class=\"jobState visible-phone\">Fede</span>"
+      ],
+      "sample_text": [
+        "Fede",
+        "Fede"
+      ]
+    }
+  ],
+  "structural_candidates": [
+    {
+      "selector": "li.linkcolorf809edc554f944ae.linkhovercolorf809edc554f944ae.customheaderlinkhovercolorf809edc554f944ae",
+      "count": 35,
+      "sample_html": [
+        "<li class=\"linkcolorf809edc554f944ae linkhovercolorf809edc554f944ae customheaderlinkhovercolorf809edc554f944ae\"><a href=\"https://www.ey.com/en_gl/careers\" title=\"Careers at EY\">Careers at EY</a></li>",
+        "<li class=\"linkcolorf809edc554f944ae linkhovercolorf809edc554f944ae customheaderlinkhovercolorf809edc554f944ae\"><a href=\"https://www.ey.com/en_gl/careers/what-you-can-do-here\" title=\"What you can do here\">What you can do here</a></li>"
+      ],
+      "sample_text": [
+        "Careers at EY",
+        "What you can do here"
+      ]
+    },
+    {
+      "selector": "tr.data-row",
+      "count": 25,
+      "sample_html": [
+        "<tr class=\"data-row\">\n                                                <td class=\"colTitle\" headers=\"hdrTitle\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"jobTitle hidden-phone\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/ey/job/Kuala-Lumpur-Data-Scientist%2C-AI-&amp;-Data-Senior-ManagerManager-Fede-50490/954171501/\" class=\"jobTitle-link\">Data Scientist, AI &amp; Data - Senior Manager/Manager</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n                                                    <div class=\"jobdetail-phone visible-phone\">\n                                                                    <span class=\"jobTitle visible-phone\">\n                                                                        <a class=\"jobTitle-link\" href=\"/ey/job/Kuala-Lumpur-Data-Scientist%2C-AI-&amp;-Data-Senior-ManagerManager-Fede-50490/954171501/\">Data Scientist, AI &amp; Data - Senior Manager/Manager</a>\n                                                                    </span>\n                                                                    <span class=\"jobState visible-phone\">Fede</span>\n                                                    </div>\n                                                </td>\n\t\t\t\t\t\t\t\t\t\t\t<td class=\"colLocation hidden-phone\" headers=\"hdrLocation\">\n        \n        <span class=\"jobLocation\">\n            Kuala Lumpur, Federal Territory of Kuala Lumpur, MY, 50490\n            \n        </span>\n\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td class=\"hidden-phone\"></td>\n                            </tr>",
+        "<tr class=\"data-row\">\n                                                <td class=\"colTitle\" headers=\"hdrTitle\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"jobTitle hidden-phone\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/ey/job/Kuala-Lumpur-Senior-Data-Scientist-Fede-50490/1265222501/\" class=\"jobTitle-link\">Senior Data Scientist</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n                                                    <div class=\"jobdetail-phone visible-phone\">\n                                                                    <span class=\"jobTitle visible-phone\">\n                                                                        <a class=\"jobTitle-link\" href=\"/ey/job/Kuala-Lumpur-Senior-Data-Scientist-Fede-50490/1265222501/\">Senior Data Scientist</a>\n                                                                    </span>\n                                                                    <span class=\"jobState visible-phone\">Fede</span>\n                                                    </div>\n                                                </td>\n\t\t\t\t\t\t\t\t\t\t\t<td class=\"colLocation hidden-phone\" headers=\"hdrLocation\">\n        \n        <span class=\"jobLocation\">\n            Kuala Lumpur, Federal Territory of Kuala Lumpur, MY, 50490\n            \n        </span>\n\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td class=\"hidden-phone\"></td>\n                            </tr>"
+      ],
+      "sample_text": [
+        "Data Scientist, AI & Data - Senior Manager/Manager\n\tKuala Lumpur, Federal Territory of Kuala Lumpur, MY, 50490\t",
+        "Senior Data Scientist\n\tKuala Lumpur, Federal Territory of Kuala Lumpur, MY, 50490\t"
+      ]
+    },
+    {
+      "selector": "td.colTitle",
+      "count": 25,
+      "sample_html": [
+        "<td class=\"colTitle\" headers=\"hdrTitle\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"jobTitle hidden-phone\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/ey/job/Kuala-Lumpur-Data-Scientist%2C-AI-&amp;-Data-Senior-ManagerManager-Fede-50490/954171501/\" class=\"jobTitle-link\">Data Scientist, AI &amp; Data - Senior Manager/Manager</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n                                                    <div class=\"jobdetail-phone visible-phone\">\n                                                                    <span class=\"jobTitle visible-phone\">\n                                                                        <a class=\"jobTitle-link\" href=\"/ey/job/Kuala-Lumpur-Data-Scientist%2C-AI-&amp;-Data-Senior-ManagerManager-Fede-50490/954171501/\">Data Scientist, AI &amp; Data - Senior Manager/Manager</a>\n                                                                    </span>\n                                                                    <span class=\"jobState visible-phone\">Fede</span>\n                                                    </div>\n                                                </td>",
+        "<td class=\"colTitle\" headers=\"hdrTitle\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"jobTitle hidden-phone\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/ey/job/Kuala-Lumpur-Senior-Data-Scientist-Fede-50490/1265222501/\" class=\"jobTitle-link\">Senior Data Scientist</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n                                                    <div class=\"jobdetail-phone visible-phone\">\n                                                                    <span class=\"jobTitle visible-phone\">\n                                                                        <a class=\"jobTitle-link\" href=\"/ey/job/Kuala-Lumpur-Senior-Data-Scientist-Fede-50490/1265222501/\">Senior Data Scientist</a>\n                                                                    </span>\n                                                                    <span class=\"jobState visible-phone\">Fede</span>\n                                                    </div>\n                                                </td>"
+      ],
+      "sample_text": [
+        "Data Scientist, AI & Data - Senior Manager/Manager",
+        "Senior Data Scientist"
+      ]
+    }
+  ],
+  "page_title": "EY Job Search",
+  "status": "ok",
+  "screenshot": "ey.png"
+}

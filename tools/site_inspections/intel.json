@@ -1,0 +1,82 @@
+{
+  "slug": "intel",
+  "url": "https://jobs.intel.com/en/search-jobs?k=data%20scientist",
+  "keyword_candidates": [],
+  "structural_candidates": [
+    {
+      "selector": "section.css-3bhfrr",
+      "count": 12,
+      "sample_html": [
+        "<section color=\"#ffffff\" class=\"css-3bhfrr\"><div class=\"css-wc2tri\"><div class=\"css-mn1w4w\"><div class=\"css-b3pn3b\"><div class=\"css-b3pn3b\"><a href=\"https://intel.wd1.myworkdayjobs.com/External\" target=\"_blank\" role=\"button\" data-automation-id=\"brandedAnchorButton\" font-size=\"14\" height=\"40\" class=\"css-1f3opt4\">See all jobs</a></div></div></div></div></section>",
+        "<section color=\"#ffffff\" class=\"css-3bhfrr\"><div class=\"css-1pqs34u\"><div class=\"css-1e8ewci\"><div class=\"css-jeazf2\"><div tabindex=\"0\" class=\"css-12hacuh\"><div contenteditable=\"false\" translate=\"no\" class=\"ProseMirror\"><p>For more than 50 years, Intel has had a profound influence on the world. Come build the technology of tomorrow with us.</p><p>From pioneering Silicon Valley to powering life-changing innovation, we\u2019re delivering world-changing innovation to solve humanity\u2019s biggest challenges. There are so many ways to do something powerful with us.</p><p><a style=\"cursor: pointer;\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://intel.wd1.myworkdayjobs.com/External\" title=\"https://intel.wd1.myworkdayjobs.com/External\"><span style=\"color: #005cb9;\"><span style=\"text-decoration: underline;\">Search jobs</span></span></a></p></div></div></div></div></div></section>"
+      ],
+      "sample_text": [
+        "See all jobs",
+        "For more than 50 years, Intel has had a profound influence on the world. Come build the technology of tomorrow with us.\n\nFrom pioneering Silicon Valley to powering life-changing innovation, we\u2019re deli"
+      ]
+    },
+    {
+      "selector": "div.css-1e8ewci",
+      "count": 10,
+      "sample_html": [
+        "<div class=\"css-1e8ewci\"><div class=\"css-jeazf2\"><div tabindex=\"0\" class=\"css-12hacuh\"><div contenteditable=\"false\" translate=\"no\" class=\"ProseMirror\"><p>For more than 50 years, Intel has had a profound influence on the world. Come build the technology of tomorrow with us.</p><p>From pioneering Silicon Valley to powering life-changing innovation, we\u2019re delivering world-changing innovation to solve humanity\u2019s biggest challenges. There are so many ways to do something powerful with us.</p><p><a style=\"cursor: pointer;\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://intel.wd1.myworkdayjobs.com/External\" title=\"https://intel.wd1.myworkdayjobs.com/External\"><span style=\"color: #005cb9;\"><span style=\"text-decoration: underline;\">Search jobs</span></span></a></p></div></div></div></div>",
+        "<div class=\"css-1e8ewci\"><div class=\"css-jeazf2\"><div tabindex=\"0\" class=\"css-12hacuh\"><div contenteditable=\"false\" translate=\"no\" class=\"ProseMirror\"><p><span style=\"color: #0054ae;\"><strong>Our People</strong></span></p><p>Our talented people are at the heart of everything we do. We work together in a rewarding, inclusive environment \u2014 one that\u2019s flexible to the way we live.</p><p><a style=\"cursor: pointer;\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://community.intel.com/t5/Blogs/Intel/We-Are-Intel/bg-p/blog-weareintel\" title=\"https://community.intel.com/t5/Blogs/Intel/We-Are-Intel/bg-p/blog-weareintel\"><span style=\"color: #005cb9;\"><span style=\"text-decoration: underline;\">Read our blogs</span></span></a></p></div></div></div></div>"
+      ],
+      "sample_text": [
+        "For more than 50 years, Intel has had a profound influence on the world. Come build the technology of tomorrow with us.\n\nFrom pioneering Silicon Valley to powering life-changing innovation, we\u2019re deli",
+        "Our People\n\nOur talented people are at the heart of everything we do. We work together in a rewarding, inclusive environment \u2014 one that\u2019s flexible to the way we live.\n\nRead our blogs"
+      ]
+    },
+    {
+      "selector": "div.css-m357a6",
+      "count": 9,
+      "sample_html": [
+        "<div width=\"1440\" class=\"css-m357a6\"><section color=\"#ffffff\" class=\"css-3bhfrr\"><div class=\"css-wc2tri\"><div class=\"css-mn1w4w\"><div class=\"css-b3pn3b\"><div class=\"css-b3pn3b\"><a href=\"https://intel.wd1.myworkdayjobs.com/External\" target=\"_blank\" role=\"button\" data-automation-id=\"brandedAnchorButton\" font-size=\"14\" height=\"40\" class=\"css-1f3opt4\">See all jobs</a></div></div></div></div></section></div>",
+        "<div width=\"1440\" class=\"css-m357a6\"><section color=\"#ffffff\" class=\"css-3bhfrr\"><div class=\"css-1pqs34u\"><div class=\"css-mn1w4w\"><div class=\"css-1djvuoa\"><img src=\"/wday/cxs/intel/External/landingpageimage/4dedd87578ee10019d219812315b0000\" alt=\"An Intel employee in a bunny suit, overseeing the production of a silicon wafer\" class=\"css-uwwqev\"></div></div></div></section><section color=\"#ffffff\" class=\"css-3bhfrr\"><div class=\"css-1pqs34u\"><div class=\"css-1e8ewci\"><div class=\"css-jeazf2\"><div tabindex=\"0\" class=\"css-12hacuh\"><div contenteditable=\"false\" translate=\"no\" class=\"ProseMirror\"><p>For more than 50 years, Intel has had a profound influence on the world. Come build the technology of tomorrow with us.</p><p>From pioneering Silicon Valley to powering life-changing innovation, we\u2019re delivering world-changing innovation to solve humanity\u2019s biggest challenges. There are so many ways to do something powerful with us.</p><p><a style=\"cursor: pointer;\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://intel.wd1.myworkdayjobs.com/External\" title=\"https://intel.wd1.myworkdayjobs.com/External\"><span style=\"color: #005cb9;\"><span style=\"text-decoration: underline;\">Search jobs</span></span></a></p></div></div></div></div></div></section></div>"
+      ],
+      "sample_text": [
+        "See all jobs",
+        "For more than 50 years, Intel has had a profound influence on the world. Come build the technology of tomorrow with us.\n\nFrom pioneering Silicon Valley to powering life-changing innovation, we\u2019re deli"
+      ]
+    },
+    {
+      "selector": "div.css-jeazf2",
+      "count": 9,
+      "sample_html": [
+        "<div class=\"css-jeazf2\"><div tabindex=\"0\" class=\"css-12hacuh\"><div contenteditable=\"false\" translate=\"no\" class=\"ProseMirror\"><p>For more than 50 years, Intel has had a profound influence on the world. Come build the technology of tomorrow with us.</p><p>From pioneering Silicon Valley to powering life-changing innovation, we\u2019re delivering world-changing innovation to solve humanity\u2019s biggest challenges. There are so many ways to do something powerful with us.</p><p><a style=\"cursor: pointer;\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://intel.wd1.myworkdayjobs.com/External\" title=\"https://intel.wd1.myworkdayjobs.com/External\"><span style=\"color: #005cb9;\"><span style=\"text-decoration: underline;\">Search jobs</span></span></a></p></div></div></div>",
+        "<div class=\"css-jeazf2\"><div tabindex=\"0\" class=\"css-12hacuh\"><div contenteditable=\"false\" translate=\"no\" class=\"ProseMirror\"><p><span style=\"color: #0054ae;\"><strong>Our People</strong></span></p><p>Our talented people are at the heart of everything we do. We work together in a rewarding, inclusive environment \u2014 one that\u2019s flexible to the way we live.</p><p><a style=\"cursor: pointer;\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://community.intel.com/t5/Blogs/Intel/We-Are-Intel/bg-p/blog-weareintel\" title=\"https://community.intel.com/t5/Blogs/Intel/We-Are-Intel/bg-p/blog-weareintel\"><span style=\"color: #005cb9;\"><span style=\"text-decoration: underline;\">Read our blogs</span></span></a></p></div></div></div>"
+      ],
+      "sample_text": [
+        "For more than 50 years, Intel has had a profound influence on the world. Come build the technology of tomorrow with us.\n\nFrom pioneering Silicon Valley to powering life-changing innovation, we\u2019re deli",
+        "Our People\n\nOur talented people are at the heart of everything we do. We work together in a rewarding, inclusive environment \u2014 one that\u2019s flexible to the way we live.\n\nRead our blogs"
+      ]
+    },
+    {
+      "selector": "div.css-12hacuh",
+      "count": 9,
+      "sample_html": [
+        "<div tabindex=\"0\" class=\"css-12hacuh\"><div contenteditable=\"false\" translate=\"no\" class=\"ProseMirror\"><p>For more than 50 years, Intel has had a profound influence on the world. Come build the technology of tomorrow with us.</p><p>From pioneering Silicon Valley to powering life-changing innovation, we\u2019re delivering world-changing innovation to solve humanity\u2019s biggest challenges. There are so many ways to do something powerful with us.</p><p><a style=\"cursor: pointer;\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://intel.wd1.myworkdayjobs.com/External\" title=\"https://intel.wd1.myworkdayjobs.com/External\"><span style=\"color: #005cb9;\"><span style=\"text-decoration: underline;\">Search jobs</span></span></a></p></div></div>",
+        "<div tabindex=\"0\" class=\"css-12hacuh\"><div contenteditable=\"false\" translate=\"no\" class=\"ProseMirror\"><p><span style=\"color: #0054ae;\"><strong>Our People</strong></span></p><p>Our talented people are at the heart of everything we do. We work together in a rewarding, inclusive environment \u2014 one that\u2019s flexible to the way we live.</p><p><a style=\"cursor: pointer;\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://community.intel.com/t5/Blogs/Intel/We-Are-Intel/bg-p/blog-weareintel\" title=\"https://community.intel.com/t5/Blogs/Intel/We-Are-Intel/bg-p/blog-weareintel\"><span style=\"color: #005cb9;\"><span style=\"text-decoration: underline;\">Read our blogs</span></span></a></p></div></div>"
+      ],
+      "sample_text": [
+        "For more than 50 years, Intel has had a profound influence on the world. Come build the technology of tomorrow with us.\n\nFrom pioneering Silicon Valley to powering life-changing innovation, we\u2019re deli",
+        "Our People\n\nOur talented people are at the heart of everything we do. We work together in a rewarding, inclusive environment \u2014 one that\u2019s flexible to the way we live.\n\nRead our blogs"
+      ]
+    },
+    {
+      "selector": "div.ProseMirror",
+      "count": 9,
+      "sample_html": [
+        "<div contenteditable=\"false\" translate=\"no\" class=\"ProseMirror\"><p>For more than 50 years, Intel has had a profound influence on the world. Come build the technology of tomorrow with us.</p><p>From pioneering Silicon Valley to powering life-changing innovation, we\u2019re delivering world-changing innovation to solve humanity\u2019s biggest challenges. There are so many ways to do something powerful with us.</p><p><a style=\"cursor: pointer;\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://intel.wd1.myworkdayjobs.com/External\" title=\"https://intel.wd1.myworkdayjobs.com/External\"><span style=\"color: #005cb9;\"><span style=\"text-decoration: underline;\">Search jobs</span></span></a></p></div>",
+        "<div contenteditable=\"false\" translate=\"no\" class=\"ProseMirror\"><p><span style=\"color: #0054ae;\"><strong>Our People</strong></span></p><p>Our talented people are at the heart of everything we do. We work together in a rewarding, inclusive environment \u2014 one that\u2019s flexible to the way we live.</p><p><a style=\"cursor: pointer;\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://community.intel.com/t5/Blogs/Intel/We-Are-Intel/bg-p/blog-weareintel\" title=\"https://community.intel.com/t5/Blogs/Intel/We-Are-Intel/bg-p/blog-weareintel\"><span style=\"color: #005cb9;\"><span style=\"text-decoration: underline;\">Read our blogs</span></span></a></p></div>"
+      ],
+      "sample_text": [
+        "For more than 50 years, Intel has had a profound influence on the world. Come build the technology of tomorrow with us.\n\nFrom pioneering Silicon Valley to powering life-changing innovation, we\u2019re deli",
+        "Our People\n\nOur talented people are at the heart of everything we do. We work together in a rewarding, inclusive environment \u2014 one that\u2019s flexible to the way we live.\n\nRead our blogs"
+      ]
+    }
+  ],
+  "page_title": "Intel Careers",
+  "status": "ok",
+  "screenshot": "intel.png"
+}

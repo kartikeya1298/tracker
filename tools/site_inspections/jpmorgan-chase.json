@@ -1,0 +1,155 @@
+{
+  "slug": "jpmorgan-chase",
+  "url": "https://careers.jpmorgan.com/us/en/search-results?keywords=data%20scientist",
+  "keyword_candidates": [
+    {
+      "selector": "div.cardContent",
+      "count": 11,
+      "sample_html": [
+        "<div class=\"cardContent\">\n        \n\n        \n\n        \n            \n\n    \n\n    \n\n    <div class=\"cardText title no-quote \">\n        \n\n        <p>We champion a workplace where you can belong, grow your career, and make an impact\u2014everyday and everywhere.</p>\n\n    </div>\n\n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n    </div>",
+        "<div class=\"cardContent\">\n        \n\n        \n\n        \n            \n\n    \n\n    \n\n    <div class=\"cardText title no-quote \">\n        \n\n        <p>Keisha is gaining new skills and growing her career</p>\n\n    </div>\n\n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n\n        \n    </div>"
+      ],
+      "sample_text": [
+        "We champion a workplace where you can belong, grow your career, and make an impact\u2014everyday and everywhere.",
+        "Keisha is gaining new skills and growing her career"
+      ]
+    },
+    {
+      "selector": "div.quick-links-card",
+      "count": 11,
+      "sample_html": [
+        "<div class=\"quick-links-card\">\n            <div class=\"quick-links-card-details\">\n                <div class=\"title\"><h2>Springboard of opportunities</h2>\n</div>\n                <div class=\"description\">\n                    <p>No matter where your journey begins or evolves, we\u2019re investing in what matters \u2013 you.</p>\n</div>\n            </div>\n\n            \n                \n    <a aria-label=\"Opportunities for growth\" class=\"link\" data-cmp-clickable=\"\" data-cmp-data-layer=\"{&quot;event&quot;:&quot;cmp:click&quot;,&quot;webInteraction&quot;:{&quot;ctaType&quot;:&quot;link&quot;,&quot;ctaText&quot;:&quot;Grow with us&quot;,&quot;ctaUrl&quot;:&quot;/careers/grow-with-us&quot;,&quot;ctaTitle&quot;:&quot;Springboard of opportunities&quot;,&quot;ctaComponentName&quot;:&quot;Quick Links&quot;}}\" href=\"/careers/grow-with-us\" target=\"_self\">\n        <span class=\"link-text\">Grow with us</span>\n\n        \n            \n  \n  \n  <span class=\"icon icon-16\" data-icon=\"\uf061\"></span>\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n        \n    </a>\n\n            \n        </div>",
+        "<div class=\"quick-links-card\">\n            <div class=\"quick-links-card-details\">\n                <div class=\"title\"><h2>The ability to drive change</h2>\n</div>\n                <div class=\"description\">\n                    <p>Discover ways to create meaningful impact with programs, commitments and initiatives that help uplift and empower the communities where we work and live.&nbsp;</p>\n</div>\n            </div>\n\n            \n                \n    <a aria-label=\"The ability to drive change\" class=\"link\" data-cmp-clickable=\"\" data-cmp-data-layer=\"{&quot;event&quot;:&quot;cmp:click&quot;,&quot;webInteraction&quot;:{&quot;ctaType&quot;:&quot;link&quot;,&quot;ctaText&quot;:&quot;Learn about our impact&quot;,&quot;ctaUrl&quot;:&quot;/impact&quot;,&quot;ctaTitle&quot;:&quot;The ability to drive change&quot;,&quot;ctaComponentName&quot;:&quot;Quick Links&quot;}}\" href=\"/impact\" target=\"_self\">\n        <span class=\"link-text\">Learn about our impact</span>\n\n        \n            \n  \n  \n  <span class=\"icon icon-16\" data-icon=\"\uf061\"></span>\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n        \n    </a>\n\n            \n        </div>"
+      ],
+      "sample_text": [
+        "Springboard of opportunities\n\nNo matter where your journey begins or evolves, we\u2019re investing in what matters \u2013 you.\n\nGrow with us",
+        "The ability to drive change\n\nDiscover ways to create meaningful impact with programs, commitments and initiatives that help uplift and empower the communities where we work and live.\u00a0\n\nLearn about our"
+      ]
+    },
+    {
+      "selector": "div.quick-links-card-details",
+      "count": 11,
+      "sample_html": [
+        "<div class=\"quick-links-card-details\">\n                <div class=\"title\"><h2>Springboard of opportunities</h2>\n</div>\n                <div class=\"description\">\n                    <p>No matter where your journey begins or evolves, we\u2019re investing in what matters \u2013 you.</p>\n</div>\n            </div>",
+        "<div class=\"quick-links-card-details\">\n                <div class=\"title\"><h2>The ability to drive change</h2>\n</div>\n                <div class=\"description\">\n                    <p>Discover ways to create meaningful impact with programs, commitments and initiatives that help uplift and empower the communities where we work and live.&nbsp;</p>\n</div>\n            </div>"
+      ],
+      "sample_text": [
+        "Springboard of opportunities\n\nNo matter where your journey begins or evolves, we\u2019re investing in what matters \u2013 you.",
+        "The ability to drive change\n\nDiscover ways to create meaningful impact with programs, commitments and initiatives that help uplift and empower the communities where we work and live.\u00a0"
+      ]
+    },
+    {
+      "selector": "div.cardText.title.no-quote",
+      "count": 10,
+      "sample_html": [
+        "<div class=\"cardText title no-quote \">\n        \n\n        <p>We champion a workplace where you can belong, grow your career, and make an impact\u2014everyday and everywhere.</p>\n\n    </div>",
+        "<div class=\"cardText title no-quote \">\n        \n\n        <p>Keisha is gaining new skills and growing her career</p>\n\n    </div>"
+      ],
+      "sample_text": [
+        "We champion a workplace where you can belong, grow your career, and make an impact\u2014everyday and everywhere.",
+        "Keisha is gaining new skills and growing her career"
+      ]
+    },
+    {
+      "selector": "div.cardText.description.no-quote",
+      "count": 10,
+      "sample_html": [
+        "<div class=\"cardText description no-quote \">\n        \n\n        <p>We open on a close-up shot of numbers reflected in a young man\u2019s glasses as he concentrates.</p>\n<p><b>VO:When you picture the future of work, what do you see?&nbsp; We see you ...\u2028\u2028</b></p>\n<p>We cut wide and reveal our first hero: a young man in a training session with a group of fellow employees. He raises his hand and the employee leading the session comes over to him.<br>\n<b>LOWER THIRD:&nbsp;</b>Upskilling programs</p>\n<p><b>VO: At a company that sees and supports you with the resources you need to&nbsp;grow your career.</b></p>\n<p><b>SUPER: 50% of our employees are part of a networking group</b></p>\n<p>Someone passes in front of the camera reveal a bank rep walking through a field of greens. She greets the business owner like an old friend.<br>\n<b>LOWER THIRD:&nbsp;</b>Customer relationships</p>\n<p><b>\u2028VO: Joining a global workforce that empowers neighborhoods, nations,&nbsp;communities and families.</b></p>\n<p><b>SUPER: More than 300k employees in over 65 countries</b></p>\n<p>We transition to a community manager as he warmly welcomes members of his community. We cut to him moments later, enthusiastically explaining family finances in front of a whiteboard.<br>\n<b>LOWER THIRD:&nbsp;</b>Community impact</p>\n<p><b>VO: And that brings together the right people with the resources they need to change the world.</b></p>\n<p><b>SUPER:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; One of <i>Fortune</i>\u2019s ",
+        "<div class=\"cardText description no-quote \">\n        \n\n        <h3>Narrator:</h3>\n<p>When you picture the future of work, what do you see? We see Keisha.</p>\n<h3>Keisha:</h3>\n<p>After I sold my salon, I got an opportunity to interview with JPMorganChase. Even though I didn't have a college degree, they saw my drive and my experience, and they hired me. The support I found here was incredible. Their help with things like tuition and the childcare benefit made it easy for me to grow my career my way. Now, I tell everyone: \"No matter what your career path is, there's so many opportunities waiting for you here.\"</p>\n<h3>Narrator:</h3>\n<p>The future of work is a career that grows with you.</p>\n<h3>END</h3>\n\n    </div>"
+      ],
+      "sample_text": [
+        "\n        \n\n        We open on a close-up shot of numbers reflected in a young man\u2019s glasses as he concentrates.\nVO:When you picture the future of work, what do you see?\u00a0 We see you ...\u2028\u2028\nWe cut wide a",
+        "\n        \n\n        Narrator:\nWhen you picture the future of work, what do you see? We see Keisha.\nKeisha:\nAfter I sold my salon, I got an opportunity to interview with JPMorganChase. Even though I did"
+      ]
+    },
+    {
+      "selector": "div.card-image",
+      "count": 6,
+      "sample_html": [
+        "<div class=\"card-image\">\n                    <div class=\"headline\"><p>Read more</p>\n</div>\n                    <div class=\"jpmc-image-container landscape\">\n                        <img src=\"/content/dam/jpmorganchase/images/ir/ceo-letters/2025/chairman-and-ceo/dimon-1440x810.jpg\">\n                    </div>\n                    \n                    <div class=\"text-container\">\n                        \n                        <p class=\"title\">Chairman and CEO Letter to Shareholders</p>\n                        \n                        \n                        \n                            \n    <a aria-label=\"Chairman and CEO Letter to Shareholders,Learn more\" class=\"link\" data-cmp-clickable=\"\" data-cmp-data-layer=\"{&quot;event&quot;:&quot;cmp:click&quot;,&quot;webInteraction&quot;:{&quot;ctaType&quot;:&quot;link&quot;,&quot;ctaText&quot;:&quot;Learn more&quot;,&quot;ctaUrl&quot;:&quot;/ir/annual-report/2025/ar-ceo-letters&quot;,&quot;ctaTitle&quot;:&quot;Chairman and CEO Letter to Shareholders&quot;,&quot;ctaComponentName&quot;:&quot;Expanded Column Links&quot;}}\" href=\"/ir/annual-report/2025/ar-ceo-letters\">\n        <span class=\"link-text\">Learn more</span>\n\n        \n            \n  \n  \n  <span class=\"icon small\" data-icon=\"\uf061\"></span>\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n        \n    </a>\n\n                        \n                    </div>\n                </div>",
+        "<div class=\"card-image\">\n                    <div class=\"headline\"><p>Latest news</p>\n</div>\n                    <div class=\"jpmc-image-container landscape\">\n                        <img src=\"/content/dam/jpmorganchase/images/newsroom/stories/fire-dex-jpmcr-banner.jpg\">\n                    </div>\n                    \n                    <div class=\"text-container\">\n                        \n                        <p class=\"title\">An Ohio-based company is protecting first responders around the world</p>\n                        <p class=\"description\">With support from JPMorganChase, Fire-Dex is providing protective equipment to firefighters in 100 countries and all 50 states.&nbsp;</p>\n                        \n                        \n                            \n    <a aria-label=\"An Ohio-based company is protecting first responders around the world,Learn more\" class=\"link\" data-cmp-clickable=\"\" data-cmp-data-layer=\"{&quot;event&quot;:&quot;cmp:click&quot;,&quot;webInteraction&quot;:{&quot;ctaType&quot;:&quot;link&quot;,&quot;ctaText&quot;:&quot;Learn more&quot;,&quot;ctaUrl&quot;:&quot;/newsroom/stories/ohio-based-company-protecting-first-responders-around-world&quot;,&quot;ctaTitle&quot;:&quot;An Ohio-based company is protecting first responders around the world&quot;,&quot;ctaComponentName&quot;:&quot;Expanded Column Links&quot;}}\" href=\"/newsroom/stories/ohio-based-company-protecting-first-responders-around-world\">\n        <span class=\"link-text\">Learn more</span>\n\n       "
+      ],
+      "sample_text": [
+        "\n                    Read more\n\n                    \n                        \n                    \n                    \n                    \n                        \n                        Chairman a",
+        "\n                    Latest news\n\n                    \n                        \n                    \n                    \n                    \n                        \n                        An Ohio-"
+      ]
+    }
+  ],
+  "structural_candidates": [
+    {
+      "selector": "a.primary-link",
+      "count": 29,
+      "sample_html": [
+        "<a class=\"primary-link \" data-cmp-data-layer=\"{&quot;event&quot;:&quot;cmp:click&quot;,&quot;webInteraction&quot;:{&quot;ctaType&quot;:&quot;link&quot;,&quot;ctaText&quot;:&quot;How we do business&quot;,&quot;ctaUrl&quot;:&quot;/about/business-principles&quot;,&quot;ctaTitle&quot;:&quot;About us&quot;,&quot;ctaComponentName&quot;:&quot;Link Set&quot;}}\" data-cmp-clickable=\"\" href=\"/about/business-principles\" target=\"_self\">\n                    How we do business\n                </a>",
+        "<a class=\"primary-link \" data-cmp-data-layer=\"{&quot;event&quot;:&quot;cmp:click&quot;,&quot;webInteraction&quot;:{&quot;ctaType&quot;:&quot;link&quot;,&quot;ctaText&quot;:&quot;Leadership&quot;,&quot;ctaUrl&quot;:&quot;/about/leadership&quot;,&quot;ctaTitle&quot;:&quot;About us&quot;,&quot;ctaComponentName&quot;:&quot;Link Set&quot;}}\" data-cmp-clickable=\"\" href=\"/about/leadership\" target=\"_self\">\n                    Leadership\n                </a>"
+      ],
+      "sample_text": [
+        "How we do business",
+        "Leadership"
+      ]
+    },
+    {
+      "selector": "a.link",
+      "count": 19,
+      "sample_html": [
+        "<a aria-label=\"Chairman and CEO Letter to Shareholders,Learn more\" class=\"link\" data-cmp-clickable=\"\" data-cmp-data-layer=\"{&quot;event&quot;:&quot;cmp:click&quot;,&quot;webInteraction&quot;:{&quot;ctaType&quot;:&quot;link&quot;,&quot;ctaText&quot;:&quot;Learn more&quot;,&quot;ctaUrl&quot;:&quot;/ir/annual-report/2025/ar-ceo-letters&quot;,&quot;ctaTitle&quot;:&quot;Chairman and CEO Letter to Shareholders&quot;,&quot;ctaComponentName&quot;:&quot;Expanded Column Links&quot;}}\" href=\"/ir/annual-report/2025/ar-ceo-letters\">\n        <span class=\"link-text\">Learn more</span>\n\n        \n            \n  \n  \n  <span class=\"icon small\" data-icon=\"\uf061\"></span>\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n        \n    </a>",
+        "<a aria-label=\"An Ohio-based company is protecting first responders around the world,Learn more\" class=\"link\" data-cmp-clickable=\"\" data-cmp-data-layer=\"{&quot;event&quot;:&quot;cmp:click&quot;,&quot;webInteraction&quot;:{&quot;ctaType&quot;:&quot;link&quot;,&quot;ctaText&quot;:&quot;Learn more&quot;,&quot;ctaUrl&quot;:&quot;/newsroom/stories/ohio-based-company-protecting-first-responders-around-world&quot;,&quot;ctaTitle&quot;:&quot;An Ohio-based company is protecting first responders around the world&quot;,&quot;ctaComponentName&quot;:&quot;Expanded Column Links&quot;}}\" href=\"/newsroom/stories/ohio-based-company-protecting-first-responders-around-world\">\n        <span class=\"link-text\">Learn more</span>\n\n        \n            \n  \n  \n  <span class=\"icon small\" data-icon=\"\uf061\"></span>\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n        \n    </a>"
+      ],
+      "sample_text": [
+        "\n        Learn more\n\n        \n            \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n",
+        "\n        Learn more\n\n        \n            \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n\n"
+      ]
+    },
+    {
+      "selector": "h3.link-group-header",
+      "count": 16,
+      "sample_html": [
+        "<h3 class=\"link-group-header\"><a class=\"header-link nav-link__item two\" data-cmp-data-layer=\"{&quot;event&quot;:&quot;cmp:click&quot;,&quot;webInteraction&quot;:{&quot;ctaType&quot;:&quot;link&quot;,&quot;ctaText&quot;:&quot;How we do business&quot;,&quot;ctaUrl&quot;:&quot;/about/business-principles&quot;,&quot;ctaTitle&quot;:&quot;&quot;,&quot;ctaComponentName&quot;:&quot;Link Set&quot;}}\" data-cmp-clickable=\"\" href=\"/about/business-principles\" target=\"_self\"><span class=\"icon icon-16\" data-icon=\"\uf061\"></span>\n                    How we do business\n                </a></h3>",
+        "<h3 class=\"link-group-header\"><a class=\"header-link nav-link__item two\" data-cmp-data-layer=\"{&quot;event&quot;:&quot;cmp:click&quot;,&quot;webInteraction&quot;:{&quot;ctaType&quot;:&quot;link&quot;,&quot;ctaText&quot;:&quot;Leadership&quot;,&quot;ctaUrl&quot;:&quot;/about/leadership&quot;,&quot;ctaTitle&quot;:&quot;&quot;,&quot;ctaComponentName&quot;:&quot;Link Set&quot;}}\" data-cmp-clickable=\"\" href=\"/about/leadership\" target=\"_self\"><span class=\"icon icon-16\" data-icon=\"\uf061\"></span>\n                    Leadership\n                </a></h3>"
+      ],
+      "sample_text": [
+        "\n                    How we do business\n                ",
+        "\n                    Leadership\n                "
+      ]
+    },
+    {
+      "selector": "a.header-link.nav-link__item.two",
+      "count": 13,
+      "sample_html": [
+        "<a class=\"header-link nav-link__item two\" data-cmp-data-layer=\"{&quot;event&quot;:&quot;cmp:click&quot;,&quot;webInteraction&quot;:{&quot;ctaType&quot;:&quot;link&quot;,&quot;ctaText&quot;:&quot;How we do business&quot;,&quot;ctaUrl&quot;:&quot;/about/business-principles&quot;,&quot;ctaTitle&quot;:&quot;&quot;,&quot;ctaComponentName&quot;:&quot;Link Set&quot;}}\" data-cmp-clickable=\"\" href=\"/about/business-principles\" target=\"_self\"><span class=\"icon icon-16\" data-icon=\"\uf061\"></span>\n                    How we do business\n                </a>",
+        "<a class=\"header-link nav-link__item two\" data-cmp-data-layer=\"{&quot;event&quot;:&quot;cmp:click&quot;,&quot;webInteraction&quot;:{&quot;ctaType&quot;:&quot;link&quot;,&quot;ctaText&quot;:&quot;Leadership&quot;,&quot;ctaUrl&quot;:&quot;/about/leadership&quot;,&quot;ctaTitle&quot;:&quot;&quot;,&quot;ctaComponentName&quot;:&quot;Link Set&quot;}}\" data-cmp-clickable=\"\" href=\"/about/leadership\" target=\"_self\"><span class=\"icon icon-16\" data-icon=\"\uf061\"></span>\n                    Leadership\n                </a>"
+      ],
+      "sample_text": [
+        "\n                    How we do business\n                ",
+        "\n                    Leadership\n                "
+      ]
+    },
+    {
+      "selector": "li.link-set.aem-GridColumn.aem-GridColumn--default--12",
+      "count": 12,
+      "sample_html": [
+        "<li class=\"link-set aem-GridColumn aem-GridColumn--default--12\"><div class=\"primary-link-group  section-header-space\"><h3 class=\"link-group-header\"><a class=\"header-link nav-link__item two\" data-cmp-data-layer=\"{&quot;event&quot;:&quot;cmp:click&quot;,&quot;webInteraction&quot;:{&quot;ctaType&quot;:&quot;link&quot;,&quot;ctaText&quot;:&quot;How we do business&quot;,&quot;ctaUrl&quot;:&quot;/about/business-principles&quot;,&quot;ctaTitle&quot;:&quot;&quot;,&quot;ctaComponentName&quot;:&quot;Link Set&quot;}}\" data-cmp-clickable=\"\" href=\"/about/business-principles\" target=\"_self\"><span class=\"icon icon-16\" data-icon=\"\uf061\"></span>\n                    How we do business\n                </a></h3></div></li>",
+        "<li class=\"link-set aem-GridColumn aem-GridColumn--default--12\"><div class=\"primary-link-group  section-header-space\"><h3 class=\"link-group-header\"><a class=\"header-link nav-link__item two\" data-cmp-data-layer=\"{&quot;event&quot;:&quot;cmp:click&quot;,&quot;webInteraction&quot;:{&quot;ctaType&quot;:&quot;link&quot;,&quot;ctaText&quot;:&quot;Leadership&quot;,&quot;ctaUrl&quot;:&quot;/about/leadership&quot;,&quot;ctaTitle&quot;:&quot;&quot;,&quot;ctaComponentName&quot;:&quot;Link Set&quot;}}\" data-cmp-clickable=\"\" href=\"/about/leadership\" target=\"_self\"><span class=\"icon icon-16\" data-icon=\"\uf061\"></span>\n                    Leadership\n                </a></h3></div></li>"
+      ],
+      "sample_text": [
+        "\n                    How we do business\n                ",
+        "\n                    Leadership\n                "
+      ]
+    },
+    {
+      "selector": "div.primary-link-group.section-header-space",
+      "count": 12,
+      "sample_html": [
+        "<div class=\"primary-link-group  section-header-space\"><h3 class=\"link-group-header\"><a class=\"header-link nav-link__item two\" data-cmp-data-layer=\"{&quot;event&quot;:&quot;cmp:click&quot;,&quot;webInteraction&quot;:{&quot;ctaType&quot;:&quot;link&quot;,&quot;ctaText&quot;:&quot;How we do business&quot;,&quot;ctaUrl&quot;:&quot;/about/business-principles&quot;,&quot;ctaTitle&quot;:&quot;&quot;,&quot;ctaComponentName&quot;:&quot;Link Set&quot;}}\" data-cmp-clickable=\"\" href=\"/about/business-principles\" target=\"_self\"><span class=\"icon icon-16\" data-icon=\"\uf061\"></span>\n                    How we do business\n                </a></h3></div>",
+        "<div class=\"primary-link-group  section-header-space\"><h3 class=\"link-group-header\"><a class=\"header-link nav-link__item two\" data-cmp-data-layer=\"{&quot;event&quot;:&quot;cmp:click&quot;,&quot;webInteraction&quot;:{&quot;ctaType&quot;:&quot;link&quot;,&quot;ctaText&quot;:&quot;Leadership&quot;,&quot;ctaUrl&quot;:&quot;/about/leadership&quot;,&quot;ctaTitle&quot;:&quot;&quot;,&quot;ctaComponentName&quot;:&quot;Link Set&quot;}}\" data-cmp-clickable=\"\" href=\"/about/leadership\" target=\"_self\"><span class=\"icon icon-16\" data-icon=\"\uf061\"></span>\n                    Leadership\n                </a></h3></div>"
+      ],
+      "sample_text": [
+        "\n                    How we do business\n                ",
+        "\n                    Leadership\n                "
+      ]
+    }
+  ],
+  "page_title": "Careers | JPMorganChase",
+  "status": "ok",
+  "screenshot": "jpmorgan-chase.png"
+}

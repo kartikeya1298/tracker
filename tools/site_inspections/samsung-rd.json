@@ -1,0 +1,82 @@
+{
+  "slug": "samsung-rd",
+  "url": "https://www.samsung.com/in/careers/job-search/",
+  "keyword_candidates": [],
+  "structural_candidates": [
+    {
+      "selector": "li.footer-category__item",
+      "count": 49,
+      "sample_html": [
+        "<li class=\"footer-category__item\" role=\"listitem\">\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a class=\"footer-category__link\" href=\"/in/buy-direct-get-more/\" an-tr=\"nv01_footer sitemap--cta-menu\" an-ca=\"navigation\" an-ac=\"footer\" an-la=\"shop:buy direct get more\" aria-label=\"Buy Direct Get More Buy Direct Get More\" an-as=\"\" data-di-id=\"di-id-49be7db6-e9d81e36\">Buy Direct Get More</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</li>",
+        "<li class=\"footer-category__item\" role=\"listitem\">\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<a class=\"footer-category__link\" href=\"/in/smartthings/\" an-tr=\"nv01_footer sitemap--cta-menu\" an-ca=\"navigation\" an-ac=\"footer\" an-la=\"shop:smartthings\" aria-label=\"SmartThings SmartThings\" an-as=\"\" data-di-id=\"di-id-aa148325-f59f33e6\">SmartThings</a>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</li>"
+      ],
+      "sample_text": [
+        "Buy Direct Get More",
+        "SmartThings"
+      ]
+    },
+    {
+      "selector": "a.footer-category__link",
+      "count": 44,
+      "sample_html": [
+        "<a class=\"footer-category__link\" href=\"/in/buy-direct-get-more/\" an-tr=\"nv01_footer sitemap--cta-menu\" an-ca=\"navigation\" an-ac=\"footer\" an-la=\"shop:buy direct get more\" aria-label=\"Buy Direct Get More Buy Direct Get More\" an-as=\"\" data-di-id=\"di-id-49be7db6-e9d81e36\">Buy Direct Get More</a>",
+        "<a class=\"footer-category__link\" href=\"/in/smartthings/\" an-tr=\"nv01_footer sitemap--cta-menu\" an-ca=\"navigation\" an-ac=\"footer\" an-la=\"shop:smartthings\" aria-label=\"SmartThings SmartThings\" an-as=\"\" data-di-id=\"di-id-aa148325-f59f33e6\">SmartThings</a>"
+      ],
+      "sample_text": [
+        "Buy Direct Get More",
+        "SmartThings"
+      ]
+    },
+    {
+      "selector": "a.nv00-gnb-v4__l2-menu-link",
+      "count": 8,
+      "sample_html": [
+        "<a class=\"nv00-gnb-v4__l2-menu-link\" href=\"/in/tvs/2m-47cm-98-inch-tvs/\" role=\"menuitem\" an-tr=\"nv00_gnb-error-l1-navigation2\" an-ca=\"navigation\" an-ac=\"gnb\" an-la=\"L0_4_tv and av:L1_14_tvs by size:L2_2_98 inch tvs\" data-di-id=\"di-id-50d560c1-e236019f\">2.47 m (98) TVs</a>",
+        "<a class=\"nv00-gnb-v4__l2-menu-link\" href=\"/in/tvs/2m-16cm-85-inch-tvs/\" role=\"menuitem\" an-tr=\"nv00_gnb-error-l1-navigation2\" an-ca=\"navigation\" an-ac=\"gnb\" an-la=\"L0_4_tv and av:L1_14_tvs by size:L2_3_85 inch tvs\" data-di-id=\"di-id-50d560c1-e9cdbbcc\">2.14 m (85) TVs</a>"
+      ],
+      "sample_text": [
+        "2.47 m (98) TVs",
+        "2.14 m (85) TVs"
+      ]
+    },
+    {
+      "selector": "li.nv00-gnb-v4__l0-menu",
+      "count": 5,
+      "sample_html": [
+        "<li class=\"nv00-gnb-v4__l0-menu\">\n            <div class=\"nv00-gnb-v4__l0-menu-title\">\n                \n                \n                    \n                        <a class=\"nv00-gnb-v4__l0-menu-link\" an-tr=\"nv00_gnb-error-l0-navigation2\" an-ca=\"navigation\" an-ac=\"gnb\" an-la=\"L0_5_appliances\" href=\"/in/refrigerators/all-refrigerators/\" data-js-action=\"l0MenuBtn\" role=\"menuitem\" data-di-id=\"di-id-a9489056-1aa41425\">\n                            <span class=\"nv00-gnb-v4__l0-menu-text\">Appliances</span>\n                        </a>\n                        \n                            <button class=\"nv00-gnb-v4__l0-menu-toggle-btn\" role=\"menuitem\" an-tr=\"nv00_gnb-error-l0-navigation2\" an-ca=\"navigation\" an-ac=\"gnb\" an-la=\"L0_5_appliances\" aria-expanded=\"false\" aria-haspopup=\"true\" data-di-id=\"di-id-781a6edc-64026e0c\">\n                                <span class=\"hidden\">Appliances</span>\n                            </button>\n                        \n                    \n\n                    \n                \n            </div>\n            <!--  L1 Start -->\n            <div class=\"nv00-gnb-v4__l1-menu-container\" aria-hidden=\"true\">\n                <div class=\"nv00-gnb-v4__l1-menu-container-header nv00-gnb-v4--mobile-only\">\n                    \n                    \n                    \n                        <a href=\"/in/refrigerators/all-refrigerators/\" class=\"nv00-gnb-v4__l1-menu-container-title\" an-tr=\"nv00_gnb-error-l0-navigation2\" an-ca=\"navigation\" an-ac=\"gnb\" an-la=\"L0_5_",
+        "<li class=\"nv00-gnb-v4__l0-menu\">\n            <div class=\"nv00-gnb-v4__l0-menu-title\">\n                \n                \n                    \n                        <a class=\"nv00-gnb-v4__l0-menu-link\" an-tr=\"nv00_gnb-error-l0-navigation2\" an-ca=\"navigation\" an-ac=\"gnb\" an-la=\"L0_6_computers and monitors\" href=\"/in/computers/all-computers/\" data-js-action=\"l0MenuBtn\" role=\"menuitem\" data-di-id=\"di-id-414a3aad-60da9cf7\">\n                            <span class=\"nv00-gnb-v4__l0-menu-text\">Computers &amp; Monitors</span>\n                        </a>\n                        \n                            <button class=\"nv00-gnb-v4__l0-menu-toggle-btn\" role=\"menuitem\" an-tr=\"nv00_gnb-error-l0-navigation2\" an-ca=\"navigation\" an-ac=\"gnb\" an-la=\"L0_6_computers and monitors\" aria-expanded=\"false\" aria-haspopup=\"true\" data-di-id=\"di-id-ea37e3f7-e2652ea0\">\n                                <span class=\"hidden\">Computers &amp; Monitors</span>\n                            </button>\n                        \n                    \n\n                    \n                \n            </div>\n            <!--  L1 Start -->\n            <div class=\"nv00-gnb-v4__l1-menu-container\" aria-hidden=\"true\">\n                <div class=\"nv00-gnb-v4__l1-menu-container-header nv00-gnb-v4--mobile-only\">\n                    \n                    \n                    \n                        <a href=\"/in/computers/all-computers/\" class=\"nv00-gnb-v4__l1-menu-container-title\" an-tr=\"nv00_gnb-error-l0-navigation2\" an-ca=\""
+      ],
+      "sample_text": [
+        "Appliances\nAppliances",
+        "Computers & Monitors\nComputers & Monitors"
+      ]
+    },
+    {
+      "selector": "div.nv00-gnb-v4__l0-menu-title",
+      "count": 5,
+      "sample_html": [
+        "<div class=\"nv00-gnb-v4__l0-menu-title\">\n                \n                \n                    \n                        <a class=\"nv00-gnb-v4__l0-menu-link\" an-tr=\"nv00_gnb-error-l0-navigation2\" an-ca=\"navigation\" an-ac=\"gnb\" an-la=\"L0_5_appliances\" href=\"/in/refrigerators/all-refrigerators/\" data-js-action=\"l0MenuBtn\" role=\"menuitem\" data-di-id=\"di-id-a9489056-1aa41425\">\n                            <span class=\"nv00-gnb-v4__l0-menu-text\">Appliances</span>\n                        </a>\n                        \n                            <button class=\"nv00-gnb-v4__l0-menu-toggle-btn\" role=\"menuitem\" an-tr=\"nv00_gnb-error-l0-navigation2\" an-ca=\"navigation\" an-ac=\"gnb\" an-la=\"L0_5_appliances\" aria-expanded=\"false\" aria-haspopup=\"true\" data-di-id=\"di-id-781a6edc-64026e0c\">\n                                <span class=\"hidden\">Appliances</span>\n                            </button>\n                        \n                    \n\n                    \n                \n            </div>",
+        "<div class=\"nv00-gnb-v4__l0-menu-title\">\n                \n                \n                    \n                        <a class=\"nv00-gnb-v4__l0-menu-link\" an-tr=\"nv00_gnb-error-l0-navigation2\" an-ca=\"navigation\" an-ac=\"gnb\" an-la=\"L0_6_computers and monitors\" href=\"/in/computers/all-computers/\" data-js-action=\"l0MenuBtn\" role=\"menuitem\" data-di-id=\"di-id-414a3aad-60da9cf7\">\n                            <span class=\"nv00-gnb-v4__l0-menu-text\">Computers &amp; Monitors</span>\n                        </a>\n                        \n                            <button class=\"nv00-gnb-v4__l0-menu-toggle-btn\" role=\"menuitem\" an-tr=\"nv00_gnb-error-l0-navigation2\" an-ca=\"navigation\" an-ac=\"gnb\" an-la=\"L0_6_computers and monitors\" aria-expanded=\"false\" aria-haspopup=\"true\" data-di-id=\"di-id-ea37e3f7-e2652ea0\">\n                                <span class=\"hidden\">Computers &amp; Monitors</span>\n                            </button>\n                        \n                    \n\n                    \n                \n            </div>"
+      ],
+      "sample_text": [
+        "Appliances\nAppliances",
+        "Computers & Monitors\nComputers & Monitors"
+      ]
+    },
+    {
+      "selector": "a.nv00-gnb-v4__l0-menu-link",
+      "count": 5,
+      "sample_html": [
+        "<a class=\"nv00-gnb-v4__l0-menu-link\" an-tr=\"nv00_gnb-error-l0-navigation2\" an-ca=\"navigation\" an-ac=\"gnb\" an-la=\"L0_5_appliances\" href=\"/in/refrigerators/all-refrigerators/\" data-js-action=\"l0MenuBtn\" role=\"menuitem\" data-di-id=\"di-id-a9489056-1aa41425\">\n                            <span class=\"nv00-gnb-v4__l0-menu-text\">Appliances</span>\n                        </a>",
+        "<a class=\"nv00-gnb-v4__l0-menu-link\" an-tr=\"nv00_gnb-error-l0-navigation2\" an-ca=\"navigation\" an-ac=\"gnb\" an-la=\"L0_6_computers and monitors\" href=\"/in/computers/all-computers/\" data-js-action=\"l0MenuBtn\" role=\"menuitem\" data-di-id=\"di-id-414a3aad-60da9cf7\">\n                            <span class=\"nv00-gnb-v4__l0-menu-text\">Computers &amp; Monitors</span>\n                        </a>"
+      ],
+      "sample_text": [
+        "Appliances",
+        "Computers & Monitors"
+      ]
+    }
+  ],
+  "page_title": "error | Samsung India",
+  "status": "ok",
+  "screenshot": "samsung-rd.png"
+}

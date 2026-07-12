@@ -1,0 +1,6 @@
+{
+  "slug": "tcs",
+  "url": "https://ibegin.tcs.com/iBegin/jobs/search?searchText=data+scientist",
+  "status": "blocked_or_error",
+  "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://ibegin.tcs.com/iBegin/jobs/search?searchText=data+scientist\nCall log:\n  - navigating to \"https://ibegin.tcs.com/iBegin/jobs/search?searchText=data+scientist\", waiting until \"domcontentloaded\"\n"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "freshworks",
+  "url": "https://www.freshworks.com/company/careers/",
+  "keyword_candidates": [
+    {
+      "selector": "div.sc-ace17a57-0.fJkbQB.card-deck-items",
+      "count": 5,
+      "sample_html": [
+        "<div class=\"sc-ace17a57-0 fJkbQB card-deck-items\"><a href=\"https://www.freshworks.com/company/freshworks-mclaren-sponsorship/\" text-decoration=\"none\" class=\"sc-ace17a57-0 sc-54ff315d-1 hcBVVB lbgRkz\"><div width=\"342px\" height=\"100%\" class=\"sc-ace17a57-0 sc-54ff315d-0 goOGIj feuTwX\"><div width=\"100%\" height=\"228px\" class=\"sc-6293d692-0 sc-c656b9a2-0 ieZOAf iahLVW\"><div width=\"fit-content\" height=\"fit-content\" class=\"sc-6293d692-0 sc-fa706f9-0 ibCDcM\"><span style=\"box-sizing:border-box;display:block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:absolute;top:0;left:0;bottom:0;right:0\"><img alt=\"company-careers-spotlight-cards5-mclaren\" src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\"><noscript><img alt=\"company-careers-spotlight-cards5-mclaren\" sizes=\"100vw\" srcSet=\"/_next/image/?url=https%3A%2F%2Fdam.freshworks.com%2Fm%2F491e7597dbb8e43c%2Foriginal%2FCareers-spotlight-card-mclaren.webp&amp;w=640&amp;q=75 640w, /_next/image/?url=https%3A%2F%2Fdam.freshworks.com%2Fm%2F491e7597dbb8e43c%2Foriginal%2FCareers-spotlight-card-mclaren.webp&amp;w=750&amp;q=75 750w, /_next/image/?url=https%3A%2F%2Fdam.freshworks.com%2Fm%2F491e7597dbb8e43c%2F",
+        "<div class=\"sc-ace17a57-0 fJkbQB card-deck-items\"><a href=\"https://www.freshworks.com/theworks/life-at-freshworks/biryani-freshworks-culture/\" text-decoration=\"none\" class=\"sc-ace17a57-0 sc-54ff315d-1 hcBVVB lbgRkz\"><div width=\"342px\" height=\"100%\" class=\"sc-ace17a57-0 sc-54ff315d-0 goOGIj feuTwX\"><div width=\"100%\" height=\"228px\" class=\"sc-6293d692-0 sc-c656b9a2-0 ieZOAf iahLVW\"><div width=\"fit-content\" height=\"fit-content\" class=\"sc-6293d692-0 sc-fa706f9-0 ibCDcM\"><span style=\"box-sizing:border-box;display:block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:absolute;top:0;left:0;bottom:0;right:0\"><img alt=\"biryani-visual\" src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" decoding=\"async\" data-nimg=\"fill\" style=\"position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;object-fit:cover\"><noscript><img alt=\"biryani-visual\" sizes=\"100vw\" srcSet=\"/_next/image/?url=https%3A%2F%2Fdam.freshworks.com%2Fm%2F5b742000739eccc6%2Foriginal%2FCareers-spotlight-card-Craftsmanship-Biriyani.webp&amp;w=640&amp;q=75 640w, /_next/image/?url=https%3A%2F%2Fdam.freshworks.com%2Fm%2F5b742000739eccc6%2Foriginal%2FCareers-spotlight-card-Craftsmanship-Biriyani.webp&amp;w=750&amp;q=75 750w, /_next/image/?url=https%3A%2F%2Fdam.freshworks.com%2Fm%2F5b742000739eccc6%2Forigin"
+      ],
+      "sample_text": [
+        "Freshworks partners with McLaren Formula 1 team\n\nDiscover how Freshworks and McLaren Formula 1 team partner to win both on the racing grid and with customers. Learn how a shared culture of innovation ",
+        "Biryani as a metaphor for business success\n\nCraftsmanship is a core Freshworks value. That\u2019s never more true than on Biryani Wednesdays."
+      ]
+    }
+  ],
+  "structural_candidates": [
+    {
+      "selector": "li.sc-6293d692-0.djRePY",
+      "count": 19,
+      "sample_html": [
+        "<li class=\"sc-6293d692-0 djRePY\"><a href=\"https://www.freshworks.com/company/leadership/\" rel=\"\" target=\"\" text-decoration=\"none\" aria-label=\"https://www.freshworks.com/company/leadership/\" class=\"sc-e5af17da-0 dkyoQu\"><span class=\"sc-b323b31-0 daFHhm\">Leadership </span></a></li>",
+        "<li class=\"sc-6293d692-0 djRePY\"><a href=\"https://www.freshworks.com/theworks/\" rel=\"\" target=\"_self\" text-decoration=\"none\" aria-label=\"https://www.freshworks.com/theworks/\" class=\"sc-e5af17da-0 dkyoQu\"><span class=\"sc-b323b31-0 daFHhm\">Insights &amp; Trends </span></a></li>"
+      ],
+      "sample_text": [
+        "Leadership",
+        "Insights & Trends"
+      ]
+    },
+    {
+      "selector": "a.sc-e5af17da-0.dkyoQu",
+      "count": 19,
+      "sample_html": [
+        "<a href=\"https://www.freshworks.com/company/leadership/\" rel=\"\" target=\"\" text-decoration=\"none\" aria-label=\"https://www.freshworks.com/company/leadership/\" class=\"sc-e5af17da-0 dkyoQu\"><span class=\"sc-b323b31-0 daFHhm\">Leadership </span></a>",
+        "<a href=\"https://www.freshworks.com/theworks/\" rel=\"\" target=\"_self\" text-decoration=\"none\" aria-label=\"https://www.freshworks.com/theworks/\" class=\"sc-e5af17da-0 dkyoQu\"><span class=\"sc-b323b31-0 daFHhm\">Insights &amp; Trends </span></a>"
+      ],
+      "sample_text": [
+        "Leadership",
+        "Insights & Trends"
+      ]
+    },
+    {
+      "selector": "div.sc-6293d692-0.sc-3c19539-0.ehchgQ.emXzrX",
+      "count": 4,
+      "sample_html": [
+        "<div width=\"100%\" class=\"sc-6293d692-0 sc-3c19539-0 ehchgQ emXzrX\"><div id=\"hero\" class=\"sc-ace17a57-0 sc-74b7efbc-1 hSelVY fMveBn\"><div width=\"100%\" class=\"sc-ace17a57-0 emATfD\"><div class=\"sc-ace17a57-0 ebTzGm\"><span class=\"sc-b323b31-0 kvzPPc\">CAREERS AT FRESHWORKS</span><h1 class=\"sc-4555ca6a-0 blHRga\">We\u2019re here to <span class=\"sc-b323b31-0 sc-68fb63d9-0 ddyHxD fsrgBv\">uncomplicate work</span></h1><div font-size=\"20\" class=\"sc-ace17a57-0 gVahdV\"><p class=\"sc-5159831f-0 sc-e922639e-3 kpFdqv fHHaif\">Freshworks uncomplicates work for more than 70,000+ customers, from solo founders to global brands. We build AI-first tools that are simple, powerful and help businesses deliver results fast. At Freshworks, your work has real impact. </p><p class=\"sc-5159831f-0 sc-e922639e-3 kpFdqv fHHaif\">Ready to build what\u2019s next with us?<!-- -->\n</p><a class=\"MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary sc-605460f-0 sc-605460f-1 hWtKkA ikiqUA sc-3fa79300-0 fFwNii css-1lpwju1\" tabindex=\"0\" rel=\"noreferrer noopener\" target=\"_blank\" href=\"https://careers.smartrecruiters.com/Freshworks\" aria-label=\"Explore jobs\">Explore jobs</a></div></div><div display=\"flex\" width=\"100%\" visibility=\"visible\" class=\"sc-ace17a57-0 sc-74b7efbc-0 ewynLy\"><div width=\"fit-co",
+        "<div width=\"100%\" class=\"sc-6293d692-0 sc-3c19539-0 ehchgQ emXzrX\"><div class=\"sc-6293d692-0 kHAuLK card-grid-container\"><div class=\"sc-ace17a57-0 kspFUX\"><div class=\"sc-ace17a57-0 hUXMPH\"><h2 class=\"sc-4555ca6a-0 gagpJ\">Many opportunities. One mission: uncomplicate.</h2><div font-size=\"18\" class=\"sc-ace17a57-0 ktOlEP\"><p class=\"sc-5159831f-0 sc-e922639e-3 kpFdqv fHHaif\">Grow your career and shape the future of work.</p><a class=\"MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary sc-605460f-0 sc-605460f-1 fltWIj hXjDOu sc-3fa79300-0 fFwNii css-10abt3o\" tabindex=\"0\" rel=\"noreferrer noopener\" target=\"_blank\" href=\"https://careers.smartrecruiters.com/Freshworks\" aria-label=\"Explore all jobs\">Explore all jobs<span class=\"MuiButton-icon MuiButton-endIcon MuiButton-iconSizeMedium css-pt151d\"><div width=\"fit-content\" class=\"sc-ace17a57-0 hHzzAV\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line><polyline points=\"12 5 19 12 12 19\"></polyline></svg></div></span></a></div></div></div><div class=\"sc-ace17a57-0 sc-54acc5a0-0 hdnBCS eYxlzX\"><div class=\"sc-ace17a57-0 sc-54ff315d-1 ifpfSy lbgRkz\"><div width=\"342p"
+      ],
+      "sample_text": [
+        "CAREERS AT FRESHWORKS\nWe\u2019re here to uncomplicate work\n\nFreshworks uncomplicates work for more than 70,000+ customers, from solo founders to global brands. We build AI-first tools that are simple, powe",
+        "Many opportunities. One mission: uncomplicate.\n\nGrow your career and shape the future of work.\n\nExplore all jobs\nProduct & Engineering\n\nThe freedom to create game-changing technologies. The support to"
+      ]
+    }
+  ],
+  "page_title": "Freshworks Careers | Explore Job Opportunities at Freshworks",
+  "status": "ok",
+  "screenshot": "freshworks.png"
+}

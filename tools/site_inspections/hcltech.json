@@ -1,0 +1,6 @@
+{
+  "slug": "hcltech",
+  "url": "https://www.hcltech.com/careers/job-search?keywords=data+scientist",
+  "status": "blocked_or_error",
+  "error": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.hcltech.com/careers/job-search?keywords=data+scientist\nCall log:\n  - navigating to \"https://www.hcltech.com/careers/job-search?keywords=data+scientist\", waiting until \"domcontentloaded\"\n"
+}

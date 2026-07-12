@@ -1,0 +1,107 @@
+{
+  "slug": "sap",
+  "url": "https://jobs.sap.com/search/",
+  "keyword_candidates": [
+    {
+      "selector": "span.jobLocation",
+      "count": 51,
+      "sample_html": [
+        "<span class=\"jobLocation\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a id=\"hdrLocationButton\" role=\"button\" class=\"jobLocation sort\" href=\"/search/?q=&amp;sortColumn=sort_location&amp;sortDirection=desc#hdrLocationButton\">City\n\t\t\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t\t\t\t</span>",
+        "<span class=\"jobLocation\">\n            YY\n            \n        </span>"
+      ],
+      "sample_text": [
+        "City",
+        "\n            YY\n            \n        "
+      ]
+    },
+    {
+      "selector": "a.jobTitle-link",
+      "count": 50,
+      "sample_html": [
+        "<a href=\"/job/Senior-SAP-AI-Architect/1394007333/\" class=\"jobTitle-link\">Senior SAP AI Architect</a>",
+        "<a class=\"jobTitle-link\" href=\"/job/Senior-SAP-AI-Architect/1394007333/\">Senior SAP AI Architect</a>"
+      ],
+      "sample_text": [
+        "Senior SAP AI Architect",
+        "Senior SAP AI Architect"
+      ]
+    },
+    {
+      "selector": "span.jobTitle.hidden-phone",
+      "count": 25,
+      "sample_html": [
+        "<span class=\"jobTitle hidden-phone\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/job/Senior-SAP-AI-Architect/1394007333/\" class=\"jobTitle-link\">Senior SAP AI Architect</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>",
+        "<span class=\"jobTitle hidden-phone\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/job/Vienna-Senior-SAP-AI-Architect-1021/1394006333/\" class=\"jobTitle-link\">Senior SAP AI Architect</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>"
+      ],
+      "sample_text": [
+        "Senior SAP AI Architect",
+        "Senior SAP AI Architect"
+      ]
+    },
+    {
+      "selector": "div.jobdetail-phone.visible-phone",
+      "count": 25,
+      "sample_html": [
+        "<div class=\"jobdetail-phone visible-phone\">\n                                                                    <span class=\"jobTitle visible-phone\">\n                                                                        <a class=\"jobTitle-link\" href=\"/job/Senior-SAP-AI-Architect/1394007333/\">Senior SAP AI Architect</a>\n                                                                    </span>\n                                                                    <span class=\"jobLocation visible-phone\">\n        \n        <span class=\"jobLocation\">\n            YY\n            \n        </span></span>\n                                                    </div>",
+        "<div class=\"jobdetail-phone visible-phone\">\n                                                                    <span class=\"jobTitle visible-phone\">\n                                                                        <a class=\"jobTitle-link\" href=\"/job/Vienna-Senior-SAP-AI-Architect-1021/1394006333/\">Senior SAP AI Architect</a>\n                                                                    </span>\n                                                                    <span class=\"jobLocation visible-phone\">\n        \n        <span class=\"jobLocation\">\n            Vienna, AT, 1021\n            \n        </span></span>\n                                                    </div>"
+      ],
+      "sample_text": [
+        "\n                                                                    \n                                                                        Senior SAP AI Architect\n                                  ",
+        "\n                                                                    \n                                                                        Senior SAP AI Architect\n                                  "
+      ]
+    },
+    {
+      "selector": "span.jobTitle.visible-phone",
+      "count": 25,
+      "sample_html": [
+        "<span class=\"jobTitle visible-phone\">\n                                                                        <a class=\"jobTitle-link\" href=\"/job/Senior-SAP-AI-Architect/1394007333/\">Senior SAP AI Architect</a>\n                                                                    </span>",
+        "<span class=\"jobTitle visible-phone\">\n                                                                        <a class=\"jobTitle-link\" href=\"/job/Vienna-Senior-SAP-AI-Architect-1021/1394006333/\">Senior SAP AI Architect</a>\n                                                                    </span>"
+      ],
+      "sample_text": [
+        "\n                                                                        Senior SAP AI Architect\n                                                                    ",
+        "\n                                                                        Senior SAP AI Architect\n                                                                    "
+      ]
+    },
+    {
+      "selector": "span.jobLocation.visible-phone",
+      "count": 25,
+      "sample_html": [
+        "<span class=\"jobLocation visible-phone\">\n        \n        <span class=\"jobLocation\">\n            YY\n            \n        </span></span>",
+        "<span class=\"jobLocation visible-phone\">\n        \n        <span class=\"jobLocation\">\n            Vienna, AT, 1021\n            \n        </span></span>"
+      ],
+      "sample_text": [
+        "\n        \n        \n            YY\n            \n        ",
+        "\n        \n        \n            Vienna, AT, 1021\n            \n        "
+      ]
+    }
+  ],
+  "structural_candidates": [
+    {
+      "selector": "tr.data-row",
+      "count": 25,
+      "sample_html": [
+        "<tr class=\"data-row\">\n                                                <td class=\"colTitle\" headers=\"hdrTitle\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"jobTitle hidden-phone\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/job/Senior-SAP-AI-Architect/1394007333/\" class=\"jobTitle-link\">Senior SAP AI Architect</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n                                                    <div class=\"jobdetail-phone visible-phone\">\n                                                                    <span class=\"jobTitle visible-phone\">\n                                                                        <a class=\"jobTitle-link\" href=\"/job/Senior-SAP-AI-Architect/1394007333/\">Senior SAP AI Architect</a>\n                                                                    </span>\n                                                                    <span class=\"jobLocation visible-phone\">\n        \n        <span class=\"jobLocation\">\n            YY\n            \n        </span></span>\n                                                    </div>\n                                                </td>\n\t\t\t\t\t\t\t\t\t\t\t<td class=\"colLocation hidden-phone\" headers=\"hdrLocation\">\n        \n        <span class=\"jobLocation\">\n            YY\n            \n        </span>\n\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td class=\"hidden-phone\"></td>\n                            </tr>",
+        "<tr class=\"data-row\">\n                                                <td class=\"colTitle\" headers=\"hdrTitle\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"jobTitle hidden-phone\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/job/Vienna-Senior-SAP-AI-Architect-1021/1394006333/\" class=\"jobTitle-link\">Senior SAP AI Architect</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n                                                    <div class=\"jobdetail-phone visible-phone\">\n                                                                    <span class=\"jobTitle visible-phone\">\n                                                                        <a class=\"jobTitle-link\" href=\"/job/Vienna-Senior-SAP-AI-Architect-1021/1394006333/\">Senior SAP AI Architect</a>\n                                                                    </span>\n                                                                    <span class=\"jobLocation visible-phone\">\n        \n        <span class=\"jobLocation\">\n            Vienna, AT, 1021\n            \n        </span></span>\n                                                    </div>\n                                                </td>\n\t\t\t\t\t\t\t\t\t\t\t<td class=\"colLocation hidden-phone\" headers=\"hdrLocation\">\n        \n        <span class=\"jobLocation\">\n            Vienna, AT, 1021\n            \n        </span>\n\t\t\t\t\t\t\t\t\t\t\t</td>\n\t\t\t\t\t\t\t\t\t<td class=\"hidden-phone\"></td>\n                            </tr>"
+      ],
+      "sample_text": [
+        "Senior SAP AI Architect\n\tYY\t",
+        "Senior SAP AI Architect\n\tVienna, AT, 1021\t"
+      ]
+    },
+    {
+      "selector": "td.colTitle",
+      "count": 25,
+      "sample_html": [
+        "<td class=\"colTitle\" headers=\"hdrTitle\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"jobTitle hidden-phone\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/job/Senior-SAP-AI-Architect/1394007333/\" class=\"jobTitle-link\">Senior SAP AI Architect</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n                                                    <div class=\"jobdetail-phone visible-phone\">\n                                                                    <span class=\"jobTitle visible-phone\">\n                                                                        <a class=\"jobTitle-link\" href=\"/job/Senior-SAP-AI-Architect/1394007333/\">Senior SAP AI Architect</a>\n                                                                    </span>\n                                                                    <span class=\"jobLocation visible-phone\">\n        \n        <span class=\"jobLocation\">\n            YY\n            \n        </span></span>\n                                                    </div>\n                                                </td>",
+        "<td class=\"colTitle\" headers=\"hdrTitle\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"jobTitle hidden-phone\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"/job/Vienna-Senior-SAP-AI-Architect-1021/1394006333/\" class=\"jobTitle-link\">Senior SAP AI Architect</a>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n                                                    <div class=\"jobdetail-phone visible-phone\">\n                                                                    <span class=\"jobTitle visible-phone\">\n                                                                        <a class=\"jobTitle-link\" href=\"/job/Vienna-Senior-SAP-AI-Architect-1021/1394006333/\">Senior SAP AI Architect</a>\n                                                                    </span>\n                                                                    <span class=\"jobLocation visible-phone\">\n        \n        <span class=\"jobLocation\">\n            Vienna, AT, 1021\n            \n        </span></span>\n                                                    </div>\n                                                </td>"
+      ],
+      "sample_text": [
+        "Senior SAP AI Architect",
+        "Senior SAP AI Architect"
+      ]
+    }
+  ],
+  "page_title": "SAP Jobs",
+  "status": "ok",
+  "screenshot": "sap.png"
+}

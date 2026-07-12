@@ -1,0 +1,6 @@
+{
+  "slug": "zoho",
+  "url": "https://www.zoho.com/careers/openpositions.html",
+  "status": "blocked_or_error",
+  "error": "Page.evaluate: TypeError: Cannot read properties of undefined (reading 'call')\n    at k.botDetected (eval at <anonymous> (https://cdn-in.pagesense.io/js/7nbagtjv/a63a3daff87f4d33b6cffbe7a949ff5f.js:5:52956), <anonymous>:3:71505)\n    at h8 (eval at <anonymous> (https://cdn-in.pagesense.io/js/7nbagtjv/a63a3daff87f4d33b6cffbe7a949ff5f.js:5:52956), <anonymous>:3:67620)\n    at hJ.<computed>.<computed> [as querySelectorAll] (eval at <anonymous> (https://cdn-in.pagesense.io/js/7nbagtjv/a63a3daff87f4d33b6cffbe7a949ff5f.js:5:52956), <anonymous>:3:67791)\n    at eval (eval at evaluate (:234:30), <anonymous>:9:35)\n    at UtilityScript.evaluate (<anonymous>:241:19)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+}

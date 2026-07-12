@@ -1,0 +1,119 @@
+{
+  "slug": "accenture",
+  "url": "https://www.accenture.com/in-en/careers/jobsearch?jk=data%20scientist",
+  "keyword_candidates": [
+    {
+      "selector": "div.rad-filters-vertical__job-card",
+      "count": 12,
+      "sample_html": [
+        "<div class=\"rad-filters-vertical__job-card\"> <div class=\"rad-filters-vertical__job-card-header\"> <h3 class=\"rad-filters-vertical__job-card-title\">BI Engineering Specialist</h3> <button class=\"rad-filters-vertical__job-card-toggle rad-accordion-atom__toggle--animated rad-icon-button rad-icon-button--square rad-icon-button--square-universal\" aria-label=\"BI Engineering Specialist\" aria-controls=\"AIOC-S01638624_en.content\" aria-expanded=\"false\" data-cmp-data-layer=\"{&quot;job-card-expand-button-1&quot;:{&quot;xdm:linkURL&quot;:&quot;/in-en/careers/jobsearch&quot;,&quot;analytics-link-name&quot;:&quot;BI Engineering Specialist-expand&quot;,&quot;analytics-link-type&quot;: &quot;careers job search&quot;,&quot;analytics-engagement&quot;:&quot;false&quot;,&quot;analytics-module-name&quot;:&quot;jobsearchblockcard-1&quot;,&quot;analytics-template-zone&quot;:&quot;block-job-explore\u200b&quot;}}\"> <div class=\"rad-icon-button__text\">Expand job details</div> <div class=\"rad-accordion-atom__toggle-icon\" aria-hidden=\"true\"></div> </button> <div class=\"rad-filters-vertical__job-card-details\"> <span class=\"rad-filters-vertical__job-card-details-location\">Bengaluru</span> <span class=\"rad-filters-vertical__job-card-details-schedule\">Full time</span> <span class=\"rad-filters-vertical__job-card-details-type\">Experience: 5-10 years</span>  </div> </div> <div class=\"rad-filters-vertical__job-card-content-wrapper rad-accordion-atom__content-wrapper\" id=\"AIOC-S01638624_en.content\"> <div class=\"rad-filte",
+        "<div class=\"rad-filters-vertical__job-card\"> <div class=\"rad-filters-vertical__job-card-header\"> <h3 class=\"rad-filters-vertical__job-card-title\">Network &amp; Svcs Operation Analyst</h3> <button class=\"rad-filters-vertical__job-card-toggle rad-accordion-atom__toggle--animated rad-icon-button rad-icon-button--square rad-icon-button--square-universal\" aria-label=\"Network &amp; Svcs Operation Analyst\" aria-controls=\"AIOC-S01638456_en.content\" aria-expanded=\"false\" data-cmp-data-layer=\"{&quot;job-card-expand-button-2&quot;:{&quot;xdm:linkURL&quot;:&quot;/in-en/careers/jobsearch&quot;,&quot;analytics-link-name&quot;:&quot;Network &amp; Svcs Operation Analyst-expand&quot;,&quot;analytics-link-type&quot;: &quot;careers job search&quot;,&quot;analytics-engagement&quot;:&quot;false&quot;,&quot;analytics-module-name&quot;:&quot;jobsearchblockcard-2&quot;,&quot;analytics-template-zone&quot;:&quot;block-job-explore\u200b&quot;}}\"> <div class=\"rad-icon-button__text\">Expand job details</div> <div class=\"rad-accordion-atom__toggle-icon\" aria-hidden=\"true\"></div> </button> <div class=\"rad-filters-vertical__job-card-details\"> <span class=\"rad-filters-vertical__job-card-details-location\">Navi Mumbai</span> <span class=\"rad-filters-vertical__job-card-details-schedule\">Full time</span> <span class=\"rad-filters-vertical__job-card-details-type\">Experience: 2-5 years</span>  </div> </div> <div class=\"rad-filters-vertical__job-card-content-wrapper rad-accordion-atom__content-wrapper\" id=\"AIOC-S01638456_"
+      ],
+      "sample_text": [
+        "BI Engineering Specialist\nExpand job details\nBengaluru\nFull time\nExperience: 5-10 years",
+        "Network & Svcs Operation Analyst\nExpand job details\nNavi Mumbai\nFull time\nExperience: 2-5 years"
+      ]
+    },
+    {
+      "selector": "div.rad-filters-vertical__job-card-header",
+      "count": 12,
+      "sample_html": [
+        "<div class=\"rad-filters-vertical__job-card-header\"> <h3 class=\"rad-filters-vertical__job-card-title\">BI Engineering Specialist</h3> <button class=\"rad-filters-vertical__job-card-toggle rad-accordion-atom__toggle--animated rad-icon-button rad-icon-button--square rad-icon-button--square-universal\" aria-label=\"BI Engineering Specialist\" aria-controls=\"AIOC-S01638624_en.content\" aria-expanded=\"false\" data-cmp-data-layer=\"{&quot;job-card-expand-button-1&quot;:{&quot;xdm:linkURL&quot;:&quot;/in-en/careers/jobsearch&quot;,&quot;analytics-link-name&quot;:&quot;BI Engineering Specialist-expand&quot;,&quot;analytics-link-type&quot;: &quot;careers job search&quot;,&quot;analytics-engagement&quot;:&quot;false&quot;,&quot;analytics-module-name&quot;:&quot;jobsearchblockcard-1&quot;,&quot;analytics-template-zone&quot;:&quot;block-job-explore\u200b&quot;}}\"> <div class=\"rad-icon-button__text\">Expand job details</div> <div class=\"rad-accordion-atom__toggle-icon\" aria-hidden=\"true\"></div> </button> <div class=\"rad-filters-vertical__job-card-details\"> <span class=\"rad-filters-vertical__job-card-details-location\">Bengaluru</span> <span class=\"rad-filters-vertical__job-card-details-schedule\">Full time</span> <span class=\"rad-filters-vertical__job-card-details-type\">Experience: 5-10 years</span>  </div> </div>",
+        "<div class=\"rad-filters-vertical__job-card-header\"> <h3 class=\"rad-filters-vertical__job-card-title\">Network &amp; Svcs Operation Analyst</h3> <button class=\"rad-filters-vertical__job-card-toggle rad-accordion-atom__toggle--animated rad-icon-button rad-icon-button--square rad-icon-button--square-universal\" aria-label=\"Network &amp; Svcs Operation Analyst\" aria-controls=\"AIOC-S01638456_en.content\" aria-expanded=\"false\" data-cmp-data-layer=\"{&quot;job-card-expand-button-2&quot;:{&quot;xdm:linkURL&quot;:&quot;/in-en/careers/jobsearch&quot;,&quot;analytics-link-name&quot;:&quot;Network &amp; Svcs Operation Analyst-expand&quot;,&quot;analytics-link-type&quot;: &quot;careers job search&quot;,&quot;analytics-engagement&quot;:&quot;false&quot;,&quot;analytics-module-name&quot;:&quot;jobsearchblockcard-2&quot;,&quot;analytics-template-zone&quot;:&quot;block-job-explore\u200b&quot;}}\"> <div class=\"rad-icon-button__text\">Expand job details</div> <div class=\"rad-accordion-atom__toggle-icon\" aria-hidden=\"true\"></div> </button> <div class=\"rad-filters-vertical__job-card-details\"> <span class=\"rad-filters-vertical__job-card-details-location\">Navi Mumbai</span> <span class=\"rad-filters-vertical__job-card-details-schedule\">Full time</span> <span class=\"rad-filters-vertical__job-card-details-type\">Experience: 2-5 years</span>  </div> </div>"
+      ],
+      "sample_text": [
+        "BI Engineering Specialist\nExpand job details\nBengaluru\nFull time\nExperience: 5-10 years",
+        "Network & Svcs Operation Analyst\nExpand job details\nNavi Mumbai\nFull time\nExperience: 2-5 years"
+      ]
+    },
+    {
+      "selector": "h3.rad-filters-vertical__job-card-title",
+      "count": 12,
+      "sample_html": [
+        "<h3 class=\"rad-filters-vertical__job-card-title\">BI Engineering Specialist</h3>",
+        "<h3 class=\"rad-filters-vertical__job-card-title\">Network &amp; Svcs Operation Analyst</h3>"
+      ],
+      "sample_text": [
+        "BI Engineering Specialist",
+        "Network & Svcs Operation Analyst"
+      ]
+    },
+    {
+      "selector": "button.rad-filters-vertical__job-card-toggle.rad-accordion-atom__toggle--animated.rad-icon-button.rad-icon-button--square.rad-icon-button--square-universal",
+      "count": 12,
+      "sample_html": [
+        "<button class=\"rad-filters-vertical__job-card-toggle rad-accordion-atom__toggle--animated rad-icon-button rad-icon-button--square rad-icon-button--square-universal\" aria-label=\"BI Engineering Specialist\" aria-controls=\"AIOC-S01638624_en.content\" aria-expanded=\"false\" data-cmp-data-layer=\"{&quot;job-card-expand-button-1&quot;:{&quot;xdm:linkURL&quot;:&quot;/in-en/careers/jobsearch&quot;,&quot;analytics-link-name&quot;:&quot;BI Engineering Specialist-expand&quot;,&quot;analytics-link-type&quot;: &quot;careers job search&quot;,&quot;analytics-engagement&quot;:&quot;false&quot;,&quot;analytics-module-name&quot;:&quot;jobsearchblockcard-1&quot;,&quot;analytics-template-zone&quot;:&quot;block-job-explore\u200b&quot;}}\"> <div class=\"rad-icon-button__text\">Expand job details</div> <div class=\"rad-accordion-atom__toggle-icon\" aria-hidden=\"true\"></div> </button>",
+        "<button class=\"rad-filters-vertical__job-card-toggle rad-accordion-atom__toggle--animated rad-icon-button rad-icon-button--square rad-icon-button--square-universal\" aria-label=\"Network &amp; Svcs Operation Analyst\" aria-controls=\"AIOC-S01638456_en.content\" aria-expanded=\"false\" data-cmp-data-layer=\"{&quot;job-card-expand-button-2&quot;:{&quot;xdm:linkURL&quot;:&quot;/in-en/careers/jobsearch&quot;,&quot;analytics-link-name&quot;:&quot;Network &amp; Svcs Operation Analyst-expand&quot;,&quot;analytics-link-type&quot;: &quot;careers job search&quot;,&quot;analytics-engagement&quot;:&quot;false&quot;,&quot;analytics-module-name&quot;:&quot;jobsearchblockcard-2&quot;,&quot;analytics-template-zone&quot;:&quot;block-job-explore\u200b&quot;}}\"> <div class=\"rad-icon-button__text\">Expand job details</div> <div class=\"rad-accordion-atom__toggle-icon\" aria-hidden=\"true\"></div> </button>"
+      ],
+      "sample_text": [
+        "Expand job details",
+        "Expand job details"
+      ]
+    },
+    {
+      "selector": "div.rad-filters-vertical__job-card-details",
+      "count": 12,
+      "sample_html": [
+        "<div class=\"rad-filters-vertical__job-card-details\"> <span class=\"rad-filters-vertical__job-card-details-location\">Bengaluru</span> <span class=\"rad-filters-vertical__job-card-details-schedule\">Full time</span> <span class=\"rad-filters-vertical__job-card-details-type\">Experience: 5-10 years</span>  </div>",
+        "<div class=\"rad-filters-vertical__job-card-details\"> <span class=\"rad-filters-vertical__job-card-details-location\">Navi Mumbai</span> <span class=\"rad-filters-vertical__job-card-details-schedule\">Full time</span> <span class=\"rad-filters-vertical__job-card-details-type\">Experience: 2-5 years</span>  </div>"
+      ],
+      "sample_text": [
+        "Bengaluru\nFull time\nExperience: 5-10 years",
+        "Navi Mumbai\nFull time\nExperience: 2-5 years"
+      ]
+    },
+    {
+      "selector": "span.rad-filters-vertical__job-card-details-location",
+      "count": 12,
+      "sample_html": [
+        "<span class=\"rad-filters-vertical__job-card-details-location\">Bengaluru</span>",
+        "<span class=\"rad-filters-vertical__job-card-details-location\">Navi Mumbai</span>"
+      ],
+      "sample_text": [
+        "Bengaluru",
+        "Navi Mumbai"
+      ]
+    }
+  ],
+  "structural_candidates": [
+    {
+      "selector": "li.rad-footer__link-item",
+      "count": 7,
+      "sample_html": [
+        "<li class=\"rad-footer__link-item\"><a href=\"/in-en/about/contact-us\" class=\"rad-footer__link\" data-cmp-clickable=\"\" data-cmp-data-layer=\"{&quot;footerblock_copy_246465452-item1-1fab5ec61b&quot;:{&quot;xdm:linkURL&quot;:&quot;/in-en/about/contact-us&quot;,&quot;analytics-engagement&quot;:&quot;false&quot;,&quot;analytics-link-type&quot;:&quot;footer&quot;,&quot;analytics-link-name&quot;:&quot;Contact Us&quot;}}\" aria-label=\"Contact Us\" target=\"_self\">Contact Us</a></li>",
+        "<li class=\"rad-footer__link-item\"><a href=\"/in-en/support/privacy-policy\" class=\"rad-footer__link\" data-cmp-clickable=\"\" data-cmp-data-layer=\"{&quot;footerblock_copy_246465452-item3-d95970a380&quot;:{&quot;xdm:linkURL&quot;:&quot;/in-en/support/privacy-policy&quot;,&quot;analytics-engagement&quot;:&quot;false&quot;,&quot;analytics-link-type&quot;:&quot;footer&quot;,&quot;analytics-link-name&quot;:&quot;Privacy Statement&quot;}}\" aria-label=\"Privacy Statement\" target=\"_self\">Privacy Statement</a></li>"
+      ],
+      "sample_text": [
+        "Contact Us",
+        "Privacy Statement"
+      ]
+    },
+    {
+      "selector": "a.rad-footer__link",
+      "count": 7,
+      "sample_html": [
+        "<a href=\"/in-en/about/contact-us\" class=\"rad-footer__link\" data-cmp-clickable=\"\" data-cmp-data-layer=\"{&quot;footerblock_copy_246465452-item1-1fab5ec61b&quot;:{&quot;xdm:linkURL&quot;:&quot;/in-en/about/contact-us&quot;,&quot;analytics-engagement&quot;:&quot;false&quot;,&quot;analytics-link-type&quot;:&quot;footer&quot;,&quot;analytics-link-name&quot;:&quot;Contact Us&quot;}}\" aria-label=\"Contact Us\" target=\"_self\">Contact Us</a>",
+        "<a href=\"/in-en/support/privacy-policy\" class=\"rad-footer__link\" data-cmp-clickable=\"\" data-cmp-data-layer=\"{&quot;footerblock_copy_246465452-item3-d95970a380&quot;:{&quot;xdm:linkURL&quot;:&quot;/in-en/support/privacy-policy&quot;,&quot;analytics-engagement&quot;:&quot;false&quot;,&quot;analytics-link-type&quot;:&quot;footer&quot;,&quot;analytics-link-name&quot;:&quot;Privacy Statement&quot;}}\" aria-label=\"Privacy Statement\" target=\"_self\">Privacy Statement</a>"
+      ],
+      "sample_text": [
+        "Contact Us",
+        "Privacy Statement"
+      ]
+    },
+    {
+      "selector": "a.subnav-bar__link",
+      "count": 6,
+      "sample_html": [
+        "<a class=\"subnav-bar__link\" data-cmp-data-layer=\"{&quot;subnavigation-item0-accenture-link-7ef287d8e0&quot;:{&quot;xdm:linkURL&quot;:&quot;/in-en/careers/jobsearch&quot;,&quot;analytics-engagement&quot;:&quot;true&quot;,&quot;analytics-link-type&quot;:&quot;engagement&quot;,&quot;analytics-link-name&quot;:&quot;Job Search&quot;,&quot;data-job-search-referrer&quot;:&quot;content module link&quot;}}\" data-cmp-clickable=\"\" aria-label=\"Job Search\" target=\"_self\" data-barba-transition=\"\" href=\"/in-en/careers/jobsearch\">\n\t\t\t\t\t\t\t<span class=\"rad-subnav-bar__link-text\">Job Search</span>\n\t\t\t\t\t\t</a>",
+        "<a class=\"subnav-bar__link\" data-cmp-data-layer=\"{&quot;subnavigation-item1-accenture-link-f12c712cb5&quot;:{&quot;xdm:linkURL&quot;:&quot;/in-en/careers/saved-jobs&quot;,&quot;analytics-engagement&quot;:&quot;true&quot;,&quot;analytics-link-type&quot;:&quot;engagement&quot;,&quot;analytics-link-name&quot;:&quot;Saved Jobs&quot;}}\" data-cmp-clickable=\"\" aria-label=\"Saved Jobs\" target=\"_self\" data-barba-transition=\"\" href=\"/in-en/careers/saved-jobs\">\n\t\t\t\t\t\t\t<span class=\"rad-subnav-bar__link-text\">Saved Jobs</span>\n\t\t\t\t\t\t</a>"
+      ],
+      "sample_text": [
+        "Job Search",
+        "Saved Jobs"
+      ]
+    }
+  ],
+  "page_title": "Search Jobs | Accenture",
+  "status": "ok",
+  "screenshot": "accenture.png"
+}
