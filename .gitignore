@@ -25,3 +25,6 @@ data/resume.txt
 
 # OS
 .DS_Store
+
+# Local career-site inspection output (tools/inspect_career_sites.py)
+tools/site_inspections/

@@ -83,14 +83,35 @@ early-careers Workday site) with a platform + identifier. Two tiers:
   enterprises on custom-branded career sites, plus a few on SAP SuccessFactors /
   Oracle Recruiting Cloud. Their exact page structure can't be guessed reliably
   without inspecting the live, rendered page — and that step can't be automated from
-  this environment (its network policy returns 403 on direct fetches to these
-  domains, even though search works). Each entry has the correct `careers_url` and a
-  *template* config for `GenericPlaywrightScraper` (`app/scrapers/generic.py`). To
-  activate one:
-  1. Open the company's `careers_url` in a browser, search for a target role (e.g.
-     "data scientist"), and inspect the listing markup (dev tools → Elements).
-  2. Update that company's `identifier` JSON in `registry.py` with the real
-     `item_selector` / `title_selector` / `location_selector` / `link_selector`.
+  a Claude Code sandbox (its network policy allows only a small domain allowlist;
+  confirmed by testing plain HTTPS fetches, including to sites with no bot
+  protection at all, which also failed — this is a sandbox network restriction, not
+  per-site blocking). Each entry has the correct `careers_url` and a *template*
+  config for `GenericPlaywrightScraper` (`app/scrapers/generic.py`).
+
+  **`tools/inspect_career_sites.py`** automates the discovery step from a machine
+  that *does* have normal internet access (yours). It opens each unconfigured career
+  site in a real Chromium, and instead of dumping the full page HTML (too noisy to
+  act on), it scans for repeated "job card" DOM patterns — grouping elements by
+  tag+class, first by career/job/listing-related class-name keywords, then (for
+  sites using hashed CSS-in-JS classnames, where keyword matching finds nothing) by
+  "repeated element wrapping a title-length link." It also checks Qualcomm's
+  ambiguous Workday subdomain directly against the real CxS API rather than
+  guessing.
+
+  ```bash
+  cd tools
+  pip install -r requirements.txt
+  playwright install chromium
+  python inspect_career_sites.py              # all ~39 sites, headed browser
+  python inspect_career_sites.py --only zoho,ibm,gocomet   # just a few
+  ```
+
+  This writes `tools/site_inspections/<slug>.json` (candidate selectors + HTML
+  snippets + a screenshot) per company and a `summary.json` across all of them.
+  Share that output back and the real `item_selector`/`title_selector`/
+  `location_selector`/`link_selector` values get written into `registry.py`
+  directly from the candidates — no more guessing.
 
 This mirrors how a real deployment is bootstrapped: platform + URL is known on day
 one, selectors get filled in per-target during onboarding, and adapters degrade
