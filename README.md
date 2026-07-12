@@ -45,30 +45,45 @@ scheduler automatically. Trigger an out-of-band scan any time with:
 curl -X POST http://localhost:8000/api/jobs/scrape-now
 ```
 
-## Deploy to Render (no local machine needed)
+## Deploy to Render — $0/month, no local machine needed
 
 `render.yaml` is a [Blueprint](https://render.com/docs/infrastructure-as-code) that
-deploys the whole app (Postgres + backend + frontend — Redis is skipped, since
-nothing in the code actually connects to it) with no terminal required: on
-render.com, **New → Blueprint**, connect this repo, **Apply**. After the first
-deploy finishes, open the backend service's **Environment** tab and fill in
-`ANTHROPIC_API_KEY` and the `SMTP_*` vars (left blank in the blueprint on purpose —
-secrets don't belong in a repo file); `NOTIFICATION_TO_EMAILS` needs the JSON-list
-format, e.g. `["you@example.com"]`. The dashboard is then reachable from any
-browser, phone included, at the frontend service's `https://*.onrender.com` URL.
+deploys the backend + frontend (Redis is skipped, since nothing in the code
+actually connects to it) with no terminal required.
 
-Two free-tier caveats worth knowing before relying on this long-term:
+**1. Get a free Postgres database that won't get deleted.** Render's own free
+Postgres expires and is deleted after 30 days, so this Blueprint doesn't provision
+one. Instead, create a free project at [neon.tech](https://neon.tech) (no credit
+card, 0.5 GB, genuinely permanent — not a trial) or [supabase.com](https://supabase.com)
+and copy its connection string (`postgresql://...`). Both work fine from a phone
+browser, no CLI.
 
-- **The free Postgres plan expires 30 days after creation** (14-day grace period to
-  upgrade before deletion) — fine for trying it out, but upgrade to a paid instance
-  (Render's cheapest paid Postgres tier) if you want your bookmarks/application
-  tracker to survive past a month.
-- **Free web services spin down after ~15 minutes idle**, which pauses the
-  in-process 15-minute scheduler along with everything else — the app wakes back
-  up on the next request (~30-60s delay), but won't scrape on schedule while
-  nobody's visiting. A free external uptime pinger (e.g. UptimeRobot hitting
-  `/api/health` every 10 minutes) keeps it awake, or use a paid "Starter" instance
-  for a service that never sleeps.
+**2. Deploy the Blueprint.** On render.com: **New → Blueprint**, connect this repo,
+**Apply**. Once it finishes, open the backend service's **Environment** tab and
+paste your connection string into `DATABASE_URL` (any `postgres://` or
+`postgresql://` URL works — `database.py` normalizes the scheme automatically).
+
+**3. (Optional) AI features.** Leave `ANTHROPIC_API_KEY` blank to keep this
+entirely free — the app still fully works (matching, filtering, dashboard,
+bookmarks, application tracker, and even skill extraction via a keyword list all
+function without it); you only lose AI-generated summaries and the resume-match
+score. Set it later if you want those and don't mind Anthropic's pay-per-use API
+cost. Same for `SMTP_*` — leave blank to skip email alerts, jobs still populate the
+dashboard; `NOTIFICATION_TO_EMAILS` needs the JSON-list format if you do set it,
+e.g. `["you@example.com"]`.
+
+The dashboard is then reachable from any browser, phone included, at the frontend
+service's `https://*.onrender.com` URL — with the above, that's **$0/month
+indefinitely**, not just during a trial period.
+
+One trade-off worth knowing: **free web services spin down after ~15 minutes
+idle**, which pauses the in-process 15-minute scheduler along with everything else
+— the app wakes back up on the next request (~30-60s delay), but won't scrape on
+schedule while nobody's visiting. This costs nothing to work around: a free
+external uptime pinger (e.g. UptimeRobot hitting `/api/health` every 10 minutes)
+keeps it awake around the clock. The only way to eliminate the delay *and* the
+pinger workaround is a paid "Starter" instance (~$7/month) that never sleeps —
+not required for "free," just for zero wake-up latency.
 
 The frontend's `next.config.mjs` proxies `/api/*` to the backend server-side via a
 runtime-only `BACKEND_INTERNAL_URL` env var — this sidesteps Next.js's normal

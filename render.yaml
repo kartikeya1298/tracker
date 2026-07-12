@@ -1,17 +1,19 @@
-# Render Blueprint - deploys this app with one click from render.com, no local
-# terminal needed. On render.com: New -> Blueprint -> connect this repo -> Apply.
-# After the first deploy, open the "Environment" tab on the backend service and
-# fill in ANTHROPIC_API_KEY / SMTP_* (left blank here on purpose - see below).
+# Render Blueprint - deploys this app with no local terminal needed. On
+# render.com: New -> Blueprint -> connect this repo -> Apply. After the first
+# deploy, open the "Environment" tab on the backend service and fill in
+# DATABASE_URL / ANTHROPIC_API_KEY / SMTP_* (left blank here on purpose - see
+# below and the README's "Deploy to Render" section).
 #
-# Redis is intentionally not provisioned: REDIS_URL is declared in
+# No database resource is declared here on purpose: Render's own free Postgres
+# expires and gets deleted after 30 days. Point DATABASE_URL at a free Neon
+# (neon.tech) or Supabase project instead - both have a genuinely non-expiring
+# free Postgres tier, so your job history/bookmarks/application tracker actually
+# survives past a month at zero cost. Render's own paid Postgres works too if
+# you'd rather keep everything on one platform.
+#
+# Redis is intentionally not provisioned either: REDIS_URL is declared in
 # backend/app/config.py but never actually connected to anywhere in the app, so
 # there's nothing here for it to do.
-databases:
-  - name: ds-career-tracker-db
-    databaseName: career_tracker
-    user: tracker
-    plan: free
-
 services:
   - type: web
     name: ds-career-tracker-backend
@@ -21,10 +23,11 @@ services:
     plan: free
     healthCheckPath: /api/health
     envVars:
+      # Paste a Neon/Supabase/Render-Postgres connection string here after the
+      # first deploy. Any postgres://... or postgresql://... URL works -
+      # database.py normalizes the scheme to the psycopg3 driver this app uses.
       - key: DATABASE_URL
-        fromDatabase:
-          name: ds-career-tracker-db
-          property: connectionString
+        sync: false
       - key: SECRET_KEY
         generateValue: true
       - key: CORS_ORIGINS
