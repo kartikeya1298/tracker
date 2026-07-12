@@ -80,7 +80,10 @@ CUSTOM_SITES: list[tuple[str, str]] = [
     # the public candidate site. jobs.ericsson.com/careers is the real public one.
     ("ericsson", "https://jobs.ericsson.com/careers?query=data+scientist"),
     ("oracle", "https://careers.oracle.com/en/sites/jobsearch/jobs"),
-    ("google", "https://www.google.com/about/careers/applications/jobs/results?q=data%20scientist"),
+    # Missing the trailing slash before the query string - confirmed via a real user
+    # search that the live URL is .../jobs/results/?q=... (with slash), which likely
+    # matters for the client-side router picking up the query param at all.
+    ("google", "https://www.google.com/about/careers/applications/jobs/results/?q=Data+Scientist&hl=en-GB"),
     ("cisco", "https://jobs.cisco.com/jobs/SearchJobs/data%2520scientist"),
     ("ibm", "https://www.ibm.com/careers/search?field_keyword_18[0]=Data%20and%20AI"),
     ("intel", "https://jobs.intel.com/en/search-jobs?k=data%20scientist"),

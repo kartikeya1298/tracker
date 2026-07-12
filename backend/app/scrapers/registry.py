@@ -96,11 +96,22 @@ COMPANIES: list[dict] = [
      }), "careers_url": "https://jobs.siemens.com/en_US/externaljobs/SearchJobs", "verified": True},
     {"name": "Bosch", "slug": "bosch", "platform": ATSPlatform.SUCCESSFACTORS,
      "identifier": _custom("https://jobs.bosch.com/en/"), "careers_url": "https://jobs.bosch.com/en/", "verified": False},
-    # Ericsson: confirmed on SuccessFactors; pointed directly at the real SuccessFactors
-    # instance (career2.successfactors.eu) rather than the jobs.ericsson.com wrapper, since the
-    # instance URL is more likely to have a stable, inspectable listing DOM.
+    # Ericsson: the career2.successfactors.eu URL from an earlier round turned out to
+    # be a login-gated internal portal (redirects to a Microsoft/Azure AD sign-in
+    # screen), not the public site - jobs.ericsson.com/careers is the real one, and
+    # (despite the SUCCESSFACTORS platform label) runs the exact same card-grid
+    # template as Microsoft's career site (data-test-id="job-listing", hashed
+    # "title-XXXXX" classnames) - likely a shared white-label HR-tech vendor, not
+    # actually SuccessFactors-branded on the frontend.
     {"name": "Ericsson", "slug": "ericsson", "platform": ATSPlatform.SUCCESSFACTORS,
-     "identifier": _custom("https://career2.successfactors.eu/careers?company=Ericsson"), "careers_url": "https://jobs.ericsson.com/careers", "verified": False},
+     "identifier": json.dumps({
+         "url": "https://jobs.ericsson.com/careers?query=data+scientist",
+         "item_selector": "[data-test-id='job-listing']",
+         "title_selector": "div[class*='title-']",
+         "location_selector": "div[class*='fieldValue-']",
+         "link_selector": "a.r-link",
+         "link_attr": "href",
+     }), "careers_url": "https://jobs.ericsson.com/careers", "verified": True},
 
     # --- Oracle Careers (Oracle Recruiting Cloud, ORC) ---
     {"name": "Oracle", "slug": "oracle", "platform": ATSPlatform.ORACLE_CAREERS,
@@ -128,8 +139,10 @@ COMPANIES: list[dict] = [
          "link_selector": "a.r-link",
          "link_attr": "href",
      }), "careers_url": "https://careers.microsoft.com", "verified": True},
+    # Confirmed correct search results URL from a real user search (needs the trailing
+    # slash before the query string - .../jobs/results/?q=... not .../jobs/results?q=...).
     {"name": "Google", "slug": "google", "platform": ATSPlatform.CUSTOM,
-     "identifier": _custom("https://www.google.com/about/careers/applications/jobs/results?q=data%20scientist"), "careers_url": "https://careers.google.com", "verified": False},
+     "identifier": _custom("https://www.google.com/about/careers/applications/jobs/results/?q=Data+Scientist&hl=en-GB"), "careers_url": "https://careers.google.com", "verified": False},
     {"name": "NVIDIA", "slug": "nvidia", "platform": ATSPlatform.WORKDAY,
      "identifier": "nvidia|wd5|NVIDIAExternalCareerSite", "careers_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite", "verified": True},
     {"name": "Cisco", "slug": "cisco", "platform": ATSPlatform.CUSTOM,
@@ -301,8 +314,17 @@ COMPANIES: list[dict] = [
      "identifier": _custom("https://careers.mphasis.com/search?searchText=data+scientist"), "careers_url": "https://careers.mphasis.com", "verified": False},
 
     # --- India-based product companies ---
+    # openpositions.html 404s now; /careers/ shows current openings directly with no
+    # search interaction needed.
     {"name": "Zoho", "slug": "zoho", "platform": ATSPlatform.CUSTOM,
-     "identifier": _custom("https://www.zoho.com/careers/openpositions.html"), "careers_url": "https://www.zoho.com/careers/", "verified": False},
+     "identifier": json.dumps({
+         "url": "https://www.zoho.com/careers/",
+         "item_selector": "div.cw-filter-joblist",
+         "title_selector": "a.cw-3-title",
+         "location_selector": "p.filter-subhead",
+         "link_selector": "a.cw-3-title",
+         "link_attr": "href",
+     }), "careers_url": "https://www.zoho.com/careers/", "verified": True},
     {"name": "Freshworks", "slug": "freshworks", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://www.freshworks.com/company/careers/"), "careers_url": "https://www.freshworks.com/company/careers/", "verified": False},
     {"name": "GoComet", "slug": "gocomet", "platform": ATSPlatform.CUSTOM,
