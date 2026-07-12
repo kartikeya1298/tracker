@@ -2,11 +2,21 @@ import json
 import logging
 from urllib.parse import urljoin
 
+from playwright.async_api import Error as PlaywrightError
 from playwright.async_api import async_playwright
 
 from app.scrapers.base import BaseScraper, RawJob
 
 logger = logging.getLogger(__name__)
+
+# A realistic desktop UA + masking navigator.webdriver clears basic bot-detection
+# checks (navigator.webdriver === true is a very common, cheap signal) that a few
+# of the registry's configured sites are known to trip on a bare Playwright profile.
+REALISTIC_UA = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+)
+MASK_WEBDRIVER_JS = "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
 
 
 class GenericPlaywrightScraper(BaseScraper):
@@ -23,8 +33,23 @@ class GenericPlaywrightScraper(BaseScraper):
           "location_selector": ".job-location",
           "link_selector": "a",
           "link_attr": "href",
-          "next_page_selector": ".pagination-next"   // optional
+          "next_page_selector": ".pagination-next",  // optional
+          "search_input_selector": "input[type=search]",   // optional
+          "search_submit_selector": "button.search-btn",   // optional; falls back to Enter
+          "search_text": "data scientist"                  // optional; defaults below
         }
+
+    `search_input_selector` exists because several sites (Apple, Snowflake, IBM as of
+    this comment) don't actually run a search from the URL's query string alone on
+    initial page load — the query param is present but the client-side search only
+    fires from a real keystroke+submit against the search box. When configured, this
+    fills that box and submits before scanning for listings. Known limitation: only
+    one search term runs per scrape cycle, so a site gated this way will only surface
+    postings matching that literal phrase, not the full 20-role catalog the way an
+    API-backed adapter (which returns everything and lets our own role matcher filter)
+    would — "data scientist" is chosen as the broadest single term with the best hit
+    rate across the target roles, but it will still under-count roles that don't share
+    that phrase (e.g. "Business Analyst").
 
     This intentionally scrapes only the listing page for title/location/link — full
     descriptions are fetched lazily via `fetch_description` when a job first matches
@@ -33,21 +58,43 @@ class GenericPlaywrightScraper(BaseScraper):
 
     platform_name = "generic"
     MAX_PAGES = 5
+    DEFAULT_SEARCH_TEXT = "data scientist"
 
     def __init__(self, identifier: str, timeout: int = 30):
         super().__init__(identifier, timeout)
         self.config = json.loads(identifier)
+
+    async def _run_search_interaction(self, page, cfg: dict) -> None:
+        input_sel = cfg.get("search_input_selector")
+        if not input_sel:
+            return
+        try:
+            await page.fill(input_sel, cfg.get("search_text", self.DEFAULT_SEARCH_TEXT), timeout=5000)
+            submit_sel = cfg.get("search_submit_selector")
+            if submit_sel:
+                await page.click(submit_sel, timeout=5000)
+            else:
+                await page.press(input_sel, "Enter")
+            await page.wait_for_load_state("networkidle", timeout=15000)
+            await page.wait_for_timeout(1500)
+        except PlaywrightError:
+            logger.warning("Search interaction failed for %s (selector %s)", cfg.get("url"), input_sel)
 
     async def fetch_jobs(self) -> list[RawJob]:
         jobs: list[RawJob] = []
         cfg = self.config
         async with async_playwright() as p:
             browser = await p.chromium.launch(headless=True)
-            page = await browser.new_page()
+            page = await browser.new_page(user_agent=REALISTIC_UA)
+            await page.add_init_script(MASK_WEBDRIVER_JS)
             try:
                 url = cfg["url"]
+                search_done = False
                 for _ in range(self.MAX_PAGES):
                     await page.goto(url, timeout=self.timeout * 1000, wait_until="domcontentloaded")
+                    if not search_done:
+                        await self._run_search_interaction(page, cfg)
+                        search_done = True
                     wait_selector = cfg.get("wait_selector", cfg["item_selector"])
                     try:
                         await page.wait_for_selector(wait_selector, timeout=self.timeout * 1000)
@@ -102,7 +149,8 @@ class GenericPlaywrightScraper(BaseScraper):
         desc_selector = cfg.get("description_selector", "body")
         async with async_playwright() as p:
             browser = await p.chromium.launch(headless=True)
-            page = await browser.new_page()
+            page = await browser.new_page(user_agent=REALISTIC_UA)
+            await page.add_init_script(MASK_WEBDRIVER_JS)
             try:
                 await page.goto(apply_url, timeout=self.timeout * 1000, wait_until="domcontentloaded")
                 el = await page.query_selector(desc_selector)

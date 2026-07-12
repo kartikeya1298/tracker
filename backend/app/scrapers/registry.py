@@ -32,6 +32,16 @@ def _custom(url: str, item_sel: str = ".job, .job-listing, .job-card, li[class*=
     )
 
 
+# Fallback selector lists for sites whose search results only render after a real
+# keystroke+submit against the search box (the URL's query string alone isn't enough) -
+# see GenericPlaywrightScraper.search_input_selector in app/scrapers/generic.py.
+_SEARCH_INPUT_FALLBACK = (
+    "input[type='search'], input[placeholder*='search' i], input[aria-label*='search' i], "
+    "input[name*='keyword' i], input[name='q']"
+)
+_SEARCH_SUBMIT_FALLBACK = "button[type='submit'], button[aria-label*='search' i], button:has-text('Search')"
+
+
 # name, slug, platform, identifier, careers_url, verified
 COMPANIES: list[dict] = [
     # --- Verified: public Greenhouse API ---
@@ -124,8 +134,19 @@ COMPANIES: list[dict] = [
      "identifier": "nvidia|wd5|NVIDIAExternalCareerSite", "careers_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite", "verified": True},
     {"name": "Cisco", "slug": "cisco", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://jobs.cisco.com/jobs/SearchJobs/data%2520scientist"), "careers_url": "https://jobs.cisco.com", "verified": False},
+    # IBM: the category-filter URL alone doesn't render results on load - confirmed the
+    # search box needs a real keystroke+submit. Uses IBM's Carbon Design System card grid.
     {"name": "IBM", "slug": "ibm", "platform": ATSPlatform.CUSTOM,
-     "identifier": _custom("https://www.ibm.com/careers/search?field_keyword_18[0]=Data%20and%20AI"), "careers_url": "https://www.ibm.com/careers", "verified": False},
+     "identifier": json.dumps({
+         "url": "https://www.ibm.com/careers/search?field_keyword_18[0]=Data%20and%20AI",
+         "item_selector": "div.bx--card-group__cards__col",
+         "title_selector": "div.bx--card__heading",
+         "location_selector": "div.ibm--card__copy__inner",
+         "link_selector": "a.bx--card-group__card",
+         "link_attr": "href",
+         "search_input_selector": _SEARCH_INPUT_FALLBACK,
+         "search_submit_selector": _SEARCH_SUBMIT_FALLBACK,
+     }), "careers_url": "https://www.ibm.com/careers", "verified": True},
     {"name": "Salesforce", "slug": "salesforce", "platform": ATSPlatform.WORKDAY,
      "identifier": "salesforce|wd12|External_Career_Site", "careers_url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site", "verified": True},
     {"name": "Adobe", "slug": "adobe", "platform": ATSPlatform.WORKDAY,
@@ -140,8 +161,19 @@ COMPANIES: list[dict] = [
     # subdomains - wd12 returns 200 with a valid jobPostings payload, wd5 returns 422.
     {"name": "Qualcomm", "slug": "qualcomm", "platform": ATSPlatform.WORKDAY,
      "identifier": "qualcomm|wd12|External", "careers_url": "https://qualcomm.wd12.myworkdayjobs.com/External", "verified": True},
+    # Apple: same story as IBM - the ?search= query param doesn't populate results
+    # without an actual search-box interaction.
     {"name": "Apple", "slug": "apple", "platform": ATSPlatform.CUSTOM,
-     "identifier": _custom("https://jobs.apple.com/en-us/search?search=data%20scientist"), "careers_url": "https://jobs.apple.com", "verified": False},
+     "identifier": json.dumps({
+         "url": "https://jobs.apple.com/en-us/search?search=data%20scientist",
+         "item_selector": "div.job-title.job-list-item",
+         "title_selector": "a.link-inline",
+         "location_selector": "div.job-title-location span:not(.a11y)",
+         "link_selector": "a.link-inline",
+         "link_attr": "href",
+         "search_input_selector": _SEARCH_INPUT_FALLBACK,
+         "search_submit_selector": _SEARCH_SUBMIT_FALLBACK,
+     }), "careers_url": "https://jobs.apple.com", "verified": True},
     {"name": "Uber", "slug": "uber", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://www.uber.com/us/en/careers/list/?query=data%20scientist"), "careers_url": "https://www.uber.com/us/en/careers/", "verified": False},
     {"name": "LinkedIn", "slug": "linkedin", "platform": ATSPlatform.CUSTOM,
@@ -150,8 +182,22 @@ COMPANIES: list[dict] = [
      "identifier": "paypal|wd1|jobs", "careers_url": "https://paypal.wd1.myworkdayjobs.com/jobs", "verified": True},
     {"name": "ServiceNow", "slug": "servicenow", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://careers.servicenow.com/jobs/?search=data+scientist"), "careers_url": "https://careers.servicenow.com", "verified": False},
+    # Snowflake: same "URL param alone doesn't search" pattern as IBM/Apple. Runs on a
+    # Phenom People career site. location_selector is approximate - the confirmed DOM
+    # only isolated a wrapping "information" block whose text is "Location <city> ...
+    # Category <dept>", not a dedicated location-only element - noisier than ideal but
+    # still usable free text.
     {"name": "Snowflake", "slug": "snowflake", "platform": ATSPlatform.CUSTOM,
-     "identifier": _custom("https://careers.snowflake.com/us/en/search-results?keywords=data%20scientist"), "careers_url": "https://careers.snowflake.com", "verified": False},
+     "identifier": json.dumps({
+         "url": "https://careers.snowflake.com/us/en/search-results?keywords=data%20scientist",
+         "item_selector": "li.jobs-list-item",
+         "title_selector": "a[data-ph-at-id='job-link']",
+         "location_selector": "div.information",
+         "link_selector": "a[data-ph-at-id='job-link']",
+         "link_attr": "href",
+         "search_input_selector": _SEARCH_INPUT_FALLBACK,
+         "search_submit_selector": _SEARCH_SUBMIT_FALLBACK,
+     }), "careers_url": "https://careers.snowflake.com", "verified": True},
 
     # --- Banking / finance ---
     {"name": "JPMorgan Chase", "slug": "jpmorgan-chase", "platform": ATSPlatform.CUSTOM,
