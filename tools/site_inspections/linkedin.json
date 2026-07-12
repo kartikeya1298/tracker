@@ -1,11 +1,18 @@
 {
   "slug": "linkedin",
   "url": "https://careers.linkedin.com/jobs/search?keywords=data%20scientist",
+  "initial": {
+    "keyword_candidates": [],
+    "structural_candidates": [],
+    "page_title": "404 Resource at '/content/lem/careers/us/en/jobs/search.html' not found: No resource found"
+  },
+  "after_search": null,
+  "best_source": "initial",
   "keyword_candidates": [],
   "structural_candidates": [],
   "page_title": "404 Resource at '/content/lem/careers/us/en/jobs/search.html' not found: No resource found",
-  "stage": "initial",
   "cookie_banner_dismissed": false,
+  "search_interacted": false,
   "status": "no_candidates_found",
   "screenshot": "linkedin.png"
 }

@@ -1,8 +1,275 @@
 {
   "slug": "ibm",
   "url": "https://www.ibm.com/careers/search?field_keyword_18[0]=Data%20and%20AI",
-  "keyword_candidates": [],
+  "initial": {
+    "keyword_candidates": [],
+    "structural_candidates": [
+      {
+        "selector": "li.new-basic-links__item",
+        "count": 7,
+        "sample_html": [
+          "<li class=\"new-basic-links__item\"><a class=\"new-basic-links__link\" href=\"https://www.ibm.com/mysupport/s/?language=en_US&amp;lnk=flathl\"><span>Overview</span><div class=\"new-basic-links__description\">Resolve product issues with self-service tools</div></a></li>",
+          "<li class=\"new-basic-links__item\"><a class=\"new-basic-links__link\" href=\"https://community.ibm.com/community/user/community?lnk=flathl\"><span>Community</span><div class=\"new-basic-links__description\">Share knowledge in a collaborative environment to unlock innovation</div></a></li>"
+        ],
+        "sample_text": [
+          "OverviewResolve product issues with self-service tools",
+          "CommunityShare knowledge in a collaborative environment to unlock innovation"
+        ]
+      },
+      {
+        "selector": "a.new-basic-links__link",
+        "count": 7,
+        "sample_html": [
+          "<a class=\"new-basic-links__link\" href=\"https://www.ibm.com/mysupport/s/?language=en_US&amp;lnk=flathl\"><span>Overview</span><div class=\"new-basic-links__description\">Resolve product issues with self-service tools</div></a>",
+          "<a class=\"new-basic-links__link\" href=\"https://community.ibm.com/community/user/community?lnk=flathl\"><span>Community</span><div class=\"new-basic-links__description\">Share knowledge in a collaborative environment to unlock innovation</div></a>"
+        ],
+        "sample_text": [
+          "OverviewResolve product issues with self-service tools",
+          "CommunityShare knowledge in a collaborative environment to unlock innovation"
+        ]
+      },
+      {
+        "selector": "c4d-cta-block-item.cds--cta-block-item__pictogram-styling",
+        "count": 4,
+        "sample_html": [
+          "<c4d-cta-block-item class=\"cds--cta-block-item__pictogram-styling\" data-autoid=\"c4d--cta-block-item\">\n    \n    \n    <svg fill=\"url(#pictogram-color-blue-60-80128ca2-a96c-4bdf-ab03-c4cc87144245)\" slot=\"media\" class=\"question--and--answer pictogram-color-blue-60 cds--pictogram-item__pictogram\" data-autoid=\"c4d--pictogram-item__pictogram\" focusable=\"false\" viewBox=\"0 0 80 80\" height=\"80\" width=\"80\" role=\"img\">\n        <use href=\"#question--and--answer\" height=\"80\" width=\"80\"></use>\n        <defs>\n            <linearGradient id=\"pictogram-color-gradient-180-blue-to-purple-80128ca2-a96c-4bdf-ab03-c4cc87144245\" gradientTransform=\"rotate(90)\">\n                <stop offset=\"0%\" stop-color=\"#0f62fe\"></stop>\n                <stop offset=\"100%\" stop-color=\"#8a3ffc\"></stop>\n            </linearGradient>\n            <linearGradient id=\"pictogram-color-gradient-180-blue-dark-to-light-80128ca2-a96c-4bdf-ab03-c4cc87144245\" gradientTransform=\"rotate(90)\">\n                <stop offset=\"0%\" stop-color=\"#0f62fe\"></stop>\n                <stop offset=\"100%\" stop-color=\"#78a9ff\"></stop>\n            </linearGradient>\n            <linearGradient id=\"pictogram-color-gradient-180-blue-to-teal-80128ca2-a96c-4bdf-ab03-c4cc87144245\" gradientTransform=\"rotate(90)\">\n                <stop offset=\"0%\" stop-color=\"#0f62fe\"></stop>\n                <stop offset=\"100%\" stop-color=\"#08bdba\"></stop>\n            </linearGradient>\n            <linearGradient id=\"pictogram-color-gradient-180-blue-to-magenta-80128ca2-a",
+          "<c4d-cta-block-item class=\"cds--cta-block-item__pictogram-styling\" data-autoid=\"c4d--cta-block-item\">\n    \n    \n    <svg fill=\"url(#pictogram-color-blue-60-888283fd-1d43-4122-98e3-6e3f56ff8b13)\" slot=\"media\" class=\"alarm pictogram-color-blue-60 cds--pictogram-item__pictogram\" data-autoid=\"c4d--pictogram-item__pictogram\" focusable=\"false\" viewBox=\"0 0 80 80\" height=\"80\" width=\"80\" role=\"img\">\n        <use href=\"#alarm\" height=\"80\" width=\"80\"></use>\n        <defs>\n            <linearGradient id=\"pictogram-color-gradient-180-blue-to-purple-888283fd-1d43-4122-98e3-6e3f56ff8b13\" gradientTransform=\"rotate(90)\">\n                <stop offset=\"0%\" stop-color=\"#0f62fe\"></stop>\n                <stop offset=\"100%\" stop-color=\"#8a3ffc\"></stop>\n            </linearGradient>\n            <linearGradient id=\"pictogram-color-gradient-180-blue-dark-to-light-888283fd-1d43-4122-98e3-6e3f56ff8b13\" gradientTransform=\"rotate(90)\">\n                <stop offset=\"0%\" stop-color=\"#0f62fe\"></stop>\n                <stop offset=\"100%\" stop-color=\"#78a9ff\"></stop>\n            </linearGradient>\n            <linearGradient id=\"pictogram-color-gradient-180-blue-to-teal-888283fd-1d43-4122-98e3-6e3f56ff8b13\" gradientTransform=\"rotate(90)\">\n                <stop offset=\"0%\" stop-color=\"#0f62fe\"></stop>\n                <stop offset=\"100%\" stop-color=\"#08bdba\"></stop>\n            </linearGradient>\n            <linearGradient id=\"pictogram-color-gradient-180-blue-to-magenta-888283fd-1d43-4122-98e3-6e3f56ff8b13\" grad"
+        ],
+        "sample_text": [
+          "Talent Network\n\nStay up to date on career related news and events.\n\nJoin our Talent Network ",
+          "Job Alerts\n\nGet notified on job openings that match your skills.\n\nTurn on Job Alerts "
+        ]
+      },
+      {
+        "selector": "a.sk-item-list-option.sk-item-list__item",
+        "count": 3,
+        "sample_html": [
+          "<a class=\"sk-item-list-option sk-item-list__item\" data-qa=\"option\" data-key=\"Professional\" data-attribute1=\"mh_filterClick\" data-attribute8=\"ExperienceLevel-Professional\" href=\"javascript:void(0)\" id=\"IBMAccessibleCheckboxItemComponents-ExperienceLevel-Professional\"><input type=\"checkbox\" data-qa=\"checkbox\" aria-label=\"Professional\" class=\"sk-item-list-option__checkbox\"><div data-qa=\"label\" class=\"sk-item-list-option__text\"><span><span class=\"\">Professional</span></span> (862)</div></a>",
+          "<a class=\"sk-item-list-option sk-item-list__item\" data-qa=\"option\" data-key=\"Internship\" data-attribute1=\"mh_filterClick\" data-attribute8=\"ExperienceLevel-Internship\" href=\"javascript:void(0)\" id=\"IBMAccessibleCheckboxItemComponents-ExperienceLevel-Internship\"><input type=\"checkbox\" data-qa=\"checkbox\" aria-label=\"Internship\" class=\"sk-item-list-option__checkbox\"><div data-qa=\"label\" class=\"sk-item-list-option__text\"><span><span class=\"\">Internship</span></span> (101)</div></a>"
+        ],
+        "sample_text": [
+          "Professional (862)",
+          "Internship (101)"
+        ]
+      }
+    ],
+    "page_title": "Search jobs | IBM Careers"
+  },
+  "after_search": {
+    "keyword_candidates": [
+      {
+        "selector": "div.bx--card-group__cards__col",
+        "count": 30,
+        "sample_html": [
+          "<div class=\"bx--card-group__cards__col\" role=\"region\" aria-label=\"Data Scientist\"><a id=\"search-result-292279d716fc3e0f03328c740de54e92bfd98f9d04837bb1be0c8554d4058e3b-dp0\" href=\"https://careers.ibm.com/en_US/careers/JobDetail?jobId=110580&amp;source=WEB_Search_NA\" tabindex=\"0\" class=\"bx--card-group__card\"><div class=\"bx--tile bx--card bx--card-link bx--card__CTA bx--card__CardCTA\" data-autoid=\"dds--card\"><div class=\"bx--card__wrapper\"><div class=\"bx--card__content\"><div class=\"bx--card__eyebrow\" style=\"height: 18px;\">Data &amp; Analytics</div><div class=\"bx--card__heading\" style=\"height: 109px;\">Data Scientist</div><div class=\"ibm--card__inner\" style=\"height: 82px;\"><div class=\"bx--card__copy\"><div class=\"ibm--card__copy__inner\">Entry Level<br>Multiple Cities</div></div></div><div class=\"bx--card__footer bx--card__footer__copy\" style=\"height: 20px;\"><span class=\"bx--card__cta__copy\"></span><span size=\"20\">\n<svg version=\"1.1\" id=\"icon\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" style=\"enable-background:new 0 0 20 20;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n  .st0{fill:none;}\n</style>\n<rect id=\"_Transparent_Rectangle_\" class=\"st0\" width=\"20\" height=\"20\"></rect>\n<polygon points=\"11.8,2.8 10.8,3.8 16.2,9.3 1,9.3 1,10.7 16.2,10.7 10.8,16.2 11.8,17.2 19,10 \"></polygon>\n</svg>\n      </span></div></div></div></div></a></div>",
+          "<div class=\"bx--card-group__cards__col\" role=\"region\" aria-label=\"Senior Data Scientist\"><a id=\"search-result-96aa9e6a68ea40f4ec3a186b16f1dde736328cd1758828ace795d5f9034f9863-dp1\" href=\"https://careers.ibm.com/en_US/careers/JobDetail?jobId=118683&amp;source=WEB_Search_NA\" tabindex=\"0\" class=\"bx--card-group__card\"><div class=\"bx--tile bx--card bx--card-link bx--card__CTA bx--card__CardCTA\" data-autoid=\"dds--card\"><div class=\"bx--card__wrapper\"><div class=\"bx--card__content\"><div class=\"bx--card__eyebrow\" style=\"height: 18px;\">Data &amp; Analytics</div><div class=\"bx--card__heading\" style=\"height: 109px;\">Senior Data Scientist</div><div class=\"ibm--card__inner\" style=\"height: 82px;\"><div class=\"bx--card__copy\"><div class=\"ibm--card__copy__inner\">Professional<br>Multiple Cities</div></div></div><div class=\"bx--card__footer bx--card__footer__copy\" style=\"height: 20px;\"><span class=\"bx--card__cta__copy\"></span><span size=\"20\">\n<svg version=\"1.1\" id=\"icon\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" style=\"enable-background:new 0 0 20 20;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n  .st0{fill:none;}\n</style>\n<rect id=\"_Transparent_Rectangle_\" class=\"st0\" width=\"20\" height=\"20\"></rect>\n<polygon points=\"11.8,2.8 10.8,3.8 16.2,9.3 1,9.3 1,10.7 16.2,10.7 10.8,16.2 11.8,17.2 19,10 \"></polygon>\n</svg>\n      </span></div></div></div></div></a></div>"
+        ],
+        "sample_text": [
+          "Data & Analytics\nData Scientist\nEntry Level\nMultiple Cities",
+          "Data & Analytics\nSenior Data Scientist\nProfessional\nMultiple Cities"
+        ]
+      },
+      {
+        "selector": "a.bx--card-group__card",
+        "count": 30,
+        "sample_html": [
+          "<a id=\"search-result-292279d716fc3e0f03328c740de54e92bfd98f9d04837bb1be0c8554d4058e3b-dp0\" href=\"https://careers.ibm.com/en_US/careers/JobDetail?jobId=110580&amp;source=WEB_Search_NA\" tabindex=\"0\" class=\"bx--card-group__card\"><div class=\"bx--tile bx--card bx--card-link bx--card__CTA bx--card__CardCTA\" data-autoid=\"dds--card\"><div class=\"bx--card__wrapper\"><div class=\"bx--card__content\"><div class=\"bx--card__eyebrow\" style=\"height: 18px;\">Data &amp; Analytics</div><div class=\"bx--card__heading\" style=\"height: 109px;\">Data Scientist</div><div class=\"ibm--card__inner\" style=\"height: 82px;\"><div class=\"bx--card__copy\"><div class=\"ibm--card__copy__inner\">Entry Level<br>Multiple Cities</div></div></div><div class=\"bx--card__footer bx--card__footer__copy\" style=\"height: 20px;\"><span class=\"bx--card__cta__copy\"></span><span size=\"20\">\n<svg version=\"1.1\" id=\"icon\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" style=\"enable-background:new 0 0 20 20;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n  .st0{fill:none;}\n</style>\n<rect id=\"_Transparent_Rectangle_\" class=\"st0\" width=\"20\" height=\"20\"></rect>\n<polygon points=\"11.8,2.8 10.8,3.8 16.2,9.3 1,9.3 1,10.7 16.2,10.7 10.8,16.2 11.8,17.2 19,10 \"></polygon>\n</svg>\n      </span></div></div></div></div></a>",
+          "<a id=\"search-result-96aa9e6a68ea40f4ec3a186b16f1dde736328cd1758828ace795d5f9034f9863-dp1\" href=\"https://careers.ibm.com/en_US/careers/JobDetail?jobId=118683&amp;source=WEB_Search_NA\" tabindex=\"0\" class=\"bx--card-group__card\"><div class=\"bx--tile bx--card bx--card-link bx--card__CTA bx--card__CardCTA\" data-autoid=\"dds--card\"><div class=\"bx--card__wrapper\"><div class=\"bx--card__content\"><div class=\"bx--card__eyebrow\" style=\"height: 18px;\">Data &amp; Analytics</div><div class=\"bx--card__heading\" style=\"height: 109px;\">Senior Data Scientist</div><div class=\"ibm--card__inner\" style=\"height: 82px;\"><div class=\"bx--card__copy\"><div class=\"ibm--card__copy__inner\">Professional<br>Multiple Cities</div></div></div><div class=\"bx--card__footer bx--card__footer__copy\" style=\"height: 20px;\"><span class=\"bx--card__cta__copy\"></span><span size=\"20\">\n<svg version=\"1.1\" id=\"icon\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" style=\"enable-background:new 0 0 20 20;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n  .st0{fill:none;}\n</style>\n<rect id=\"_Transparent_Rectangle_\" class=\"st0\" width=\"20\" height=\"20\"></rect>\n<polygon points=\"11.8,2.8 10.8,3.8 16.2,9.3 1,9.3 1,10.7 16.2,10.7 10.8,16.2 11.8,17.2 19,10 \"></polygon>\n</svg>\n      </span></div></div></div></div></a>"
+        ],
+        "sample_text": [
+          "Data & Analytics\nData Scientist\nEntry Level\nMultiple Cities",
+          "Data & Analytics\nSenior Data Scientist\nProfessional\nMultiple Cities"
+        ]
+      },
+      {
+        "selector": "div.bx--tile.bx--card.bx--card-link.bx--card__CTA.bx--card__CardCTA",
+        "count": 30,
+        "sample_html": [
+          "<div class=\"bx--tile bx--card bx--card-link bx--card__CTA bx--card__CardCTA\" data-autoid=\"dds--card\"><div class=\"bx--card__wrapper\"><div class=\"bx--card__content\"><div class=\"bx--card__eyebrow\" style=\"height: 18px;\">Data &amp; Analytics</div><div class=\"bx--card__heading\" style=\"height: 109px;\">Data Scientist</div><div class=\"ibm--card__inner\" style=\"height: 82px;\"><div class=\"bx--card__copy\"><div class=\"ibm--card__copy__inner\">Entry Level<br>Multiple Cities</div></div></div><div class=\"bx--card__footer bx--card__footer__copy\" style=\"height: 20px;\"><span class=\"bx--card__cta__copy\"></span><span size=\"20\">\n<svg version=\"1.1\" id=\"icon\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" style=\"enable-background:new 0 0 20 20;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n  .st0{fill:none;}\n</style>\n<rect id=\"_Transparent_Rectangle_\" class=\"st0\" width=\"20\" height=\"20\"></rect>\n<polygon points=\"11.8,2.8 10.8,3.8 16.2,9.3 1,9.3 1,10.7 16.2,10.7 10.8,16.2 11.8,17.2 19,10 \"></polygon>\n</svg>\n      </span></div></div></div></div>",
+          "<div class=\"bx--tile bx--card bx--card-link bx--card__CTA bx--card__CardCTA\" data-autoid=\"dds--card\"><div class=\"bx--card__wrapper\"><div class=\"bx--card__content\"><div class=\"bx--card__eyebrow\" style=\"height: 18px;\">Data &amp; Analytics</div><div class=\"bx--card__heading\" style=\"height: 109px;\">Senior Data Scientist</div><div class=\"ibm--card__inner\" style=\"height: 82px;\"><div class=\"bx--card__copy\"><div class=\"ibm--card__copy__inner\">Professional<br>Multiple Cities</div></div></div><div class=\"bx--card__footer bx--card__footer__copy\" style=\"height: 20px;\"><span class=\"bx--card__cta__copy\"></span><span size=\"20\">\n<svg version=\"1.1\" id=\"icon\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" style=\"enable-background:new 0 0 20 20;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n  .st0{fill:none;}\n</style>\n<rect id=\"_Transparent_Rectangle_\" class=\"st0\" width=\"20\" height=\"20\"></rect>\n<polygon points=\"11.8,2.8 10.8,3.8 16.2,9.3 1,9.3 1,10.7 16.2,10.7 10.8,16.2 11.8,17.2 19,10 \"></polygon>\n</svg>\n      </span></div></div></div></div>"
+        ],
+        "sample_text": [
+          "Data & Analytics\nData Scientist\nEntry Level\nMultiple Cities",
+          "Data & Analytics\nSenior Data Scientist\nProfessional\nMultiple Cities"
+        ]
+      },
+      {
+        "selector": "div.bx--card__wrapper",
+        "count": 30,
+        "sample_html": [
+          "<div class=\"bx--card__wrapper\"><div class=\"bx--card__content\"><div class=\"bx--card__eyebrow\" style=\"height: 18px;\">Data &amp; Analytics</div><div class=\"bx--card__heading\" style=\"height: 109px;\">Data Scientist</div><div class=\"ibm--card__inner\" style=\"height: 82px;\"><div class=\"bx--card__copy\"><div class=\"ibm--card__copy__inner\">Entry Level<br>Multiple Cities</div></div></div><div class=\"bx--card__footer bx--card__footer__copy\" style=\"height: 20px;\"><span class=\"bx--card__cta__copy\"></span><span size=\"20\">\n<svg version=\"1.1\" id=\"icon\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" style=\"enable-background:new 0 0 20 20;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n  .st0{fill:none;}\n</style>\n<rect id=\"_Transparent_Rectangle_\" class=\"st0\" width=\"20\" height=\"20\"></rect>\n<polygon points=\"11.8,2.8 10.8,3.8 16.2,9.3 1,9.3 1,10.7 16.2,10.7 10.8,16.2 11.8,17.2 19,10 \"></polygon>\n</svg>\n      </span></div></div></div>",
+          "<div class=\"bx--card__wrapper\"><div class=\"bx--card__content\"><div class=\"bx--card__eyebrow\" style=\"height: 18px;\">Data &amp; Analytics</div><div class=\"bx--card__heading\" style=\"height: 109px;\">Senior Data Scientist</div><div class=\"ibm--card__inner\" style=\"height: 82px;\"><div class=\"bx--card__copy\"><div class=\"ibm--card__copy__inner\">Professional<br>Multiple Cities</div></div></div><div class=\"bx--card__footer bx--card__footer__copy\" style=\"height: 20px;\"><span class=\"bx--card__cta__copy\"></span><span size=\"20\">\n<svg version=\"1.1\" id=\"icon\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" style=\"enable-background:new 0 0 20 20;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n  .st0{fill:none;}\n</style>\n<rect id=\"_Transparent_Rectangle_\" class=\"st0\" width=\"20\" height=\"20\"></rect>\n<polygon points=\"11.8,2.8 10.8,3.8 16.2,9.3 1,9.3 1,10.7 16.2,10.7 10.8,16.2 11.8,17.2 19,10 \"></polygon>\n</svg>\n      </span></div></div></div>"
+        ],
+        "sample_text": [
+          "Data & Analytics\nData Scientist\nEntry Level\nMultiple Cities",
+          "Data & Analytics\nSenior Data Scientist\nProfessional\nMultiple Cities"
+        ]
+      },
+      {
+        "selector": "div.bx--card__content",
+        "count": 30,
+        "sample_html": [
+          "<div class=\"bx--card__content\"><div class=\"bx--card__eyebrow\" style=\"height: 18px;\">Data &amp; Analytics</div><div class=\"bx--card__heading\" style=\"height: 109px;\">Data Scientist</div><div class=\"ibm--card__inner\" style=\"height: 82px;\"><div class=\"bx--card__copy\"><div class=\"ibm--card__copy__inner\">Entry Level<br>Multiple Cities</div></div></div><div class=\"bx--card__footer bx--card__footer__copy\" style=\"height: 20px;\"><span class=\"bx--card__cta__copy\"></span><span size=\"20\">\n<svg version=\"1.1\" id=\"icon\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" style=\"enable-background:new 0 0 20 20;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n  .st0{fill:none;}\n</style>\n<rect id=\"_Transparent_Rectangle_\" class=\"st0\" width=\"20\" height=\"20\"></rect>\n<polygon points=\"11.8,2.8 10.8,3.8 16.2,9.3 1,9.3 1,10.7 16.2,10.7 10.8,16.2 11.8,17.2 19,10 \"></polygon>\n</svg>\n      </span></div></div>",
+          "<div class=\"bx--card__content\"><div class=\"bx--card__eyebrow\" style=\"height: 18px;\">Data &amp; Analytics</div><div class=\"bx--card__heading\" style=\"height: 109px;\">Senior Data Scientist</div><div class=\"ibm--card__inner\" style=\"height: 82px;\"><div class=\"bx--card__copy\"><div class=\"ibm--card__copy__inner\">Professional<br>Multiple Cities</div></div></div><div class=\"bx--card__footer bx--card__footer__copy\" style=\"height: 20px;\"><span class=\"bx--card__cta__copy\"></span><span size=\"20\">\n<svg version=\"1.1\" id=\"icon\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" style=\"enable-background:new 0 0 20 20;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n  .st0{fill:none;}\n</style>\n<rect id=\"_Transparent_Rectangle_\" class=\"st0\" width=\"20\" height=\"20\"></rect>\n<polygon points=\"11.8,2.8 10.8,3.8 16.2,9.3 1,9.3 1,10.7 16.2,10.7 10.8,16.2 11.8,17.2 19,10 \"></polygon>\n</svg>\n      </span></div></div>"
+        ],
+        "sample_text": [
+          "Data & Analytics\nData Scientist\nEntry Level\nMultiple Cities",
+          "Data & Analytics\nSenior Data Scientist\nProfessional\nMultiple Cities"
+        ]
+      },
+      {
+        "selector": "div.bx--card__heading",
+        "count": 30,
+        "sample_html": [
+          "<div class=\"bx--card__heading\" style=\"height: 109px;\">Data Scientist</div>",
+          "<div class=\"bx--card__heading\" style=\"height: 109px;\">Senior Data Scientist</div>"
+        ],
+        "sample_text": [
+          "Data Scientist",
+          "Senior Data Scientist"
+        ]
+      }
+    ],
+    "structural_candidates": [
+      {
+        "selector": "a.sk-item-list-option.sk-item-list__item",
+        "count": 50,
+        "sample_html": [
+          "<a class=\"sk-item-list-option sk-item-list__item\" data-qa=\"option\" data-key=\"Hybrid\" data-attribute1=\"mh_filterClick\" data-attribute8=\"HybridAndRemoteJobs-Hybrid\" href=\"javascript:void(0)\" id=\"IBMAccessibleCheckboxItemComponents-HybridAndRemoteJobs-Hybrid\"><input type=\"checkbox\" data-qa=\"checkbox\" aria-label=\"Hybrid\" class=\"sk-item-list-option__checkbox\"><div data-qa=\"label\" class=\"sk-item-list-option__text\"><span><span class=\"\">Hybrid</span></span> (393)</div></a>",
+          "<a class=\"sk-item-list-option sk-item-list__item\" data-qa=\"option\" data-key=\"Remote\" data-attribute1=\"mh_filterClick\" data-attribute8=\"HybridAndRemoteJobs-Remote\" href=\"javascript:void(0)\" id=\"IBMAccessibleCheckboxItemComponents-HybridAndRemoteJobs-Remote\"><input type=\"checkbox\" data-qa=\"checkbox\" aria-label=\"Remote only\" class=\"sk-item-list-option__checkbox\"><div data-qa=\"label\" class=\"sk-item-list-option__text\"><span><span class=\"\">Remote only</span></span> (28)</div></a>"
+        ],
+        "sample_text": [
+          "Hybrid (393)",
+          "Remote only (28)"
+        ]
+      },
+      {
+        "selector": "li.new-basic-links__item",
+        "count": 7,
+        "sample_html": [
+          "<li class=\"new-basic-links__item\"><a class=\"new-basic-links__link\" href=\"https://www.ibm.com/mysupport/s/?language=en_US&amp;lnk=flathl\"><span>Overview</span><div class=\"new-basic-links__description\">Resolve product issues with self-service tools</div></a></li>",
+          "<li class=\"new-basic-links__item\"><a class=\"new-basic-links__link\" href=\"https://community.ibm.com/community/user/community?lnk=flathl\"><span>Community</span><div class=\"new-basic-links__description\">Share knowledge in a collaborative environment to unlock innovation</div></a></li>"
+        ],
+        "sample_text": [
+          "OverviewResolve product issues with self-service tools",
+          "CommunityShare knowledge in a collaborative environment to unlock innovation"
+        ]
+      },
+      {
+        "selector": "a.new-basic-links__link",
+        "count": 7,
+        "sample_html": [
+          "<a class=\"new-basic-links__link\" href=\"https://www.ibm.com/mysupport/s/?language=en_US&amp;lnk=flathl\"><span>Overview</span><div class=\"new-basic-links__description\">Resolve product issues with self-service tools</div></a>",
+          "<a class=\"new-basic-links__link\" href=\"https://community.ibm.com/community/user/community?lnk=flathl\"><span>Community</span><div class=\"new-basic-links__description\">Share knowledge in a collaborative environment to unlock innovation</div></a>"
+        ],
+        "sample_text": [
+          "OverviewResolve product issues with self-service tools",
+          "CommunityShare knowledge in a collaborative environment to unlock innovation"
+        ]
+      },
+      {
+        "selector": "div.cds--accordion__content",
+        "count": 4,
+        "sample_html": [
+          "<div class=\"cds--accordion__content\" id=\"accordion-item-1\"><div class=\"sk-panel filter--field_keyword_17\"><div class=\"sk-panel__header\">Hybrid and Remote jobs</div><div class=\"sk-panel__content\"><div data-qa=\"options\" class=\"sk-item-list\"><a class=\"sk-item-list-option sk-item-list__item\" data-qa=\"option\" data-key=\"Hybrid\" data-attribute1=\"mh_filterClick\" data-attribute8=\"HybridAndRemoteJobs-Hybrid\" href=\"javascript:void(0)\" id=\"IBMAccessibleCheckboxItemComponents-HybridAndRemoteJobs-Hybrid\"><input type=\"checkbox\" data-qa=\"checkbox\" aria-label=\"Hybrid\" class=\"sk-item-list-option__checkbox\"><div data-qa=\"label\" class=\"sk-item-list-option__text\"><span><span class=\"\">Hybrid</span></span> (393)</div></a><a class=\"sk-item-list-option sk-item-list__item\" data-qa=\"option\" data-key=\"Remote\" data-attribute1=\"mh_filterClick\" data-attribute8=\"HybridAndRemoteJobs-Remote\" href=\"javascript:void(0)\" id=\"IBMAccessibleCheckboxItemComponents-HybridAndRemoteJobs-Remote\"><input type=\"checkbox\" data-qa=\"checkbox\" aria-label=\"Remote only\" class=\"sk-item-list-option__checkbox\"><div data-qa=\"label\" class=\"sk-item-list-option__text\"><span><span class=\"\">Remote only</span></span> (28)</div></a></div></div></div></div>",
+          "<div class=\"cds--accordion__content\" id=\"accordion-item-2\"><div class=\"sk-panel filter--field_keyword_08\"><div class=\"sk-panel__header\">Career Areas</div><div class=\"sk-panel__content\"><div data-qa=\"options\" class=\"sk-item-list\"><a class=\"sk-item-list-option sk-item-list__item\" data-qa=\"option\" data-key=\"Enterprise Operations\" data-attribute1=\"mh_filterClick\" data-attribute8=\"CareerAreas-EnterpriseOperations\" href=\"javascript:void(0)\" id=\"IBMAccessibleCheckboxItemComponents-CareerAreas-EnterpriseOperations\"><input type=\"checkbox\" data-qa=\"checkbox\" aria-label=\"Enterprise Operations\" class=\"sk-item-list-option__checkbox\"><div data-qa=\"label\" class=\"sk-item-list-option__text\"><span><span class=\"\">Enterprise Operations</span></span> (150)</div></a><a class=\"sk-item-list-option sk-item-list__item\" data-qa=\"option\" data-key=\"Software Engineering\" data-attribute1=\"mh_filterClick\" data-attribute8=\"CareerAreas-SoftwareEngineering\" href=\"javascript:void(0)\" id=\"IBMAccessibleCheckboxItemComponents-CareerAreas-SoftwareEngineering\"><input type=\"checkbox\" data-qa=\"checkbox\" aria-label=\"Software Engineering\" class=\"sk-item-list-option__checkbox\"><div data-qa=\"label\" class=\"sk-item-list-option__text\"><span><span class=\"\">Software Engineering</span></span> (136)</div></a><a class=\"sk-item-list-option sk-item-list__item\" data-qa=\"option\" data-key=\"Consulting\" data-attribute1=\"mh_filterClick\" data-attribute8=\"CareerAreas-Consulting\" href=\"javascript:void(0)\" id=\"IBMAccessibleCheckboxItemCompon"
+        ],
+        "sample_text": [
+          "Hybrid (393)\nRemote only (28)",
+          "Career AreasEnterprise Operations (150)Software Engineering (136)Consulting (78)Infrastructure & Technology (75)Sales (61)Data & Analytics (43)View all"
+        ]
+      }
+    ],
+    "page_title": "Search jobs | IBM Careers"
+  },
+  "best_source": "after_search",
+  "keyword_candidates": [
+    {
+      "selector": "div.bx--card-group__cards__col",
+      "count": 30,
+      "sample_html": [
+        "<div class=\"bx--card-group__cards__col\" role=\"region\" aria-label=\"Data Scientist\"><a id=\"search-result-292279d716fc3e0f03328c740de54e92bfd98f9d04837bb1be0c8554d4058e3b-dp0\" href=\"https://careers.ibm.com/en_US/careers/JobDetail?jobId=110580&amp;source=WEB_Search_NA\" tabindex=\"0\" class=\"bx--card-group__card\"><div class=\"bx--tile bx--card bx--card-link bx--card__CTA bx--card__CardCTA\" data-autoid=\"dds--card\"><div class=\"bx--card__wrapper\"><div class=\"bx--card__content\"><div class=\"bx--card__eyebrow\" style=\"height: 18px;\">Data &amp; Analytics</div><div class=\"bx--card__heading\" style=\"height: 109px;\">Data Scientist</div><div class=\"ibm--card__inner\" style=\"height: 82px;\"><div class=\"bx--card__copy\"><div class=\"ibm--card__copy__inner\">Entry Level<br>Multiple Cities</div></div></div><div class=\"bx--card__footer bx--card__footer__copy\" style=\"height: 20px;\"><span class=\"bx--card__cta__copy\"></span><span size=\"20\">\n<svg version=\"1.1\" id=\"icon\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" style=\"enable-background:new 0 0 20 20;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n  .st0{fill:none;}\n</style>\n<rect id=\"_Transparent_Rectangle_\" class=\"st0\" width=\"20\" height=\"20\"></rect>\n<polygon points=\"11.8,2.8 10.8,3.8 16.2,9.3 1,9.3 1,10.7 16.2,10.7 10.8,16.2 11.8,17.2 19,10 \"></polygon>\n</svg>\n      </span></div></div></div></div></a></div>",
+        "<div class=\"bx--card-group__cards__col\" role=\"region\" aria-label=\"Senior Data Scientist\"><a id=\"search-result-96aa9e6a68ea40f4ec3a186b16f1dde736328cd1758828ace795d5f9034f9863-dp1\" href=\"https://careers.ibm.com/en_US/careers/JobDetail?jobId=118683&amp;source=WEB_Search_NA\" tabindex=\"0\" class=\"bx--card-group__card\"><div class=\"bx--tile bx--card bx--card-link bx--card__CTA bx--card__CardCTA\" data-autoid=\"dds--card\"><div class=\"bx--card__wrapper\"><div class=\"bx--card__content\"><div class=\"bx--card__eyebrow\" style=\"height: 18px;\">Data &amp; Analytics</div><div class=\"bx--card__heading\" style=\"height: 109px;\">Senior Data Scientist</div><div class=\"ibm--card__inner\" style=\"height: 82px;\"><div class=\"bx--card__copy\"><div class=\"ibm--card__copy__inner\">Professional<br>Multiple Cities</div></div></div><div class=\"bx--card__footer bx--card__footer__copy\" style=\"height: 20px;\"><span class=\"bx--card__cta__copy\"></span><span size=\"20\">\n<svg version=\"1.1\" id=\"icon\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" style=\"enable-background:new 0 0 20 20;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n  .st0{fill:none;}\n</style>\n<rect id=\"_Transparent_Rectangle_\" class=\"st0\" width=\"20\" height=\"20\"></rect>\n<polygon points=\"11.8,2.8 10.8,3.8 16.2,9.3 1,9.3 1,10.7 16.2,10.7 10.8,16.2 11.8,17.2 19,10 \"></polygon>\n</svg>\n      </span></div></div></div></div></a></div>"
+      ],
+      "sample_text": [
+        "Data & Analytics\nData Scientist\nEntry Level\nMultiple Cities",
+        "Data & Analytics\nSenior Data Scientist\nProfessional\nMultiple Cities"
+      ]
+    },
+    {
+      "selector": "a.bx--card-group__card",
+      "count": 30,
+      "sample_html": [
+        "<a id=\"search-result-292279d716fc3e0f03328c740de54e92bfd98f9d04837bb1be0c8554d4058e3b-dp0\" href=\"https://careers.ibm.com/en_US/careers/JobDetail?jobId=110580&amp;source=WEB_Search_NA\" tabindex=\"0\" class=\"bx--card-group__card\"><div class=\"bx--tile bx--card bx--card-link bx--card__CTA bx--card__CardCTA\" data-autoid=\"dds--card\"><div class=\"bx--card__wrapper\"><div class=\"bx--card__content\"><div class=\"bx--card__eyebrow\" style=\"height: 18px;\">Data &amp; Analytics</div><div class=\"bx--card__heading\" style=\"height: 109px;\">Data Scientist</div><div class=\"ibm--card__inner\" style=\"height: 82px;\"><div class=\"bx--card__copy\"><div class=\"ibm--card__copy__inner\">Entry Level<br>Multiple Cities</div></div></div><div class=\"bx--card__footer bx--card__footer__copy\" style=\"height: 20px;\"><span class=\"bx--card__cta__copy\"></span><span size=\"20\">\n<svg version=\"1.1\" id=\"icon\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" style=\"enable-background:new 0 0 20 20;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n  .st0{fill:none;}\n</style>\n<rect id=\"_Transparent_Rectangle_\" class=\"st0\" width=\"20\" height=\"20\"></rect>\n<polygon points=\"11.8,2.8 10.8,3.8 16.2,9.3 1,9.3 1,10.7 16.2,10.7 10.8,16.2 11.8,17.2 19,10 \"></polygon>\n</svg>\n      </span></div></div></div></div></a>",
+        "<a id=\"search-result-96aa9e6a68ea40f4ec3a186b16f1dde736328cd1758828ace795d5f9034f9863-dp1\" href=\"https://careers.ibm.com/en_US/careers/JobDetail?jobId=118683&amp;source=WEB_Search_NA\" tabindex=\"0\" class=\"bx--card-group__card\"><div class=\"bx--tile bx--card bx--card-link bx--card__CTA bx--card__CardCTA\" data-autoid=\"dds--card\"><div class=\"bx--card__wrapper\"><div class=\"bx--card__content\"><div class=\"bx--card__eyebrow\" style=\"height: 18px;\">Data &amp; Analytics</div><div class=\"bx--card__heading\" style=\"height: 109px;\">Senior Data Scientist</div><div class=\"ibm--card__inner\" style=\"height: 82px;\"><div class=\"bx--card__copy\"><div class=\"ibm--card__copy__inner\">Professional<br>Multiple Cities</div></div></div><div class=\"bx--card__footer bx--card__footer__copy\" style=\"height: 20px;\"><span class=\"bx--card__cta__copy\"></span><span size=\"20\">\n<svg version=\"1.1\" id=\"icon\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" style=\"enable-background:new 0 0 20 20;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n  .st0{fill:none;}\n</style>\n<rect id=\"_Transparent_Rectangle_\" class=\"st0\" width=\"20\" height=\"20\"></rect>\n<polygon points=\"11.8,2.8 10.8,3.8 16.2,9.3 1,9.3 1,10.7 16.2,10.7 10.8,16.2 11.8,17.2 19,10 \"></polygon>\n</svg>\n      </span></div></div></div></div></a>"
+      ],
+      "sample_text": [
+        "Data & Analytics\nData Scientist\nEntry Level\nMultiple Cities",
+        "Data & Analytics\nSenior Data Scientist\nProfessional\nMultiple Cities"
+      ]
+    },
+    {
+      "selector": "div.bx--tile.bx--card.bx--card-link.bx--card__CTA.bx--card__CardCTA",
+      "count": 30,
+      "sample_html": [
+        "<div class=\"bx--tile bx--card bx--card-link bx--card__CTA bx--card__CardCTA\" data-autoid=\"dds--card\"><div class=\"bx--card__wrapper\"><div class=\"bx--card__content\"><div class=\"bx--card__eyebrow\" style=\"height: 18px;\">Data &amp; Analytics</div><div class=\"bx--card__heading\" style=\"height: 109px;\">Data Scientist</div><div class=\"ibm--card__inner\" style=\"height: 82px;\"><div class=\"bx--card__copy\"><div class=\"ibm--card__copy__inner\">Entry Level<br>Multiple Cities</div></div></div><div class=\"bx--card__footer bx--card__footer__copy\" style=\"height: 20px;\"><span class=\"bx--card__cta__copy\"></span><span size=\"20\">\n<svg version=\"1.1\" id=\"icon\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" style=\"enable-background:new 0 0 20 20;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n  .st0{fill:none;}\n</style>\n<rect id=\"_Transparent_Rectangle_\" class=\"st0\" width=\"20\" height=\"20\"></rect>\n<polygon points=\"11.8,2.8 10.8,3.8 16.2,9.3 1,9.3 1,10.7 16.2,10.7 10.8,16.2 11.8,17.2 19,10 \"></polygon>\n</svg>\n      </span></div></div></div></div>",
+        "<div class=\"bx--tile bx--card bx--card-link bx--card__CTA bx--card__CardCTA\" data-autoid=\"dds--card\"><div class=\"bx--card__wrapper\"><div class=\"bx--card__content\"><div class=\"bx--card__eyebrow\" style=\"height: 18px;\">Data &amp; Analytics</div><div class=\"bx--card__heading\" style=\"height: 109px;\">Senior Data Scientist</div><div class=\"ibm--card__inner\" style=\"height: 82px;\"><div class=\"bx--card__copy\"><div class=\"ibm--card__copy__inner\">Professional<br>Multiple Cities</div></div></div><div class=\"bx--card__footer bx--card__footer__copy\" style=\"height: 20px;\"><span class=\"bx--card__cta__copy\"></span><span size=\"20\">\n<svg version=\"1.1\" id=\"icon\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" style=\"enable-background:new 0 0 20 20;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n  .st0{fill:none;}\n</style>\n<rect id=\"_Transparent_Rectangle_\" class=\"st0\" width=\"20\" height=\"20\"></rect>\n<polygon points=\"11.8,2.8 10.8,3.8 16.2,9.3 1,9.3 1,10.7 16.2,10.7 10.8,16.2 11.8,17.2 19,10 \"></polygon>\n</svg>\n      </span></div></div></div></div>"
+      ],
+      "sample_text": [
+        "Data & Analytics\nData Scientist\nEntry Level\nMultiple Cities",
+        "Data & Analytics\nSenior Data Scientist\nProfessional\nMultiple Cities"
+      ]
+    },
+    {
+      "selector": "div.bx--card__wrapper",
+      "count": 30,
+      "sample_html": [
+        "<div class=\"bx--card__wrapper\"><div class=\"bx--card__content\"><div class=\"bx--card__eyebrow\" style=\"height: 18px;\">Data &amp; Analytics</div><div class=\"bx--card__heading\" style=\"height: 109px;\">Data Scientist</div><div class=\"ibm--card__inner\" style=\"height: 82px;\"><div class=\"bx--card__copy\"><div class=\"ibm--card__copy__inner\">Entry Level<br>Multiple Cities</div></div></div><div class=\"bx--card__footer bx--card__footer__copy\" style=\"height: 20px;\"><span class=\"bx--card__cta__copy\"></span><span size=\"20\">\n<svg version=\"1.1\" id=\"icon\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" style=\"enable-background:new 0 0 20 20;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n  .st0{fill:none;}\n</style>\n<rect id=\"_Transparent_Rectangle_\" class=\"st0\" width=\"20\" height=\"20\"></rect>\n<polygon points=\"11.8,2.8 10.8,3.8 16.2,9.3 1,9.3 1,10.7 16.2,10.7 10.8,16.2 11.8,17.2 19,10 \"></polygon>\n</svg>\n      </span></div></div></div>",
+        "<div class=\"bx--card__wrapper\"><div class=\"bx--card__content\"><div class=\"bx--card__eyebrow\" style=\"height: 18px;\">Data &amp; Analytics</div><div class=\"bx--card__heading\" style=\"height: 109px;\">Senior Data Scientist</div><div class=\"ibm--card__inner\" style=\"height: 82px;\"><div class=\"bx--card__copy\"><div class=\"ibm--card__copy__inner\">Professional<br>Multiple Cities</div></div></div><div class=\"bx--card__footer bx--card__footer__copy\" style=\"height: 20px;\"><span class=\"bx--card__cta__copy\"></span><span size=\"20\">\n<svg version=\"1.1\" id=\"icon\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" style=\"enable-background:new 0 0 20 20;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n  .st0{fill:none;}\n</style>\n<rect id=\"_Transparent_Rectangle_\" class=\"st0\" width=\"20\" height=\"20\"></rect>\n<polygon points=\"11.8,2.8 10.8,3.8 16.2,9.3 1,9.3 1,10.7 16.2,10.7 10.8,16.2 11.8,17.2 19,10 \"></polygon>\n</svg>\n      </span></div></div></div>"
+      ],
+      "sample_text": [
+        "Data & Analytics\nData Scientist\nEntry Level\nMultiple Cities",
+        "Data & Analytics\nSenior Data Scientist\nProfessional\nMultiple Cities"
+      ]
+    },
+    {
+      "selector": "div.bx--card__content",
+      "count": 30,
+      "sample_html": [
+        "<div class=\"bx--card__content\"><div class=\"bx--card__eyebrow\" style=\"height: 18px;\">Data &amp; Analytics</div><div class=\"bx--card__heading\" style=\"height: 109px;\">Data Scientist</div><div class=\"ibm--card__inner\" style=\"height: 82px;\"><div class=\"bx--card__copy\"><div class=\"ibm--card__copy__inner\">Entry Level<br>Multiple Cities</div></div></div><div class=\"bx--card__footer bx--card__footer__copy\" style=\"height: 20px;\"><span class=\"bx--card__cta__copy\"></span><span size=\"20\">\n<svg version=\"1.1\" id=\"icon\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" style=\"enable-background:new 0 0 20 20;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n  .st0{fill:none;}\n</style>\n<rect id=\"_Transparent_Rectangle_\" class=\"st0\" width=\"20\" height=\"20\"></rect>\n<polygon points=\"11.8,2.8 10.8,3.8 16.2,9.3 1,9.3 1,10.7 16.2,10.7 10.8,16.2 11.8,17.2 19,10 \"></polygon>\n</svg>\n      </span></div></div>",
+        "<div class=\"bx--card__content\"><div class=\"bx--card__eyebrow\" style=\"height: 18px;\">Data &amp; Analytics</div><div class=\"bx--card__heading\" style=\"height: 109px;\">Senior Data Scientist</div><div class=\"ibm--card__inner\" style=\"height: 82px;\"><div class=\"bx--card__copy\"><div class=\"ibm--card__copy__inner\">Professional<br>Multiple Cities</div></div></div><div class=\"bx--card__footer bx--card__footer__copy\" style=\"height: 20px;\"><span class=\"bx--card__cta__copy\"></span><span size=\"20\">\n<svg version=\"1.1\" id=\"icon\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"20px\" height=\"20px\" viewBox=\"0 0 20 20\" style=\"enable-background:new 0 0 20 20;\" xml:space=\"preserve\">\n<style type=\"text/css\">\n  .st0{fill:none;}\n</style>\n<rect id=\"_Transparent_Rectangle_\" class=\"st0\" width=\"20\" height=\"20\"></rect>\n<polygon points=\"11.8,2.8 10.8,3.8 16.2,9.3 1,9.3 1,10.7 16.2,10.7 10.8,16.2 11.8,17.2 19,10 \"></polygon>\n</svg>\n      </span></div></div>"
+      ],
+      "sample_text": [
+        "Data & Analytics\nData Scientist\nEntry Level\nMultiple Cities",
+        "Data & Analytics\nSenior Data Scientist\nProfessional\nMultiple Cities"
+      ]
+    },
+    {
+      "selector": "div.bx--card__heading",
+      "count": 30,
+      "sample_html": [
+        "<div class=\"bx--card__heading\" style=\"height: 109px;\">Data Scientist</div>",
+        "<div class=\"bx--card__heading\" style=\"height: 109px;\">Senior Data Scientist</div>"
+      ],
+      "sample_text": [
+        "Data Scientist",
+        "Senior Data Scientist"
+      ]
+    }
+  ],
   "structural_candidates": [
+    {
+      "selector": "a.sk-item-list-option.sk-item-list__item",
+      "count": 50,
+      "sample_html": [
+        "<a class=\"sk-item-list-option sk-item-list__item\" data-qa=\"option\" data-key=\"Hybrid\" data-attribute1=\"mh_filterClick\" data-attribute8=\"HybridAndRemoteJobs-Hybrid\" href=\"javascript:void(0)\" id=\"IBMAccessibleCheckboxItemComponents-HybridAndRemoteJobs-Hybrid\"><input type=\"checkbox\" data-qa=\"checkbox\" aria-label=\"Hybrid\" class=\"sk-item-list-option__checkbox\"><div data-qa=\"label\" class=\"sk-item-list-option__text\"><span><span class=\"\">Hybrid</span></span> (393)</div></a>",
+        "<a class=\"sk-item-list-option sk-item-list__item\" data-qa=\"option\" data-key=\"Remote\" data-attribute1=\"mh_filterClick\" data-attribute8=\"HybridAndRemoteJobs-Remote\" href=\"javascript:void(0)\" id=\"IBMAccessibleCheckboxItemComponents-HybridAndRemoteJobs-Remote\"><input type=\"checkbox\" data-qa=\"checkbox\" aria-label=\"Remote only\" class=\"sk-item-list-option__checkbox\"><div data-qa=\"label\" class=\"sk-item-list-option__text\"><span><span class=\"\">Remote only</span></span> (28)</div></a>"
+      ],
+      "sample_text": [
+        "Hybrid (393)",
+        "Remote only (28)"
+      ]
+    },
     {
       "selector": "li.new-basic-links__item",
       "count": 7,
@@ -28,33 +295,21 @@
       ]
     },
     {
-      "selector": "c4d-cta-block-item.cds--cta-block-item__pictogram-styling",
+      "selector": "div.cds--accordion__content",
       "count": 4,
       "sample_html": [
-        "<c4d-cta-block-item class=\"cds--cta-block-item__pictogram-styling\" data-autoid=\"c4d--cta-block-item\">\n    \n    \n    <svg fill=\"url(#pictogram-color-blue-60-80128ca2-a96c-4bdf-ab03-c4cc87144245)\" slot=\"media\" class=\"question--and--answer pictogram-color-blue-60 cds--pictogram-item__pictogram\" data-autoid=\"c4d--pictogram-item__pictogram\" focusable=\"false\" viewBox=\"0 0 80 80\" height=\"80\" width=\"80\" role=\"img\">\n        <use href=\"#question--and--answer\" height=\"80\" width=\"80\"></use>\n        <defs>\n            <linearGradient id=\"pictogram-color-gradient-180-blue-to-purple-80128ca2-a96c-4bdf-ab03-c4cc87144245\" gradientTransform=\"rotate(90)\">\n                <stop offset=\"0%\" stop-color=\"#0f62fe\"></stop>\n                <stop offset=\"100%\" stop-color=\"#8a3ffc\"></stop>\n            </linearGradient>\n            <linearGradient id=\"pictogram-color-gradient-180-blue-dark-to-light-80128ca2-a96c-4bdf-ab03-c4cc87144245\" gradientTransform=\"rotate(90)\">\n                <stop offset=\"0%\" stop-color=\"#0f62fe\"></stop>\n                <stop offset=\"100%\" stop-color=\"#78a9ff\"></stop>\n            </linearGradient>\n            <linearGradient id=\"pictogram-color-gradient-180-blue-to-teal-80128ca2-a96c-4bdf-ab03-c4cc87144245\" gradientTransform=\"rotate(90)\">\n                <stop offset=\"0%\" stop-color=\"#0f62fe\"></stop>\n                <stop offset=\"100%\" stop-color=\"#08bdba\"></stop>\n            </linearGradient>\n            <linearGradient id=\"pictogram-color-gradient-180-blue-to-magenta-80128ca2-a",
-        "<c4d-cta-block-item class=\"cds--cta-block-item__pictogram-styling\" data-autoid=\"c4d--cta-block-item\">\n    \n    \n    <svg fill=\"url(#pictogram-color-blue-60-888283fd-1d43-4122-98e3-6e3f56ff8b13)\" slot=\"media\" class=\"alarm pictogram-color-blue-60 cds--pictogram-item__pictogram\" data-autoid=\"c4d--pictogram-item__pictogram\" focusable=\"false\" viewBox=\"0 0 80 80\" height=\"80\" width=\"80\" role=\"img\">\n        <use href=\"#alarm\" height=\"80\" width=\"80\"></use>\n        <defs>\n            <linearGradient id=\"pictogram-color-gradient-180-blue-to-purple-888283fd-1d43-4122-98e3-6e3f56ff8b13\" gradientTransform=\"rotate(90)\">\n                <stop offset=\"0%\" stop-color=\"#0f62fe\"></stop>\n                <stop offset=\"100%\" stop-color=\"#8a3ffc\"></stop>\n            </linearGradient>\n            <linearGradient id=\"pictogram-color-gradient-180-blue-dark-to-light-888283fd-1d43-4122-98e3-6e3f56ff8b13\" gradientTransform=\"rotate(90)\">\n                <stop offset=\"0%\" stop-color=\"#0f62fe\"></stop>\n                <stop offset=\"100%\" stop-color=\"#78a9ff\"></stop>\n            </linearGradient>\n            <linearGradient id=\"pictogram-color-gradient-180-blue-to-teal-888283fd-1d43-4122-98e3-6e3f56ff8b13\" gradientTransform=\"rotate(90)\">\n                <stop offset=\"0%\" stop-color=\"#0f62fe\"></stop>\n                <stop offset=\"100%\" stop-color=\"#08bdba\"></stop>\n            </linearGradient>\n            <linearGradient id=\"pictogram-color-gradient-180-blue-to-magenta-888283fd-1d43-4122-98e3-6e3f56ff8b13\" grad"
+        "<div class=\"cds--accordion__content\" id=\"accordion-item-1\"><div class=\"sk-panel filter--field_keyword_17\"><div class=\"sk-panel__header\">Hybrid and Remote jobs</div><div class=\"sk-panel__content\"><div data-qa=\"options\" class=\"sk-item-list\"><a class=\"sk-item-list-option sk-item-list__item\" data-qa=\"option\" data-key=\"Hybrid\" data-attribute1=\"mh_filterClick\" data-attribute8=\"HybridAndRemoteJobs-Hybrid\" href=\"javascript:void(0)\" id=\"IBMAccessibleCheckboxItemComponents-HybridAndRemoteJobs-Hybrid\"><input type=\"checkbox\" data-qa=\"checkbox\" aria-label=\"Hybrid\" class=\"sk-item-list-option__checkbox\"><div data-qa=\"label\" class=\"sk-item-list-option__text\"><span><span class=\"\">Hybrid</span></span> (393)</div></a><a class=\"sk-item-list-option sk-item-list__item\" data-qa=\"option\" data-key=\"Remote\" data-attribute1=\"mh_filterClick\" data-attribute8=\"HybridAndRemoteJobs-Remote\" href=\"javascript:void(0)\" id=\"IBMAccessibleCheckboxItemComponents-HybridAndRemoteJobs-Remote\"><input type=\"checkbox\" data-qa=\"checkbox\" aria-label=\"Remote only\" class=\"sk-item-list-option__checkbox\"><div data-qa=\"label\" class=\"sk-item-list-option__text\"><span><span class=\"\">Remote only</span></span> (28)</div></a></div></div></div></div>",
+        "<div class=\"cds--accordion__content\" id=\"accordion-item-2\"><div class=\"sk-panel filter--field_keyword_08\"><div class=\"sk-panel__header\">Career Areas</div><div class=\"sk-panel__content\"><div data-qa=\"options\" class=\"sk-item-list\"><a class=\"sk-item-list-option sk-item-list__item\" data-qa=\"option\" data-key=\"Enterprise Operations\" data-attribute1=\"mh_filterClick\" data-attribute8=\"CareerAreas-EnterpriseOperations\" href=\"javascript:void(0)\" id=\"IBMAccessibleCheckboxItemComponents-CareerAreas-EnterpriseOperations\"><input type=\"checkbox\" data-qa=\"checkbox\" aria-label=\"Enterprise Operations\" class=\"sk-item-list-option__checkbox\"><div data-qa=\"label\" class=\"sk-item-list-option__text\"><span><span class=\"\">Enterprise Operations</span></span> (150)</div></a><a class=\"sk-item-list-option sk-item-list__item\" data-qa=\"option\" data-key=\"Software Engineering\" data-attribute1=\"mh_filterClick\" data-attribute8=\"CareerAreas-SoftwareEngineering\" href=\"javascript:void(0)\" id=\"IBMAccessibleCheckboxItemComponents-CareerAreas-SoftwareEngineering\"><input type=\"checkbox\" data-qa=\"checkbox\" aria-label=\"Software Engineering\" class=\"sk-item-list-option__checkbox\"><div data-qa=\"label\" class=\"sk-item-list-option__text\"><span><span class=\"\">Software Engineering</span></span> (136)</div></a><a class=\"sk-item-list-option sk-item-list__item\" data-qa=\"option\" data-key=\"Consulting\" data-attribute1=\"mh_filterClick\" data-attribute8=\"CareerAreas-Consulting\" href=\"javascript:void(0)\" id=\"IBMAccessibleCheckboxItemCompon"
       ],
       "sample_text": [
-        "Talent Network\n\nStay up to date on career related news and events.\n\nJoin our Talent Network ",
-        "Job Alerts\n\nGet notified on job openings that match your skills.\n\nTurn on Job Alerts "
-      ]
-    },
-    {
-      "selector": "a.sk-item-list-option.sk-item-list__item",
-      "count": 3,
-      "sample_html": [
-        "<a class=\"sk-item-list-option sk-item-list__item\" data-qa=\"option\" data-key=\"Professional\" data-attribute1=\"mh_filterClick\" data-attribute8=\"ExperienceLevel-Professional\" href=\"javascript:void(0)\" id=\"IBMAccessibleCheckboxItemComponents-ExperienceLevel-Professional\"><input type=\"checkbox\" data-qa=\"checkbox\" aria-label=\"Professional\" class=\"sk-item-list-option__checkbox\"><div data-qa=\"label\" class=\"sk-item-list-option__text\"><span><span class=\"\">Professional</span></span> (862)</div></a>",
-        "<a class=\"sk-item-list-option sk-item-list__item\" data-qa=\"option\" data-key=\"Internship\" data-attribute1=\"mh_filterClick\" data-attribute8=\"ExperienceLevel-Internship\" href=\"javascript:void(0)\" id=\"IBMAccessibleCheckboxItemComponents-ExperienceLevel-Internship\"><input type=\"checkbox\" data-qa=\"checkbox\" aria-label=\"Internship\" class=\"sk-item-list-option__checkbox\"><div data-qa=\"label\" class=\"sk-item-list-option__text\"><span><span class=\"\">Internship</span></span> (101)</div></a>"
-      ],
-      "sample_text": [
-        "Professional (862)",
-        "Internship (101)"
+        "Hybrid (393)\nRemote only (28)",
+        "Career AreasEnterprise Operations (150)Software Engineering (136)Consulting (78)Infrastructure & Technology (75)Sales (61)Data & Analytics (43)View all"
       ]
     }
   ],
   "page_title": "Search jobs | IBM Careers",
-  "stage": "initial",
   "cookie_banner_dismissed": true,
+  "search_interacted": true,
   "status": "ok",
   "screenshot": "ibm.png"
 }

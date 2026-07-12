@@ -1,5 +1,5 @@
 {
-  "nokia": "blocked_or_error",
+  "nokia": "ok",
   "bosch": "ok",
   "ericsson": "no_candidates_found",
   "oracle": "ok",
@@ -23,7 +23,7 @@
   "genpact": "no_candidates_found",
   "dxc-technology": "no_candidates_found",
   "mphasis": "ok",
-  "zoho": "blocked_or_error",
+  "zoho": "no_candidates_found",
   "freshworks": "ok",
   "gocomet": "ok",
   "samsung-rd": "ok"

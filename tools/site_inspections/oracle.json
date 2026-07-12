@@ -1,6 +1,43 @@
 {
   "slug": "oracle",
   "url": "https://careers.oracle.com/en/sites/jobsearch/jobs",
+  "initial": {
+    "keyword_candidates": [],
+    "structural_candidates": [
+      {
+        "selector": "li.orcl-oal-item",
+        "count": 3,
+        "sample_html": [
+          "<li class=\"orcl-oal-item\">\n                            <a class=\"orcl-oal-item-link orcl-oal-desktop\" href=\"https://www.oracle.com/legal/copyright.html\">\u00a9 2026 Oracle</a>\n                        </li>",
+          "<li class=\"orcl-oal-item\">\n                            <a class=\"orcl-oal-item-link orcl-oal-oracle orcl-oal-mobile\" href=\"https://www.oracle.com/legal/copyright.html\">\u00a9 2026 Oracle</a>\n                        </li>"
+        ],
+        "sample_text": [
+          "",
+          "\u00a9 2026 Oracle "
+        ]
+      }
+    ],
+    "page_title": "Search Jobs - Oracle Careers"
+  },
+  "after_search": {
+    "keyword_candidates": [],
+    "structural_candidates": [
+      {
+        "selector": "li.orcl-oal-item",
+        "count": 3,
+        "sample_html": [
+          "<li class=\"orcl-oal-item\">\n                            <a class=\"orcl-oal-item-link orcl-oal-desktop\" href=\"https://www.oracle.com/legal/copyright.html\">\u00a9 2026 Oracle</a>\n                        </li>",
+          "<li class=\"orcl-oal-item\">\n                            <a class=\"orcl-oal-item-link orcl-oal-oracle orcl-oal-mobile\" href=\"https://www.oracle.com/legal/copyright.html\">\u00a9 2026 Oracle</a>\n                        </li>"
+        ],
+        "sample_text": [
+          "",
+          "\u00a9 2026 Oracle "
+        ]
+      }
+    ],
+    "page_title": "Search Jobs - Oracle Careers"
+  },
+  "best_source": "initial",
   "keyword_candidates": [],
   "structural_candidates": [
     {
@@ -17,8 +54,8 @@
     }
   ],
   "page_title": "Search Jobs - Oracle Careers",
-  "stage": "initial",
   "cookie_banner_dismissed": false,
+  "search_interacted": true,
   "status": "ok",
   "screenshot": "oracle.png"
 }

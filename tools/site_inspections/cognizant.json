@@ -1,11 +1,18 @@
 {
   "slug": "cognizant",
   "url": "https://careers.cognizant.com/global/en/search-results?keywords=data%20scientist",
+  "initial": {
+    "keyword_candidates": [],
+    "structural_candidates": [],
+    "page_title": "Just a moment..."
+  },
+  "after_search": null,
+  "best_source": "initial",
   "keyword_candidates": [],
   "structural_candidates": [],
   "page_title": "Just a moment...",
-  "stage": "initial",
   "cookie_banner_dismissed": false,
+  "search_interacted": false,
   "status": "no_candidates_found",
   "screenshot": "cognizant.png"
 }

@@ -1,6 +1,63 @@
 {
   "slug": "gocomet",
   "url": "https://gocomet.com/careers/",
+  "initial": {
+    "keyword_candidates": [
+      {
+        "selector": "div.card",
+        "count": 8,
+        "sample_html": [
+          "<div class=\"card\"><img src=\"/website/image/company/career/core-values/customer-focus.svg\" alt=\"Customer Focus\" width=\"60\" height=\"60\" loading=\"lazy\"><h2> <!-- -->Customer Focus</h2><p>Leaders in GoComet always keep customers in mind. This means first thinking about the customer experience and then working backwards. Work vigorously to earn and keep customer trust.</p></div>",
+          "<div class=\"card\"><img src=\"/website/image/company/career/core-values/speed.svg\" alt=\"Speed\" width=\"60\" height=\"60\" loading=\"lazy\"><h2> <!-- -->Speed</h2><p>Leaders in GoComet have a bias for action. If faced with two scenarios, pick one which is faster to market and faster to feedback. Leaders choose the most critical challenges and opportunities and move with velocity after them.</p></div>"
+        ],
+        "sample_text": [
+          "Customer Focus\n\nLeaders in GoComet always keep customers in mind. This means first thinking about the customer experience and then working backwards. Work vigorously to earn and keep customer trust.",
+          "Speed\n\nLeaders in GoComet have a bias for action. If faced with two scenarios, pick one which is faster to market and faster to feedback. Leaders choose the most critical challenges and opportunities "
+        ]
+      },
+      {
+        "selector": "a.social-tile",
+        "count": 4,
+        "sample_html": [
+          "<a href=\"https://www.facebook.com/gocomet.in/\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Facebook\" class=\"social-tile\"><img src=\"/svg/common/social-media/facebook.svg\" alt=\"Facebook\" width=\"18\" height=\"18\"></a>",
+          "<a href=\"https://in.linkedin.com/company/go-comet\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"LinkedIn\" class=\"social-tile\"><img src=\"/svg/common/social-media/linkedin.svg\" alt=\"LinkedIn\" width=\"18\" height=\"18\"></a>"
+        ],
+        "sample_text": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "structural_candidates": [
+      {
+        "selector": "a.footer-link",
+        "count": 15,
+        "sample_html": [
+          "<a href=\"/products/freight-management\" class=\"footer-link\">Platform Overview</a>",
+          "<a href=\"/products/shipment-management\" class=\"footer-link\">GoShipment</a>"
+        ],
+        "sample_text": [
+          "Platform Overview",
+          "GoShipment"
+        ]
+      },
+      {
+        "selector": "div.sc-95b4b552-0.cGeLKB",
+        "count": 3,
+        "sample_html": [
+          "<div class=\"sc-95b4b552-0 cGeLKB\"><h4 class=\"footer-col-title\">Solutions</h4><a href=\"/products/freight-management\" class=\"footer-link\">Platform Overview</a><a href=\"/products/freight-quotation-management\" class=\"footer-link\">GoProcure</a><a href=\"/transit-lead-time-calculator\" class=\"footer-link\">GoPlan</a><a href=\"/products/container-tracking-software\" class=\"footer-link\">GoTrack</a><a href=\"/products/shipment-management\" class=\"footer-link\">GoShipment</a><a href=\"/products/freight-invoice-reconciliation\" class=\"footer-link\">GoInvoice</a></div>",
+          "<div class=\"sc-95b4b552-0 cGeLKB\"><h4 class=\"footer-col-title\">Market Intelligence</h4><a href=\"/online-container-tracking\" class=\"footer-link\">Container Tracking</a><a href=\"https://forwarders.gocomet.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"footer-link\">LSP Database</a><a href=\"/freight-shipping-rates-index-calculator\" class=\"footer-link\">GoComet Freight Index</a><a href=\"/transit-lead-time-calculator\" class=\"footer-link\">Lead Time Benchmark</a><a href=\"/sailing-schedule\" class=\"footer-link\">Smart Schedules</a><a href=\"/real-time-port-congestion\" class=\"footer-link\">Port Congestion Data</a></div>"
+        ],
+        "sample_text": [
+          "Solutions\nPlatform Overview\nGoProcure\nGoPlan\nGoTrack\nGoShipment\nGoInvoice",
+          "Market Intelligence\nContainer Tracking\nLSP Database\nGoComet Freight Index\nLead Time Benchmark\nSmart Schedules\nPort Congestion Data"
+        ]
+      }
+    ],
+    "page_title": "GoComet | Careers"
+  },
+  "after_search": null,
+  "best_source": "initial",
   "keyword_candidates": [
     {
       "selector": "div.card",
@@ -54,8 +111,8 @@
     }
   ],
   "page_title": "GoComet | Careers",
-  "stage": "initial",
   "cookie_banner_dismissed": false,
+  "search_interacted": false,
   "status": "ok",
   "screenshot": "gocomet.png"
 }

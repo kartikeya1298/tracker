@@ -1,11 +1,18 @@
 {
   "slug": "genpact",
   "url": "https://genpact.taleo.net/careersection/genpact_ext/jobsearch.ftl?searchText=data+scientist",
+  "initial": {
+    "keyword_candidates": [],
+    "structural_candidates": [],
+    "page_title": "Career Section Unavailable"
+  },
+  "after_search": null,
+  "best_source": "initial",
   "keyword_candidates": [],
   "structural_candidates": [],
   "page_title": "Career Section Unavailable",
-  "stage": "initial",
   "cookie_banner_dismissed": false,
+  "search_interacted": false,
   "status": "no_candidates_found",
   "screenshot": "genpact.png"
 }

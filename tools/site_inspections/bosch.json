@@ -1,6 +1,99 @@
 {
   "slug": "bosch",
   "url": "https://jobs.bosch.com/en/",
+  "initial": {
+    "keyword_candidates": [
+      {
+        "selector": "li.JobSearchFilter__autocomplete--item",
+        "count": 107,
+        "sample_html": [
+          "<li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">Australia</span></li>",
+          "<li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">Austria</span></li>"
+        ],
+        "sample_text": [
+          "Australia",
+          "Austria"
+        ]
+      },
+      {
+        "selector": "span.JobSearchFilter__autocomplete--label",
+        "count": 107,
+        "sample_html": [
+          "<span class=\"JobSearchFilter__autocomplete--label\">Australia</span>",
+          "<span class=\"JobSearchFilter__autocomplete--label\">Austria</span>"
+        ],
+        "sample_text": [
+          "Australia",
+          "Austria"
+        ]
+      },
+      {
+        "selector": "div.JobSearchFilter_searchField",
+        "count": 8,
+        "sample_html": [
+          "<div class=\"JobSearchFilter_searchField\"><div class=\"a-text-field\"><input type=\"search\" placeholder=\"Bosch Location\" aria-label=\"Bosch Location\" disabled=\"\" value=\"\"></div><div class=\"JobSearchFilter__autocomplete -primary -hidden\"><ul class=\"JobSearchFilter__autocomplete--options\"></ul></div></div>",
+          "<div class=\"JobSearchFilter_searchField\"><div class=\"a-text-field\"><input type=\"search\" placeholder=\"e.g. Germany\" aria-label=\"Country\" value=\"\"></div><div class=\"JobSearchFilter__autocomplete -primary -hidden\"><ul class=\"JobSearchFilter__autocomplete--options\"><li class=\"JobSearchFilter__autocomplete--item JobSearchFilter__autocomplete--specialOption\"><button type=\"button\" class=\"a-button a-button--integrated -without-icon\"><span class=\"a-button__label\">Other countries</span></button></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">Australia</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">Austria</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">Belgium</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">China</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">France</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">Germany</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">Greece</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">Hungary</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"Jo"
+        ],
+        "sample_text": [
+          "",
+          ""
+        ]
+      },
+      {
+        "selector": "div.JobSearchFilter__autocomplete.-primary.-hidden",
+        "count": 8,
+        "sample_html": [
+          "<div class=\"JobSearchFilter__autocomplete -primary -hidden\"><ul class=\"JobSearchFilter__autocomplete--options\"></ul></div>",
+          "<div class=\"JobSearchFilter__autocomplete -primary -hidden\"><ul class=\"JobSearchFilter__autocomplete--options\"><li class=\"JobSearchFilter__autocomplete--item JobSearchFilter__autocomplete--specialOption\"><button type=\"button\" class=\"a-button a-button--integrated -without-icon\"><span class=\"a-button__label\">Other countries</span></button></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">Australia</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">Austria</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">Belgium</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">China</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">France</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">Germany</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">Greece</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">Hungary</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">India</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\""
+        ],
+        "sample_text": [
+          "",
+          "Other countriesAustraliaAustriaBelgiumChinaFranceGermanyGreeceHungaryIndiaIndonesiaItalyJapanKoreaMalaysiaMexicoNetherlandsNew ZealandPhilippinesPortugalRomaniaSingaporeSpainSwitzerlandThailandT\u00fcrkiye"
+        ]
+      },
+      {
+        "selector": "ul.JobSearchFilter__autocomplete--options",
+        "count": 8,
+        "sample_html": [
+          "<ul class=\"JobSearchFilter__autocomplete--options\"></ul>",
+          "<ul class=\"JobSearchFilter__autocomplete--options\"><li class=\"JobSearchFilter__autocomplete--item JobSearchFilter__autocomplete--specialOption\"><button type=\"button\" class=\"a-button a-button--integrated -without-icon\"><span class=\"a-button__label\">Other countries</span></button></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">Australia</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">Austria</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">Belgium</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">China</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">France</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">Germany</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">Greece</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">Hungary</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">India</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">Indonesia</span></li><li class=\"JobSearchFilter__autocomple"
+        ],
+        "sample_text": [
+          "",
+          "Other countriesAustraliaAustriaBelgiumChinaFranceGermanyGreeceHungaryIndiaIndonesiaItalyJapanKoreaMalaysiaMexicoNetherlandsNew ZealandPhilippinesPortugalRomaniaSingaporeSpainSwitzerlandThailandT\u00fcrkiye"
+        ]
+      },
+      {
+        "selector": "div.JobSearchAccordion__content.-collapsed",
+        "count": 8,
+        "sample_html": [
+          "<div class=\"JobSearchAccordion__content -collapsed\"><div class=\"A-Modal JobSearchCountrySelector__modal\" role=\"alertdialog\" aria-label=\"Please select country and location first\"><div class=\"ngdialog-overlay\"></div><div class=\"ngdialog-content\" role=\"document\"><div class=\"JobSearchCountrySelector__modal--headline highlight -size-l\">Please select country and location first</div><div class=\"JobSearchCountrySelector\"><div class=\"A-FormField A-FormField-Select A-FormField--noValidation\"><select class=\"A-FormField__element\" aria-label=\"Region\"><option value=\"\" disabled=\"\" selected=\"\">Region</option><option value=\"region_id_Asia\">Asia</option><option value=\"region_id_Americas\">Americas</option><option value=\"region_id_Africa\">Africa</option><option value=\"region_id_Europe\">Europe</option><option value=\"region_id_Oceania \">Oceania </option></select><span class=\"A-FormField__icon\"><i class=\"a-icon ui-ic-down\" title=\"down\"></i></span></div><div class=\"A-FormField A-FormField-Select A-FormField--noValidation\"><select class=\"A-FormField__element\" disabled=\"\" aria-label=\"Location\"><option value=\"\" disabled=\"\" selected=\"\">Location</option></select><span class=\"A-FormField__icon\"><i class=\"a-icon ui-ic-down\" title=\"down\"></i></span></div><button type=\"button\" class=\"a-button a-button--primary -without-icon JobSearchCountrySelector__open-website-button\" disabled=\"\"><span class=\"a-button__label\">Go to Local career website</span></button></div></div></div><div class=\"a-accordion JobSearchAccor",
+          "<div class=\"JobSearchAccordion__content -collapsed\"><div class=\"JobSearchFilter\"><div class=\"JobSearchFilter_searchField\"><div class=\"a-text-field\"><input type=\"search\" placeholder=\"e.g. Germany\" aria-label=\"Country\" value=\"\"></div><div class=\"JobSearchFilter__autocomplete -primary -hidden\"><ul class=\"JobSearchFilter__autocomplete--options\"><li class=\"JobSearchFilter__autocomplete--item JobSearchFilter__autocomplete--specialOption\"><button type=\"button\" class=\"a-button a-button--integrated -without-icon\"><span class=\"a-button__label\">Other countries</span></button></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">Australia</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">Austria</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">Belgium</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">China</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">France</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">Germany</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">Greece</span></li><li class=\"JobSearchFilter__autocomplete--item\"><span class=\"JobSearchFilter__autocomplete--label\">H"
+        ],
+        "sample_text": [
+          "Please select country and location first\nRegion\nAsia\nAmericas\nAfrica\nEurope\nOceania\nLocation\nGo to Local career website\nCountry (0)\nFields of work (0)\nApply as (0)\nContract Type (0)\nWorking Hours (0)\n",
+          ""
+        ]
+      }
+    ],
+    "structural_candidates": [
+      {
+        "selector": "div.a-link",
+        "count": 5,
+        "sample_html": [
+          "<div class=\"a-link\"><a target=\"_self\" aria-label=\"Corporate information\" href=\"https://jobs.bosch.com/en/corporate-information/?prevent-auto-open-privacy-settings=1\"><span>Corporate information</span></a></div>",
+          "<div class=\"a-link\"><a target=\"_self\" aria-label=\"Legal notice\" href=\"https://jobs.bosch.com/en/legal-notice/?prevent-auto-open-privacy-settings=1\"><span>Legal notice</span></a></div>"
+        ],
+        "sample_text": [
+          "Corporate information",
+          "Legal notice"
+        ]
+      }
+    ],
+    "page_title": "Careers at Bosch"
+  },
+  "after_search": null,
+  "best_source": "initial",
   "keyword_candidates": [
     {
       "selector": "li.JobSearchFilter__autocomplete--item",
@@ -90,8 +183,8 @@
     }
   ],
   "page_title": "Careers at Bosch",
-  "stage": "initial",
   "cookie_banner_dismissed": false,
+  "search_interacted": false,
   "status": "ok",
   "screenshot": "bosch.png"
 }

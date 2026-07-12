@@ -1,11 +1,22 @@
 {
   "slug": "uber",
   "url": "https://www.uber.com/us/en/careers/list/?query=data%20scientist",
+  "initial": {
+    "keyword_candidates": [],
+    "structural_candidates": [],
+    "page_title": "Jobs"
+  },
+  "after_search": {
+    "keyword_candidates": [],
+    "structural_candidates": [],
+    "page_title": "Jobs"
+  },
+  "best_source": "initial",
   "keyword_candidates": [],
   "structural_candidates": [],
   "page_title": "Jobs",
-  "stage": "after_search",
   "cookie_banner_dismissed": true,
+  "search_interacted": true,
   "status": "no_candidates_found",
   "screenshot": "uber.png"
 }

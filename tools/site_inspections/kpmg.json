@@ -1,6 +1,99 @@
 {
   "slug": "kpmg",
   "url": "https://kpmg.com/us/en/careers/search-openings.html?q=data+scientist",
+  "initial": {
+    "keyword_candidates": [
+      {
+        "selector": "div.cmp-standoutstaticcontentblock__se.card-grid",
+        "count": 5,
+        "sample_html": [
+          "<div class=\"cmp-standoutstaticcontentblock__se card-grid\">\n\t\t\t\t<div class=\"cmp-standoutstaticcontentblock__se-container se-container-flex\">\n\t\t\t\t\t<div class=\"cmp-standoutstaticcontentblock__se-icon-div icon-and-numbers-inline\">\n\t\t\t\t\t\t<span class=\"icon-span\">\n\t\t\t\t\t\t\t<img src=\"/kpmg-us/content/dam/kpmg/icons/Web_group-on-light.svg\" alt=\"\" aria-hidden=\"true\"></span>\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t<p class=\"cmp-standoutstaticcontentblock__ce-title ce-title-inline\">\n\t\t\t\t\t\tIntegrity\n\t\t\t\t\t</p>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"cmp-standoutstaticcontentblock__ce_container\">\n\t\t\t\t\t<p class=\"cmp-standoutstaticcontentblock__ce-subcopy\">We do what is right.</p>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>",
+          "<div class=\"cmp-standoutstaticcontentblock__se card-grid\">\n\t\t\t\t<div class=\"cmp-standoutstaticcontentblock__se-container se-container-flex\">\n\t\t\t\t\t<div class=\"cmp-standoutstaticcontentblock__se-icon-div icon-and-numbers-inline\">\n\t\t\t\t\t\t<span class=\"icon-span\">\n\t\t\t\t\t\t\t<img src=\"/kpmg-us/content/dam/kpmg/icons/Web_award-on-light.svg\" alt=\"\" aria-hidden=\"true\"></span>\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t<p class=\"cmp-standoutstaticcontentblock__ce-title ce-title-inline\">\n\t\t\t\t\t\tExcellence\n\t\t\t\t\t</p>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"cmp-standoutstaticcontentblock__ce_container\">\n\t\t\t\t\t<p class=\"cmp-standoutstaticcontentblock__ce-subcopy\">We never stop learning and improving.</p>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>"
+        ],
+        "sample_text": [
+          "Integrity\n\nWe do what is right.",
+          "Excellence\n\nWe never stop learning and improving."
+        ]
+      }
+    ],
+    "structural_candidates": [
+      {
+        "selector": "a.cmp-linklist__link.button.button--medium",
+        "count": 106,
+        "sample_html": [
+          "<a href=\"/us/en/insights-by-industry/insights-alternative-investments.html\" class=\"cmp-linklist__link button button--medium\" target=\"_self\">Alternative Investments<svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9998 5L0.999804 10L0.299805 9.3L4.5998 5L0.299805 0.7L0.999804 0L5.9998 5Z\" fill=\"currentColor\"></path>\n</svg>\n\n\t\t</a>",
+          "<a href=\"/us/en/insights-by-industry/insights-healthcare-life-sciences.html\" class=\"cmp-linklist__link button button--medium\" target=\"_self\">Healthcare and Life Sciences<svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9998 5L0.999804 10L0.299805 9.3L4.5998 5L0.299805 0.7L0.999804 0L5.9998 5Z\" fill=\"currentColor\"></path>\n</svg>\n\n\t\t</a>"
+        ],
+        "sample_text": [
+          "Alternative Investments\n\t\n\n\n\t\t",
+          "Healthcare and Life Sciences\n\t\n\n\n\t\t"
+        ]
+      },
+      {
+        "selector": "div.cmp-container",
+        "count": 12,
+        "sample_html": [
+          "<div id=\"container-08ee084ddc\" class=\"cmp-container\">\n        \n        <div class=\"linklist module_linklist_e70f0bb02fcf02f750011817edef75e89acc72f1da00f27a121da1d61b31f5f4\"><div class=\"cmp-linklist\">\n\t\n\t<nav class=\"cmp-linklist__container\">\n\t\t<a href=\"/us/en/insights-by-industry/insights-alternative-investments.html\" class=\"cmp-linklist__link button button--medium\" target=\"_self\">Alternative Investments<svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9998 5L0.999804 10L0.299805 9.3L4.5998 5L0.299805 0.7L0.999804 0L5.9998 5Z\" fill=\"currentColor\"></path>\n</svg>\n\n\t\t</a>\n\t\n\t\t<a href=\"/us/en/insights-by-industry/insights-healthcare-life-sciences.html\" class=\"cmp-linklist__link button button--medium\" target=\"_self\">Healthcare and Life Sciences<svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9998 5L0.999804 10L0.299805 9.3L4.5998 5L0.299805 0.7L0.999804 0L5.9998 5Z\" fill=\"currentColor\"></path>\n</svg>\n\n\t\t</a>\n\t\n\t\t<a href=\"/us/en/insights-by-industry/insights-asset-management.html\" class=\"cmp-linklist__link button button--medium\" target=\"_self\">Asset Management<svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9998 5L0.999804 10L0.299805 9.3L4.5998 5L0.299805 0.7L0.999804 0L5.9998 5Z\" fill=\"currentColor\"></path>\n</svg>\n\n\t\t</a>\n\t\n\t\t<a href=\"/us/en/insights-by-industry/insights-industrial-manufacturing.ht",
+          "<div id=\"container-62f1b88eca\" class=\"cmp-container\">\n        \n        <div class=\"linklist module_linklist_copy_60f022317e275a64e18873ef9b80c031db9e70a6a8b0f8b41478c35569966fb9\"><div class=\"cmp-linklist\">\n\t\n\t<nav class=\"cmp-linklist__container\">\n\t\t<a href=\"/us/en/insights-by-topic/advisory.html\" class=\"cmp-linklist__link button button--medium\" target=\"_self\">Advisory Insights<svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9998 5L0.999804 10L0.299805 9.3L4.5998 5L0.299805 0.7L0.999804 0L5.9998 5Z\" fill=\"currentColor\"></path>\n</svg>\n\n\t\t</a>\n\t\n\t\t<a href=\"/us/en/insights-by-topic/public-policy-regulatory-change.html\" class=\"cmp-linklist__link button button--medium\" target=\"_self\">Public Policy in Motion<svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9998 5L0.999804 10L0.299805 9.3L4.5998 5L0.299805 0.7L0.999804 0L5.9998 5Z\" fill=\"currentColor\"></path>\n</svg>\n\n\t\t</a>\n\t\n\t\t<a href=\"/us/en/insights-by-topic/ai-insights.html\" class=\"cmp-linklist__link button button--medium\" target=\"_self\">AI Insights<svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9998 5L0.999804 10L0.299805 9.3L4.5998 5L0.299805 0.7L0.999804 0L5.9998 5Z\" fill=\"currentColor\"></path>\n</svg>\n\n\t\t</a>\n\t\n\t\t<a href=\"/us/en/insights-by-topic/risk-regulatory.html\" class=\"cmp-linklist__link button button--medium\" target=\"_self\">Risk and Regu"
+        ],
+        "sample_text": [
+          "\n        \n        \n\t\n\t\n\t\tAlternative Investments\n\t\n\n\n\t\t\n\t\n\t\tHealthcare and Life Sciences\n\t\n\n\n\t\t\n\t\n\t\tAsset Management\n\t\n\n\n\t\t\n\t\n\t\tIndustrial Manufacturing\n\t\n\n\n\t\t\n\t\n\t\tBanking and Capital Markets\n\t\n\n\n\t\t\n\t",
+          "\n        \n        \n\t\n\t\n\t\tAdvisory Insights\n\t\n\n\n\t\t\n\t\n\t\tPublic Policy in Motion\n\t\n\n\n\t\t\n\t\n\t\tAI Insights\n\t\n\n\n\t\t\n\t\n\t\tRisk and Regulatory\n\t\n\n\n\t\t\n\t\n\t\tAudit Insights\n\t\n\n\n\t\t\n\t\n\t\tSustainability\n\t\n\n\n\t\t\n\t\n\t\tBusin"
+        ]
+      },
+      {
+        "selector": "div.cmp-linklist",
+        "count": 12,
+        "sample_html": [
+          "<div class=\"cmp-linklist\">\n\t\n\t<nav class=\"cmp-linklist__container\">\n\t\t<a href=\"/us/en/insights-by-industry/insights-alternative-investments.html\" class=\"cmp-linklist__link button button--medium\" target=\"_self\">Alternative Investments<svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9998 5L0.999804 10L0.299805 9.3L4.5998 5L0.299805 0.7L0.999804 0L5.9998 5Z\" fill=\"currentColor\"></path>\n</svg>\n\n\t\t</a>\n\t\n\t\t<a href=\"/us/en/insights-by-industry/insights-healthcare-life-sciences.html\" class=\"cmp-linklist__link button button--medium\" target=\"_self\">Healthcare and Life Sciences<svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9998 5L0.999804 10L0.299805 9.3L4.5998 5L0.299805 0.7L0.999804 0L5.9998 5Z\" fill=\"currentColor\"></path>\n</svg>\n\n\t\t</a>\n\t\n\t\t<a href=\"/us/en/insights-by-industry/insights-asset-management.html\" class=\"cmp-linklist__link button button--medium\" target=\"_self\">Asset Management<svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9998 5L0.999804 10L0.299805 9.3L4.5998 5L0.299805 0.7L0.999804 0L5.9998 5Z\" fill=\"currentColor\"></path>\n</svg>\n\n\t\t</a>\n\t\n\t\t<a href=\"/us/en/insights-by-industry/insights-industrial-manufacturing.html\" class=\"cmp-linklist__link button button--medium\" target=\"_self\">Industrial Manufacturing<svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden",
+          "<div class=\"cmp-linklist\">\n\t\n\t<nav class=\"cmp-linklist__container\">\n\t\t<a href=\"/us/en/insights-by-topic/advisory.html\" class=\"cmp-linklist__link button button--medium\" target=\"_self\">Advisory Insights<svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9998 5L0.999804 10L0.299805 9.3L4.5998 5L0.299805 0.7L0.999804 0L5.9998 5Z\" fill=\"currentColor\"></path>\n</svg>\n\n\t\t</a>\n\t\n\t\t<a href=\"/us/en/insights-by-topic/public-policy-regulatory-change.html\" class=\"cmp-linklist__link button button--medium\" target=\"_self\">Public Policy in Motion<svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9998 5L0.999804 10L0.299805 9.3L4.5998 5L0.299805 0.7L0.999804 0L5.9998 5Z\" fill=\"currentColor\"></path>\n</svg>\n\n\t\t</a>\n\t\n\t\t<a href=\"/us/en/insights-by-topic/ai-insights.html\" class=\"cmp-linklist__link button button--medium\" target=\"_self\">AI Insights<svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9998 5L0.999804 10L0.299805 9.3L4.5998 5L0.299805 0.7L0.999804 0L5.9998 5Z\" fill=\"currentColor\"></path>\n</svg>\n\n\t\t</a>\n\t\n\t\t<a href=\"/us/en/insights-by-topic/risk-regulatory.html\" class=\"cmp-linklist__link button button--medium\" target=\"_self\">Risk and Regulatory<svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9998 5L0.999804 10L0.299805 9.3L4.5998 5L0.299805 0.7L0.999804"
+        ],
+        "sample_text": [
+          "\n\t\n\t\n\t\tAlternative Investments\n\t\n\n\n\t\t\n\t\n\t\tHealthcare and Life Sciences\n\t\n\n\n\t\t\n\t\n\t\tAsset Management\n\t\n\n\n\t\t\n\t\n\t\tIndustrial Manufacturing\n\t\n\n\n\t\t\n\t\n\t\tBanking and Capital Markets\n\t\n\n\n\t\t\n\t\n\t\tInsurance\n\t\n\n\n\t",
+          "\n\t\n\t\n\t\tAdvisory Insights\n\t\n\n\n\t\t\n\t\n\t\tPublic Policy in Motion\n\t\n\n\n\t\t\n\t\n\t\tAI Insights\n\t\n\n\n\t\t\n\t\n\t\tRisk and Regulatory\n\t\n\n\n\t\t\n\t\n\t\tAudit Insights\n\t\n\n\n\t\t\n\t\n\t\tSustainability\n\t\n\n\n\t\t\n\t\n\t\tBusiness Transformation"
+        ]
+      },
+      {
+        "selector": "nav.cmp-linklist__container",
+        "count": 12,
+        "sample_html": [
+          "<nav class=\"cmp-linklist__container\">\n\t\t<a href=\"/us/en/insights-by-industry/insights-alternative-investments.html\" class=\"cmp-linklist__link button button--medium\" target=\"_self\">Alternative Investments<svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9998 5L0.999804 10L0.299805 9.3L4.5998 5L0.299805 0.7L0.999804 0L5.9998 5Z\" fill=\"currentColor\"></path>\n</svg>\n\n\t\t</a>\n\t\n\t\t<a href=\"/us/en/insights-by-industry/insights-healthcare-life-sciences.html\" class=\"cmp-linklist__link button button--medium\" target=\"_self\">Healthcare and Life Sciences<svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9998 5L0.999804 10L0.299805 9.3L4.5998 5L0.299805 0.7L0.999804 0L5.9998 5Z\" fill=\"currentColor\"></path>\n</svg>\n\n\t\t</a>\n\t\n\t\t<a href=\"/us/en/insights-by-industry/insights-asset-management.html\" class=\"cmp-linklist__link button button--medium\" target=\"_self\">Asset Management<svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9998 5L0.999804 10L0.299805 9.3L4.5998 5L0.299805 0.7L0.999804 0L5.9998 5Z\" fill=\"currentColor\"></path>\n</svg>\n\n\t\t</a>\n\t\n\t\t<a href=\"/us/en/insights-by-industry/insights-industrial-manufacturing.html\" class=\"cmp-linklist__link button button--medium\" target=\"_self\">Industrial Manufacturing<svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9",
+          "<nav class=\"cmp-linklist__container\">\n\t\t<a href=\"/us/en/insights-by-topic/advisory.html\" class=\"cmp-linklist__link button button--medium\" target=\"_self\">Advisory Insights<svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9998 5L0.999804 10L0.299805 9.3L4.5998 5L0.299805 0.7L0.999804 0L5.9998 5Z\" fill=\"currentColor\"></path>\n</svg>\n\n\t\t</a>\n\t\n\t\t<a href=\"/us/en/insights-by-topic/public-policy-regulatory-change.html\" class=\"cmp-linklist__link button button--medium\" target=\"_self\">Public Policy in Motion<svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9998 5L0.999804 10L0.299805 9.3L4.5998 5L0.299805 0.7L0.999804 0L5.9998 5Z\" fill=\"currentColor\"></path>\n</svg>\n\n\t\t</a>\n\t\n\t\t<a href=\"/us/en/insights-by-topic/ai-insights.html\" class=\"cmp-linklist__link button button--medium\" target=\"_self\">AI Insights<svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9998 5L0.999804 10L0.299805 9.3L4.5998 5L0.299805 0.7L0.999804 0L5.9998 5Z\" fill=\"currentColor\"></path>\n</svg>\n\n\t\t</a>\n\t\n\t\t<a href=\"/us/en/insights-by-topic/risk-regulatory.html\" class=\"cmp-linklist__link button button--medium\" target=\"_self\">Risk and Regulatory<svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9998 5L0.999804 10L0.299805 9.3L4.5998 5L0.299805 0.7L0.999804 0L5.9998 5Z\" fill=\"currentCol"
+        ],
+        "sample_text": [
+          "\n\t\tAlternative Investments\n\t\n\n\n\t\t\n\t\n\t\tHealthcare and Life Sciences\n\t\n\n\n\t\t\n\t\n\t\tAsset Management\n\t\n\n\n\t\t\n\t\n\t\tIndustrial Manufacturing\n\t\n\n\n\t\t\n\t\n\t\tBanking and Capital Markets\n\t\n\n\n\t\t\n\t\n\t\tInsurance\n\t\n\n\n\t\t\n\t\n",
+          "\n\t\tAdvisory Insights\n\t\n\n\n\t\t\n\t\n\t\tPublic Policy in Motion\n\t\n\n\n\t\t\n\t\n\t\tAI Insights\n\t\n\n\n\t\t\n\t\n\t\tRisk and Regulatory\n\t\n\n\n\t\t\n\t\n\t\tAudit Insights\n\t\n\n\n\t\t\n\t\n\t\tSustainability\n\t\n\n\n\t\t\n\t\n\t\tBusiness Transformation\u200b\n\t\n"
+        ]
+      },
+      {
+        "selector": "a.cmp-dropdowncta.button.button-bold",
+        "count": 8,
+        "sample_html": [
+          "<a href=\"/us/en/insights-by-industry.html\" class=\"cmp-dropdowncta button button-bold\" target=\"_self\">View all Industry Insights<svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9998 5L0.999804 10L0.299805 9.3L4.5998 5L0.299805 0.7L0.999804 0L5.9998 5Z\" fill=\"currentColor\"></path>\n</svg>\n</a>",
+          "<a href=\"/us/en/insights-by-topic.html\" class=\"cmp-dropdowncta button button-bold\" target=\"_self\">View all Insights by Topic<svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9998 5L0.999804 10L0.299805 9.3L4.5998 5L0.299805 0.7L0.999804 0L5.9998 5Z\" fill=\"currentColor\"></path>\n</svg>\n</a>"
+        ],
+        "sample_text": [
+          "View all Industry Insights\n\t\n\n",
+          "View all Insights by Topic\n\t\n\n"
+        ]
+      },
+      {
+        "selector": "div.cmp-primary-navigation__dropdown-content.hidden",
+        "count": 5,
+        "sample_html": [
+          "<div class=\"cmp-primary-navigation__dropdown-content hidden\" data-nav=\"navDropdown\" id=\"navDropdown-0\" data-nav-index=\"0\" aria-hidden=\"true\">\n\t\t\t\t<div class=\"cmp-dropdown\">\n\t<div class=\"cmp-dropdown__top-bar\">\n\t\t<button type=\"button\" class=\"cmp-dropdown__back button button-bold\" aria-label=\"Back to menu\" tabindex=\"-1\"><svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9998 5L0.999804 10L0.299805 9.3L4.5998 5L0.299805 0.7L0.999804 0L5.9998 5Z\" fill=\"currentColor\"></path>\n</svg>\nBack to menu</button>\n\t</div>\n\t<div class=\"cmp-dropdown__content-wrapper\">\n\t\t<div class=\"cmp-dropdown__header-block\">\n\t\t\t<h2 class=\"cmp-dropdown__header-block-title display-md\">Insights</h2>\n\t\t\t<p class=\"cmp-dropdown__header-block-body body-reg-md\">Fresh thinking and actionable insights that address critical issues your organization faces.</p>\n\t\t\t<a href=\"/us/en/insights-and-resources.html\" class=\"cmp-dropdown__header-block-cta button\" aria-label=\"learn more: Insights main page\">Learn more<svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9998 5L0.999804 10L0.299805 9.3L4.5998 5L0.299805 0.7L0.999804 0L5.9998 5Z\" fill=\"currentColor\"></path>\n</svg>\n</a>\n\t\t</div>\n\t\t<div class=\"cmp-dropdown__tabs-section featured\">\n\t\t\t<div><div id=\"dropdowntabs-bf9f01700b\" class=\"cmp-tabs\" data-cmp-data-layer=\"{&quot;dropdowntabs-bf9f01700b&quot;:{&quot;shownItems&quot;:[&quot;dropdowntabs-bf9f01700b-item",
+          "<div class=\"cmp-primary-navigation__dropdown-content hidden\" data-nav=\"navDropdown\" id=\"navDropdown-1\" data-nav-index=\"1\" aria-hidden=\"true\">\n\t\t\t\t<div class=\"cmp-dropdown\">\n\t<div class=\"cmp-dropdown__top-bar\">\n\t\t<button type=\"button\" class=\"cmp-dropdown__back button button-bold\" aria-label=\"Back to menu\" tabindex=\"-1\"><svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9998 5L0.999804 10L0.299805 9.3L4.5998 5L0.299805 0.7L0.999804 0L5.9998 5Z\" fill=\"currentColor\"></path>\n</svg>\nBack to menu</button>\n\t</div>\n\t<div class=\"cmp-dropdown__content-wrapper\">\n\t\t<div class=\"cmp-dropdown__header-block\">\n\t\t\t<h2 class=\"cmp-dropdown__header-block-title display-md\">Services</h2>\n\t\t\t<p class=\"cmp-dropdown__header-block-body body-reg-md\">KPMG's multi-disciplinary approach and deep, practical industry knowledge help clients meet challenges and respond to opportunities.</p>\n\t\t\t<a href=\"/us/en/capabilities-services.html\" class=\"cmp-dropdown__header-block-cta button\" aria-label=\"learn more: Services main page\">Learn More<svg viewBox=\"0 0 6 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" alt=\"\">\n\t<path d=\"M5.9998 5L0.999804 10L0.299805 9.3L4.5998 5L0.299805 0.7L0.999804 0L5.9998 5Z\" fill=\"currentColor\"></path>\n</svg>\n</a>\n\t\t</div>\n\t\t<div class=\"cmp-dropdown__tabs-section \">\n\t\t\t<div><div id=\"dropdowntabs-355ecf41e0\" class=\"cmp-tabs\" data-cmp-data-layer=\"{&quot;dropdowntabs-355ecf41e0&quot;:{&quot;shownItems&quot;:[&qu"
+        ],
+        "sample_text": [
+          "\n\t\t\t\t\n\t\n\t\t\n\t\n\nBack to menu\n\t\n\t\n\t\t\n\t\t\tInsights\n\t\t\tFresh thinking and actionable insights that address critical issues your organization faces.\n\t\t\tLearn more\n\t\n\n\n\t\t\n\t\t\n\t\t\t\n\t\n\t\n\t\n\t\t\n\t\tInsights by Industr",
+          "\n\t\t\t\t\n\t\n\t\t\n\t\n\nBack to menu\n\t\n\t\n\t\t\n\t\t\tServices\n\t\t\tKPMG's multi-disciplinary approach and deep, practical industry knowledge help clients meet challenges and respond to opportunities.\n\t\t\tLearn More\n\t\n\n\n"
+        ]
+      }
+    ],
+    "page_title": "Careers and Culture"
+  },
+  "after_search": null,
+  "best_source": "initial",
   "keyword_candidates": [
     {
       "selector": "div.cmp-standoutstaticcontentblock__se.card-grid",
@@ -90,8 +183,8 @@
     }
   ],
   "page_title": "Careers and Culture",
-  "stage": "initial",
   "cookie_banner_dismissed": true,
+  "search_interacted": false,
   "status": "ok",
   "screenshot": "kpmg.png"
 }

@@ -1,6 +1,147 @@
 {
   "slug": "cisco",
   "url": "https://jobs.cisco.com/jobs/SearchJobs/data%2520scientist",
+  "initial": {
+    "keyword_candidates": [
+      {
+        "selector": "span._jw-job-info_1t8jy_2",
+        "count": 24,
+        "sample_html": [
+          "<span class=\"_jw-job-info_1t8jy_2\" data-ph-at-id=\"job-info\" data-ps=\"063abcb2-div-26\"><span class=\"phw-pt-1 _jw-job-field_1t8jy_18 job-multi_location phw-mr-2\" data-ph-at-id=\"job-multi_location\" data-ps=\"063abcb2-div-27\" style=\"display: none;\"><span class=\"phw-icon-ctr phw-mr-025\" data-ps=\"063abcb2-span-10\"><svg class=\"phw-i-sz-2-5 phw-i-sz-sm-2 phw-g-icon-light-secondary-text\" aria-hidden=\"true\" fill=\"currentcolor\" data-ps=\"063abcb2-svg-3\" data-icon-edit=\"false\"><use href=\"#phw-cns-icon-location-fill\" data-ps=\"063abcb2-use-3\"></use></svg></span><!----><span role=\"text\" class=\"phw-g-i-bQRGdH\" data-ph-at-id=\"job-multi_location\" data-ps=\"063abcb2-div-29\"><span class=\"phw-visually-hidden\" data-ps=\"063abcb2-span-12\">Available in {{count}} locations: </span> [\n  {\n    \"latlong\": {\n      \"lon\": 45.00000000000001,\n      \"lat\": 40.25\n    },\n    \"location\": \"Armenia, Armenia\"\n  }\n]</span></span><!----><!----></span>",
+          "<span class=\"_jw-job-info_1t8jy_2\" data-ph-at-id=\"job-info\" data-ps=\"063abcb2-div-26\"><span class=\"phw-pt-1 _jw-job-field_1t8jy_18 job-multi_category phw-mr-2\" data-ph-at-id=\"job-multi_category\" data-ps=\"063abcb2-div-27\" style=\"display: none;\"><span class=\"phw-icon-ctr phw-mr-025\" data-ps=\"063abcb2-span-10\"><svg class=\"phw-i-sz-2-5 phw-i-sz-sm-2 phw-g-icon-light-secondary-text\" aria-hidden=\"true\" fill=\"currentcolor\" data-ps=\"063abcb2-svg-3\" data-icon-edit=\"false\"><use href=\"#phw-cns-icon-folder\" data-ps=\"063abcb2-use-3\"></use></svg></span><!----><span role=\"text\" class=\"phw-g-i-bQRGdH\" data-ph-at-id=\"job-multi_category\" data-ps=\"063abcb2-div-29\"><span class=\"phw-visually-hidden\" data-ps=\"063abcb2-span-12\">Associated with {{count}} categories: </span> [\n  {\n    \"primaryLocaleCategory\": \"Product and Engineering\",\n    \"internalCategoryId\": \"CISCISGLOBAL_Product_and_Engineering\",\n    \"category_raw\": \"Hardware Development\",\n    \"category\": \"Product and Engineering\"\n  }\n]</span></span><!----><!----></span>"
+        ],
+        "sample_text": [
+          "",
+          ""
+        ]
+      },
+      {
+        "selector": "div.phw-card-block.phw-g-i-kC9cEa",
+        "count": 9,
+        "sample_html": [
+          "<div class=\"phw-card-block phw-g-i-kC9cEa\" data-ph-at-index=\"0\" role=\"listitem\" data-item-idx=\"1\" data-ps=\"6aed7b1c-div-7\"><a phw-tk=\"job_category_click\" data-access-list-item=\"0\" href=\"https://careers.cisco.com/global/en/c/product-and-engineering-jobs\" class=\"_category-card_2win9_3 category-01 phw-d-flex phw-td-none phw-width-4 phw-height-4 phw-justify-content-between phw-align-items-center phw-p-3 phw-pl-lg-2-5 phw-pr-lg-2-5 phw-pt-lg-1-5 phw-pb-lg-1-5 phw-stroke-dark phw-g-i-CKZVgH\" aria-label=\"Product and Engineering\" data-ph-component-name=\"category-link-item\" data-ph-at-id=\"category-link\" data-ph-at-category-text=\"Product and Engineering\" data-ph-at-category-job-count=\"489\" data-ps=\"6aed7b1c-a-1\"><div class=\"phw-d-flex phw-flex-column phw-height-4 phw-justify-content-center\" aria-hidden=\"true\" data-ps=\"6aed7b1c-div-8\"><div class=\"phw-word-break phw-pb-0 phw-mb-0 phw-line-clamp phw-line-clamp-1 _cat-heading_2win9_9\" data-ps=\"6aed7b1c-p-2\">Product and Engineering</div></div><span class=\"phw-icon-ctr phw-ml-1\" data-ps=\"6aed7b1c-span-2\"><svg class=\"_arrow-icon_2win9_11 phw-i-sz-2 phw-icon-flip phw-g-i-AdvZHu\" fill=\"currentcolor\" aria-hidden=\"true\" data-ps=\"6aed7b1c-svg-1\"><use href=\"#phw-cns-icon-chevron-right\" data-ps=\"6aed7b1c-use-1\"></use></svg></span></a></div>",
+          "<div class=\"phw-card-block phw-g-i-kC9cEa\" data-ph-at-index=\"1\" role=\"listitem\" data-item-idx=\"2\" data-ps=\"6aed7b1c-div-7\"><a phw-tk=\"job_category_click\" data-access-list-item=\"1\" href=\"https://careers.cisco.com/global/en/c/sales-jobs\" class=\"_category-card_2win9_3 category-11 phw-d-flex phw-td-none phw-width-4 phw-height-4 phw-justify-content-between phw-align-items-center phw-p-3 phw-pl-lg-2-5 phw-pr-lg-2-5 phw-pt-lg-1-5 phw-pb-lg-1-5 phw-stroke-dark phw-g-i-CKZVgH\" aria-label=\"Sales\" data-ph-component-name=\"category-link-item\" data-ph-at-id=\"category-link\" data-ph-at-category-text=\"Sales\" data-ph-at-category-job-count=\"192\" data-ps=\"6aed7b1c-a-1\"><div class=\"phw-d-flex phw-flex-column phw-height-4 phw-justify-content-center\" aria-hidden=\"true\" data-ps=\"6aed7b1c-div-8\"><div class=\"phw-word-break phw-pb-0 phw-mb-0 phw-line-clamp phw-line-clamp-1 _cat-heading_2win9_9\" data-ps=\"6aed7b1c-p-2\">Sales</div></div><span class=\"phw-icon-ctr phw-ml-1\" data-ps=\"6aed7b1c-span-2\"><svg class=\"_arrow-icon_2win9_11 phw-i-sz-2 phw-icon-flip phw-g-i-AdvZHu\" fill=\"currentcolor\" aria-hidden=\"true\" data-ps=\"6aed7b1c-svg-1\"><use href=\"#phw-cns-icon-chevron-right\" data-ps=\"6aed7b1c-use-1\"></use></svg></span></a></div>"
+        ],
+        "sample_text": [
+          "Product and Engineering",
+          "Sales"
+        ]
+      },
+      {
+        "selector": "div.phw-card-block.phw-text-c.phw-g-i-N0wtRK",
+        "count": 6,
+        "sample_html": [
+          "<div class=\"phw-card-block phw-text-c phw-g-i-N0wtRK\" phw-repeatable=\"6\" role=\"listitem\" data-ps=\"70bcba77-li-1\"> \n <figure class=\"phw-img-ctr phw-p-4 phw-g-i-J9KS7U\" data-ps=\"70bcba77-figure-7\" data-component=\"card-image\"> \n  <img width=\"50\" src=\"https://cdn.phenompeople.com/CareerConnectResources/CISCISGLOBAL/images/31-1751992657966.png\" alt=\"Icon showing a human figure on a lounge chair  beneath the sun.\" data-ps=\"70bcba77-img-7\" data-map-id=\"image\"> \n </figure> \n <div data-tag-type=\"p\" class=\"phw-mb-1 phw-d-ldt-none phw-d-dt-none phw-d-tab-none phw-d-mob-none\" data-map-id=\"meta\" data-component=\"card-text\" data-ps=\"70bcba77-p-11\" text-element=\"text\"></div> \n <h3 data-ps=\"70bcba77-h3-7\" data-component=\"card-title\" data-map-id=\"H3-heading\" text-element=\"text\" class=\"phw-g-i-EOEnVm\">Take some \u201cme\u201d time</h3> \n <div data-tag-type=\"p\" class=\"phw-mt-1 phw-g-i-glExWL\" data-ps=\"70bcba77-p-9\" data-component=\"card-description\" data-map-id=\"description\" text-element=\"text\">Pause, step away from work, and enjoy life\u2019s meaningful moments with a quarterly paid day off.</div> \n <div data-ps=\"70bcba77-div-12\"> \n  <a href=\"javascript:void(0)\" class=\"phw-btn phw-g-btn-link phw-mt-2 phw-d-ldt-none phw-d-dt-none phw-d-tab-none phw-d-mob-none\" data-map-id=\"action-link\" data-component=\"card-link\" phw-track=\"Static_content_click\" data-ps=\"70bcba77-a-3\" target=\"\" aria-label=\" Take some \u201cme\u201d time\"> <span class=\"phw-actionlink-text\" data-hide-settings=\"true\" data-ps=\"70bcba77-span-5\" text-element=\"t",
+          "<div class=\"phw-card-block phw-text-c phw-g-i-N0wtRK\" phw-repeatable=\"6\" role=\"listitem\" data-ps=\"70bcba77-li-1\"> \n <figure class=\"phw-img-ctr phw-p-4 phw-g-i-J9KS7U\" data-ps=\"70bcba77-figure-7\" data-component=\"card-image\"> \n  <img width=\"50\" src=\"https://cdn.phenompeople.com/CareerConnectResources/CISCISGLOBAL/images/icon_advisory-1752508724878.png\" alt=\"Two human figures with a talk bubble above their heads.\" data-ps=\"70bcba77-img-7\" data-map-id=\"image\"> \n </figure> \n <div data-tag-type=\"p\" class=\"phw-mb-1 phw-d-ldt-none phw-d-dt-none phw-d-tab-none phw-d-mob-none\" data-map-id=\"meta\" data-component=\"card-text\" data-ps=\"70bcba77-p-11\" text-element=\"text\"></div> \n <h3 data-ps=\"70bcba77-h3-7\" data-component=\"card-title\" data-map-id=\"H3-heading\" text-element=\"text\" class=\"phw-g-i-EOEnVm\">Expanded medical care access</h3> \n <div data-tag-type=\"p\" class=\"phw-mt-1 phw-g-i-glExWL\" data-ps=\"70bcba77-p-9\" data-component=\"card-description\" data-map-id=\"description\" text-element=\"text\">Connect to medical experts around the world via telemedicine for more insights and second opinions.</div> \n <div data-ps=\"70bcba77-div-12\"> \n  <a href=\"javascript:void(0)\" class=\"phw-btn phw-g-btn-link phw-mt-2 phw-d-ldt-none phw-d-dt-none phw-d-tab-none phw-d-mob-none\" data-map-id=\"action-link\" data-component=\"card-link\" phw-track=\"Static_content_click\" data-ps=\"70bcba77-a-3\" target=\"\" aria-label=\" Expanded medical care access\"> <span class=\"phw-actionlink-text\" data-hide-settings=\"true\" data-ps=\"70bcba"
+        ],
+        "sample_text": [
+          "Take some \u201cme\u201d time\nPause, step away from work, and enjoy life\u2019s meaningful moments with a quarterly paid day off.",
+          "Expanded medical care access\nConnect to medical experts around the world via telemedicine for more insights and second opinions."
+        ]
+      },
+      {
+        "selector": "div.phw-p-3.phw-pl-md-2.pr-md-2.phw-p-sm-2.phw-c-0994022e-card-content.phw-posn-sm-static.phw-g-i-sCjdYY",
+        "count": 5,
+        "sample_html": [
+          "<div class=\"phw-p-3 phw-pl-md-2 pr-md-2 phw-p-sm-2 phw-c-0994022e-card-content phw-posn-sm-static phw-g-i-sCjdYY\" data-ps=\"0994022e-div-11\">\n                                <div class=\"phw-d-flex phw-align-items-end\" data-ps=\"0994022e-div-12\">\n                                    <h3 data-map-id=\"H3-heading\" data-component=\"card-title\" data-ps=\"0994022e-h3-1\" text-element=\"text\" class=\"phw-g-i-MiKU45\">Building multi-agentic systems with AGNTCY's Application SDK and reference application</h3>\n                                    <span class=\"phw-g-text-small-dark phw-ml-050\" data-component=\"employee-name\" data-map-id=\"employee-name\" data-ps=\"0994022e-span-3\" text-element=\"text\"></span>\n                                </div>\n                                <div data-tag-type=\"p\" class=\"phw-g-p-small-secondary phw-mb-0 phw-mt-2 phw-line-clamp phw-line-clamp-1\" data-component=\"employee-details\" data-map-id=\"employee-details\" data-ps=\"0994022e-div-13\" text-element=\"text\"></div>\n                                <div data-tag-type=\"p\" class=\"phw-mt-2 phw-line-clamp phw-line-clamp-3 phw-g-i-dThaTF\" data-component=\"card-description\" data-map-id=\"description\" data-ps=\"0994022e-div-14\" text-element=\"text\">Meet CoffeeAGNTCY: the fastest way to experiment with and build multi-agent software with Model Context Protocol, Agent2Agent, and AGNTCY components.&nbsp;</div>\n\n                                <div data-ps=\"0994022e-div-15\" class=\"phw-g-i-y6ai1j\">\n                                    <a ",
+          "<div class=\"phw-p-3 phw-pl-md-2 pr-md-2 phw-p-sm-2 phw-c-0994022e-card-content phw-posn-sm-static phw-g-i-sCjdYY\" data-ps=\"0994022e-div-11\">\n                                <div class=\"phw-d-flex phw-align-items-end\" data-ps=\"0994022e-div-12\">\n                                    <h3 data-map-id=\"H3-heading\" data-component=\"card-title\" data-ps=\"0994022e-h3-1\" text-element=\"text\" class=\"phw-g-i-MiKU45\">Explore Cisco Live: Innovations, emerging tech trends, and the future of AI&nbsp;</h3>\n                                    <span class=\"phw-g-text-small-dark phw-ml-050\" data-component=\"employee-name\" data-map-id=\"employee-name\" data-ps=\"0994022e-span-3\" text-element=\"text\"></span>\n                                </div>\n                                <div data-tag-type=\"p\" class=\"phw-g-p-small-secondary phw-mb-0 phw-mt-2 phw-line-clamp phw-line-clamp-1\" data-component=\"employee-details\" data-map-id=\"employee-details\" data-ps=\"0994022e-div-13\" text-element=\"text\"></div>\n                                <div data-tag-type=\"p\" class=\"phw-mt-2 phw-line-clamp phw-line-clamp-3 phw-g-i-nIQJHy\" data-component=\"card-description\" data-map-id=\"description\" data-ps=\"0994022e-div-14\" text-element=\"text\">Cisco President and Chief Product Officer, Jeetu Patel kicks off Cisco Live 2025 with what\u2019s next in AI.&nbsp;<br><br></div>\n\n                                <div data-ps=\"0994022e-div-15\" class=\"phw-g-i-y6ai1j\">\n                                    <a class=\"phw-btn phw-mt-2 phw-width-auto phw"
+        ],
+        "sample_text": [
+          "Building multi-agentic systems with AGNTCY's Application SDK and reference application\nMeet CoffeeAGNTCY: the fastest way to experiment with and build multi-agent software with Model Context Protocol,",
+          "Explore Cisco Live: Innovations, emerging tech trends, and the future of AI\u00a0\nCisco President and Chief Product Officer, Jeetu Patel kicks off Cisco Live 2025 with what\u2019s next in AI.\u00a0\n\n\nWatch the video"
+        ]
+      },
+      {
+        "selector": "li.phw-mr-2.phw-card-block",
+        "count": 5,
+        "sample_html": [
+          "<li class=\"phw-mr-2 phw-card-block\" role=\"listitem\" phw-repeatable=\"\" data-ps=\"532351e5-li-1\"> <a class=\"phw-d-inline-block phw-g-i-KTxyuS\" aria-label=\"facebook\" href=\"https://www.facebook.com/cisco/\" data-ps=\"532351e5-a-4\" link-content-id=\"xSqEB9GN-6wpm97uy\" target=\"_blank\"> <span class=\"phw-icon-ctr phw-d-flex phw-justify-content-center phw-align-items-center phw-i-sz-6 phw-g-i-ZwY71Y\" data-ps=\"532351e5-span-3\"> \n   <svg aria-hidden=\"true\" class=\"phw-i-sz-3 phw-g-i-wHxhIW\" fill=\"currentcolor\" data-ps=\"532351e5-svg-1\"> \n    <use href=\"#cms-canvas-custom-icons-facebookdark\" data-ps=\"532351e5-use-1\"></use> \n   </svg> </span> </a> </li>",
+          "<li class=\"phw-mr-2 phw-card-block\" role=\"listitem\" phw-repeatable=\"\" data-ps=\"532351e5-li-1\"> <a class=\"phw-d-inline-block phw-g-i-KTxyuS\" aria-label=\"LinkedIn\" href=\"https://www.linkedin.com/company/cisco\" data-ps=\"532351e5-a-4\" link-content-id=\"5TZfbZjr-6wpm97uy\" target=\"_blank\"> <span class=\"phw-icon-ctr phw-d-flex phw-justify-content-center phw-align-items-center phw-i-sz-6 phw-g-i-ZwY71Y\" data-ps=\"532351e5-span-3\"> \n   <svg aria-hidden=\"true\" class=\"phw-i-sz-3 phw-g-i-wHxhIW\" fill=\"currentcolor\" data-ps=\"532351e5-svg-1\"> \n    <use href=\"#cms-canvas-custom-icons-darrklinkedin\" data-ps=\"532351e5-use-1\"></use> \n   </svg> </span> </a> </li>"
+        ],
+        "sample_text": [
+          "",
+          ""
+        ]
+      },
+      {
+        "selector": "div.phw-card-block.phw-width-4.g-col-lg-1.phw-g-i-nQG8Cf",
+        "count": 4,
+        "sample_html": [
+          "<div class=\"phw-card-block phw-width-4 g-col-lg-1 phw-g-i-nQG8Cf\" phw-repeatable=\"\" data-ps=\"f7abbbce-div-7\" role=\"listitem\"> \n <figure class=\"phw-img-ctr phw-c-f7abbbce-image-size phw-overflow-hidden phw-g-i-o9z3aZ\" data-component=\"card-image\" data-ps=\"f7abbbce-figure-1\"> \n  <img src=\"https://cdn.phenompeople.com/CareerConnectResources/CISCISGLOBAL/images/Lets_Connect_1-1759764393204.png\" alt=\"Three people excitedly toss confetti in the air wearing Cisco and ThousandEyes Pride t-shirts.\" class=\"phw-height-4 phw-width-4 phw-object-fit-cover\" data-map-id=\"image\" data-ps=\"f7abbbce-img-1\"> \n </figure> \n</div>",
+          "<div class=\"phw-card-block phw-width-4 g-col-lg-1 phw-g-i-nQG8Cf\" phw-repeatable=\"\" data-ps=\"f7abbbce-div-7\" role=\"listitem\"> \n <figure class=\"phw-img-ctr phw-c-f7abbbce-image-size phw-overflow-hidden phw-g-i-o9z3aZ\" data-component=\"card-image\" data-ps=\"f7abbbce-figure-1\"> \n  <img src=\"https://cdn.phenompeople.com/CareerConnectResources/CISCISGLOBAL/images/Lets_Connect_2-1759764396007.png\" alt=\"Two smiling men with their arms around each other celebrating the completion of a color run. They have on color run t-shirts and are sprinkled with different colored powder.\" class=\"phw-height-4 phw-width-4 phw-object-fit-cover\" data-map-id=\"image\" data-ps=\"f7abbbce-img-1\"> \n </figure> \n</div>"
+        ],
+        "sample_text": [
+          "",
+          ""
+        ]
+      }
+    ],
+    "structural_candidates": [
+      {
+        "selector": "li.phw-sub-menu-list.phw-pt-2.phw-pb-2.phw-pr-2.phw-pl-2.phw-pl-xl-2.phw-pr-xl-2.phw-pt-sm-1.phw-pb-sm-1.phw-posn-relative.phw-s-subNavItem",
+        "count": 8,
+        "sample_html": [
+          "<li data-ph-at-index=\"0\" data-ph-at-id=\"menu-item-nested-2\" class=\"phw-sub-menu-list phw-pt-2 phw-pb-2 phw-pr-2 phw-pl-2 phw-pl-xl-2 phw-pr-xl-2 phw-pt-sm-1 phw-pb-sm-1 phw-posn-relative phw-s-subNavItem\" role=\"listitem\" data-ph-component-name=\"menu-item1\" data-ps=\"a80956b6-li-2\"><span class=\"phw-d-flex\" data-ps=\"a80956b6-span-16\"><a phw-tk=\"header_menu_click\" data-ph-at-id=\"menu-item-link-nested-2\" aria-label=\"Why Work Here\" target=\"_self\" data-ph-component-name=\"menu-item-link1\" class=\"phw-m-0 phw-p-0 phw-d-inline-block phw-td-none phw-g-i-j0vPeZ\" data-ps=\"a80956b6-a-2\" href=\"https://careers.cisco.com/global/en/why-work-here\">Why Work Here</a><!----></span><!----></li>",
+          "<li data-ph-at-index=\"1\" data-ph-at-id=\"menu-item-nested-2\" class=\"phw-sub-menu-list phw-pt-2 phw-pb-2 phw-pr-2 phw-pl-2 phw-pl-xl-2 phw-pr-xl-2 phw-pt-sm-1 phw-pb-sm-1 phw-posn-relative phw-s-subNavItem\" role=\"listitem\" data-ph-component-name=\"menu-item1\" data-ps=\"a80956b6-li-2\"><span class=\"phw-d-flex\" data-ps=\"a80956b6-span-16\"><a phw-tk=\"header_menu_click\" data-ph-at-id=\"menu-item-link-nested-2\" aria-label=\"AI &amp; Innovation\" target=\"_self\" data-ph-component-name=\"menu-item-link1\" class=\"phw-m-0 phw-p-0 phw-d-inline-block phw-td-none phw-g-i-j0vPeZ\" data-ps=\"a80956b6-a-2\" href=\"https://careers.cisco.com/global/en/ai-and-innovation\">AI &amp; Innovation</a><!----></span><!----></li>"
+        ],
+        "sample_text": [
+          "Why Work Here",
+          "AI & Innovation"
+        ]
+      },
+      {
+        "selector": "span.phw-d-flex",
+        "count": 8,
+        "sample_html": [
+          "<span class=\"phw-d-flex\" data-ps=\"a80956b6-span-16\"><a phw-tk=\"header_menu_click\" data-ph-at-id=\"menu-item-link-nested-2\" aria-label=\"Why Work Here\" target=\"_self\" data-ph-component-name=\"menu-item-link1\" class=\"phw-m-0 phw-p-0 phw-d-inline-block phw-td-none phw-g-i-j0vPeZ\" data-ps=\"a80956b6-a-2\" href=\"https://careers.cisco.com/global/en/why-work-here\">Why Work Here</a><!----></span>",
+          "<span class=\"phw-d-flex\" data-ps=\"a80956b6-span-16\"><a phw-tk=\"header_menu_click\" data-ph-at-id=\"menu-item-link-nested-2\" aria-label=\"AI &amp; Innovation\" target=\"_self\" data-ph-component-name=\"menu-item-link1\" class=\"phw-m-0 phw-p-0 phw-d-inline-block phw-td-none phw-g-i-j0vPeZ\" data-ps=\"a80956b6-a-2\" href=\"https://careers.cisco.com/global/en/ai-and-innovation\">AI &amp; Innovation</a><!----></span>"
+        ],
+        "sample_text": [
+          "Why Work Here",
+          "AI & Innovation"
+        ]
+      },
+      {
+        "selector": "a.phw-m-0.phw-p-0.phw-d-inline-block.phw-td-none.phw-g-i-j0vPeZ",
+        "count": 8,
+        "sample_html": [
+          "<a phw-tk=\"header_menu_click\" data-ph-at-id=\"menu-item-link-nested-2\" aria-label=\"Why Work Here\" target=\"_self\" data-ph-component-name=\"menu-item-link1\" class=\"phw-m-0 phw-p-0 phw-d-inline-block phw-td-none phw-g-i-j0vPeZ\" data-ps=\"a80956b6-a-2\" href=\"https://careers.cisco.com/global/en/why-work-here\">Why Work Here</a>",
+          "<a phw-tk=\"header_menu_click\" data-ph-at-id=\"menu-item-link-nested-2\" aria-label=\"AI &amp; Innovation\" target=\"_self\" data-ph-component-name=\"menu-item-link1\" class=\"phw-m-0 phw-p-0 phw-d-inline-block phw-td-none phw-g-i-j0vPeZ\" data-ps=\"a80956b6-a-2\" href=\"https://careers.cisco.com/global/en/ai-and-innovation\">AI &amp; Innovation</a>"
+        ],
+        "sample_text": [
+          "Why Work Here",
+          "AI & Innovation"
+        ]
+      },
+      {
+        "selector": "section.phw-widget",
+        "count": 8,
+        "sample_html": [
+          "<section data-static-widget-id=\"cdtoQq\" class=\"phw-widget\" panel-id=\"\" data-ph-id=\"-1781211616416\" instance-id=\"C9pTIBvu\" view-rev=\"9\" saved-widget-id=\"sCxCshQ2\" has-edit=\"false\" sync-with-desktop=\"true\" type=\"static\" data-widget=\"cdtoQq\"><div class=\"phw-widget-ctr phw-widget-empty-ctr phw-g-i-GKuZqO\" data-hide-settings=\"true\" data-ps=\"44f749d0-div-1\">\n    <div class=\"phw-pt-1-5 phw-pb-1-5 phw-g-i-dw2hYU\" data-ps=\"44f749d0-div-7\">\n        <div class=\"phw-container phw-g-i-1D0itt\" role=\"region\" aria-label=\"talent banner\" data-edit-attribute=\"aria-label,role\" data-ps=\"44f749d0-div-2\">\n            <div class=\"phw-d-flex phw-align-items-center phw-align-xs-items-start phw-gap-1 phw-g-i-BUoXex\" data-ps=\"44f749d0-div-3\">\n                <div class=\"phw-d-flex phw-align-items-center phw-align-xs-items-start phw-justify-content-center phw-gap-1 phw-ml-auto phw-g-i-Rat5qx\" data-ps=\"44f749d0-div-4\">\n                    <span class=\"phw-icon-ctr phw-d-dt-none phw-d-mob-none phw-d-ldt-none phw-d-tab-none\" data-component=\"banner-info-icon\" data-ps=\"44f749d0-span-1\">\n                        <svg class=\"phw-i-sz-3 phw-g-icon-white\" fill=\"currentcolor\" aria-hidden=\"true\" data-ps=\"44f749d0-svg-1\">\n                            <use href=\"#phw-cns-icon-info-circle\" data-ps=\"44f749d0-use-1\"></use>\n                        </svg>\n                    </span>\n                    <div class=\"phw-d-flex phw-align-items-center phw-gap-1 phw-flex-wrap phw-g-i-JH66D6\" data-ps=\"44f749d0-div-5\">\n           ",
+          "<section data-static-widget-id=\"qk8Yrx\" class=\"phw-widget\" panel-id=\"\" data-ph-id=\"-1753730617336\" instance-id=\"YCoTrN5a\" view-rev=\"78\" saved-widget-id=\"riuA1Leg\" has-edit=\"false\" sync-with-desktop=\"false\" type=\"static\" data-widget=\"qk8Yrx\"><div class=\"phw-widget-ctr phw-g-i-XdfiTJ\" data-ps=\"0994022e-div-1\">\n    <div class=\"phw-container phw-posn-relative\" data-ps=\"0994022e-div-2\" data-edit-attribute=\"aria-label,role\" role=\"region\" aria-label=\"We are advancing AI with a full-stack, comprehensive approach in every part of the organization&nbsp; slider\">\n        <div class=\"phw-header-block phw-text-c phw-width-3 phw-width-sm-4 phw-ml-auto phw-mr-auto\" data-component=\"header-block\" data-ps=\"0994022e-div-3\">\n            <h2 data-map-id=\"widget-heading\" data-slider-header=\"true\" data-component=\"widget-title\" data-ps=\"0994022e-h2-1\" text-element=\"text\" class=\"phw-g-i-ShvNSs\"><span class=\"phw-g-i-vHsc6R\" fromckedit=\"true\">We are</span> <span class=\"phw-g-i-AApPLP\" fromckedit=\"true\">advancing AI</span> <span class=\"phw-g-i-vFTP22\" fromckedit=\"true\"><span class=\"phw-g-i-VF2AOn\" fromckedit=\"true\">with a full-stack, comprehensive approach in every part of the organization</span>&nbsp;</span></h2>\n            <div data-tag-type=\"p\" class=\"phw-mt-1 phw-d-dt-none phw-d-mob-none phw-d-ldt-none phw-d-tab-none phw-g-i-dJz64v\" data-map-id=\"widget-sub-heading\" data-component=\"widget-subtitle\" data-ps=\"0994022e-div-4\" text-element=\"text\"></div>\n            <div data-ps=\"0994022e-div-5\">\n       "
+        ],
+        "sample_text": [
+          "Big news! Cisco ranked top 5 \u201cBest Companies for the Future\u201d for innovation and AI readiness.\nLearn more",
+          "We are advancing AI with a full-stack, comprehensive approach in every part of the organization\u00a0\nBuilding multi-agentic systems with AGNTCY's Application SDK and reference application\nMeet CoffeeAGNTC"
+        ]
+      },
+      {
+        "selector": "div.phw-footer-block.phw-footer-block-top-space.phw-text-c.phw-d-ldt-none.phw-d-dt-none.phw-d-tab-none.phw-d-mob-none",
+        "count": 7,
+        "sample_html": [
+          "<div class=\"phw-footer-block phw-footer-block-top-space phw-text-c phw-d-ldt-none phw-d-dt-none phw-d-tab-none phw-d-mob-none\" data-component=\"footer-block\" data-ps=\"0994022e-div-58\">\n            <div data-tag-type=\"p\" class=\"phw-g-p-widget-subheading-style-1 phw-mt-2 phw-d-ldt-none phw-d-dt-none phw-d-tab-none phw-d-mob-none phw-text-c\" data-map-id=\"widget-footer-subtitle\" data-component=\"widget-footer-subtitle\" data-ps=\"0994022e-div-59\" text-element=\"text\">A sense of mutual respect and mindfulness permeates our culture-in fact, it's the key to our success.</div>\n            <div data-ps=\"0994022e-div-60\">\n                <a href=\"javascript:void(0)\" class=\"phw-btn phw-g-btn-link phw-mt-1 phw-width-auto phw-d-ldt-none phw-d-dt-none phw-d-tab-none phw-d-mob-none\" data-map-id=\"widget-footer-action-link\" data-component=\"widget-footer-link\" phw-track=\"Footerblock_actionlink_click\" data-ps=\"0994022e-a-10\" target=\"\">\n                    <span class=\"phw-actionlink-text\" data-hide-settings=\"true\" data-map-id=\"action-link-text\" data-ps=\"0994022e-span-27\" text-element=\"text\">Learn more</span>\n                    <span class=\"phw-icon-ctr phw-d-ldt-none phw-d-dt-none phw-d-tab-none phw-d-mob-none\" data-component=\"action-icon\" data-ps=\"0994022e-span-28\">\n                        <svg aria-hidden=\"true\" class=\"phw-i-sz-2-5 phw-icon-flip\" fill=\"currentcolor\" data-map-id=\"widget-footer-action-link-icon\" data-ps=\"0994022e-svg-10\">\n                            <use href=\"#phw-cns-icon-chevron",
+          "<div class=\"phw-footer-block phw-footer-block-top-space phw-text-c phw-d-ldt-none phw-d-dt-none phw-d-tab-none phw-d-mob-none\" data-component=\"footer-block\" data-ps=\"9b4b702e-div-25\">\n            <div data-tag-type=\"p\" class=\"phw-g-p-widget-subheading-style-1 phw-mt-2 phw-d-ldt-none phw-d-dt-none phw-d-tab-none phw-d-mob-none\" data-map-id=\"widget-footer-subtitle\" data-component=\"widget-footer-subtitle\" data-ps=\"9b4b702e-p-3\" text-element=\"text\">A sense of mutual respect and mindfulness permeates our culture-in fact, it\u2019s the key to our success.</div>\n            <div data-ps=\"9b4b702e-div-26\">\n                <a href=\"javascript:void(0)\" class=\"phw-btn phw-g-btn-primary phw-mt-2 phw-d-ldt-none phw-d-dt-none phw-d-tab-none phw-d-mob-none\" data-map-id=\"widget-footer-action-link\" data-component=\"widget-footer-link\" phw-track=\"Footerblock_actionlink_click\" data-ps=\"9b4b702e-a-7\" target=\"\">\n                    <span class=\"phw-actionlink-text\" data-hide-settings=\"true\" data-ps=\"9b4b702e-span-10\" text-element=\"text\">Learn more</span>\n                    <span class=\"phw-icon-ctr phw-d-ldt-none phw-d-dt-none phw-d-tab-none phw-d-mob-none\" data-component=\"action-icon\" data-ps=\"9b4b702e-span-11\">\n                        <svg aria-hidden=\"true\" class=\"phw-i-sz-2-5 phw-icon-flip\" fill=\"currentcolor\" data-map-id=\"widget-footer-action-link-icon\" data-ps=\"9b4b702e-svg-5\">\n                            <use href=\"#phw-cns-icon-chevron-right\" data-ps=\"9b4b702e-use-6\"></use>\n                   "
+        ],
+        "sample_text": [
+          "\n            A sense of mutual respect and mindfulness permeates our culture-in fact, it's the key to our success.\n            \n                \n                    Learn more\n                    \n   ",
+          "\n            A sense of mutual respect and mindfulness permeates our culture-in fact, it\u2019s the key to our success.\n            \n                \n                    Learn more\n                    \n   "
+        ]
+      }
+    ],
+    "page_title": "Careers at Cisco"
+  },
+  "after_search": null,
+  "best_source": "initial",
   "keyword_candidates": [
     {
       "selector": "span._jw-job-info_1t8jy_2",
@@ -138,8 +279,8 @@
     }
   ],
   "page_title": "Careers at Cisco",
-  "stage": "initial",
   "cookie_banner_dismissed": false,
+  "search_interacted": false,
   "status": "ok",
   "screenshot": "cisco.png"
 }

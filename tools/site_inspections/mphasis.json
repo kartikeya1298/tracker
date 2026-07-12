@@ -1,6 +1,86 @@
 {
   "slug": "mphasis",
   "url": "https://careers.mphasis.com/search?searchText=data+scientist",
+  "initial": {
+    "keyword_candidates": [],
+    "structural_candidates": [
+      {
+        "selector": "div.cta.section",
+        "count": 10,
+        "sample_html": [
+          "<div class=\"cta section\">\n\n\n<div class=\"  \">\n    \n\n        <!--CTA as button-->\n        \n\n        <!--CTA as footer heading.-->\n        \n            <a class=\"footer-head\" href=\"/home/mphasis-careers.html\" target=\"_blank\">\n                <span>MPHASIS CAREERS</span>\n            </a>\n        \n\n        <!--CTA as footer sub heading.-->\n        \n\n        <!-- For Section Header -->\n        \n\n        <!--For header type link-->\n        \n\n        <!--Form HTML -->\n        \n    \n</div>\n</div>",
+          "<div class=\"cta section\">\n\n\n<div class=\"  \">\n    \n\n        <!--CTA as button-->\n        \n\n        <!--CTA as footer heading.-->\n        \n\n        <!--CTA as footer sub heading.-->\n        \n            <a class=\"footer-head-white \">\n                <span>BY LOCATION</span>\n            </a>\n        \n\n        <!-- For Section Header -->\n        \n\n        <!--For header type link-->\n        \n\n        <!--Form HTML -->\n        \n    \n</div>\n</div>"
+        ],
+        "sample_text": [
+          "MPHASIS CAREERS",
+          "BY LOCATION"
+        ]
+      },
+      {
+        "selector": "div.cta-list.section",
+        "count": 8,
+        "sample_html": [
+          "<div class=\"cta-list section\">\n\n\n\n\n\n    \n        <div class=\"cta-list-grey-light\">\n            \n                \n                <a href=\"/home/hot-jobs/category/digital-risk.html\">\n                    DIGITAL RISK\n                </a>\n            \n                \n                \n                    INSURANCE\n                \n            \n        </div>\n    \n\n    \n</div>",
+          "<div class=\"cta-list section\">\n\n\n\n\n\n    \n        <div class=\"cta-list-grey-light\">\n            \n                \n                <a href=\"/home/information-center/application-process.html\">\n                    APPLICATION PROCESS\n                </a>\n            \n                \n                <a href=\"/home/information-center/benefits.html\">\n                    BENEFITS\n                </a>\n            \n                \n                <a href=\"/home/information-center/hiring-faqs.html\">\n                    HIRING FAQS\n                </a>\n            \n                \n                <a href=\"/home/information-center/fraud-awareness.html\">\n                    FRAUD AWARENESS\n                </a>\n            \n                \n                <a href=\"/home/information-center/advanced-learning.html\">\n                    ADVANCED LEARNING\n                </a>\n            \n        </div>\n    \n\n    \n</div>"
+        ],
+        "sample_text": [
+          "DIGITAL RISK\nINSURANCE",
+          "APPLICATION PROCESS\nBENEFITS\nHIRING FAQS\nFRAUD AWARENESS\nADVANCED LEARNING"
+        ]
+      },
+      {
+        "selector": "div.cta-list-grey-light",
+        "count": 8,
+        "sample_html": [
+          "<div class=\"cta-list-grey-light\">\n            \n                \n                <a href=\"/home/hot-jobs/category/digital-risk.html\">\n                    DIGITAL RISK\n                </a>\n            \n                \n                \n                    INSURANCE\n                \n            \n        </div>",
+          "<div class=\"cta-list-grey-light\">\n            \n                \n                <a href=\"/home/information-center/application-process.html\">\n                    APPLICATION PROCESS\n                </a>\n            \n                \n                <a href=\"/home/information-center/benefits.html\">\n                    BENEFITS\n                </a>\n            \n                \n                <a href=\"/home/information-center/hiring-faqs.html\">\n                    HIRING FAQS\n                </a>\n            \n                \n                <a href=\"/home/information-center/fraud-awareness.html\">\n                    FRAUD AWARENESS\n                </a>\n            \n                \n                <a href=\"/home/information-center/advanced-learning.html\">\n                    ADVANCED LEARNING\n                </a>\n            \n        </div>"
+        ],
+        "sample_text": [
+          "DIGITAL RISK\nINSURANCE",
+          "APPLICATION PROCESS\nBENEFITS\nHIRING FAQS\nFRAUD AWARENESS\nADVANCED LEARNING"
+        ]
+      },
+      {
+        "selector": "a.footer-head",
+        "count": 7,
+        "sample_html": [
+          "<a class=\"footer-head\" href=\"/home/mphasis-careers.html\" target=\"_blank\">\n                <span>MPHASIS CAREERS</span>\n            </a>",
+          "<a class=\"footer-head\" target=\"_blank\">\n                <span>INFORMATION CENTER</span>\n            </a>"
+        ],
+        "sample_text": [
+          "MPHASIS CAREERS",
+          "INFORMATION CENTER"
+        ]
+      },
+      {
+        "selector": "a.global-nav-item.menu-child",
+        "count": 3,
+        "sample_html": [
+          "<a class=\"global-nav-item menu-child\" href=\"#menu-1\">Explore Jobs</a>",
+          "<a class=\"global-nav-item menu-child\" href=\"#menu-2\">Information Center</a>"
+        ],
+        "sample_text": [
+          "EXPLORE JOBS",
+          "INFORMATION CENTER"
+        ]
+      },
+      {
+        "selector": "a.footer-head-white",
+        "count": 3,
+        "sample_html": [
+          "<a class=\"footer-head-white \">\n                <span>BY LOCATION</span>\n            </a>",
+          "<a class=\"footer-head-white \">\n                <span>BY CATEGORY</span>\n            </a>"
+        ],
+        "sample_text": [
+          "BY LOCATION",
+          "BY CATEGORY"
+        ]
+      }
+    ],
+    "page_title": ""
+  },
+  "after_search": null,
+  "best_source": "initial",
   "keyword_candidates": [],
   "structural_candidates": [
     {
@@ -77,8 +157,8 @@
     }
   ],
   "page_title": "",
-  "stage": "initial",
   "cookie_banner_dismissed": false,
+  "search_interacted": false,
   "status": "ok",
   "screenshot": "mphasis.png"
 }

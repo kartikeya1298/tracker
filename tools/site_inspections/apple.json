@@ -1,6 +1,297 @@
 {
   "slug": "apple",
   "url": "https://jobs.apple.com/en-us/search?search=data%20scientist",
+  "initial": {
+    "keyword_candidates": [
+      {
+        "selector": "div.large-6.job-content-links",
+        "count": 40,
+        "sample_html": [
+          "<div class=\"large-6 job-content-links\"><ul role=\"list\" class=\"ml-0\"><li role=\"listitem\"><a class=\"link more\" aria-label=\"See full role description: IN-Operations Expert\" href=\"/en-us/details/200314033/in-operations-expert?team=APPST\" data-discover=\"true\">See full role description</a></li><li role=\"listitem\"><a class=\"link more\" aria-label=\"Where we're hiring IN-Operations Expert 200314033\" href=\"/en-us/details/200314033/in-operations-expert/locationPicker\" data-discover=\"true\">Where we're hiring</a></li><li role=\"listitem\"><button id=\"shareJob-search-200314033-button\" class=\"search-shareJob-textIcon-button\"><span class=\"link\">Share</span><span class=\"a11y\">IN-Operations Expert 200314033</span><div class=\"blue\"><i class=\"icon blue icon-share\"></i></div></button></li></ul></div>",
+          "<div class=\"large-6 job-content-links\"><ul role=\"list\" class=\"ml-0\"><li role=\"listitem\" class=\"mb-5 d-flex flex-wrap\"><span class=\"fw-medium\">Role Number: </span>&nbsp;<span id=\"search-role-number_PIPE-200314033-2\" class=\"job-content-basic-info\">200314033</span></li><li role=\"listitem\" class=\"mb-5 d-flex flex-wrap\"><span class=\"fw-medium\">Weekly Hours:</span>&nbsp;<span id=\"search-weekly-hours-200314033-2\" class=\"job-content-basic-info\">40 Hours</span></li></ul></div>"
+        ],
+        "sample_text": [
+          "See full role descriptionWhere we're hiringShareIN-Operations Expert 200314033",
+          "Role Number: \u00a0200314033Weekly Hours:\u00a040 Hours"
+        ]
+      },
+      {
+        "selector": "span.job-content-basic-info",
+        "count": 40,
+        "sample_html": [
+          "<span id=\"search-role-number_PIPE-200314033-2\" class=\"job-content-basic-info\">200314033</span>",
+          "<span id=\"search-weekly-hours-200314033-2\" class=\"job-content-basic-info\">40 Hours</span>"
+        ],
+        "sample_text": [
+          "200314033",
+          "40 Hours"
+        ]
+      },
+      {
+        "selector": "div.d-flex.flex-row.row.large-12.job-title.job-list-item",
+        "count": 20,
+        "sample_html": [
+          "<div id=\"search-search-job-title-PIPE-200314033-2\" class=\"d-flex flex-row row large-12 job-title job-list-item\"><div class=\"d-flex flex-column column large-6 small-12 text-align-start job-title-link pr-40 w-51\"><h3><a class=\"link-inline t-intro word-wrap-break-word more\" aria-label=\"IN-Operations Expert 200314033\" href=\"/en-us/details/200314033/in-operations-expert?team=APPST\" data-discover=\"true\">IN-Operations Expert</a></h3><span id=\"search-Apple Retail-2\" class=\"team-name mt-0\">Apple Retail</span><span class=\"job-posted-date\" id=\"search-job-posted-date-2\">Jul 12, 2026</span></div><div id=\"search-location-search-job-title-PIPE-200314033-2\" class=\"column large-4 small-12 text-align-start job-title-location\"><span class=\"a11y\">Location</span><span class=\"table--advanced-search__location-sub\" id=\"search-store-name-2\">Various Locations within India</span></div><div class=\"column large-1 small-12 align-self-center\"><span class=\"a11y\">Actions</span><div class=\"d-flex align-center align-self-center gap-25\"><button class=\"fav-label t-label pt-5\" aria-label=\"Add to Favorites IN-Operations Expert 200314033\" id=\"addToFavoriteId-search-favorite-role-search-job-title-PIPE-200314033\"><img src=\"/public/images/favorites.svg\" alt=\"\" width=\"20\" height=\"20\" class=\"icon cursor-pointer fav-star-icon\" aria-hidden=\"true\"></button></div></div><div class=\"column large-1 small-12 align-self-center\"><span class=\"pr-20\" id=\"search-search-job-title-PIPE-200314033-applied-role-2\"></span></div></div>",
+          "<div id=\"search-search-job-title-PIPE-200598717-2\" class=\"d-flex flex-row row large-12 job-title job-list-item\"><div class=\"d-flex flex-column column large-6 small-12 text-align-start job-title-link pr-40 w-51\"><h3><a class=\"link-inline t-intro word-wrap-break-word more\" aria-label=\"SA-Operations Expert (Saudi and GCC Nationals) 200598717\" href=\"/en-us/details/200598717/sa-operations-expert-saudi-and-gcc-nationals?team=APPST\" data-discover=\"true\">SA-Operations Expert (Saudi and GCC Nationals)</a></h3><span id=\"search-Apple Retail-2\" class=\"team-name mt-0\">Apple Retail</span><span class=\"job-posted-date\" id=\"search-job-posted-date-2\">Jul 12, 2026</span></div><div id=\"search-location-search-job-title-PIPE-200598717-2\" class=\"column large-4 small-12 text-align-start job-title-location\"><span class=\"a11y\">Location</span><span class=\"table--advanced-search__location-sub\" id=\"search-store-name-2\">Various Locations within Saudi Arabia</span></div><div class=\"column large-1 small-12 align-self-center\"><span class=\"a11y\">Actions</span><div class=\"d-flex align-center align-self-center gap-25\"><button class=\"fav-label t-label pt-5\" aria-label=\"Add to Favorites SA-Operations Expert (Saudi and GCC Nationals) 200598717\" id=\"addToFavoriteId-search-favorite-role-search-job-title-PIPE-200598717\"><img src=\"/public/images/favorites.svg\" alt=\"\" width=\"20\" height=\"20\" class=\"icon cursor-pointer fav-star-icon\" aria-hidden=\"true\"></button></div></div><div class=\"column large-1 small-12 align-self-c"
+        ],
+        "sample_text": [
+          "IN-Operations Expert\nApple Retail\nJul 12, 2026\nLocation\nVarious Locations within India\nActions",
+          "SA-Operations Expert (Saudi and GCC Nationals)\nApple Retail\nJul 12, 2026\nLocation\nVarious Locations within Saudi Arabia\nActions"
+        ]
+      },
+      {
+        "selector": "div.d-flex.flex-column.column.large-6.small-12.text-align-start.job-title-link.pr-40.w-51",
+        "count": 20,
+        "sample_html": [
+          "<div class=\"d-flex flex-column column large-6 small-12 text-align-start job-title-link pr-40 w-51\"><h3><a class=\"link-inline t-intro word-wrap-break-word more\" aria-label=\"IN-Operations Expert 200314033\" href=\"/en-us/details/200314033/in-operations-expert?team=APPST\" data-discover=\"true\">IN-Operations Expert</a></h3><span id=\"search-Apple Retail-2\" class=\"team-name mt-0\">Apple Retail</span><span class=\"job-posted-date\" id=\"search-job-posted-date-2\">Jul 12, 2026</span></div>",
+          "<div class=\"d-flex flex-column column large-6 small-12 text-align-start job-title-link pr-40 w-51\"><h3><a class=\"link-inline t-intro word-wrap-break-word more\" aria-label=\"SA-Operations Expert (Saudi and GCC Nationals) 200598717\" href=\"/en-us/details/200598717/sa-operations-expert-saudi-and-gcc-nationals?team=APPST\" data-discover=\"true\">SA-Operations Expert (Saudi and GCC Nationals)</a></h3><span id=\"search-Apple Retail-2\" class=\"team-name mt-0\">Apple Retail</span><span class=\"job-posted-date\" id=\"search-job-posted-date-2\">Jul 12, 2026</span></div>"
+        ],
+        "sample_text": [
+          "IN-Operations Expert\nApple Retail\nJul 12, 2026",
+          "SA-Operations Expert (Saudi and GCC Nationals)\nApple Retail\nJul 12, 2026"
+        ]
+      },
+      {
+        "selector": "span.job-posted-date",
+        "count": 20,
+        "sample_html": [
+          "<span class=\"job-posted-date\" id=\"search-job-posted-date-2\">Jul 12, 2026</span>",
+          "<span class=\"job-posted-date\" id=\"search-job-posted-date-2\">Jul 12, 2026</span>"
+        ],
+        "sample_text": [
+          "Jul 12, 2026",
+          "Jul 12, 2026"
+        ]
+      },
+      {
+        "selector": "div.column.large-4.small-12.text-align-start.job-title-location",
+        "count": 20,
+        "sample_html": [
+          "<div id=\"search-location-search-job-title-PIPE-200314033-2\" class=\"column large-4 small-12 text-align-start job-title-location\"><span class=\"a11y\">Location</span><span class=\"table--advanced-search__location-sub\" id=\"search-store-name-2\">Various Locations within India</span></div>",
+          "<div id=\"search-location-search-job-title-PIPE-200598717-2\" class=\"column large-4 small-12 text-align-start job-title-location\"><span class=\"a11y\">Location</span><span class=\"table--advanced-search__location-sub\" id=\"search-store-name-2\">Various Locations within Saudi Arabia</span></div>"
+        ],
+        "sample_text": [
+          "Location\nVarious Locations within India",
+          "Location\nVarious Locations within Saudi Arabia"
+        ]
+      }
+    ],
+    "structural_candidates": [
+      {
+        "selector": "li.ac-gf-directory-column-section-item",
+        "count": 44,
+        "sample_html": [
+          "<li class=\"ac-gf-directory-column-section-item\" role=\"listitem\"><a class=\"ac-gf-directory-column-section-link\" href=\"https://www.apple.com/us/shop/goto/buy_accessories\" data-analytics-title=\"accessories\">Accessories</a></li>",
+          "<li class=\"ac-gf-directory-column-section-item\" role=\"listitem\"><a class=\"ac-gf-directory-column-section-link\" href=\"https://www.apple.com/us/shop/goto/giftcards\" data-analytics-title=\"gift cards\">Gift Cards</a></li>"
+        ],
+        "sample_text": [
+          "Accessories",
+          "Gift Cards"
+        ]
+      },
+      {
+        "selector": "a.ac-gf-directory-column-section-link",
+        "count": 44,
+        "sample_html": [
+          "<a class=\"ac-gf-directory-column-section-link\" href=\"https://www.apple.com/us/shop/goto/buy_accessories\" data-analytics-title=\"accessories\">Accessories</a>",
+          "<a class=\"ac-gf-directory-column-section-link\" href=\"https://www.apple.com/us/shop/goto/giftcards\" data-analytics-title=\"gift cards\">Gift Cards</a>"
+        ],
+        "sample_text": [
+          "Accessories",
+          "Gift Cards"
+        ]
+      },
+      {
+        "selector": "a.link.more",
+        "count": 28,
+        "sample_html": [
+          "<a class=\"link more\" aria-label=\"See full role description: IN-Operations Expert\" href=\"/en-us/details/200314033/in-operations-expert?team=APPST\" data-discover=\"true\">See full role description</a>",
+          "<a class=\"link more\" aria-label=\"Where we're hiring IN-Operations Expert 200314033\" href=\"/en-us/details/200314033/in-operations-expert/locationPicker\" data-discover=\"true\">Where we're hiring</a>"
+        ],
+        "sample_text": [
+          "See full role description",
+          "Where we're hiring"
+        ]
+      },
+      {
+        "selector": "li.rc-accordion-item",
+        "count": 20,
+        "sample_html": [
+          "<li data-core-accordion-item=\"\" role=\"listitem\" class=\"rc-accordion-item\"><div id=\"title-search-job-list-0\" data-core-accordion-button=\"\" class=\"rc-accordion-button\"><div class=\"w-100 d-flex\"><div id=\"search-search-job-title-PIPE-200314033-2\" class=\"d-flex flex-row row large-12 job-title job-list-item\"><div class=\"d-flex flex-column column large-6 small-12 text-align-start job-title-link pr-40 w-51\"><h3><a class=\"link-inline t-intro word-wrap-break-word more\" aria-label=\"IN-Operations Expert 200314033\" href=\"/en-us/details/200314033/in-operations-expert?team=APPST\" data-discover=\"true\">IN-Operations Expert</a></h3><span id=\"search-Apple Retail-2\" class=\"team-name mt-0\">Apple Retail</span><span class=\"job-posted-date\" id=\"search-job-posted-date-2\">Jul 12, 2026</span></div><div id=\"search-location-search-job-title-PIPE-200314033-2\" class=\"column large-4 small-12 text-align-start job-title-location\"><span class=\"a11y\">Location</span><span class=\"table--advanced-search__location-sub\" id=\"search-store-name-2\">Various Locations within India</span></div><div class=\"column large-1 small-12 align-self-center\"><span class=\"a11y\">Actions</span><div class=\"d-flex align-center align-self-center gap-25\"><button class=\"fav-label t-label pt-5\" aria-label=\"Add to Favorites IN-Operations Expert 200314033\" id=\"addToFavoriteId-search-favorite-role-search-job-title-PIPE-200314033\"><img src=\"/public/images/favorites.svg\" alt=\"\" width=\"20\" height=\"20\" class=\"icon cursor-pointer fav-star-icon\" aria-",
+          "<li data-core-accordion-item=\"\" role=\"listitem\" class=\"rc-accordion-item\"><div id=\"title-search-job-list-1\" data-core-accordion-button=\"\" class=\"rc-accordion-button\"><div class=\"w-100 d-flex\"><div id=\"search-search-job-title-PIPE-200598717-2\" class=\"d-flex flex-row row large-12 job-title job-list-item\"><div class=\"d-flex flex-column column large-6 small-12 text-align-start job-title-link pr-40 w-51\"><h3><a class=\"link-inline t-intro word-wrap-break-word more\" aria-label=\"SA-Operations Expert (Saudi and GCC Nationals) 200598717\" href=\"/en-us/details/200598717/sa-operations-expert-saudi-and-gcc-nationals?team=APPST\" data-discover=\"true\">SA-Operations Expert (Saudi and GCC Nationals)</a></h3><span id=\"search-Apple Retail-2\" class=\"team-name mt-0\">Apple Retail</span><span class=\"job-posted-date\" id=\"search-job-posted-date-2\">Jul 12, 2026</span></div><div id=\"search-location-search-job-title-PIPE-200598717-2\" class=\"column large-4 small-12 text-align-start job-title-location\"><span class=\"a11y\">Location</span><span class=\"table--advanced-search__location-sub\" id=\"search-store-name-2\">Various Locations within Saudi Arabia</span></div><div class=\"column large-1 small-12 align-self-center\"><span class=\"a11y\">Actions</span><div class=\"d-flex align-center align-self-center gap-25\"><button class=\"fav-label t-label pt-5\" aria-label=\"Add to Favorites SA-Operations Expert (Saudi and GCC Nationals) 200598717\" id=\"addToFavoriteId-search-favorite-role-search-job-title-PIPE-200598717\"><img src"
+        ],
+        "sample_text": [
+          "IN-Operations Expert\nApple Retail\nJul 12, 2026\nLocation\nVarious Locations within India\nActions",
+          "SA-Operations Expert (Saudi and GCC Nationals)\nApple Retail\nJul 12, 2026\nLocation\nVarious Locations within Saudi Arabia\nActions"
+        ]
+      },
+      {
+        "selector": "div.rc-accordion-button",
+        "count": 20,
+        "sample_html": [
+          "<div id=\"title-search-job-list-0\" data-core-accordion-button=\"\" class=\"rc-accordion-button\"><div class=\"w-100 d-flex\"><div id=\"search-search-job-title-PIPE-200314033-2\" class=\"d-flex flex-row row large-12 job-title job-list-item\"><div class=\"d-flex flex-column column large-6 small-12 text-align-start job-title-link pr-40 w-51\"><h3><a class=\"link-inline t-intro word-wrap-break-word more\" aria-label=\"IN-Operations Expert 200314033\" href=\"/en-us/details/200314033/in-operations-expert?team=APPST\" data-discover=\"true\">IN-Operations Expert</a></h3><span id=\"search-Apple Retail-2\" class=\"team-name mt-0\">Apple Retail</span><span class=\"job-posted-date\" id=\"search-job-posted-date-2\">Jul 12, 2026</span></div><div id=\"search-location-search-job-title-PIPE-200314033-2\" class=\"column large-4 small-12 text-align-start job-title-location\"><span class=\"a11y\">Location</span><span class=\"table--advanced-search__location-sub\" id=\"search-store-name-2\">Various Locations within India</span></div><div class=\"column large-1 small-12 align-self-center\"><span class=\"a11y\">Actions</span><div class=\"d-flex align-center align-self-center gap-25\"><button class=\"fav-label t-label pt-5\" aria-label=\"Add to Favorites IN-Operations Expert 200314033\" id=\"addToFavoriteId-search-favorite-role-search-job-title-PIPE-200314033\"><img src=\"/public/images/favorites.svg\" alt=\"\" width=\"20\" height=\"20\" class=\"icon cursor-pointer fav-star-icon\" aria-hidden=\"true\"></button></div></div><div class=\"column large-1 small-12 ali",
+          "<div id=\"title-search-job-list-1\" data-core-accordion-button=\"\" class=\"rc-accordion-button\"><div class=\"w-100 d-flex\"><div id=\"search-search-job-title-PIPE-200598717-2\" class=\"d-flex flex-row row large-12 job-title job-list-item\"><div class=\"d-flex flex-column column large-6 small-12 text-align-start job-title-link pr-40 w-51\"><h3><a class=\"link-inline t-intro word-wrap-break-word more\" aria-label=\"SA-Operations Expert (Saudi and GCC Nationals) 200598717\" href=\"/en-us/details/200598717/sa-operations-expert-saudi-and-gcc-nationals?team=APPST\" data-discover=\"true\">SA-Operations Expert (Saudi and GCC Nationals)</a></h3><span id=\"search-Apple Retail-2\" class=\"team-name mt-0\">Apple Retail</span><span class=\"job-posted-date\" id=\"search-job-posted-date-2\">Jul 12, 2026</span></div><div id=\"search-location-search-job-title-PIPE-200598717-2\" class=\"column large-4 small-12 text-align-start job-title-location\"><span class=\"a11y\">Location</span><span class=\"table--advanced-search__location-sub\" id=\"search-store-name-2\">Various Locations within Saudi Arabia</span></div><div class=\"column large-1 small-12 align-self-center\"><span class=\"a11y\">Actions</span><div class=\"d-flex align-center align-self-center gap-25\"><button class=\"fav-label t-label pt-5\" aria-label=\"Add to Favorites SA-Operations Expert (Saudi and GCC Nationals) 200598717\" id=\"addToFavoriteId-search-favorite-role-search-job-title-PIPE-200598717\"><img src=\"/public/images/favorites.svg\" alt=\"\" width=\"20\" height=\"20\" class=\"icon "
+        ],
+        "sample_text": [
+          "IN-Operations Expert\nApple Retail\nJul 12, 2026\nLocation\nVarious Locations within India\nActions",
+          "SA-Operations Expert (Saudi and GCC Nationals)\nApple Retail\nJul 12, 2026\nLocation\nVarious Locations within Saudi Arabia\nActions"
+        ]
+      },
+      {
+        "selector": "div.w-100.d-flex",
+        "count": 20,
+        "sample_html": [
+          "<div class=\"w-100 d-flex\"><div id=\"search-search-job-title-PIPE-200314033-2\" class=\"d-flex flex-row row large-12 job-title job-list-item\"><div class=\"d-flex flex-column column large-6 small-12 text-align-start job-title-link pr-40 w-51\"><h3><a class=\"link-inline t-intro word-wrap-break-word more\" aria-label=\"IN-Operations Expert 200314033\" href=\"/en-us/details/200314033/in-operations-expert?team=APPST\" data-discover=\"true\">IN-Operations Expert</a></h3><span id=\"search-Apple Retail-2\" class=\"team-name mt-0\">Apple Retail</span><span class=\"job-posted-date\" id=\"search-job-posted-date-2\">Jul 12, 2026</span></div><div id=\"search-location-search-job-title-PIPE-200314033-2\" class=\"column large-4 small-12 text-align-start job-title-location\"><span class=\"a11y\">Location</span><span class=\"table--advanced-search__location-sub\" id=\"search-store-name-2\">Various Locations within India</span></div><div class=\"column large-1 small-12 align-self-center\"><span class=\"a11y\">Actions</span><div class=\"d-flex align-center align-self-center gap-25\"><button class=\"fav-label t-label pt-5\" aria-label=\"Add to Favorites IN-Operations Expert 200314033\" id=\"addToFavoriteId-search-favorite-role-search-job-title-PIPE-200314033\"><img src=\"/public/images/favorites.svg\" alt=\"\" width=\"20\" height=\"20\" class=\"icon cursor-pointer fav-star-icon\" aria-hidden=\"true\"></button></div></div><div class=\"column large-1 small-12 align-self-center\"><span class=\"pr-20\" id=\"search-search-job-title-PIPE-200314033-applied-role-",
+          "<div class=\"w-100 d-flex\"><div id=\"search-search-job-title-PIPE-200598717-2\" class=\"d-flex flex-row row large-12 job-title job-list-item\"><div class=\"d-flex flex-column column large-6 small-12 text-align-start job-title-link pr-40 w-51\"><h3><a class=\"link-inline t-intro word-wrap-break-word more\" aria-label=\"SA-Operations Expert (Saudi and GCC Nationals) 200598717\" href=\"/en-us/details/200598717/sa-operations-expert-saudi-and-gcc-nationals?team=APPST\" data-discover=\"true\">SA-Operations Expert (Saudi and GCC Nationals)</a></h3><span id=\"search-Apple Retail-2\" class=\"team-name mt-0\">Apple Retail</span><span class=\"job-posted-date\" id=\"search-job-posted-date-2\">Jul 12, 2026</span></div><div id=\"search-location-search-job-title-PIPE-200598717-2\" class=\"column large-4 small-12 text-align-start job-title-location\"><span class=\"a11y\">Location</span><span class=\"table--advanced-search__location-sub\" id=\"search-store-name-2\">Various Locations within Saudi Arabia</span></div><div class=\"column large-1 small-12 align-self-center\"><span class=\"a11y\">Actions</span><div class=\"d-flex align-center align-self-center gap-25\"><button class=\"fav-label t-label pt-5\" aria-label=\"Add to Favorites SA-Operations Expert (Saudi and GCC Nationals) 200598717\" id=\"addToFavoriteId-search-favorite-role-search-job-title-PIPE-200598717\"><img src=\"/public/images/favorites.svg\" alt=\"\" width=\"20\" height=\"20\" class=\"icon cursor-pointer fav-star-icon\" aria-hidden=\"true\"></button></div></div><div class=\"column lar"
+        ],
+        "sample_text": [
+          "IN-Operations Expert\nApple Retail\nJul 12, 2026\nLocation\nVarious Locations within India\nActions",
+          "SA-Operations Expert (Saudi and GCC Nationals)\nApple Retail\nJul 12, 2026\nLocation\nVarious Locations within Saudi Arabia\nActions"
+        ]
+      }
+    ],
+    "page_title": "Search Jobs - Jobs - Careers at Apple"
+  },
+  "after_search": {
+    "keyword_candidates": [
+      {
+        "selector": "div.large-6.job-content-links",
+        "count": 40,
+        "sample_html": [
+          "<div class=\"large-6 job-content-links\"><ul role=\"list\" class=\"ml-0\"><li role=\"listitem\"><a class=\"link more\" aria-label=\"See full role description: Commercial Data Scientist, ANZSA\" href=\"/en-us/details/200640762-3278/commercial-data-scientist-anzsa?team=SLDEV\" data-discover=\"true\">See full role description</a></li><li role=\"listitem\"><button id=\"shareJob-search-200640762-3278-button\" class=\"search-shareJob-textIcon-button\"><span class=\"link\">Share</span><span class=\"a11y\">Commercial Data Scientist, ANZSA 200640762-3278</span><div class=\"blue\"><i class=\"icon blue icon-share\"></i></div></button></li></ul></div>",
+          "<div class=\"large-6 job-content-links\"><ul role=\"list\" class=\"ml-0\"><li role=\"listitem\" class=\"mb-5 d-flex flex-wrap\"><span class=\"fw-medium\">Role Number: </span>&nbsp;<span id=\"search-role-number_200640762-3278-1\" class=\"job-content-basic-info\">200640762-3278</span></li><li role=\"listitem\" class=\"mb-5 d-flex flex-wrap\"><span class=\"fw-medium\">Weekly Hours:</span>&nbsp;<span id=\"search-weekly-hours-200640762-1\" class=\"job-content-basic-info\">40 Hours</span></li></ul></div>"
+        ],
+        "sample_text": [
+          "See full role descriptionShareCommercial Data Scientist, ANZSA 200640762-3278",
+          "Role Number: \u00a0200640762-3278Weekly Hours:\u00a040 Hours"
+        ]
+      },
+      {
+        "selector": "span.job-content-basic-info",
+        "count": 40,
+        "sample_html": [
+          "<span id=\"search-role-number_200640762-3278-1\" class=\"job-content-basic-info\">200640762-3278</span>",
+          "<span id=\"search-weekly-hours-200640762-1\" class=\"job-content-basic-info\">40 Hours</span>"
+        ],
+        "sample_text": [
+          "200640762-3278",
+          "40 Hours"
+        ]
+      },
+      {
+        "selector": "div.d-flex.flex-row.row.large-12.job-title.job-list-item",
+        "count": 20,
+        "sample_html": [
+          "<div id=\"search-search-job-title-200640762-3278-1\" class=\"d-flex flex-row row large-12 job-title job-list-item\"><div class=\"d-flex flex-column column large-6 small-12 text-align-start job-title-link pr-40 w-51\"><h3><a class=\"link-inline t-intro word-wrap-break-word more\" aria-label=\"Commercial Data Scientist, ANZSA 200640762\" href=\"/en-us/details/200640762-3278/commercial-data-scientist-anzsa?team=SLDEV\" data-discover=\"true\">Commercial Data Scientist, ANZSA</a></h3><span id=\"search-Sales and Business Development-1\" class=\"team-name mt-0\">Sales and Business Development</span><span class=\"job-posted-date\" id=\"search-job-posted-date-1\">Jun 24, 2026</span></div><div id=\"search-location-search-job-title-200640762-3278-1\" class=\"column large-4 small-12 text-align-start job-title-location\"><span class=\"a11y\">Location</span><span id=\"search-store-name-container-1\">Singapore</span></div><div class=\"column large-1 small-12 align-self-center\"><span class=\"a11y\">Actions</span><div class=\"d-flex align-center align-self-center gap-25\"><button class=\"fav-label t-label pt-5\" aria-label=\"Add to Favorites Commercial Data Scientist, ANZSA 200640762-3278\" id=\"addToFavoriteId-search-favorite-role-search-job-title-200640762-3278\"><img src=\"/public/images/favorites.svg\" alt=\"\" width=\"20\" height=\"20\" class=\"icon cursor-pointer fav-star-icon\" aria-hidden=\"true\"></button></div></div><div class=\"column large-1 small-12 align-self-center\"><span class=\"pr-20\" id=\"search-search-job-title-200640762-3278-ap",
+          "<div id=\"search-search-job-title-200647918-0836-1\" class=\"d-flex flex-row row large-12 job-title job-list-item\"><div class=\"d-flex flex-column column large-6 small-12 text-align-start job-title-link pr-40 w-51\"><h3><a class=\"link-inline t-intro word-wrap-break-word more\" aria-label=\"Data Scientist, AIML Data Scientist 200647918\" href=\"/en-us/details/200647918-0836/data-scientist-aiml-data-scientist?team=SFTWR\" data-discover=\"true\">Data Scientist, AIML Data Scientist</a></h3><span id=\"search-Software and Services-1\" class=\"team-name mt-0\">Software and Services</span><span class=\"job-posted-date\" id=\"search-job-posted-date-1\">Mar 06, 2026</span></div><div id=\"search-location-search-job-title-200647918-0836-1\" class=\"column large-4 small-12 text-align-start job-title-location\"><span class=\"a11y\">Location</span><span id=\"search-store-name-container-1\">Cupertino</span></div><div class=\"column large-1 small-12 align-self-center\"><span class=\"a11y\">Actions</span><div class=\"d-flex align-center align-self-center gap-25\"><button class=\"fav-label t-label pt-5\" aria-label=\"Add to Favorites Data Scientist, AIML Data Scientist 200647918-0836\" id=\"addToFavoriteId-search-favorite-role-search-job-title-200647918-0836\"><img src=\"/public/images/favorites.svg\" alt=\"\" width=\"20\" height=\"20\" class=\"icon cursor-pointer fav-star-icon\" aria-hidden=\"true\"></button></div></div><div class=\"column large-1 small-12 align-self-center\"><span class=\"pr-20\" id=\"search-search-job-title-200647918-0836-applied-"
+        ],
+        "sample_text": [
+          "Commercial Data Scientist, ANZSA\nSales and Business Development\nJun 24, 2026\nLocation\nSingapore\nActions",
+          "Data Scientist, AIML Data Scientist\nSoftware and Services\nMar 06, 2026\nLocation\nCupertino\nActions"
+        ]
+      },
+      {
+        "selector": "div.d-flex.flex-column.column.large-6.small-12.text-align-start.job-title-link.pr-40.w-51",
+        "count": 20,
+        "sample_html": [
+          "<div class=\"d-flex flex-column column large-6 small-12 text-align-start job-title-link pr-40 w-51\"><h3><a class=\"link-inline t-intro word-wrap-break-word more\" aria-label=\"Commercial Data Scientist, ANZSA 200640762\" href=\"/en-us/details/200640762-3278/commercial-data-scientist-anzsa?team=SLDEV\" data-discover=\"true\">Commercial Data Scientist, ANZSA</a></h3><span id=\"search-Sales and Business Development-1\" class=\"team-name mt-0\">Sales and Business Development</span><span class=\"job-posted-date\" id=\"search-job-posted-date-1\">Jun 24, 2026</span></div>",
+          "<div class=\"d-flex flex-column column large-6 small-12 text-align-start job-title-link pr-40 w-51\"><h3><a class=\"link-inline t-intro word-wrap-break-word more\" aria-label=\"Data Scientist, AIML Data Scientist 200647918\" href=\"/en-us/details/200647918-0836/data-scientist-aiml-data-scientist?team=SFTWR\" data-discover=\"true\">Data Scientist, AIML Data Scientist</a></h3><span id=\"search-Software and Services-1\" class=\"team-name mt-0\">Software and Services</span><span class=\"job-posted-date\" id=\"search-job-posted-date-1\">Mar 06, 2026</span></div>"
+        ],
+        "sample_text": [
+          "Commercial Data Scientist, ANZSA\nSales and Business Development\nJun 24, 2026",
+          "Data Scientist, AIML Data Scientist\nSoftware and Services\nMar 06, 2026"
+        ]
+      },
+      {
+        "selector": "span.job-posted-date",
+        "count": 20,
+        "sample_html": [
+          "<span class=\"job-posted-date\" id=\"search-job-posted-date-1\">Jun 24, 2026</span>",
+          "<span class=\"job-posted-date\" id=\"search-job-posted-date-1\">Mar 06, 2026</span>"
+        ],
+        "sample_text": [
+          "Jun 24, 2026",
+          "Mar 06, 2026"
+        ]
+      },
+      {
+        "selector": "div.column.large-4.small-12.text-align-start.job-title-location",
+        "count": 20,
+        "sample_html": [
+          "<div id=\"search-location-search-job-title-200640762-3278-1\" class=\"column large-4 small-12 text-align-start job-title-location\"><span class=\"a11y\">Location</span><span id=\"search-store-name-container-1\">Singapore</span></div>",
+          "<div id=\"search-location-search-job-title-200647918-0836-1\" class=\"column large-4 small-12 text-align-start job-title-location\"><span class=\"a11y\">Location</span><span id=\"search-store-name-container-1\">Cupertino</span></div>"
+        ],
+        "sample_text": [
+          "Location\nSingapore",
+          "Location\nCupertino"
+        ]
+      }
+    ],
+    "structural_candidates": [
+      {
+        "selector": "li.ac-gf-directory-column-section-item",
+        "count": 44,
+        "sample_html": [
+          "<li class=\"ac-gf-directory-column-section-item\" role=\"listitem\"><a class=\"ac-gf-directory-column-section-link\" href=\"https://www.apple.com/us/shop/goto/buy_accessories\" data-analytics-title=\"accessories\">Accessories</a></li>",
+          "<li class=\"ac-gf-directory-column-section-item\" role=\"listitem\"><a class=\"ac-gf-directory-column-section-link\" href=\"https://www.apple.com/us/shop/goto/giftcards\" data-analytics-title=\"gift cards\">Gift Cards</a></li>"
+        ],
+        "sample_text": [
+          "Accessories",
+          "Gift Cards"
+        ]
+      },
+      {
+        "selector": "a.ac-gf-directory-column-section-link",
+        "count": 44,
+        "sample_html": [
+          "<a class=\"ac-gf-directory-column-section-link\" href=\"https://www.apple.com/us/shop/goto/buy_accessories\" data-analytics-title=\"accessories\">Accessories</a>",
+          "<a class=\"ac-gf-directory-column-section-link\" href=\"https://www.apple.com/us/shop/goto/giftcards\" data-analytics-title=\"gift cards\">Gift Cards</a>"
+        ],
+        "sample_text": [
+          "Accessories",
+          "Gift Cards"
+        ]
+      },
+      {
+        "selector": "li.rc-accordion-item",
+        "count": 20,
+        "sample_html": [
+          "<li data-core-accordion-item=\"\" role=\"listitem\" class=\"rc-accordion-item\"><div id=\"title-search-job-list-0\" data-core-accordion-button=\"\" class=\"rc-accordion-button\"><div class=\"w-100 d-flex\"><div id=\"search-search-job-title-200640762-3278-1\" class=\"d-flex flex-row row large-12 job-title job-list-item\"><div class=\"d-flex flex-column column large-6 small-12 text-align-start job-title-link pr-40 w-51\"><h3><a class=\"link-inline t-intro word-wrap-break-word more\" aria-label=\"Commercial Data Scientist, ANZSA 200640762\" href=\"/en-us/details/200640762-3278/commercial-data-scientist-anzsa?team=SLDEV\" data-discover=\"true\">Commercial Data Scientist, ANZSA</a></h3><span id=\"search-Sales and Business Development-1\" class=\"team-name mt-0\">Sales and Business Development</span><span class=\"job-posted-date\" id=\"search-job-posted-date-1\">Jun 24, 2026</span></div><div id=\"search-location-search-job-title-200640762-3278-1\" class=\"column large-4 small-12 text-align-start job-title-location\"><span class=\"a11y\">Location</span><span id=\"search-store-name-container-1\">Singapore</span></div><div class=\"column large-1 small-12 align-self-center\"><span class=\"a11y\">Actions</span><div class=\"d-flex align-center align-self-center gap-25\"><button class=\"fav-label t-label pt-5\" aria-label=\"Add to Favorites Commercial Data Scientist, ANZSA 200640762-3278\" id=\"addToFavoriteId-search-favorite-role-search-job-title-200640762-3278\"><img src=\"/public/images/favorites.svg\" alt=\"\" width=\"20\" height=\"20\" class=\"ico",
+          "<li data-core-accordion-item=\"\" role=\"listitem\" class=\"rc-accordion-item\"><div id=\"title-search-job-list-1\" data-core-accordion-button=\"\" class=\"rc-accordion-button\"><div class=\"w-100 d-flex\"><div id=\"search-search-job-title-200647918-0836-1\" class=\"d-flex flex-row row large-12 job-title job-list-item\"><div class=\"d-flex flex-column column large-6 small-12 text-align-start job-title-link pr-40 w-51\"><h3><a class=\"link-inline t-intro word-wrap-break-word more\" aria-label=\"Data Scientist, AIML Data Scientist 200647918\" href=\"/en-us/details/200647918-0836/data-scientist-aiml-data-scientist?team=SFTWR\" data-discover=\"true\">Data Scientist, AIML Data Scientist</a></h3><span id=\"search-Software and Services-1\" class=\"team-name mt-0\">Software and Services</span><span class=\"job-posted-date\" id=\"search-job-posted-date-1\">Mar 06, 2026</span></div><div id=\"search-location-search-job-title-200647918-0836-1\" class=\"column large-4 small-12 text-align-start job-title-location\"><span class=\"a11y\">Location</span><span id=\"search-store-name-container-1\">Cupertino</span></div><div class=\"column large-1 small-12 align-self-center\"><span class=\"a11y\">Actions</span><div class=\"d-flex align-center align-self-center gap-25\"><button class=\"fav-label t-label pt-5\" aria-label=\"Add to Favorites Data Scientist, AIML Data Scientist 200647918-0836\" id=\"addToFavoriteId-search-favorite-role-search-job-title-200647918-0836\"><img src=\"/public/images/favorites.svg\" alt=\"\" width=\"20\" height=\"20\" class=\"icon curs"
+        ],
+        "sample_text": [
+          "Commercial Data Scientist, ANZSA\nSales and Business Development\nJun 24, 2026\nLocation\nSingapore\nActions",
+          "Data Scientist, AIML Data Scientist\nSoftware and Services\nMar 06, 2026\nLocation\nCupertino\nActions"
+        ]
+      },
+      {
+        "selector": "div.rc-accordion-button",
+        "count": 20,
+        "sample_html": [
+          "<div id=\"title-search-job-list-0\" data-core-accordion-button=\"\" class=\"rc-accordion-button\"><div class=\"w-100 d-flex\"><div id=\"search-search-job-title-200640762-3278-1\" class=\"d-flex flex-row row large-12 job-title job-list-item\"><div class=\"d-flex flex-column column large-6 small-12 text-align-start job-title-link pr-40 w-51\"><h3><a class=\"link-inline t-intro word-wrap-break-word more\" aria-label=\"Commercial Data Scientist, ANZSA 200640762\" href=\"/en-us/details/200640762-3278/commercial-data-scientist-anzsa?team=SLDEV\" data-discover=\"true\">Commercial Data Scientist, ANZSA</a></h3><span id=\"search-Sales and Business Development-1\" class=\"team-name mt-0\">Sales and Business Development</span><span class=\"job-posted-date\" id=\"search-job-posted-date-1\">Jun 24, 2026</span></div><div id=\"search-location-search-job-title-200640762-3278-1\" class=\"column large-4 small-12 text-align-start job-title-location\"><span class=\"a11y\">Location</span><span id=\"search-store-name-container-1\">Singapore</span></div><div class=\"column large-1 small-12 align-self-center\"><span class=\"a11y\">Actions</span><div class=\"d-flex align-center align-self-center gap-25\"><button class=\"fav-label t-label pt-5\" aria-label=\"Add to Favorites Commercial Data Scientist, ANZSA 200640762-3278\" id=\"addToFavoriteId-search-favorite-role-search-job-title-200640762-3278\"><img src=\"/public/images/favorites.svg\" alt=\"\" width=\"20\" height=\"20\" class=\"icon cursor-pointer fav-star-icon\" aria-hidden=\"true\"></button></div></div><d",
+          "<div id=\"title-search-job-list-1\" data-core-accordion-button=\"\" class=\"rc-accordion-button\"><div class=\"w-100 d-flex\"><div id=\"search-search-job-title-200647918-0836-1\" class=\"d-flex flex-row row large-12 job-title job-list-item\"><div class=\"d-flex flex-column column large-6 small-12 text-align-start job-title-link pr-40 w-51\"><h3><a class=\"link-inline t-intro word-wrap-break-word more\" aria-label=\"Data Scientist, AIML Data Scientist 200647918\" href=\"/en-us/details/200647918-0836/data-scientist-aiml-data-scientist?team=SFTWR\" data-discover=\"true\">Data Scientist, AIML Data Scientist</a></h3><span id=\"search-Software and Services-1\" class=\"team-name mt-0\">Software and Services</span><span class=\"job-posted-date\" id=\"search-job-posted-date-1\">Mar 06, 2026</span></div><div id=\"search-location-search-job-title-200647918-0836-1\" class=\"column large-4 small-12 text-align-start job-title-location\"><span class=\"a11y\">Location</span><span id=\"search-store-name-container-1\">Cupertino</span></div><div class=\"column large-1 small-12 align-self-center\"><span class=\"a11y\">Actions</span><div class=\"d-flex align-center align-self-center gap-25\"><button class=\"fav-label t-label pt-5\" aria-label=\"Add to Favorites Data Scientist, AIML Data Scientist 200647918-0836\" id=\"addToFavoriteId-search-favorite-role-search-job-title-200647918-0836\"><img src=\"/public/images/favorites.svg\" alt=\"\" width=\"20\" height=\"20\" class=\"icon cursor-pointer fav-star-icon\" aria-hidden=\"true\"></button></div></div><div cla"
+        ],
+        "sample_text": [
+          "Commercial Data Scientist, ANZSA\nSales and Business Development\nJun 24, 2026\nLocation\nSingapore\nActions",
+          "Data Scientist, AIML Data Scientist\nSoftware and Services\nMar 06, 2026\nLocation\nCupertino\nActions"
+        ]
+      },
+      {
+        "selector": "div.w-100.d-flex",
+        "count": 20,
+        "sample_html": [
+          "<div class=\"w-100 d-flex\"><div id=\"search-search-job-title-200640762-3278-1\" class=\"d-flex flex-row row large-12 job-title job-list-item\"><div class=\"d-flex flex-column column large-6 small-12 text-align-start job-title-link pr-40 w-51\"><h3><a class=\"link-inline t-intro word-wrap-break-word more\" aria-label=\"Commercial Data Scientist, ANZSA 200640762\" href=\"/en-us/details/200640762-3278/commercial-data-scientist-anzsa?team=SLDEV\" data-discover=\"true\">Commercial Data Scientist, ANZSA</a></h3><span id=\"search-Sales and Business Development-1\" class=\"team-name mt-0\">Sales and Business Development</span><span class=\"job-posted-date\" id=\"search-job-posted-date-1\">Jun 24, 2026</span></div><div id=\"search-location-search-job-title-200640762-3278-1\" class=\"column large-4 small-12 text-align-start job-title-location\"><span class=\"a11y\">Location</span><span id=\"search-store-name-container-1\">Singapore</span></div><div class=\"column large-1 small-12 align-self-center\"><span class=\"a11y\">Actions</span><div class=\"d-flex align-center align-self-center gap-25\"><button class=\"fav-label t-label pt-5\" aria-label=\"Add to Favorites Commercial Data Scientist, ANZSA 200640762-3278\" id=\"addToFavoriteId-search-favorite-role-search-job-title-200640762-3278\"><img src=\"/public/images/favorites.svg\" alt=\"\" width=\"20\" height=\"20\" class=\"icon cursor-pointer fav-star-icon\" aria-hidden=\"true\"></button></div></div><div class=\"column large-1 small-12 align-self-center\"><span class=\"pr-20\" id=\"search-search-j",
+          "<div class=\"w-100 d-flex\"><div id=\"search-search-job-title-200647918-0836-1\" class=\"d-flex flex-row row large-12 job-title job-list-item\"><div class=\"d-flex flex-column column large-6 small-12 text-align-start job-title-link pr-40 w-51\"><h3><a class=\"link-inline t-intro word-wrap-break-word more\" aria-label=\"Data Scientist, AIML Data Scientist 200647918\" href=\"/en-us/details/200647918-0836/data-scientist-aiml-data-scientist?team=SFTWR\" data-discover=\"true\">Data Scientist, AIML Data Scientist</a></h3><span id=\"search-Software and Services-1\" class=\"team-name mt-0\">Software and Services</span><span class=\"job-posted-date\" id=\"search-job-posted-date-1\">Mar 06, 2026</span></div><div id=\"search-location-search-job-title-200647918-0836-1\" class=\"column large-4 small-12 text-align-start job-title-location\"><span class=\"a11y\">Location</span><span id=\"search-store-name-container-1\">Cupertino</span></div><div class=\"column large-1 small-12 align-self-center\"><span class=\"a11y\">Actions</span><div class=\"d-flex align-center align-self-center gap-25\"><button class=\"fav-label t-label pt-5\" aria-label=\"Add to Favorites Data Scientist, AIML Data Scientist 200647918-0836\" id=\"addToFavoriteId-search-favorite-role-search-job-title-200647918-0836\"><img src=\"/public/images/favorites.svg\" alt=\"\" width=\"20\" height=\"20\" class=\"icon cursor-pointer fav-star-icon\" aria-hidden=\"true\"></button></div></div><div class=\"column large-1 small-12 align-self-center\"><span class=\"pr-20\" id=\"search-search-job-tit"
+        ],
+        "sample_text": [
+          "Commercial Data Scientist, ANZSA\nSales and Business Development\nJun 24, 2026\nLocation\nSingapore\nActions",
+          "Data Scientist, AIML Data Scientist\nSoftware and Services\nMar 06, 2026\nLocation\nCupertino\nActions"
+        ]
+      }
+    ],
+    "page_title": "Search Jobs - Jobs - Careers at Apple"
+  },
+  "best_source": "initial",
   "keyword_candidates": [
     {
       "selector": "div.large-6.job-content-links",
@@ -150,8 +441,8 @@
     }
   ],
   "page_title": "Search Jobs - Jobs - Careers at Apple",
-  "stage": "initial",
   "cookie_banner_dismissed": false,
+  "search_interacted": true,
   "status": "ok",
   "screenshot": "apple.png"
 }
