@@ -280,9 +280,18 @@ COMPANIES: list[dict] = [
     {"name": "TCS", "slug": "tcs", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://ibegin.tcs.com/iBegin/jobs/search?searchText=data+scientist"), "careers_url": "https://ibegin.tcs.com", "verified": False},
     # www.hcltech.com was the wrong domain (explains the earlier HTTP2 protocol
-    # error) - user-confirmed real domain is careers.hcltech.com.
+    # error) - user-confirmed real domain is careers.hcltech.com. Real selectors
+    # confirmed via inspection - location is approximate (footer concatenates job
+    # ID + country + city with no distinguishing class per field).
     {"name": "HCLTech", "slug": "hcltech", "platform": ATSPlatform.CUSTOM,
-     "identifier": _custom("https://careers.hcltech.com/search/?q=Data+Scientist&locationsearch=&searchResultView=LIST&pageNumber=0&facetFilters=%7B%7D&sortBy=&markerViewed=&carouselIndex="), "careers_url": "https://careers.hcltech.com", "verified": False},
+     "identifier": json.dumps({
+         "url": "https://careers.hcltech.com/search/?q=Data+Scientist&locationsearch=&searchResultView=LIST&pageNumber=0&facetFilters=%7B%7D&sortBy=&markerViewed=&carouselIndex=",
+         "item_selector": "li[data-testid='jobCard']",
+         "title_selector": "a.jobCardTitle",
+         "location_selector": "[data-testid='jobCardFooter']",
+         "link_selector": "a.jobCardTitle",
+         "link_attr": "href",
+     }), "careers_url": "https://careers.hcltech.com", "verified": True},
     {"name": "Wipro", "slug": "wipro", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://careers.wipro.com/careers-home/jobs?keywords=data+scientist"), "careers_url": "https://careers.wipro.com", "verified": False},
     {"name": "Tech Mahindra", "slug": "tech-mahindra", "platform": ATSPlatform.CUSTOM,
