@@ -71,47 +71,52 @@ cd backend && pytest
 `backend/app/scrapers/registry.py` seeds 51 rows (50 companies; Adobe has a second
 early-careers Workday site) with a platform + identifier. Two tiers:
 
-- **Verified (11 rows, work immediately):** Databricks and Airbnb on Greenhouse's
-  public JSON API, plus 9 Workday rows (Walmart Global Tech, Visa, Mastercard,
-  Philips, NVIDIA, Salesforce, Adobe + Adobe Early Careers, PayPal) with
-  `tenant|dc|site` confirmed against live job-posting URLs via web search. Qualcomm
-  is Workday too but its dc subdomain was ambiguous in search results (`wd12` vs
-  `wd5`) — try `wd5` if `wd12` comes back empty. These call the ATS's documented
-  public/CxS API directly — no scraping, no auth. Worth a periodic spot-check since
-  Workday dc subdomains do occasionally migrate.
-- **Best-effort (needs a short setup step):** the remaining ~39 rows — mostly large
-  enterprises on custom-branded career sites, plus a few on SAP SuccessFactors /
-  Oracle Recruiting Cloud. Their exact page structure can't be guessed reliably
-  without inspecting the live, rendered page — and that step can't be automated from
-  a Claude Code sandbox (its network policy allows only a small domain allowlist;
-  confirmed by testing plain HTTPS fetches, including to sites with no bot
-  protection at all, which also failed — this is a sandbox network restriction, not
-  per-site blocking). Each entry has the correct `careers_url` and a *template*
-  config for `GenericPlaywrightScraper` (`app/scrapers/generic.py`).
+- **Verified (23 rows, work immediately):** Databricks and Airbnb on Greenhouse's
+  public JSON API; 10 Workday rows (Walmart Global Tech, Visa, Mastercard, Philips,
+  NVIDIA, Salesforce, Adobe + Adobe Early Careers, PayPal, Qualcomm) with
+  `tenant|dc|site` confirmed against live job-posting URLs / the real CxS API
+  directly — no scraping, no auth, worth a periodic spot-check since Workday dc
+  subdomains do occasionally migrate; and 11 rows on custom/SAP SuccessFactors
+  career sites (SAP, Siemens, Amazon, Microsoft, Goldman Sachs, Deloitte, Accenture,
+  Infosys, LTIMindtree, EY, PwC) with real CSS selectors extracted from live
+  rendered HTML via `tools/inspect_career_sites.py` (see below) — these are
+  inherently more fragile than API-backed rows since a site redesign can silently
+  break a selector, so still worth a periodic spot-check.
+- **Best-effort (needs a short setup step):** the remaining ~28 rows. Most either
+  didn't render results without a live search interaction the inspection script
+  doesn't perform (Google, JPMorgan Chase, Snowflake, Cisco, IBM, Intel, Bosch,
+  Oracle, Nokia — the heuristic found only nav/filter chrome, not job cards), or the
+  inspection run outright failed to load them (TCS, HCLTech, Zoho — timeout or
+  navigation error), or found literally nothing (Ericsson, Uber, LinkedIn,
+  ServiceNow, Cognizant, Tech Mahindra, Genpact). Each entry has the correct
+  `careers_url` and a *template* config for `GenericPlaywrightScraper`
+  (`app/scrapers/generic.py`).
 
-  **`tools/inspect_career_sites.py`** automates the discovery step from a machine
-  that *does* have normal internet access (yours). It opens each unconfigured career
-  site in a real Chromium, and instead of dumping the full page HTML (too noisy to
-  act on), it scans for repeated "job card" DOM patterns — grouping elements by
-  tag+class, first by career/job/listing-related class-name keywords, then (for
-  sites using hashed CSS-in-JS classnames, where keyword matching finds nothing) by
-  "repeated element wrapping a title-length link." It also checks Qualcomm's
-  ambiguous Workday subdomain directly against the real CxS API rather than
+  **`tools/inspect_career_sites.py`** automates the discovery step from anywhere
+  with normal internet access — a GitHub Actions runner (see
+  `.github/workflows/inspect-career-sites.yml`, triggered via `workflow_dispatch`;
+  results get committed straight back to the branch that ran it) or your own
+  machine. It opens each unconfigured career site in a real Chromium and, instead of
+  dumping the full page HTML, scans for repeated "job card" DOM patterns — grouping
+  elements by tag+class, first by career/job/listing-related class-name keywords,
+  then (for sites using hashed CSS-in-JS classnames, where keyword matching finds
+  nothing) by "repeated element wrapping a title-length link." It also checks
+  Workday dc-subdomain ambiguity directly against the real CxS API rather than
   guessing.
 
   ```bash
   cd tools
   pip install -r requirements.txt
   playwright install chromium
-  python inspect_career_sites.py              # all ~39 sites, headed browser
-  python inspect_career_sites.py --only zoho,ibm,gocomet   # just a few
+  python inspect_career_sites.py                            # all unresolved sites
+  python inspect_career_sites.py --only ericsson,cognizant   # just a few
   ```
 
   This writes `tools/site_inspections/<slug>.json` (candidate selectors + HTML
-  snippets + a screenshot) per company and a `summary.json` across all of them.
-  Share that output back and the real `item_selector`/`title_selector`/
-  `location_selector`/`link_selector` values get written into `registry.py`
-  directly from the candidates — no more guessing.
+  snippets + a screenshot) per company and a `summary.json` across all of them. A
+  `no_candidates_found` or `blocked_or_error` status means that company likely needs
+  a live search interaction (typing into a search box, dismissing a cookie banner)
+  that the current heuristic doesn't attempt — a good next enhancement.
 
 This mirrors how a real deployment is bootstrapped: platform + URL is known on day
 one, selectors get filled in per-target during onboarding, and adapters degrade

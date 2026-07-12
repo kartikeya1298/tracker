@@ -60,11 +60,30 @@ COMPANIES: list[dict] = [
     {"name": "Nokia", "slug": "nokia", "platform": ATSPlatform.ORACLE_CAREERS,
      "identifier": _custom("https://jobs.nokia.com/en/sites/CX_1/jobs"), "careers_url": "https://jobs.nokia.com/en/sites/CX_1/jobs", "verified": False},
 
-    # --- SAP SuccessFactors (SAP dogfoods its own product; many enterprises use it too) ---
+    # --- SAP SuccessFactors (SAP dogfoods its own product; many enterprises use it too).
+    #     Selectors confirmed against live rendered HTML via tools/inspect_career_sites.py
+    #     (GitHub Actions run, 2026-07-12) - real job titles/locations extracted successfully. ---
     {"name": "SAP", "slug": "sap", "platform": ATSPlatform.SAP_CAREERS,
-     "identifier": _custom("https://jobs.sap.com/search/"), "careers_url": "https://jobs.sap.com", "verified": False},
+     "identifier": json.dumps({
+         "url": "https://jobs.sap.com/search/?q=data%20scientist",
+         "item_selector": "tr.data-row",
+         "title_selector": "a.jobTitle-link",
+         "location_selector": "td.colLocation span.jobLocation",
+         "link_selector": "a.jobTitle-link",
+         "link_attr": "href",
+     }), "careers_url": "https://jobs.sap.com/search/", "verified": True},
+    # Siemens: same "results list" template family as SAP/EY/LTIMindtree below but with
+    # different classnames. Location is split into city/state/country spans; only city is
+    # captured here (state/country siblings weren't confirmed nested under the same item).
     {"name": "Siemens", "slug": "siemens", "platform": ATSPlatform.CUSTOM,
-     "identifier": _custom("https://jobs.siemens.com/en_US/externaljobs/SearchJobs"), "careers_url": "https://jobs.siemens.com/en_US/externaljobs/Home", "verified": False},
+     "identifier": json.dumps({
+         "url": "https://jobs.siemens.com/en_US/externaljobs/SearchJobs",
+         "item_selector": "article.article--result",
+         "title_selector": "h3.article__header__text__title",
+         "location_selector": ".list-item-jobCity",
+         "link_selector": "h3.article__header__text__title a",
+         "link_attr": "href",
+     }), "careers_url": "https://jobs.siemens.com/en_US/externaljobs/SearchJobs", "verified": True},
     {"name": "Bosch", "slug": "bosch", "platform": ATSPlatform.SUCCESSFACTORS,
      "identifier": _custom("https://jobs.bosch.com/en/"), "careers_url": "https://jobs.bosch.com/en/", "verified": False},
     # Ericsson: confirmed on SuccessFactors; pointed directly at the real SuccessFactors
@@ -79,9 +98,26 @@ COMPANIES: list[dict] = [
 
     # --- Custom-built career sites (big tech) ---
     {"name": "Amazon", "slug": "amazon", "platform": ATSPlatform.CUSTOM,
-     "identifier": _custom("https://www.amazon.jobs/en/search?base_query=data+scientist"), "careers_url": "https://www.amazon.jobs", "verified": False},
+     "identifier": json.dumps({
+         "url": "https://www.amazon.jobs/en/search?base_query=data+scientist",
+         "item_selector": "div.job-tile",
+         "title_selector": "h3.job-title",
+         "location_selector": ".location-and-id li.text-nowrap",
+         "link_selector": "a.job-link",
+         "link_attr": "href",
+     }), "careers_url": "https://www.amazon.jobs", "verified": True},
+    # Microsoft: item container uses a stable data-test-id attribute, but title/location
+    # selectors rely on CSS-module hash-suffixed classnames (e.g. title-1aNJK) matched via
+    # substring - these hashes can rotate on Microsoft's redeploys and may need re-checking.
     {"name": "Microsoft", "slug": "microsoft", "platform": ATSPlatform.CUSTOM,
-     "identifier": _custom("https://jobs.careers.microsoft.com/global/en/search?q=data%20scientist"), "careers_url": "https://careers.microsoft.com", "verified": False},
+     "identifier": json.dumps({
+         "url": "https://jobs.careers.microsoft.com/global/en/search?q=data%20scientist",
+         "item_selector": "[data-test-id='job-listing']",
+         "title_selector": "div[class*='title-']",
+         "location_selector": "div[class*='fieldValue-']",
+         "link_selector": "a.r-link",
+         "link_attr": "href",
+     }), "careers_url": "https://careers.microsoft.com", "verified": True},
     {"name": "Google", "slug": "google", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://www.google.com/about/careers/applications/jobs/results?q=data%20scientist"), "careers_url": "https://careers.google.com", "verified": False},
     {"name": "NVIDIA", "slug": "nvidia", "platform": ATSPlatform.WORKDAY,
@@ -100,11 +136,10 @@ COMPANIES: list[dict] = [
      "identifier": "adobe|wd5|external_university", "careers_url": "https://adobe.wd5.myworkdayjobs.com/external_university", "verified": True},
     {"name": "Intel", "slug": "intel", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://jobs.intel.com/en/search-jobs?k=data%20scientist"), "careers_url": "https://jobs.intel.com", "verified": False},
-    # Qualcomm: search results showed job postings on both qualcomm.wd12 and qualcomm.wd5 —
-    # wd12 had the more recent/specific postings, so that's the primary guess. If this comes
-    # back empty, try dc=wd5 with the same site name.
+    # Qualcomm: confirmed by hitting Workday's CxS API directly for both candidate dc
+    # subdomains - wd12 returns 200 with a valid jobPostings payload, wd5 returns 422.
     {"name": "Qualcomm", "slug": "qualcomm", "platform": ATSPlatform.WORKDAY,
-     "identifier": "qualcomm|wd12|External", "careers_url": "https://qualcomm.wd12.myworkdayjobs.com/External", "verified": False},
+     "identifier": "qualcomm|wd12|External", "careers_url": "https://qualcomm.wd12.myworkdayjobs.com/External", "verified": True},
     {"name": "Apple", "slug": "apple", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://jobs.apple.com/en-us/search?search=data%20scientist"), "careers_url": "https://jobs.apple.com", "verified": False},
     {"name": "Uber", "slug": "uber", "platform": ATSPlatform.CUSTOM,
@@ -122,19 +157,56 @@ COMPANIES: list[dict] = [
     {"name": "JPMorgan Chase", "slug": "jpmorgan-chase", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://careers.jpmorgan.com/us/en/search-results?keywords=data%20scientist"), "careers_url": "https://careers.jpmorgan.com", "verified": False},
     {"name": "Goldman Sachs", "slug": "goldman-sachs", "platform": ATSPlatform.CUSTOM,
-     "identifier": _custom("https://higher.gs.com/roles?query=data%20scientist"), "careers_url": "https://higher.gs.com", "verified": False},
+     "identifier": json.dumps({
+         "url": "https://higher.gs.com/roles?query=data%20scientist",
+         "item_selector": "div.d-flex.justify-content-between.border-bottom",
+         "title_selector": "a.text-decoration-none > span.gs-text",
+         "location_selector": "[data-testid='location']",
+         "link_selector": "a.text-decoration-none",
+         "link_attr": "href",
+     }), "careers_url": "https://higher.gs.com", "verified": True},
 
     # --- IT services / consulting (mostly custom career portals; several on SuccessFactors/Taleo) ---
+    # Deloitte: same "results list" template family as Siemens (likely a shared career-site
+    # vendor). Location is the last of several pipe-separated spans (company | practice |
+    # location) - :last-child is the most reliable way to grab it without a dedicated class.
     {"name": "Deloitte", "slug": "deloitte", "platform": ATSPlatform.CUSTOM,
-     "identifier": _custom("https://apply.deloitte.com/careers/SearchJobs/data-scientist"), "careers_url": "https://apply.deloitte.com", "verified": False},
+     "identifier": json.dumps({
+         "url": "https://apply.deloitte.com/careers/SearchJobs/data-scientist",
+         "item_selector": "article.article--result",
+         "title_selector": "h3.article__header__text__title a",
+         "location_selector": ".article__header__text__subtitle span:last-child",
+         "link_selector": "h3.article__header__text__title a",
+         "link_attr": "href",
+     }), "careers_url": "https://apply.deloitte.com", "verified": True},
+    # Accenture: title/location confirmed working. The job card is an expand-in-place
+    # accordion rather than a direct link to a job detail page, so no real apply href was
+    # found - apply_url falls back to the search page (still enough to detect new matches).
     {"name": "Accenture", "slug": "accenture", "platform": ATSPlatform.CUSTOM,
-     "identifier": _custom("https://www.accenture.com/in-en/careers/jobsearch?jk=data%20scientist"), "careers_url": "https://www.accenture.com/in-en/careers", "verified": False},
+     "identifier": json.dumps({
+         "url": "https://www.accenture.com/in-en/careers/jobsearch?jk=data%20scientist",
+         "item_selector": "div.rad-filters-vertical__job-card",
+         "title_selector": "h3.rad-filters-vertical__job-card-title",
+         "location_selector": "span.rad-filters-vertical__job-card-details-location",
+         "link_selector": "a",
+         "link_attr": "href",
+     }), "careers_url": "https://www.accenture.com/in-en/careers", "verified": True},
     {"name": "Capgemini", "slug": "capgemini", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://www.capgemini.com/careers/join-capgemini/?search=data+scientist"), "careers_url": "https://www.capgemini.com/careers/", "verified": False},
     {"name": "Cognizant", "slug": "cognizant", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://careers.cognizant.com/global/en/search-results?keywords=data%20scientist"), "careers_url": "https://careers.cognizant.com", "verified": False},
+    # Infosys: title/location confirmed working (Angular Material cards). The card is
+    # click-routed via the Angular app's JS router with no static href - apply_url falls
+    # back to the search page.
     {"name": "Infosys", "slug": "infosys", "platform": ATSPlatform.CUSTOM,
-     "identifier": _custom("https://career.infosys.com/jobs?searchText=data%20scientist"), "careers_url": "https://career.infosys.com", "verified": False},
+     "identifier": json.dumps({
+         "url": "https://career.infosys.com/jobs?searchText=data%20scientist",
+         "item_selector": "mat-card.DSA_wb_card-widget",
+         "title_selector": "div.job-titleTxt",
+         "location_selector": "div.job-locationTxt",
+         "link_selector": "mat-card",
+         "link_attr": "href",
+     }), "careers_url": "https://career.infosys.com", "verified": True},
     # TCS runs its own custom candidate platform ("iBegin"), not Oracle Taleo.
     {"name": "TCS", "slug": "tcs", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://ibegin.tcs.com/iBegin/jobs/search?searchText=data+scientist"), "careers_url": "https://ibegin.tcs.com", "verified": False},
@@ -144,12 +216,35 @@ COMPANIES: list[dict] = [
      "identifier": _custom("https://careers.wipro.com/careers-home/jobs?keywords=data+scientist"), "careers_url": "https://careers.wipro.com", "verified": False},
     {"name": "Tech Mahindra", "slug": "tech-mahindra", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://careers.techmahindra.com/find-a-job?keywords=data+scientist"), "careers_url": "https://careers.techmahindra.com", "verified": False},
+    # LTIMindtree and EY share the exact same "data-row" table template as SAP above
+    # (likely the same underlying career-site vendor/template).
     {"name": "LTIMindtree", "slug": "ltimindtree", "platform": ATSPlatform.CUSTOM,
-     "identifier": _custom("https://careers.ltimindtree.com/search?searchText=data+scientist"), "careers_url": "https://careers.ltimindtree.com", "verified": False},
+     "identifier": json.dumps({
+         "url": "https://careers.ltimindtree.com/search?searchText=data+scientist",
+         "item_selector": "tr.data-row",
+         "title_selector": "a.jobTitle-link",
+         "location_selector": "td.colLocation span.jobLocation",
+         "link_selector": "a.jobTitle-link",
+         "link_attr": "href",
+     }), "careers_url": "https://careers.ltimindtree.com", "verified": True},
     {"name": "EY", "slug": "ey", "platform": ATSPlatform.CUSTOM,
-     "identifier": _custom("https://careers.ey.com/ey/search/?q=data+scientist"), "careers_url": "https://careers.ey.com", "verified": False},
+     "identifier": json.dumps({
+         "url": "https://careers.ey.com/ey/search/?q=data+scientist",
+         "item_selector": "tr.data-row",
+         "title_selector": "a.jobTitle-link",
+         "location_selector": "td.colLocation span.jobLocation",
+         "link_selector": "a.jobTitle-link",
+         "link_attr": "href",
+     }), "careers_url": "https://careers.ey.com", "verified": True},
     {"name": "PwC", "slug": "pwc", "platform": ATSPlatform.CUSTOM,
-     "identifier": _custom("https://jobs.us.pwc.com/search-jobs/data%20scientist"), "careers_url": "https://www.pwc.com/careers", "verified": False},
+     "identifier": json.dumps({
+         "url": "https://jobs.us.pwc.com/search-jobs/data%20scientist",
+         "item_selector": "li.search-results-list__item",
+         "title_selector": "a.search-results-list__job-link",
+         "location_selector": ".search-results-list__job-info.job-location",
+         "link_selector": "a.search-results-list__job-link",
+         "link_attr": "href",
+     }), "careers_url": "https://jobs.us.pwc.com", "verified": True},
     {"name": "KPMG", "slug": "kpmg", "platform": ATSPlatform.CUSTOM,
      "identifier": _custom("https://kpmg.com/us/en/careers/search-openings.html?q=data+scientist"), "careers_url": "https://kpmg.com/careers", "verified": False},
     {"name": "Genpact", "slug": "genpact", "platform": ATSPlatform.CUSTOM,
