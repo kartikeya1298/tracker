@@ -75,7 +75,10 @@ REALISTIC_UA = (
 CUSTOM_SITES: list[tuple[str, str]] = [
     ("nokia", "https://jobs.nokia.com/en/sites/CX_1/jobs"),
     ("bosch", "https://jobs.bosch.com/en/"),
-    ("ericsson", "https://career2.successfactors.eu/careers?company=Ericsson"),
+    # Was career2.successfactors.eu/careers?company=Ericsson - that turned out to be a
+    # login-gated internal portal (redirects to a Microsoft/Azure AD sign-in page), not
+    # the public candidate site. jobs.ericsson.com/careers is the real public one.
+    ("ericsson", "https://jobs.ericsson.com/careers?query=data+scientist"),
     ("oracle", "https://careers.oracle.com/en/sites/jobsearch/jobs"),
     ("google", "https://www.google.com/about/careers/applications/jobs/results?q=data%20scientist"),
     ("cisco", "https://jobs.cisco.com/jobs/SearchJobs/data%2520scientist"),
@@ -97,7 +100,8 @@ CUSTOM_SITES: list[tuple[str, str]] = [
     ("genpact", "https://genpact.taleo.net/careersection/genpact_ext/jobsearch.ftl?searchText=data+scientist"),
     ("dxc-technology", "https://jobs.dxc.com/global/en/search-results?keywords=data%20scientist"),
     ("mphasis", "https://careers.mphasis.com/search?searchText=data+scientist"),
-    ("zoho", "https://www.zoho.com/careers/openpositions.html"),
+    # openpositions.html now 404s - www.zoho.com/careers/ is the current URL.
+    ("zoho", "https://www.zoho.com/careers/"),
     ("freshworks", "https://www.freshworks.com/company/careers/"),
     ("gocomet", "https://gocomet.com/careers/"),
     ("samsung-rd", "https://www.samsung.com/in/careers/job-search/"),
@@ -243,6 +247,20 @@ def dismiss_cookie_banner(page: Page) -> bool:
     return False
 
 
+_NEARBY_BUTTON_JS = """
+(input) => {
+  let el = input;
+  for (let i = 0; i < 4 && el; i++) {
+    el = el.parentElement;
+    if (!el) break;
+    const btn = el.querySelector('button, [role="button"], a[class*="search" i]');
+    if (btn && btn !== input) return btn;
+  }
+  return null;
+}
+"""
+
+
 def try_search_interaction(page: Page) -> bool:
     """Find a search box, type the target query, submit, and wait for the page to
     settle. Returns True if an input was found and interacted with (not whether it
@@ -277,6 +295,22 @@ def try_search_interaction(page: Page) -> bool:
                 break
         except PlaywrightError:
             continue
+
+    # Some two-field search UIs (e.g. Oracle Fusion Cloud Recruiting's "Find" + "Near
+    # Location" bar, seen on Oracle's and Nokia's career sites) treat Enter on the text
+    # field as "advance to the next field" rather than "submit," which just opens that
+    # next field's autocomplete dropdown instead of running the search. Try clicking a
+    # button positioned near the input (usually an icon-only magnifying-glass button
+    # with no matching text/aria-label) before falling back to Enter.
+    if not submitted:
+        try:
+            nearby = search_input.evaluate_handle(_NEARBY_BUTTON_JS)
+            nearby_el = nearby.as_element()
+            if nearby_el:
+                nearby_el.click(timeout=2000)
+                submitted = True
+        except PlaywrightError:
+            pass
     if not submitted:
         try:
             search_input.press("Enter")
