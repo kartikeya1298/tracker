@@ -18,6 +18,11 @@ class Settings(BaseSettings):
 
     # Filters (defaults, overridable per-request)
     include_remote: bool = True
+    # "Global" here means visa-friendly countries only (UAE, Qatar, Singapore, Canada,
+    # UK, Germany, Netherlands, Ireland, Australia, New Zealand) - not literally every
+    # country. The US is deliberately excluded: H1B is lottery-based and not a
+    # realistic visa route to plan around for a fresh graduate. See
+    # app/core/filters.py VISA_FRIENDLY_LOCATION_SIGNALS to edit the list.
     include_global: bool = False
     include_internships: bool = False
     target_locations: List[str] = ["india"]

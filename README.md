@@ -171,8 +171,13 @@ signal (junior/associate/graduate/fresher/campus/early career) is also present.
 
 ## Filtering
 
-- **Location** (`app/core/filters.py`): India-based locations always pass; Remote and
-  fully Global postings are opt-in via `INCLUDE_REMOTE` / `INCLUDE_GLOBAL`.
+- **Location** (`app/core/filters.py`): India-based locations always pass; Remote is
+  opt-in via `INCLUDE_REMOTE`. `INCLUDE_GLOBAL` does *not* mean "every country" — it
+  means "visa-friendly countries only": UAE, Qatar, Singapore, Canada, UK, Germany,
+  Netherlands, Ireland, Australia, New Zealand (`VISA_FRIENDLY_LOCATION_SIGNALS`).
+  The US is deliberately excluded — H1B is lottery-based, not a realistic route to
+  plan around for a fresh graduate. Edit that regex directly to change the list;
+  there's no env-var override for it.
 - **Experience**: parses ranges like "0-2 years", "3+ years", "minimum 1 year" from
   the job text; falls back to entry-level keyword detection (fresher/graduate/
   associate/junior/campus) when no explicit range is stated. Roles requiring more

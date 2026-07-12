@@ -18,6 +18,29 @@ INDIA_LOCATION_SIGNALS = re.compile(
 
 REMOTE_SIGNALS = re.compile(r"\b(remote|work from home|wfh|anywhere)\b", re.IGNORECASE)
 
+# Countries/cities where an Indian fresher has a realistic shot at employer-sponsored
+# work authorization - i.e. skilled-worker visa routes that aren't a lottery and don't
+# require years of prior experience to qualify. Deliberately excludes the US: H1B is
+# lottery-based and effectively impossible for a fresh graduate with no existing
+# US employer/OPT status to plan around. Edit this list directly to change what
+# "global" means for INCLUDE_GLOBAL - there's no env-var override for it, matching
+# how INDIA_LOCATION_SIGNALS/REMOTE_SIGNALS above are also hardcoded, not configurable.
+VISA_FRIENDLY_LOCATION_SIGNALS = re.compile(
+    r"\b("
+    r"uae|dubai|abu dhabi|sharjah|united arab emirates|"
+    r"qatar|doha|"
+    r"singapore|"
+    r"canada|toronto|vancouver|montreal|ottawa|calgary|"
+    r"united kingdom|\buk\b|london|manchester|birmingham|edinburgh|"
+    r"germany|berlin|munich|frankfurt|hamburg|"
+    r"netherlands|amsterdam|rotterdam|"
+    r"ireland|dublin|"
+    r"australia|sydney|melbourne|brisbane|perth|"
+    r"new zealand|auckland|wellington"
+    r")\b",
+    re.IGNORECASE,
+)
+
 # Matches patterns like "0-2 years", "1 to 3 years", "2+ years", "minimum 1 year"
 EXPERIENCE_RANGE_PATTERNS = [
     re.compile(r"(\d+(?:\.\d+)?)\s*[-–to]+\s*(\d+(?:\.\d+)?)\s*years?", re.IGNORECASE),
@@ -85,15 +108,23 @@ def is_remote_location(location: str) -> bool:
     return bool(REMOTE_SIGNALS.search(location or ""))
 
 
+def is_visa_friendly_location(location: str) -> bool:
+    return bool(VISA_FRIENDLY_LOCATION_SIGNALS.search(location or ""))
+
+
 def location_passes_filter(
     location: str,
     include_remote: bool,
     include_global: bool,
 ) -> bool:
+    """India always passes. Remote passes if INCLUDE_REMOTE is on. Everything else
+    (a specific non-India country) only passes if INCLUDE_GLOBAL is on AND that
+    location is on the visa-friendly list - "global" does not mean "everywhere,"
+    it means "countries where a fresher visa route realistically exists."""
     if is_india_location(location):
         return True
     if include_remote and is_remote_location(location):
         return True
-    if include_global:
+    if include_global and is_visa_friendly_location(location):
         return True
     return False
